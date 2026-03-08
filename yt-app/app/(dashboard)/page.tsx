@@ -1,124 +1,181 @@
 'use client';
 
-import { StatCard } from './StatCard';
-import { TrendingUp, Users, ShoppingCart, DollarSign, ArrowUp, ArrowDown } from 'lucide-react';
-import { LineChart, Line, AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend } from 'recharts';
+import { useState } from "react";
+import { TrendingUp } from 'lucide-react';
+import {
+  LineChart,
+  Line,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  ResponsiveContainer,
+  Legend
+} from 'recharts';
 import Link from 'next/link';
-
-
-const revenueData = [
-  { month: 'Jan', Ozempic: 4200, Steroids: 2400 },
-  { month: 'Feb', Ozempic: 5100, Steroids: 2800 },
-  { month: 'Mar', Ozempic: 4800, Steroids: 2600 },
-  { month: 'Apr', Ozempic: 6300, Steroids: 3400 },
-  { month: 'May', Ozempic: 7200, Steroids: 4100 },
-  { month: 'Jun', Ozempic: 8100, Steroids: 4800 },
-  { month: 'Jul', Ozempic: 10300, Steroids: 4500 },
-];
-
-// Calculate current month (last item) and last month (second to last item)
-const currentMonthData = revenueData[revenueData.length - 1];
-const lastMonthData = revenueData[revenueData.length - 2];
-
-const topicGrowth = [
-  { 
-    topic: 'Exercise Routine', 
-    lastMonth: lastMonthData.Ozempic, 
-    currentMonth: currentMonthData.Ozempic, 
-    change: currentMonthData.Ozempic - lastMonthData.Ozempic, 
-    percentage: parseFloat((((currentMonthData.Ozempic - lastMonthData.Ozempic) / lastMonthData.Ozempic) * 100).toFixed(1)),
-    color: '#3b82f6'
-  },
-  { 
-    topic: 'Mental Health', 
-    lastMonth: lastMonthData.Steroids, 
-    currentMonth: currentMonthData.Steroids, 
-    change: currentMonthData.Steroids - lastMonthData.Steroids, 
-    percentage: parseFloat((((currentMonthData.Steroids - lastMonthData.Steroids) / lastMonthData.Steroids) * 100).toFixed(1)),
-    color: '#10b981'
-  },
-];
 
 const trendingTopics = [
   {
     name: 'Exercise Routine',
-    color: 'bg-blue-600',
+    color: '#3b82f6',
     description: 'Structured physical activity to improve fitness and overall health.',
     slug: 'exercise-routine'
   },
   {
     name: 'Mental Health',
-    color: 'bg-green-600',
+    color: '#10b981',
     description: 'Emotional wellbeing, mood regulation, and cognitive function.',
     slug: 'mental-health'
   },
   {
     name: 'Stress Management',
-    color: 'bg-orange-600',
+    color: '#f97316',
     description: 'Techniques for reducing physical and psychological stress.',
     slug: 'stress-management'
   },
   {
     name: 'Sleep Hygiene',
-    color: 'bg-red-600',
+    color: '#ef4444',
     description: 'Habits that improve sleep quality and recovery.',
     slug: 'sleep-hygiene'
   },
   {
     name: 'Healthy Diet',
-    color: 'bg-indigo-600',
+    color: '#6366f1',
     description: 'Balanced eating patterns that support overall health.',
     slug: 'healthy-diet'
   },
   {
     name: 'Nutrition Tips',
-    color: 'bg-pink-600',
+    color: '#ec4899',
     description: 'Nutrients and dietary strategies that support body function.',
     slug: 'nutrition-tips'
   },
   {
     name: 'Weight Loss Tips',
-    color: 'bg-yellow-600',
+    color: '#eab308',
     description: 'Strategies for reducing body fat and improving metabolism.',
     slug: 'weight-loss-tips'
   },
   {
     name: 'Gut Health',
-    color: 'bg-teal-600',
+    color: '#14b8a6',
     description: 'Digestive health and microbiome balance.',
     slug: 'gut-health'
   },
   {
     name: 'Immune System',
-    color: 'bg-purple-600',
+    color: '#8b5cf6',
     description: 'Supporting the body’s ability to fight illness.',
     slug: 'immune-system'
   },
   {
     name: 'Wellness Habits',
-    color: 'bg-cyan-600',
+    color: '#06b6d4',
     description: 'Daily behaviors that support long-term health.',
     slug: 'wellness-habits'
   },
 ];
 
-
+const revenueData = [
+  {
+    month: 'Jan',
+    'Exercise Routine': 4200,
+    'Mental Health': 3000,
+    'Stress Management': 2600,
+    'Sleep Hygiene': 2000,
+    'Healthy Diet': 3400,
+    'Nutrition Tips': 2800,
+    'Weight Loss Tips': 3600,
+    'Gut Health': 2500,
+    'Immune System': 3000,
+    'Wellness Habits': 2700,
+  },
+  {
+    month: 'Feb',
+    'Exercise Routine': 5000,
+    'Mental Health': 3200,
+    'Stress Management': 2700,
+    'Sleep Hygiene': 2100,
+    'Healthy Diet': 3600,
+    'Nutrition Tips': 3000,
+    'Weight Loss Tips': 3900,
+    'Gut Health': 2600,
+    'Immune System': 3200,
+    'Wellness Habits': 2800,
+  },
+  {
+    month: 'Mar',
+    'Exercise Routine': 4800,
+    'Mental Health': 3100,
+    'Stress Management': 2650,
+    'Sleep Hygiene': 2050,
+    'Healthy Diet': 3550,
+    'Nutrition Tips': 2950,
+    'Weight Loss Tips': 3800,
+    'Gut Health': 2550,
+    'Immune System': 3150,
+    'Wellness Habits': 2750,
+  },
+  {
+    month: 'Apr',
+    'Exercise Routine': 6200,
+    'Mental Health': 3500,
+    'Stress Management': 2900,
+    'Sleep Hygiene': 2300,
+    'Healthy Diet': 4000,
+    'Nutrition Tips': 3300,
+    'Weight Loss Tips': 4300,
+    'Gut Health': 2900,
+    'Immune System': 3500,
+    'Wellness Habits': 3100,
+  },
+  {
+    month: 'May',
+    'Exercise Routine': 7000,
+    'Mental Health': 3700,
+    'Stress Management': 3000,
+    'Sleep Hygiene': 2500,
+    'Healthy Diet': 4300,
+    'Nutrition Tips': 3600,
+    'Weight Loss Tips': 4700,
+    'Gut Health': 3100,
+    'Immune System': 3800,
+    'Wellness Habits': 3400,
+  },
+];
 
 export default function Page() {
+
+  const [selectedTopics, setSelectedTopics] = useState(
+    trendingTopics.map(t => t.name)
+  );
+
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+
+  const toggleTopic = (topic: string) => {
+    setSelectedTopics(prev =>
+      prev.includes(topic)
+        ? prev.filter(t => t !== topic)
+        : [...prev, topic]
+    );
+  };
+
   return (
     <div className="space-y-6">
+
       <div>
         <h1 className="text-2xl text-black font-semibold">Dashboard Overview</h1>
         <p className="text-black mt-1">Welcome back! Here's what's happening today.</p>
       </div>
 
       <div className="grid grid-cols-2 gap-6">
-        {/* Left column - Trends */}
+
+        {/* Trending Topics */}
         <div className="bg-white rounded-lg border border-gray-200 p-6">
+
           <div className="flex items-center gap-3 mb-6">
-            <div className="w-12 h-12 bg-purple-50 rounded-lg flex items-center justify-center">
-              <TrendingUp className="w-6 h-6 text-purple-600" />
-            </div>
+            <TrendingUp className="text-purple-600"/>
             <div>
               <h2 className="font-semibold text-lg text-black">Trending Topics</h2>
               <p className="text-black text-sm">Controversial & experimental health topics</p>
@@ -126,106 +183,108 @@ export default function Page() {
           </div>
 
           <ul className="space-y-3">
-            {trendingTopics.map((topic) => (
+            {trendingTopics.map(topic => (
               <li key={topic.name}>
-                <Link 
+                <Link
                   href={`/topic/${topic.slug}`}
-                  className="flex items-start gap-3 p-3 rounded-lg hover:bg-gray-50 transition-colors block"
+                  className="flex items-start gap-3 p-3 rounded-lg hover:bg-gray-50"
                 >
-                  <div className={`w-2 h-2 rounded-full ${topic.color} mt-2 flex-shrink-0`}></div>
+
+                  <div
+                    className="w-2 h-2 rounded-full mt-2"
+                    style={{ backgroundColor: topic.color }}
+                  />
+
                   <div>
                     <span className="text-gray-700 font-medium">{topic.name}</span>
                     <p className="text-gray-500 text-sm">{topic.description}</p>
                   </div>
+
                 </Link>
               </li>
             ))}
           </ul>
+
         </div>
 
-        {/* Right column - Line graph and growth rate */}
-        <div className="space-y-6">
-          {/* Line Chart */}
-          <div className="bg-white rounded-lg border border-gray-200 p-6">
-            <h3 className="font-semibold mb-4 text-black">Topics over time</h3>
-            <ResponsiveContainer width="100%" height={300}>
-              <LineChart data={revenueData}>
-                <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />
-                <XAxis dataKey="month" stroke="#9ca3af" />
-                <YAxis stroke="#9ca3af" />
-                <Tooltip />
-                <Legend />
-                <Line
-                  type="monotone"
-                  dataKey="Ozempic"
-                  stroke="#3b82f6"
-                  strokeWidth={2}
-                />
-                <Line
-                  type="monotone"
-                  dataKey="Steroids"
-                  stroke="#10b981"
-                  strokeWidth={2}
-                />
-              </LineChart>
-            </ResponsiveContainer>
-          </div>
+        {/* Chart */}
+        <div className="bg-white rounded-lg border border-gray-200 p-6">
 
-          {/* Topic Growth Rate */}
-          <div className="bg-white rounded-lg border border-gray-200 p-6">
-            <div className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center">
-                <TrendingUp className="w-6 h-6 text-blue-600" />
-              </div>
-              <div>
-                <h2 className="font-semibold text-lg text-black">Topic Growth Rate</h2>
-                <p className="text-black text-sm">Month-over-month comparison</p>
-              </div>
-            </div>
+          <div className="flex justify-between mb-4">
 
-            <div className="space-y-6">
-              {topicGrowth.map((item) => (
-                <div key={item.topic} className="border-b border-gray-100 pb-6 last:border-0 last:pb-0">
-                  <div className="flex items-center justify-between mb-3">
-                    <div className="flex items-center gap-2">
-                      <div 
-                        className="w-3 h-3 rounded-full" 
-                        style={{ backgroundColor: item.color }}
-                      ></div>
-                      <h3 className="font-semibold">{item.topic}</h3>
-                    </div>
-                    <div className={`flex items-center gap-1 ${item.percentage >= 0 ? 'text-green-600' : 'text-red-600'}`}>
-                      {item.percentage >= 0 ? (
-                        <ArrowUp className="w-4 h-4" />
-                      ) : (
-                        <ArrowDown className="w-4 h-4" />
-                      )}
-                      <span className="font-semibold">{Math.abs(item.percentage)}%</span>
-                    </div>
-                  </div>
-                  
-                  <div className="grid grid-cols-3 gap-4">
-                    <div>
-                      <p className="text-sm text-black mb-1">Last Month</p>
-                      <p className="text-xl font-semibold">{item.lastMonth.toLocaleString()}</p>
-                    </div>
-                    <div>
-                      <p className="text-sm text-black mb-1">Current Month</p>
-                      <p className="text-xl font-semibold">{item.currentMonth.toLocaleString()}</p>
-                    </div>
-                    <div>
-                      <p className="text-sm text-black mb-1">Change</p>
-                      <p className={`text-xl font-semibold ${item.change >= 0 ? 'text-green-600' : 'text-red-600'}`}>
-                        {item.change >= 0 ? '+' : ''}{item.change.toLocaleString()}
-                      </p>
-                    </div>
-                  </div>
+            <h3 className="font-semibold text-black">Topics over time</h3>
+
+            <div className="relative">
+
+              <button
+                onClick={() => setDropdownOpen(!dropdownOpen)}
+                className="bg-gray-700 px-3 py-1 rounded text-sm"
+              >
+                Select Topics
+              </button>
+
+              {dropdownOpen && (
+                <div className="absolute right-0 mt-2 bg-white border rounded shadow p-3 space-y-2 z-50">
+
+                  {trendingTopics.map(topic => (
+
+                    <label key={topic.name} className="flex items-center gap-2 text-sm text-gray-900 font-medium hover:bg-gray-100 px-2 py-1 rounded cursor-pointer">
+
+                      <input
+                        type="checkbox"
+                        checked={selectedTopics.includes(topic.name)}
+                        onChange={() => toggleTopic(topic.name)}
+                      />
+
+                      {topic.name}
+
+                    </label>
+
+                  ))}
+
                 </div>
-              ))}
+              )}
+
             </div>
+
           </div>
+
+          <ResponsiveContainer width="100%" height={300}>
+
+            <LineChart data={revenueData}>
+
+              <CartesianGrid strokeDasharray="3 3"/>
+
+              <XAxis dataKey="month"/>
+
+              <YAxis/>
+
+              <Tooltip/>
+
+              <Legend/>
+
+              {trendingTopics
+                .filter(topic => selectedTopics.includes(topic.name))
+                .map(topic => (
+
+                  <Line
+                    key={topic.name}
+                    type="monotone"
+                    dataKey={topic.name}
+                    stroke={topic.color}
+                    strokeWidth={2}
+                  />
+
+                ))}
+
+            </LineChart>
+
+          </ResponsiveContainer>
+
         </div>
+
       </div>
+
     </div>
   );
 }

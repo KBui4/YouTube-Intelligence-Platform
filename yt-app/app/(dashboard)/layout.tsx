@@ -23,7 +23,7 @@ export default function DashboardLayout({
   ];
 
   return (
-    <div className="flex h-screen bg-gray-50">
+    <div className="flex min-h-full bg-gray-50">
       <aside className={`${sidebarOpen ? 'w-64' : 'w-20'} bg-white border-r border-gray-200 transition-all duration-300 flex flex-col`}>
         <div className="h-16 flex items-center justify-between px-4 border-b border-gray-200">
           {sidebarOpen && <span className="font-semibold text-xl text-black">DataBoard</span>}
@@ -51,7 +51,7 @@ export default function DashboardLayout({
         </nav>
       </aside>
 
-      <div className="flex-1 flex flex-col overflow-hidden">
+      <div className="flex-1 flex flex-col">
         <header className="h-16 bg-white border-b border-gray-200 flex items-center justify-between px-6">
           <div className="flex items-center gap-4 flex-1 max-w-2xl">
             <div className="relative flex-1">
@@ -78,7 +78,7 @@ export default function DashboardLayout({
           </div>
         </header>
 
-        <main className="flex-1 overflow-y-auto p-6">
+        <main className="flex-1 p-6">
           {children}
         </main>
       </div>
