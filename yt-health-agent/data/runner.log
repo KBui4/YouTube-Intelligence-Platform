@@ -52,3 +52,63 @@ Missing YT_API_KEY
 [runner] Attempt 2 at Tue Mar 10 15:05:04 UTC 2026
 Missing YT_API_KEY
 [runner] Attempt 2 failed, retrying in 1 hour...
+[runner] Attempt 1 at Tue Mar 10 10:36:10 CDT 2026
+[skip] Already ran today (2026-03-10T15:29:31.661128Z), skipping
+[runner] Attempt 1 succeeded
+[runner] Attempt 1 at Wed Mar 11 05:00:01 UTC 2026
+Missing YT_API_KEY
+[runner] Attempt 1 failed, retrying in 1 hour...
+[runner] Attempt 2 at Wed Mar 11 06:00:01 UTC 2026
+Missing YT_API_KEY
+[runner] Attempt 2 failed, retrying in 1 hour...
+[runner] Attempt 3 at Wed Mar 11 07:00:01 UTC 2026
+Missing YT_API_KEY
+[runner] Attempt 3 failed, retrying in 1 hour...
+[runner] Attempt 4 at Wed Mar 11 08:00:01 UTC 2026
+Missing YT_API_KEY
+[runner] Attempt 4 failed, retrying in 1 hour...
+[runner] Attempt 5 at Wed Mar 11 09:00:02 UTC 2026
+Missing YT_API_KEY
+[runner] Attempt 5 failed, retrying in 1 hour...
+[runner] Attempt 6 at Wed Mar 11 10:00:02 UTC 2026
+Missing YT_API_KEY
+[runner] All 5 retries exhausted
+[runner] Attempt 1 at Thu Mar 12 05:00:23 UTC 2026
+Missing YT_API_KEY
+[runner] Attempt 1 failed, retrying in 1 hour...
+[runner] Attempt 1 at Thu Mar 12 10:02:19 CDT 2026
+[runner] Attempt 1 at Thu Mar 12 10:07:20 CDT 2026
+[skip] Already ran today (2026-03-12T15:06:20.527730Z), skipping
+[runner] Attempt 1 succeeded
+[runner] Attempt 1 at Thu Mar 12 10:08:51 CDT 2026
+[info] db=565/1000 stale=4 need=439
+[backup] Saved /data/results.csv.backup_03122026
+[info] keywords(8): ['The Science of Injury Prevention for Runners', 'Womens Hormonal Health and Menopause Explained', 'The Impact of Sleep on Muscle Recovery', 'The Benefits of Good Posture for Back Health', 'How to Optimize Sleep for Better Athletic Performance', 'The Relationship Between Hormones and Muscle Mass', 'Understanding the Science of Sleep Stage Cycles', 'Why Proper Posture is Essential for Core Strength']
+[info] discovery publishedAfter=2026-03-12T15:06:20.527730Z
+[info] discovered_channels=0 after q='The Science of Injury Prevention for Runners -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm'
+[info] discovered_channels=0 after q='Womens Hormonal Health and Menopause Explained -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm'
+[info] discovered_channels=0 after q='The Impact of Sleep on Muscle Recovery -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm'
+[info] discovered_channels=0 after q='The Benefits of Good Posture for Back Health -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm'
+[info] discovered_channels=0 after q='How to Optimize Sleep for Better Athletic Performance -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm'
+[info] discovered_channels=0 after q='The Relationship Between Hormones and Muscle Mass -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm'
+[info] discovered_channels=1 after q='Understanding the Science of Sleep Stage Cycles -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm'
+[info] discovered_channels=1 after q='Why Proper Posture is Essential for Core Strength -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm'
+[info] pool=2148 active=2143 collecting=200 (offset=600)
+[done] channels_used=200 eligible_total=207 picked=207 added=0
+[runner] Attempt 1 succeeded
+[runner] Attempt 1 at Thu Mar 12 11:44:42 CDT 2026
+[info] db=565/1000 stale=4 need=439
+[backup] Saved /data/results.csv.backup_03122026
+[info] keywords(8): ['science of recovery after exercise', 'cardiovascular health tips based on science', 'how sleep affects cardiovascular health', 'why cortisol levels matter for fitness', 'research on injury prevention for athletes', 'expert guide to managing stress and anxiety', 'how to optimize sleep for athletes', 'why proper warm-up is essential for injury prevention']
+[info] discovery publishedAfter=2026-02-10T16:45:47.171912Z
+[info] discovered_channels=96 after q='science of recovery after exercise -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm'
+[info] discovered_channels=184 after q='cardiovascular health tips based on science -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm'
+[info] discovered_channels=264 after q='how sleep affects cardiovascular health -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm'
+[info] discovered_channels=286 after q='why cortisol levels matter for fitness -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm'
+[info] discovered_channels=342 after q='research on injury prevention for athletes -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm'
+[info] discovered_channels=424 after q='expert guide to managing stress and anxiety -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm'
+[info] discovered_channels=502 after q='how to optimize sleep for athletes -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm'
+[info] discovered_channels=568 after q='why proper warm-up is essential for injury prevention -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm'
+[info] pool=2642 active=2637 collecting=200 (offset=800)
+[done] channels_used=200 eligible_total=129 picked=129 added=129
+[runner] Attempt 1 succeeded

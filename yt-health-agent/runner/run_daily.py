@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import os, csv, json, time, re
+import os, csv, json, time, re, random
 from datetime import datetime, timezone
 
 import requests, isodate
@@ -86,6 +86,26 @@ def prune(path, months_back):
     os.replace(tmp,path)
     return len(kept)
 
+def dedup_csv(path):
+    """Remove duplicate video_id rows from the CSV, keeping the first occurrence."""
+    if not os.path.exists(path): return 0
+    ensure_header(path)
+    seen_ids=set(); kept=[]
+    with open(path,"r",newline="",encoding="utf-8") as f:
+        all_rows=list(csv.DictReader(f))
+    for row in all_rows:
+        vid=(row.get("video_id") or "").strip()
+        if vid and vid not in seen_ids:
+            seen_ids.add(vid); kept.append(row)
+    removed=len(all_rows)-len(kept)
+    if removed > 0:
+        tmp=path+".tmp"
+        with open(tmp,"w",newline="",encoding="utf-8") as f:
+            w=csv.DictWriter(f,fieldnames=FIELDS); w.writeheader(); w.writerows(kept)
+        os.replace(tmp,path)
+        print(f"[dedup] Removed {removed} duplicate rows")
+    return removed
+
 def count_csv_rows(path):
     if not os.path.exists(path): return 0
     with open(path,"r",newline="",encoding="utf-8") as f:
@@ -138,15 +158,28 @@ def read_seen(csv_path):
     return seen
 
 # ---------- keywords (strict JSON only) ----------
+TOPIC_POOL = [
+    "gut health and microbiome","sleep science and optimization","stress and cortisol",
+    "mental health and anxiety","bodybuilding and muscle growth","strength training science",
+    "cardiovascular health","longevity and aging","hormones and endocrine health",
+    "weight loss and metabolism","supplements and vitamins","recovery and injury prevention",
+    "nutrition and macronutrients","immune system","inflammation","blood sugar and insulin",
+    "cholesterol and heart disease","respiratory health","bone health and osteoporosis",
+    "skin health and dermatology","cognitive performance and brain health",
+    "intermittent fasting","protein and amino acids","hydration and electrolytes",
+    "posture and mobility","testosterone and men's health","women's hormonal health",
+]
+
 def ollama_json_keywords(ollama_url, model):
-    prompt=("Return ONLY a JSON array (no prose) of 8 short YouTube search phrases for "
-            "INFORMATIONAL general health content — science explanations, expert tips, research breakdowns, "
-            "and how-to guides on topics like nutrition, sleep, stress, mental health, gut health, "
-            "longevity, or recovery. Avoid phrases that would find workout demonstrations, exercise "
-            "follow-alongs, fitness routines, vlogs, or personal lifestyle content. "
+    topics=random.sample(TOPIC_POOL, k=4)
+    topic_str=", ".join(topics)
+    prompt=(f"Return ONLY a JSON array (no prose) of 8 short YouTube search phrases for "
+            f"INFORMATIONAL health content specifically about: {topic_str}. "
+            "Focus on science explanations, expert tips, research breakdowns, and how-to guides. "
+            "Avoid phrases that would find workout demonstrations, exercise follow-alongs, vlogs, or kids content. "
             "Prefer phrases like 'science of X', 'why X matters', 'how X affects health', 'X explained'.")
     r=requests.post(f"{ollama_url.rstrip('/')}/api/generate",
-                    json={"model":model,"prompt":prompt,"stream":False,"options":{"temperature":0.4}},
+                    json={"model":model,"prompt":prompt,"stream":False,"options":{"temperature":0.8}},
                     timeout=120)
     r.raise_for_status()
     response=(r.json().get("response") or "").strip()
@@ -361,15 +394,16 @@ def main():
 
     os.makedirs(os.path.dirname(out_csv), exist_ok=True)
     ensure_header(out_csv)
+    dedup_csv(out_csv)
 
     state=load_state(state_file)
 
     # Skip if already ran successfully today (UTC date) — prevents double-runs
     # when the container restarts on a day the script already completed.
-    last_run=ts(state.get("last_run_utc") or "")
-    if last_run and last_run.date() == now().date():
-        print(f"[skip] Already ran today ({state['last_run_utc']}), skipping")
-        return
+    #last_run=ts(state.get("last_run_utc") or "")
+    #if last_run and last_run.date() == now().date():
+        #print(f"[skip] Already ran today ({state['last_run_utc']}), skipping")
+        #return
 
     # Compute open slots without touching the file yet — so a network failure
     # never leaves the DB pruned but unfilled.
@@ -391,9 +425,10 @@ def main():
     keywords=sanitize(ollama_json_keywords(ollama_url, ollama_model))
     print(f"[info] keywords({len(keywords)}): {keywords}")
 
-    last_run=ts(state.get("last_run_utc") or "")
-    pub_after_dt=max(last_run, cutoff) if last_run else cutoff
-    published_after=iso(pub_after_dt)
+    # Discovery always looks back at least 30 days so channels are found even when
+    # runs happen close together (using last_run_utc would make the window too tight).
+    discovery_floor=now() - relativedelta(days=30)
+    published_after=iso(max(discovery_floor, cutoff))
     print(f"[info] discovery publishedAfter={published_after}")
 
     y=build("youtube","v3",developerKey=api_key)
