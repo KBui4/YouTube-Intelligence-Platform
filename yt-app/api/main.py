@@ -1,42 +1,18 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from typing import Optional
 from datetime import datetime
 
-import psycopg2
-from psycopg2.extras import RealDictCursor
+from database import execute
 
-from youtube_transcript_api import YouTubeTranscriptApi
-from youtube_transcript_api._errors import TranscriptsDisabled, NoTranscriptFound
+app = FastAPI(title="YouTube Narrative API")
 
-app = FastAPI(title="YouTube Narrative Ingestion API")
 
-# database connection
-# needs to be updated to use the correct database credentials
-# postgres credentials should be stored in environment variables
-def get_db():
-    return psycopg2.connect(
-        host="localhost",
-        port="5432",
-        dbname="your_db",
-        user="your_user",
-        password="your_password",
-        cursor_factory=RealDictCursor
-    )
+# -------------------------------
+# REQUEST MODELS
+# -------------------------------
 
-# generic sql executor
-def exec_sql(sql: str, params: tuple = (), fetch: bool = False):
-    with get_db() as conn:
-        with conn.cursor() as cur:
-            cur.execute(sql, params)
-            if fetch:
-                return cur.fetchone()
-
-# request models
-# these are the request models for the API
-# they are used to validate the request payload
-# they are also used to generate the SQL queries
-class VideoIngestRequest(BaseModel):
+class VideoCreate(BaseModel):
     video_id: str
     channel_name: Optional[str]
     title: Optional[str]
@@ -44,35 +20,43 @@ class VideoIngestRequest(BaseModel):
     view_count: Optional[int]
     domain: Optional[str]
 
+
 class ClaimCreate(BaseModel):
     video_id: str
     claim_text: str
-    confidence_score: Optional[int]
+    confidence_score: Optional[float]  # 0..1
+
 
 class NarrativeCreate(BaseModel):
     title: str
     description: Optional[str]
     domain: Optional[str]
 
-# youtube transcript fetch
-def fetch_transcript(video_id: str) -> str:
-    # try to fetch the transcript from the YouTube API
-    try:
-        # if the transcript is found, return the transcript as a string
-        transcript = YouTubeTranscriptApi.get_transcript(video_id)
-        return " ".join(chunk["text"] for chunk in transcript)
-    except (TranscriptsDisabled, NoTranscriptFound):
-        # if the transcript is disabled or not found, return an empty string
-        return ""
-    # if any other error occurs, raise an error
-    except Exception as e:
-        raise RuntimeError(str(e))
 
-# sql functions
-# these are the SQL functions for the API
-# they are used to insert the data into the database
-# they are also used to generate the SQL queries
-def insert_video(payload: VideoIngestRequest, transcript: str):
+# MERGE CONFLICT: video_data table (from yt-data) uses different schema than videos.
+# video_data has: transcript, views, video_url, duration_seconds, matched_keywords.
+# Decide later: unify schemas or keep separate.
+class VideoDataBase(BaseModel):
+    title: Optional[str] = None
+    video_id: Optional[str] = None
+    published_at: Optional[datetime] = None
+    channel_name: Optional[str] = None
+    views: Optional[int] = None
+    video_url: Optional[str] = None
+    duration_seconds: Optional[int] = None
+    matched_keywords: Optional[str] = None
+    transcript: Optional[str] = None
+
+
+class VideoDataResponse(VideoDataBase):
+    id: int
+
+
+# -------------------------------
+# INSERT FUNCTIONS
+# -------------------------------
+
+def insert_video(payload: VideoCreate):
     sql = """
         INSERT INTO videos (
             video_id,
@@ -80,24 +64,25 @@ def insert_video(payload: VideoIngestRequest, transcript: str):
             title,
             published_at,
             view_count,
-            transcript,
             domain,
             created_at
         )
-        VALUES (%s,%s,%s,%s,%s,%s,%s,NOW())
+        VALUES (%s,%s,%s,%s,%s,%s,NOW())
         ON CONFLICT (video_id) DO NOTHING;
     """
-    exec_sql(sql, (
+
+    execute(sql, (
         payload.video_id,
         payload.channel_name,
         payload.title,
         payload.published_at,
         payload.view_count,
-        transcript,
         payload.domain
     ))
-# insert a claim into the database
-def insert_claim(video_id: str, claim_text: str, confidence_score: Optional[int]) -> int:
+
+
+def insert_claim(video_id: str, claim_text: str, confidence_score: Optional[int]):
+
     sql = """
         INSERT INTO claims (
             video_id,
@@ -108,11 +93,13 @@ def insert_claim(video_id: str, claim_text: str, confidence_score: Optional[int]
         VALUES (%s,%s,%s,NOW())
         RETURNING claim_id;
     """
-    row = exec_sql(sql, (video_id, claim_text, confidence_score), fetch=True)
+
+    row = execute(sql, (video_id, claim_text, confidence_score), fetch_one=True)
     return row["claim_id"]
 
-# insert a narrative into the database
-def insert_narrative(payload: NarrativeCreate) -> int:
+
+def insert_narrative(payload: NarrativeCreate):
+
     sql = """
         INSERT INTO narratives (
             title,
@@ -124,15 +111,18 @@ def insert_narrative(payload: NarrativeCreate) -> int:
         VALUES (%s,%s,%s,0,NOW())
         RETURNING narrative_id;
     """
-    row = exec_sql(sql, (
+
+    row = execute(sql, (
         payload.title,
         payload.description,
         payload.domain
-    ), fetch=True)
+    ), fetch_one=True)
+
     return row["narrative_id"]
 
-# link a narrative to a claim
+
 def link_narrative_claim(narrative_id: int, claim_id: int):
+
     sql = """
         INSERT INTO narrative_claims (
             narrative_id,
@@ -142,42 +132,225 @@ def link_narrative_claim(narrative_id: int, claim_id: int):
         VALUES (%s,%s,NOW())
         ON CONFLICT DO NOTHING;
     """
-    exec_sql(sql, (narrative_id, claim_id))
 
-# increment the narrative count
+    execute(sql, (narrative_id, claim_id))
+
+
 def increment_narrative_count(narrative_id: int):
+
     sql = """
         UPDATE narratives
         SET claim_count = claim_count + 1
         WHERE narrative_id = %s;
     """
-    exec_sql(sql, (narrative_id,))
 
-# routes
-# these are the routes for the API
-# this is the actual requests
-@app.post("/videos/ingest")
-def ingest_video(payload: VideoIngestRequest):
-    transcript = fetch_transcript(payload.video_id)
-    insert_video(payload, transcript)
-    return {"status": "video_ingested", "video_id": payload.video_id}
+    execute(sql, (narrative_id,))
+
+
+# MERGE CONFLICT: video_data uses separate table. See create.sql for schema.
+def insert_video_data(payload: VideoDataBase):
+    sql = """
+        INSERT INTO video_data (
+            title, video_id, published_at, channel_name,
+            views, video_url, duration_seconds, matched_keywords, transcript
+        )
+        VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)
+        RETURNING *;
+    """
+    row = execute(sql, (
+        payload.title,
+        payload.video_id,
+        payload.published_at,
+        payload.channel_name,
+        payload.views,
+        payload.video_url,
+        payload.duration_seconds,
+        payload.matched_keywords,
+        payload.transcript,
+    ), fetch=True)
+    return row
+
+
+# -------------------------------
+# ROUTES
+# -------------------------------
+
+@app.get("/api/healthchecker")
+def healthchecker():
+    return {"status": "success", "message": "Integrated FastAPI Framework with Next.js"}
+
+
+@app.get("/api/db-check")
+def db_check():
+    try:
+        execute("SELECT 1;", fetch_all=True)
+        return {"status": "success", "message": "Connected to PostgreSQL"}
+    except Exception as e:
+        return {"status": "error", "message": f"Database connection failed: {str(e)}"}
+
+
+@app.post("/videos")
+def create_video(payload: VideoCreate):
+
+    insert_video(payload)
+
+    return {
+        "status": "video_created",
+        "video_id": payload.video_id
+    }
+
 
 @app.post("/claims")
 def create_claim(payload: ClaimCreate):
+
     claim_id = insert_claim(
         payload.video_id,
         payload.claim_text,
         payload.confidence_score
     )
+
     return {"claim_id": claim_id}
+
 
 @app.post("/narratives")
 def create_narrative(payload: NarrativeCreate):
+
     narrative_id = insert_narrative(payload)
+
     return {"narrative_id": narrative_id}
+
 
 @app.post("/narratives/{narrative_id}/claims/{claim_id}")
 def attach_claim(narrative_id: int, claim_id: int):
+
     link_narrative_claim(narrative_id, claim_id)
+
     increment_narrative_count(narrative_id)
+
     return {"status": "linked"}
+
+
+# -------------------------------
+# GET ENDPOINTS
+# -------------------------------
+
+@app.get("/videos")
+def get_videos(limit: int = 50, offset: int = 0):
+
+    sql = """
+        SELECT *
+        FROM videos
+        ORDER BY created_at DESC
+        LIMIT %s OFFSET %s;
+    """
+
+    return execute(sql, (limit, offset), fetch_all=True)
+
+
+@app.get("/videos/{video_id}/claims")
+def get_video_claims(video_id: str):
+
+    sql = """
+        SELECT *
+        FROM claims
+        WHERE video_id = %s
+        ORDER BY created_at DESC;
+    """
+
+    return execute(sql, (video_id,), fetch_all=True)
+
+
+@app.get("/claims/{claim_id}")
+def get_claim(claim_id: int):
+
+    sql = """
+        SELECT *
+        FROM claims
+        WHERE claim_id = %s;
+    """
+
+    return execute(sql, (claim_id,), fetch_one=True)
+
+
+@app.get("/narratives")
+def get_narratives(domain: Optional[str] = None, limit: int = 50, offset: int = 0):
+
+    if domain:
+        sql = """
+            SELECT *
+            FROM narratives
+            WHERE domain = %s
+            ORDER BY claim_count DESC
+            LIMIT %s OFFSET %s;
+        """
+
+        return execute(sql, (domain, limit, offset), fetch_all=True)
+
+    sql = """
+        SELECT *
+        FROM narratives
+        ORDER BY claim_count DESC
+        LIMIT %s OFFSET %s;
+    """
+
+    return execute(sql, (limit, offset), fetch_all=True)
+
+
+@app.get("/narratives/{narrative_id}")
+def get_narrative(narrative_id: int):
+
+    sql = """
+        SELECT *
+        FROM narratives
+        WHERE narrative_id = %s;
+    """
+
+    return execute(sql, (narrative_id,), fetch_one=True)
+
+
+@app.get("/narratives/{narrative_id}/claims")
+def get_narrative_claims(narrative_id: int):
+
+    sql = """
+        SELECT c.*
+        FROM claims c
+        JOIN narrative_claims nc
+        ON c.claim_id = nc.claim_id
+        WHERE nc.narrative_id = %s
+        ORDER BY c.created_at DESC;
+    """
+
+    return execute(sql, (narrative_id,), fetch_all=True)
+
+
+# -------------------------------
+# MERGE CONFLICT: video_data routes (from yt-data). Uses /video-data path to avoid
+# clashing with /videos. Table schema differs; address after debugging.
+# -------------------------------
+
+@app.get("/video-data", response_model=list[VideoDataResponse])
+def get_all_video_data():
+    query = "SELECT * FROM video_data;"
+    rows = execute(query, fetch_all=True)
+    return rows or []
+
+
+@app.post("/video-data", response_model=VideoDataResponse)
+def create_video_data(video: VideoDataBase):
+    row = insert_video_data(video)
+    return row
+
+
+@app.patch("/video-data/{video_id}/transcript")
+def update_video_data_transcript(video_id: str, data: dict):
+    transcript = data.get("transcript")
+    sql = """
+        UPDATE video_data
+        SET transcript = %s
+        WHERE video_id = %s
+        RETURNING *;
+    """
+    row = execute(sql, (transcript, video_id), fetch=True)
+    if not row:
+        raise HTTPException(status_code=404, detail="Video not found")
+    return row
