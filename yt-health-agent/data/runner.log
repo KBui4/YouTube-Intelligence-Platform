@@ -1,114 +1,15 @@
-[runner] Attempt 1 at Sat Mar  7 18:54:21 CST 2026
+[runner] Attempt 1 at Fri Mar 13 10:22:01 CDT 2026
 [info] db=0/1000 stale=0 need=1000
-[info] keywords(8): ['The Science of Gut Health', 'Why Sleep Is Important for Weight Loss', 'How Stress Affects Mental Health', 'The Benefits of a Plant-Based Diet', 'Understanding the Gut-Brain Connection', 'The Importance of Omega-3 Fatty Acids', 'How to Improve Cognitive Function', 'The Effects of Chronic Inflammation on Health']
-[info] discovery publishedAfter=2025-09-08T00:54:21.888401Z
-[info] discovered_channels=87 after q='The Science of Gut Health -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm'
-[info] discovered_channels=180 after q='Why Sleep Is Important for Weight Loss -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm'
-[info] discovered_channels=271 after q='How Stress Affects Mental Health -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm'
-[info] discovered_channels=322 after q='The Benefits of a Plant-Based Diet -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm'
-[info] discovered_channels=403 after q='Understanding the Gut-Brain Connection -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm'
-[info] discovered_channels=487 after q='The Importance of Omega-3 Fatty Acids -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm'
-[info] discovered_channels=552 after q='How to Improve Cognitive Function -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm'
-[info] discovered_channels=627 after q='The Effects of Chronic Inflammation on Health -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm'
-[info] pool=620 active=620 collecting=200 (offset=0)
-[done] channels_used=200 eligible_total=234 picked=234 added=234
-[runner] Attempt 1 succeeded
-[runner] Attempt 1 at Sun Mar  8 06:29:12 UTC 2026
-/app/run_with_retry.sh: 9: python: not found
-[runner] Attempt 1 failed, retrying in 1 hour...
-[runner] Attempt 2 at Sun Mar  8 22:17:24 UTC 2026
-/app/run_with_retry.sh: 9: python: not found
-[runner] Attempt 2 failed, retrying in 1 hour...
-[runner] Attempt 3 at Mon Mar  9 02:34:07 UTC 2026
-/app/run_with_retry.sh: 9: python: not found
-[runner] Attempt 3 failed, retrying in 1 hour...
-[runner] Attempt 1 at Mon Mar  9 05:06:28 UTC 2026
-/app/run_with_retry.sh: 9: python: not found
-[runner] Attempt 1 failed, retrying in 1 hour...
-[runner] Attempt 4 at Mon Mar  9 12:36:49 UTC 2026
-/app/run_with_retry.sh: 9: python: not found
-[runner] Attempt 4 failed, retrying in 1 hour...
-[runner] Attempt 2 at Mon Mar  9 15:19:09 UTC 2026
-/app/run_with_retry.sh: 9: python: not found
-[runner] Attempt 2 failed, retrying in 1 hour...
-[runner] Attempt 5 at Mon Mar  9 16:18:20 UTC 2026
-/app/run_with_retry.sh: 9: python: not found
-[runner] Attempt 5 failed, retrying in 1 hour...
-[runner] Attempt 3 at Mon Mar  9 17:04:30 UTC 2026
-/app/run_with_retry.sh: 9: python: not found
-[runner] Attempt 3 failed, retrying in 1 hour...
-[runner] Attempt 6 at Mon Mar  9 17:42:01 UTC 2026
-/app/run_with_retry.sh: 9: python: not found
-[runner] All 5 retries exhausted
-[runner] Attempt 4 at Mon Mar  9 18:31:12 UTC 2026
-/app/run_with_retry.sh: 9: python: not found
-[runner] Attempt 4 failed, retrying in 1 hour...
-[runner] Attempt 1 at Mon Mar  9 14:23:18 CDT 2026
-[skip] Already ran today (2026-03-09T15:37:22.332590Z), skipping
-[runner] Attempt 1 succeeded
-[runner] Attempt 1 at Tue Mar 10 05:00:06 UTC 2026
-Missing YT_API_KEY
-[runner] Attempt 1 failed, retrying in 1 hour...
-[runner] Attempt 2 at Tue Mar 10 15:05:04 UTC 2026
-Missing YT_API_KEY
-[runner] Attempt 2 failed, retrying in 1 hour...
-[runner] Attempt 1 at Tue Mar 10 10:36:10 CDT 2026
-[skip] Already ran today (2026-03-10T15:29:31.661128Z), skipping
-[runner] Attempt 1 succeeded
-[runner] Attempt 1 at Wed Mar 11 05:00:01 UTC 2026
-Missing YT_API_KEY
-[runner] Attempt 1 failed, retrying in 1 hour...
-[runner] Attempt 2 at Wed Mar 11 06:00:01 UTC 2026
-Missing YT_API_KEY
-[runner] Attempt 2 failed, retrying in 1 hour...
-[runner] Attempt 3 at Wed Mar 11 07:00:01 UTC 2026
-Missing YT_API_KEY
-[runner] Attempt 3 failed, retrying in 1 hour...
-[runner] Attempt 4 at Wed Mar 11 08:00:01 UTC 2026
-Missing YT_API_KEY
-[runner] Attempt 4 failed, retrying in 1 hour...
-[runner] Attempt 5 at Wed Mar 11 09:00:02 UTC 2026
-Missing YT_API_KEY
-[runner] Attempt 5 failed, retrying in 1 hour...
-[runner] Attempt 6 at Wed Mar 11 10:00:02 UTC 2026
-Missing YT_API_KEY
-[runner] All 5 retries exhausted
-[runner] Attempt 1 at Thu Mar 12 05:00:23 UTC 2026
-Missing YT_API_KEY
-[runner] Attempt 1 failed, retrying in 1 hour...
-[runner] Attempt 1 at Thu Mar 12 10:02:19 CDT 2026
-[runner] Attempt 1 at Thu Mar 12 10:07:20 CDT 2026
-[skip] Already ran today (2026-03-12T15:06:20.527730Z), skipping
-[runner] Attempt 1 succeeded
-[runner] Attempt 1 at Thu Mar 12 10:08:51 CDT 2026
-[info] db=565/1000 stale=4 need=439
-[backup] Saved /data/results.csv.backup_03122026
-[info] keywords(8): ['The Science of Injury Prevention for Runners', 'Womens Hormonal Health and Menopause Explained', 'The Impact of Sleep on Muscle Recovery', 'The Benefits of Good Posture for Back Health', 'How to Optimize Sleep for Better Athletic Performance', 'The Relationship Between Hormones and Muscle Mass', 'Understanding the Science of Sleep Stage Cycles', 'Why Proper Posture is Essential for Core Strength']
-[info] discovery publishedAfter=2026-03-12T15:06:20.527730Z
-[info] discovered_channels=0 after q='The Science of Injury Prevention for Runners -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm'
-[info] discovered_channels=0 after q='Womens Hormonal Health and Menopause Explained -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm'
-[info] discovered_channels=0 after q='The Impact of Sleep on Muscle Recovery -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm'
-[info] discovered_channels=0 after q='The Benefits of Good Posture for Back Health -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm'
-[info] discovered_channels=0 after q='How to Optimize Sleep for Better Athletic Performance -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm'
-[info] discovered_channels=0 after q='The Relationship Between Hormones and Muscle Mass -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm'
-[info] discovered_channels=1 after q='Understanding the Science of Sleep Stage Cycles -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm'
-[info] discovered_channels=1 after q='Why Proper Posture is Essential for Core Strength -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm'
-[info] pool=2148 active=2143 collecting=200 (offset=600)
-[done] channels_used=200 eligible_total=207 picked=207 added=0
-[runner] Attempt 1 succeeded
-[runner] Attempt 1 at Thu Mar 12 11:44:42 CDT 2026
-[info] db=565/1000 stale=4 need=439
-[backup] Saved /data/results.csv.backup_03122026
-[info] keywords(8): ['science of recovery after exercise', 'cardiovascular health tips based on science', 'how sleep affects cardiovascular health', 'why cortisol levels matter for fitness', 'research on injury prevention for athletes', 'expert guide to managing stress and anxiety', 'how to optimize sleep for athletes', 'why proper warm-up is essential for injury prevention']
-[info] discovery publishedAfter=2026-02-10T16:45:47.171912Z
-[info] discovered_channels=96 after q='science of recovery after exercise -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm'
-[info] discovered_channels=184 after q='cardiovascular health tips based on science -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm'
-[info] discovered_channels=264 after q='how sleep affects cardiovascular health -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm'
-[info] discovered_channels=286 after q='why cortisol levels matter for fitness -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm'
-[info] discovered_channels=342 after q='research on injury prevention for athletes -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm'
-[info] discovered_channels=424 after q='expert guide to managing stress and anxiety -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm'
-[info] discovered_channels=502 after q='how to optimize sleep for athletes -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm'
-[info] discovered_channels=568 after q='why proper warm-up is essential for injury prevention -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm'
-[info] pool=2642 active=2637 collecting=200 (offset=800)
-[done] channels_used=200 eligible_total=129 picked=129 added=129
+[info] keywords(8): ['The science of anxiety management', 'Why hormonal imbalance affects mental health', 'How to improve working memory and cognitive function', 'The impact of stress on skin health and aging', 'Expert tips for managing menopause symptoms', 'The relationship between gut health and mental clarity', 'Breakdown of research on the benefits of meditation', 'How to maintain healthy skin with a busy lifestyle']
+[info] discovery publishedAfter=2026-02-11T15:22:32.371363Z
+[info] discovered_channels=71 after q='The science of anxiety management -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm -asmr'
+[info] discovered_channels=157 after q='Why hormonal imbalance affects mental health -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm -asmr'
+[info] discovered_channels=248 after q='How to improve working memory and cognitive function -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm -asmr'
+[info] discovered_channels=335 after q='The impact of stress on skin health and aging -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm -asmr'
+[info] discovered_channels=358 after q='Expert tips for managing menopause symptoms -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm -asmr'
+[info] discovered_channels=439 after q='The relationship between gut health and mental clarity -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm -asmr'
+[info] discovered_channels=488 after q='Breakdown of research on the benefits of meditation -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm -asmr'
+[info] discovered_channels=582 after q='How to maintain healthy skin with a busy lifestyle -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm -asmr'
+[info] pool=514 active=514 collecting=200 (offset=0)
+[done] channels_used=200 eligible_total=74 picked=74 added=74
 [runner] Attempt 1 succeeded
