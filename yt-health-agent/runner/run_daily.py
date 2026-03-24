@@ -116,8 +116,8 @@ def count_csv_rows(path):
         return sum(1 for _ in csv.DictReader(f))
 
 def backup_csv(path):
-    """Copy results.csv to results.csv.backup_MMDDYYYY using today's CST date."""
-    import shutil
+    """Copy results.csv to results.csv.backup_MMDDYYYY using today's CST date, keeping only the 2 most recent backups."""
+    import shutil, glob as _glob
     from zoneinfo import ZoneInfo
     if not os.path.exists(path): return
     cst_now=datetime.now(ZoneInfo("America/Chicago"))
@@ -125,6 +125,12 @@ def backup_csv(path):
     dest=f"{path}.backup_{suffix}"
     shutil.copy2(path, dest)
     print(f"[backup] Saved {dest}")
+    # Prune old backups, keeping only the 2 most recent (sort by mtime)
+    pattern=f"{path}.backup_*"
+    backups=sorted(_glob.glob(pattern), key=os.path.getmtime)
+    for old in backups[:-2]:
+        os.remove(old)
+        print(f"[backup] Removed old backup {old}")
 
 def count_prunable(path, months_back):
     """Count rows that would be removed by pruning, without touching the file."""
