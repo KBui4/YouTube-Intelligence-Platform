@@ -125,9 +125,17 @@ def backup_csv(path):
     dest=f"{path}.backup_{suffix}"
     shutil.copy2(path, dest)
     print(f"[backup] Saved {dest}")
-    # Prune old backups, keeping only the 2 most recent (sort by mtime)
+    # Prune old backups, keeping only the 2 most recent (sort by backup date)
+    def _backup_sort_key(p):
+        suffix = p.rsplit(".backup_", 1)[-1]
+        try:
+            # MMDDYYYY format
+            return datetime.strptime(suffix, "%m%d%Y")
+        except ValueError:
+            # unix timestamp fallback — treat as very old
+            return datetime.min
     pattern=f"{path}.backup_*"
-    backups=sorted(_glob.glob(pattern), key=os.path.getmtime)
+    backups=sorted(_glob.glob(pattern), key=_backup_sort_key)
     for old in backups[:-2]:
         os.remove(old)
         print(f"[backup] Removed old backup {old}")
@@ -314,7 +322,13 @@ def uploads_playlists(y, channel_ids):
     return playlists, countries
 
 def playlist_page(y, plid, token):
-    resp=y.playlistItems().list(part="contentDetails", playlistId=plid, maxResults=50, pageToken=token).execute()
+    try:
+        resp=y.playlistItems().list(part="contentDetails", playlistId=plid, maxResults=50, pageToken=token).execute()
+    except HttpError as e:
+        if e.resp.status == 404:
+            print(f"[warn] Playlist not found, skipping: {plid}")
+            return [], None
+        raise
     items=[]
     for it in resp.get("items",[]):
         cd=it.get("contentDetails",{}) or {}
