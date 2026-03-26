@@ -991,3 +991,22 @@ YouTube API error: <HttpError 404 when requesting https://youtube.googleapis.com
 [info] pool=6507 active=6360 collecting=200 (offset=2400)
 YouTube API error: <HttpError 404 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=contentDetails&playlistId=UU9AcqDmgigsfE2y-EB9j4_Q&maxResults=50&key=AIzaSyBqYkaEuXRao0Zg-ZlnAa6T8qKXCVcYAMc&alt=json returned "The playlist identified with the request's <code>playlistId</code> parameter cannot be found.". Details: "[{'message': "The playlist identified with the request's <code>playlistId</code> parameter cannot be found.", 'domain': 'youtube.playlistItem', 'reason': 'playlistNotFound', 'location': 'playlistId', 'locationType': 'parameter'}]">
 [runner] Attempt 4 failed, retrying in 1 hour...
+[runner] Attempt 1 at Wed Mar 25 19:45:53 CDT 2026
+[info] db=1000/1000 stale=8 need=8
+[backup] Saved /data/results.csv.backup_03252026
+[backup] Removed old backup /data/results.csv.backup_03252026
+[backup] Removed old backup /data/results.csv.backup_03222026
+[backup] Removed old backup /data/results.csv.backup_03232026
+[info] keywords(8): ['The Science of Mental Health and Anxiety Disorders', 'Why Testosterone Levels Matter for Mens Health', 'How Gut Bacteria Affect Mental Health and Mood', 'The Importance of Proper Posture for Spinal Health', 'The Microbiome and Its Impact on Immune System Function', 'What Research Says About the Benefits of Mindfulness for Anxiety', 'The Role of Gut Microbiome in Hormone Regulation and Balance', 'Expert Tips for Improving Mobility and Reducing Chronic Pain']
+[info] discovery publishedAfter=2026-02-24T00:46:37.768487Z
+[info] discovered_channels=82 after q='The Science of Mental Health and Anxiety Disorders -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm -asmr'
+[info] discovered_channels=170 after q='Why Testosterone Levels Matter for Mens Health -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm -asmr'
+[info] discovered_channels=258 after q='How Gut Bacteria Affect Mental Health and Mood -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm -asmr'
+[info] discovered_channels=352 after q='The Importance of Proper Posture for Spinal Health -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm -asmr'
+[info] discovered_channels=427 after q='The Microbiome and Its Impact on Immune System Function -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm -asmr'
+[info] discovered_channels=478 after q='What Research Says About the Benefits of Mindfulness for Anxiety -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm -asmr'
+[info] discovered_channels=559 after q='The Role of Gut Microbiome in Hormone Regulation and Balance -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm -asmr'
+[info] discovered_channels=633 after q='Expert Tips for Improving Mobility and Reducing Chronic Pain -kids -toddler -nursery -rhyme -cartoon -toy -cocomelon -baby -vlog -haul -unboxing -grwm -asmr'
+[info] pool=6792 active=6644 collecting=200 (offset=2400)
+YouTube API error: <HttpError 404 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=contentDetails&playlistId=UUsS2xsNIJzC5QpQVLxwRbLg&maxResults=50&key=AIzaSyBqYkaEuXRao0Zg-ZlnAa6T8qKXCVcYAMc&alt=json returned "The playlist identified with the request's <code>playlistId</code> parameter cannot be found.". Details: "[{'message': "The playlist identified with the request's <code>playlistId</code> parameter cannot be found.", 'domain': 'youtube.playlistItem', 'reason': 'playlistNotFound', 'location': 'playlistId', 'locationType': 'parameter'}]">
+[runner] Attempt 1 failed, retrying in 1 hour...
