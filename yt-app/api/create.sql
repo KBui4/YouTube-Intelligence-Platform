@@ -16,10 +16,9 @@ CREATE TABLE IF NOT EXISTS video_data (
 
 CREATE TABLE IF NOT EXISTS claims (
   claim_id SERIAL PRIMARY KEY,
-  video_id VARCHAR(11) NOT NULL,
+  video_id VARCHAR(11) NOT NULL REFERENCES video_data(video_id),
   claim_text TEXT NOT NULL,
   created_at TIMESTAMPTZ DEFAULT NOW()
-  FOREIGN KEY (video_id) REFERENCES video_data(video_id);
 );
 
 CREATE TABLE IF NOT EXISTS narratives (
