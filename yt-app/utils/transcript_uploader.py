@@ -4,7 +4,7 @@ from transcript import get_transcript
 from dotenv import load_dotenv, find_dotenv
 
 load_dotenv(find_dotenv())
-API_URL = os.getenv("API_URL")
+API_URL = os.getenv("NEXT_PUBLIC_API_URL")
 
 def update_transcripts():
   if API_URL is not None:

@@ -5,7 +5,7 @@ from pathlib import Path
 from dotenv import load_dotenv, find_dotenv
 
 load_dotenv(find_dotenv())
-API_URL = os.getenv("API_URL")
+API_URL = os.getenv("NEXT_PUBLIC_API_URL")
 
 def get_existing_videos():
   if API_URL is not None:
