@@ -1,1 +1,9 @@
+.venv/
+__pycache__/
+.env
 .vscode/
+.claude
+.DS_Store
+yt-health-agent/data/runner.log
+yt-health-agent/data/state.json
+yt-health-agent/data/results.csv.backup_*
