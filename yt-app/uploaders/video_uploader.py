@@ -2,57 +2,62 @@ import csv
 import os
 import requests
 from pathlib import Path
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from dotenv import load_dotenv, find_dotenv
 
 load_dotenv(find_dotenv())
 API_URL = os.getenv("NEXT_PUBLIC_API_URL")
 
-def get_existing_videos():
-  if API_URL is not None:
-    r = requests.get(f"{API_URL}/videos")
-    if r.status_code != 200:
-      print("Failed to fetch existing videos:", r.text)
-      return set()
-    
-    data = r.json()
-    return {v.get("video_id") for v in data if v.get("video_id")}
-  return set()
+def parallel_map(func, items, max_workers=3):
+  with ThreadPoolExecutor(max_workers=max_workers) as ex:
+    futures = {ex.submit(func, item): item for item in items}
+    for f in as_completed(futures):
+      try:
+        f.result()
+      except Exception as e:
+        print(f"Error: {e}")
+
+def upload_single_video(args):
+  session, v, existing_ids = args
+  vid = v["video_id"]
+
+  if vid in existing_ids:
+    print(f"Skipping duplicate: {vid} ({v['title']})")
+    return
+
+  payload = {
+    "title": v["title"],
+    "video_id": vid,
+    "published_at": v["published_at"],
+    "channel_name": v["channel"],
+    "views": int(v["views"] or 0),
+    "video_url": v["url"],
+    "duration_seconds": int(v["duration_seconds"] or 0),
+    "matched_keywords": v["matched_keywords"],
+    "transcript": None
+  }
+
+  r = session.post(f"{API_URL}/videos", json=payload)
+  if r.status_code == 200:
+    print(f"Uploaded: {v['title']}")
+  else:
+    print(f"Error: {v['title']} — {r.text}")
 
 def upload_videos():
+  session = requests.Session()
+
   script_dir = Path(__file__).resolve().parent
   data_file = script_dir.parents[1] / "yt-health-agent" / "data" / "results.csv"
 
   with open(data_file, "r", encoding="utf-8") as f:
     reader = csv.DictReader(f)
     videos = list(reader)
-  existing_ids = get_existing_videos()
 
-  for v in videos:
-    vid = v.get("video_id") or ""
-    if vid in existing_ids:
-      print(f"Skipping duplicate: {vid} ({v.get('title')})")
-      continue
+  r = session.get(f"{API_URL}/videos")
+  existing_ids = {v["video_id"] for v in r.json()}
 
-    payload = {
-      "title": v.get("title"),
-      "video_id": vid,
-      "published_at": v.get("published_at"),
-      "channel_name": v.get("channel"),
-      "views": int(v.get("views") or 0),
-      "video_url": v.get("url"),
-      "duration_seconds": int(v.get("duration_seconds") or 0),
-      "matched_keywords": v.get("matched_keywords"),
-      "transcript": None
-    }
-
-    if API_URL is not None:
-      r = requests.post(f"{API_URL}/videos", json = payload)
-      if r.status_code == 200:
-        print(f"Uploaded: {v.get('title')}")
-      else:
-        print(f"Error: {v.get('title')} — {r.text}")
-    else:
-      print("Error: Missing API_URL")
+  items = [(session, v, existing_ids) for v in videos]
+  parallel_map(upload_single_video, items, max_workers=3)
 
 if __name__ == "__main__":
   upload_videos()
