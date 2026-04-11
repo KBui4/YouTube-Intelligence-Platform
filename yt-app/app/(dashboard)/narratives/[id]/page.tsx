@@ -6,6 +6,8 @@ import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
 import { YouTubeEmbed } from '@next/third-parties/google';
 
+const API_URL = process.env.NEXT_PUBLIC_API_URL;
+
 type NarrativeClaimVideoRow = {
   narrative_id: number;
   narrative_text: string;
@@ -52,10 +54,10 @@ export default function NarrativeDetailPage() {
         setLoading(true);
         setError('');
 
-        const res = await fetch('http://localhost:8000/narrative-claim-video');
+        const res = await fetch(`${API_URL}/narrative-claim-video`);
 
         if (!res.ok) {
-          throw new Error('Failed to fetch narrative/video data');
+          throw new Error('Failed to fetch narrative/claim/video data');
         }
 
         const data: NarrativeClaimVideoRow[] = await res.json();
