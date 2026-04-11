@@ -7,6 +7,7 @@ on:
 
 jobs:
   run_uploaders:
+    if: github.repository != 'Vtxbye/YouTube-Intelligence-Platform'
     runs-on: ubuntu-latest
     name: Executes all of the uploaders
 
