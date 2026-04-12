@@ -368,7 +368,7 @@ def playlist_page(y, plid, token):
     try:
         resp=y.playlistItems().list(part="contentDetails", playlistId=plid, maxResults=50, pageToken=token).execute()
     except HttpError as e:
-        if e.resp.status == 404:
+        if int(e.resp.status) == 404:
             print(f"[warn] Playlist not found, skipping: {plid}")
             return [], None
         raise
