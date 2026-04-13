@@ -71,13 +71,14 @@ export default function DashboardLayout({
             </button>
 
             <div className="flex items-center gap-3">
-              <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
-                <User className="w-5 h-5 text-white" />
-              </div>
+              <Link href="/signup">
+                <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center cursor-pointer hover:bg-blue-700 transition-colors">
+                  <User className="w-5 h-5 text-white" />
+                </div>
+              </Link>
             </div>
           </div>
         </header>
-
         <main className="flex-1 p-6">
           {children}
         </main>
