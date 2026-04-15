@@ -40,13 +40,16 @@ class ClaimRead(Claim):
   created_at: datetime
 
 class Comment(BaseModel):
-  comment_id: int
-  video_id: int
+  video_id: str
   comment_text: str
+  author: str
+  likes: int
+  published_at: datetime
   sentiment_label: Optional[str] = None
   sentiment_score: Optional[float] = None
 
 class CommentRead(Comment):
+  comment_id: int
   created_at: datetime
 
 class Narrative(BaseModel):
@@ -134,7 +137,7 @@ def create_video(video: VideoData):
       views, video_url, duration_seconds, matched_keywords, transcript
     )
     VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)
-    ON CONFLICT (video_id) DO NOTHING;
+    ON CONFLICT (video_id) DO NOTHING
     RETURNING video_id;
   """
 
@@ -214,11 +217,11 @@ def get_claim(claim_id: int):
     return execute(sql, (claim_id,), fetch_one=True)
 
 @app.get("/comments", response_model=list[CommentRead])
-def get_comments(video_id: int | None = None, limit: int = 50, offset: int = 0):
+def get_comments(video_id: str | None = None, limit: int = 50, offset: int = 0):
 
   if video_id is not None:
     sql = """
-      SELECT comment_id, video_id, comment_text, sentiment_label, sentiment_score, created_at
+      SELECT *
       FROM comments
       WHERE video_id = %s
       ORDER BY created_at DESC
@@ -228,7 +231,7 @@ def get_comments(video_id: int | None = None, limit: int = 50, offset: int = 0):
     return execute(sql, (video_id, limit, offset), fetch_all=True)
 
   sql = """
-    SELECT comment_id, video_id, comment_text, sentiment_label, sentiment_score, created_at
+    SELECT *
     FROM comments
     ORDER BY created_at DESC
     LIMIT %s OFFSET %s;
@@ -237,9 +240,9 @@ def get_comments(video_id: int | None = None, limit: int = 50, offset: int = 0):
   return execute(sql, (limit, offset), fetch_all=True)
 
 @app.get("/videos/{video_id}/comments", response_model=list[CommentRead])
-def get_video_comments(video_id: int, limit: int = 50, offset: int = 0):
+def get_video_comments(video_id: str, limit: int = 50, offset: int = 0):
   sql = """
-    SELECT comment_id, video_id, comment_text, sentiment_label, sentiment_score, created_at
+    SELECT *
     FROM comments
     WHERE video_id = %s
     ORDER BY created_at DESC
@@ -251,7 +254,7 @@ def get_video_comments(video_id: int, limit: int = 50, offset: int = 0):
 @app.get("/comments/{comment_id}", response_model=CommentRead)
 def get_comment(comment_id: int):
   sql = """
-    SELECT comment_id, video_id, comment_text, sentiment_label, sentiment_score, created_at
+    SELECT *
     FROM comments
     WHERE comment_id = %s;
   """
@@ -267,26 +270,34 @@ def get_comment(comment_id: int):
 def create_comment(payload: Comment):
   sql = """
     INSERT INTO comments (
-      comment_id,
       video_id,
       comment_text,
+      author,
+      likes,
+      published_at,
       sentiment_label,
       sentiment_score
     )
-    VALUES (%s, %s, %s, %s, %s)
-    RETURNING comment_id, video_id, comment_text, sentiment_label, sentiment_score, created_at;
+    VALUES (%s, %s, %s, %s, %s, %s, %s)
+    ON CONFLICT (video_id, author, comment_text) DO NOTHING
+    RETURNING comment_id;
   """
 
   params = (
-    payload.comment_id,
     payload.video_id,
     payload.comment_text,
+    payload.author,
+    payload.likes,
+    payload.published_at,
     payload.sentiment_label,
-    payload.sentiment_score,
+    payload.sentiment_score
   )
 
   row = execute(sql, params, fetch_one=True)
-  return row
+  if row:
+    return {"status": "inserted"}
+  else:
+    return {"status": "skipped"}
 
 @app.post("/claims", response_model=ClaimRead)
 def create_claim(payload: Claim):
@@ -388,16 +399,11 @@ def attach_claim(narrative_id: int, claim_id: int):
   return {"status": "linked"}
 
 
-@app.get("/narrative-claim-video")
-def get_narrative_claim_video(limit: int | None = None, offset: int | None = None):
-
-  if limit is None and offset is None:
-    sql = "SELECT * FROM narrative_claim_video_view;"
-    return execute(sql, fetch_all=True)
-
+@app.get("/narrative/{narrative_id}/claims-videos")
+def get_narrative_claim_video(narrative_id: int):
   sql = """
     SELECT *
     FROM narrative_claim_video_view
-    LIMIT %s OFFSET %s;
+    WHERE narrative_id = %s
   """
-  return execute(sql, (limit, offset), fetch_all=True)
+  return execute(sql, (narrative_id,), fetch_all=True)
