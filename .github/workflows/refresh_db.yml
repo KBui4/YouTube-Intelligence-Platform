@@ -7,7 +7,7 @@ on:
 
 jobs:
   refresh:
-    if: github.repository != 'Vtxbye/YouTube-Intelligence-Platform'
+    if: github.repository = 'KBui4/YouTube-Intelligence-Platform'
     runs-on: ubuntu-latest
 
     steps:
