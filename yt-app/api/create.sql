@@ -43,6 +43,7 @@ CREATE TABLE IF NOT EXISTS comments (
   author TEXT,
   likes INTEGER DEFAULT 0,
   published_at TIMESTAMPTZ,
+  sentiment_label TEXT,
   sentiment_score double precision DEFAULT 0
 );
 
