@@ -74,8 +74,7 @@ def process_single_claim(args):
 
 def upload_data(narratives):
   session = requests.Session()
-
-  r = session.get(f"{API_URL}/videos")
+  r = session.get(f"{API_URL}/videos/ids")
   existing_videos = {v["video_id"] for v in r.json()}
 
   r = session.get(f"{API_URL}/narratives", params={"limit": 5000})
@@ -87,7 +86,6 @@ def upload_data(narratives):
   for block in narratives:
     narrative_text = block["narrative_text"]
     claims = block["claims"]
-
     print(f"\nNarrative: {narrative_text[:80]}")
 
     if narrative_text in narrative_cache:
@@ -100,7 +98,7 @@ def upload_data(narratives):
       print(f"Created narrative {narrative_id}")
 
     if narrative_id not in narrative_claim_cache:
-      r = session.get(f"{API_URL}/narratives/{narrative_id}/claims")
+      r = session.get(f"{API_URL}/narratives/{narrative_id}/claims/ids")
       narrative_claim_cache[narrative_id] = r.json()
 
     for c in claims:
@@ -109,7 +107,7 @@ def upload_data(narratives):
         continue
 
       if c["video_id"] not in video_claim_cache:
-        r = session.get(f"{API_URL}/videos/{c['video_id']}/claims")
+        r = session.get(f"{API_URL}/videos/{c['video_id']}/claims/ids")
         video_claim_cache[c["video_id"]] = r.json()
 
     items = [

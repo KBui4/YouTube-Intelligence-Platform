@@ -121,6 +121,11 @@ def get_videos(limit: int = 50, offset: int = 0, all: bool = False):
   """
   return execute(sql, (limit, offset), fetch_all=True)
   
+@app.get("/videos/ids")
+def get_video_ids():
+  sql = "SELECT video_id FROM video_data;"
+  return execute(sql, fetch_all=True)
+
 @app.post("/videos")
 def create_video(video: VideoData):
   query = """
@@ -174,6 +179,16 @@ def update_transcript(video_id: str, data: dict):
     return {"status": "updated"}
 
   return {"status": "skipped"}
+
+@app.get("/videos/{video_id}/claims/ids")
+def get_video_claim_ids(video_id: str):
+  sql = """
+    SELECT claim_id, claim_text
+    FROM claims
+    WHERE video_id = %s
+    ORDER BY created_at DESC;
+  """
+  return execute(sql, (video_id,), fetch_all=True)
 
 @app.get("/videos/{video_id}/claims")
 def get_video_claims(video_id: str):
@@ -325,6 +340,14 @@ def get_narrative(narrative_id: int):
 
     return execute(sql, (narrative_id,), fetch_one=True)
 
+@app.get("/narratives/{narrative_id}/claims/ids")
+def get_narrative_claim_ids(narrative_id: int):
+  sql = """
+    SELECT claim_id
+    FROM narrative_claims
+    WHERE narrative_id = %s;
+  """
+  return execute(sql, (narrative_id,), fetch_all=True)
 
 @app.get("/narratives/{narrative_id}/claims")
 def get_narrative_claims(narrative_id: int):
