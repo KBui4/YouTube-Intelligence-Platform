@@ -8,11 +8,11 @@ import {
   CardContent,
   CardFooter,
   Card,
-} from "@/components/ui/card";
+} from "@/app/components/ui/card";
 
-import { Label } from "@/components/ui/label";
-import { Input } from "@/components/ui/input";
-import { Button } from "@/components/ui/button";
+import { Label } from "@/app/components/ui/label";
+import { Input } from "@/app/components/ui/input";
+import { Button } from "@/app/components/ui/button";
 
 const styles = {
   container: "w-full max-w-md",
