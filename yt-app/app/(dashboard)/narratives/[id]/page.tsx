@@ -11,13 +11,10 @@ const API_URL = process.env.NEXT_PUBLIC_API_URL;
 type NarrativeClaimVideoRow = {
   narrative_id: number;
   narrative_text: string;
-  domain: string | null;
   claim_count: number;
-  first_detected_at: string;
 
   claim_id: number;
   claim_text: string;
-  claim_created_at: string;
 
   video_id: string;
   video_title: string | null;
@@ -26,8 +23,6 @@ type NarrativeClaimVideoRow = {
   views: number | null;
   video_url: string | null;
   duration_seconds: number | null;
-  matched_keywords: string | null;
-  transcript: string | null;
 };
 
 type GroupedVideo = {
@@ -54,19 +49,14 @@ export default function NarrativeDetailPage() {
         setLoading(true);
         setError('');
 
-        const res = await fetch(`${API_URL}/narrative-claim-video`);
+        const res = await fetch(`${API_URL}/narrative/${id}/claims-videos`);
 
         if (!res.ok) {
           throw new Error('Failed to fetch narrative/claim/video data');
         }
 
         const data: NarrativeClaimVideoRow[] = await res.json();
-
-        const filtered = data.filter(
-          (row) => row.narrative_id.toString() === id
-        );
-
-        setRows(filtered);
+        setRows(data);
       } catch (err) {
         console.error(err);
         setError('Could not load this narrative.');

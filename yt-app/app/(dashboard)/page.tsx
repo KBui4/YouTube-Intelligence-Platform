@@ -13,7 +13,7 @@ import {
   Legend
 } from 'recharts';
 import Link from 'next/link';
-import { videos } from "@/app/data/videos";
+import { redirect } from "next/navigation";
 
 const trendingTopics = [
   {
@@ -147,6 +147,12 @@ const revenueData = [
 ];
 
 export default function Page() {
+   const isLoggedIn = true;
+
+  if (!isLoggedIn) {
+    redirect('/signin');
+  }
+
 
   const [selectedTopics, setSelectedTopics] = useState([
     "Exercise Routine",

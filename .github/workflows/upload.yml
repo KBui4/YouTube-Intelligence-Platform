@@ -7,7 +7,7 @@ on:
 
 jobs:
   run_uploaders:
-    if: github.repository != 'Vtxbye/YouTube-Intelligence-Platform'
+    if: github.repository != 'KBui4/YouTube-Intelligence-Platform'
     runs-on: ubuntu-latest
     name: Executes all of the uploaders
 
@@ -36,3 +36,4 @@ jobs:
           python ./uploaders/video_uploader.py
           python ./uploaders/transcript_uploader.py
           python ./uploaders/narrative_claim_uploader.py
+          python ./uploaders/comment_uploader.py
