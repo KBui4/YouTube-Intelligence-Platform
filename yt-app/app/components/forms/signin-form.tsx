@@ -17,14 +17,14 @@ import { Button } from "@/app/components/ui/button";
 const styles = {
   container: "w-full max-w-md",
   header: "space-y-1",
-  title: "text-3xl font-bold text-pink-600",
+  title: "text-3xl font-bold text-gray-900",
   description: "text-gray-600",
   content: "space-y-4",
   fieldGroup: "space-y-2",
   footer: "flex flex-col",
-  button: "w-full bg-pink-600 hover:bg-pink-700 text-white",
+  button: "w-full bg-gray-900 hover:bg-black text-white",
   prompt: "mt-4 text-center text-sm text-gray-600",
-  link: "ml-2 text-pink-600 hover:text-pink-700 font-medium",
+  link: "ml-2 text-gray-900 hover:text-black font-medium",
 };
 
 export function SigninForm() {
