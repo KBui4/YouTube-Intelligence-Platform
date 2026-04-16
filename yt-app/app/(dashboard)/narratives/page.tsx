@@ -1,206 +1,174 @@
 'use client';
 
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { TrendingUp } from 'lucide-react';
-import { YouTubeEmbed } from '@next/third-parties/google';
 import Link from 'next/link';
+import {
+  LineChart,
+  Line,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  ResponsiveContainer,
+  Legend
+} from 'recharts';
 
-export const mockNarratives = [
-  {
-    id: 1,
-    narrative: "Exercise and mental state significantly influence physical performance and long-term metabolic health.",
-    videos: [
-      {
-        video_id: "9GzlbLIU5dU",
-        claims: [
-          "Emotional state influences workout effectiveness.",
-          "Neurogenesis occurs in the adult brain.",
-          "Motivation affects physical endurance."
-        ]
-      },
-      {
-        video_id: "3JZ_D3ELwOQ",
-        claims: [
-          "Combining cardio and strength improves metabolic health.",
-          "Consistency matters more than intensity.",
-          "Exercise improves cognitive function."
-        ]
-      }
-    ]
-  },
-  {
-    id: 2,
-    narrative: "Sleep and recovery are essential for hormonal balance, muscle repair, and cognitive performance.",
-    videos: [
-      {
-        video_id: "eh0DoBsiLgU",
-        claims: [
-          "Sleep deprivation reduces muscle recovery.",
-          "Poor sleep affects insulin sensitivity.",
-          "REM sleep is critical for memory."
-        ]
-      },
-      {
-        video_id: "e-ORhEE9VVg",
-        claims: [
-          "Deep sleep supports brain detoxification.",
-          "Irregular sleep disrupts circadian rhythm.",
-          "Sleep improves reaction time."
-        ]
-      }
-    ]
-  },
-  {
-    id: 3,
-    narrative: "Nutrition and gut health are foundational to immunity, digestion, and long-term disease prevention.",
-    videos: [
-      {
-        video_id: "kXYiU_JCYtU",
-        claims: [
-          "Gut microbiome diversity impacts immune function.",
-          "Fiber supports beneficial bacteria.",
-          "Processed foods harm gut health."
-        ]
-      },
-      {
-        video_id: "RgKAFK5djSk",
-        claims: [
-          "Micronutrients are essential for energy production.",
-          "Hydration affects digestion.",
-          "Balanced diets reduce inflammation."
-        ]
-      }
-    ]
-  },
-  {
-    id: 4,
-    narrative: "Stress management plays a critical role in preventing chronic disease and improving mental health.",
-    videos: [
-      {
-        video_id: "hT_nvWreIhg",
-        claims: [
-          "Chronic stress elevates cortisol levels.",
-          "Stress weakens immune response.",
-          "Mindfulness reduces anxiety."
-        ]
-      },
-      {
-        video_id: "OPf0YbXqDm0",
-        claims: [
-          "Breathing exercises lower heart rate.",
-          "Stress impacts digestion.",
-          "Relaxation improves sleep quality."
-        ]
-      }
-    ]
-  },
-  {
-    id: 5,
-    narrative: "Weight loss strategies vary widely, but sustainable approaches focus on consistency, nutrition, and lifestyle changes.",
-    videos: [
-      {
-        video_id: "2Vv-BfVoq4g",
-        claims: [
-          "Calorie deficits drive weight loss.",
-          "Crash diets are not sustainable.",
-          "Protein intake supports fat loss."
-        ]
-      },
-      {
-        video_id: "JGwWNGJdvx8",
-        claims: [
-          "Metabolism adapts over time.",
-          "Exercise alone is not enough for weight loss.",
-          "Lifestyle changes improve long-term success."
-        ]
-      }
-    ]
-  },
-  {
-    id: 6,
-    narrative: "The immune system is influenced by lifestyle factors such as diet, sleep, exercise, and stress levels.",
-    videos: [
-      {
-        video_id: "fRh_vgS2dFE",
-        claims: [
-          "Sleep strengthens immune response.",
-          "Nutrition impacts immune defense.",
-          "Stress suppresses immunity."
-        ]
-      },
-      {
-        video_id: "ktvTqknDobU",
-        claims: [
-          "Exercise boosts immune surveillance.",
-          "Vitamin deficiencies weaken immunity.",
-          "Hydration supports cellular function."
-        ]
-      }
-    ]
-  }
+type Narrative = {
+  narrative_id: number;
+  narrative_text: string;
+  claim_count: number;
+};
+
+type NarrativeClaimVideo = {
+  narrative_id: number;
+  video_id: string;
+  video_published_at: string;
+};
+
+type NarrativeWithVideoCount = Narrative & {
+  video_count: number;
+  color: string;
+  chart_label: string;
+};
+
+const narrativeColors = [
+  '#3b82f6',
+  '#10b981',
+  '#f97316',
+  '#ef4444',
+  '#6366f1',
+  '#ec4899',
+  '#eab308',
+  '#14b8a6',
+  '#8b5cf6',
+  '#06b6d4',
+  '#84cc16',
+  '#f43f5e',
 ];
 
 export default function Page() {
+  const [narratives, setNarratives] = useState<NarrativeWithVideoCount[]>([]);
+  const [narrativeClaimVideoData, setNarrativeClaimVideoData] = useState<NarrativeClaimVideo[]>([]);
+  const [selectedNarratives, setSelectedNarratives] = useState<string[]>([]);
+  const [dropdownOpen, setDropdownOpen] = useState(false);
 
-  const [narratives, setNarratives] = useState<any[]>([]);
-  const [selectedNarrative, setSelectedNarrative] = useState<any>(null);
+  useEffect(() => {
+    async function fetchNarratives() {
+      try {
+        const [narrativesRes, narrativeClaimVideoRes] = await Promise.all([
+          fetch('http://localhost:8000/narratives'),
+          fetch('http://localhost:8000/narrative-claim-video'),
+        ]);
 
-//   useEffect(() => {
-//     fetch('http://localhost:8000/api/narratives')
-//       .then(res => res.json())
-//       .then(res => {
-//         console.log("API:", res);
+        const narrativesData: Narrative[] = await narrativesRes.json();
+        const claimVideoData: NarrativeClaimVideo[] = await narrativeClaimVideoRes.json();
 
-//         // Fix your previous error here 👇
-//         const data = Array.isArray(res)
-//           ? res
-//           : Array.isArray(res.narratives)
-//           ? res.narratives
-//           : Object.values(res);
+        const videoCountMap = new Map<number, Set<string>>();
 
-//         setNarratives(data);
-//         setSelectedNarrative(data[0]);
-//       });
-//   }, []);
+        claimVideoData.forEach((row) => {
+          if (!videoCountMap.has(row.narrative_id)) {
+            videoCountMap.set(row.narrative_id, new Set());
+          }
+          videoCountMap.get(row.narrative_id)!.add(row.video_id);
+        });
 
-useEffect(() => {
-  async function fetchNarratives() {
-    try {
-      const res = await fetch(
-        'http://localhost:8000/narratives'
-      );
+        const filteredNarratives = narrativesData
+          .filter((narrative) => narrative.claim_count > 0)
+          .map((narrative, index) => ({
+            ...narrative,
+            video_count: videoCountMap.get(narrative.narrative_id)?.size || 0,
+            color: narrativeColors[index % narrativeColors.length],
+            chart_label: `N${index + 1}`,
+          }));
 
-      const data = await res.json();
-
-      console.log("API narratives:", data);
-
-      setNarratives(data);
-    } catch (err) {
-      console.error("Error fetching narratives:", err);
+        setNarratives(filteredNarratives);
+        setNarrativeClaimVideoData(claimVideoData);
+        setSelectedNarratives(
+          filteredNarratives.slice(0, 5).map((narrative) => narrative.chart_label)
+        );
+      } catch (err) {
+        console.error("Error fetching narratives:", err);
+      }
     }
-  }
 
-  fetchNarratives();
-}, []);
+    fetchNarratives();
+  }, []);
+
+  const toggleNarrative = (chartLabel: string) => {
+    setSelectedNarratives((prev) =>
+      prev.includes(chartLabel)
+        ? prev.filter((item) => item !== chartLabel)
+        : [...prev, chartLabel]
+    );
+  };
+
+  const graphData = useMemo(() => {
+    const narrativeMap = new Map(
+      narratives.map((narrative) => [narrative.narrative_id, narrative.chart_label])
+    );
+
+    const monthNarrativeVideoMap = new Map<string, Map<string, Set<string>>>();
+
+    narrativeClaimVideoData.forEach((row) => {
+      const chartLabel = narrativeMap.get(row.narrative_id);
+      if (!chartLabel) return;
+
+      const date = new Date(row.video_published_at);
+      if (isNaN(date.getTime())) return;
+
+      const year = date.getFullYear();
+      const month = String(date.getMonth() + 1).padStart(2, '0');
+      const monthKey = `${year}-${month}`;
+
+      if (!monthNarrativeVideoMap.has(monthKey)) {
+        monthNarrativeVideoMap.set(monthKey, new Map());
+      }
+
+      const narrativeCounts = monthNarrativeVideoMap.get(monthKey)!;
+
+      if (!narrativeCounts.has(chartLabel)) {
+        narrativeCounts.set(chartLabel, new Set());
+      }
+
+      narrativeCounts.get(chartLabel)!.add(row.video_id);
+    });
+
+    const sortedMonths = Array.from(monthNarrativeVideoMap.keys()).sort();
+
+    return sortedMonths.map((monthKey) => {
+      const [year, month] = monthKey.split('-');
+      const date = new Date(Number(year), Number(month) - 1);
+      const formattedMonth = date.toLocaleString('en-US', {
+        month: 'short',
+        year: 'numeric',
+      });
+
+      const row: Record<string, string | number> = { month: formattedMonth };
+      const narrativeCounts = monthNarrativeVideoMap.get(monthKey)!;
+
+      narratives.forEach((narrative) => {
+        row[narrative.chart_label] =
+          narrativeCounts.get(narrative.chart_label)?.size || 0;
+      });
+
+      return row;
+    });
+  }, [narratives, narrativeClaimVideoData]);
 
   return (
     <div className="space-y-6">
-
-      {/* Header */}
       <div>
-        <h1 className="text-2xl text-black font-semibold"></h1>
+        <h1 className="text-2xl text-black font-semibold">Narratives</h1>
         <p className="text-black mt-1">
-          
+          Narrative clusters and the videos connected to them.
         </p>
       </div>
 
-      <div className="max-w-2xl">
-
-        {/* LEFT: Narratives List (like Trending Topics) */}
+      <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">
         <div className="bg-white rounded-lg border border-gray-200 p-6">
-
           <div className="flex items-center gap-3 mb-6">
-            <TrendingUp className="text-purple-600"/>
+            <TrendingUp className="text-purple-600" />
             <div>
               <h2 className="font-semibold text-lg text-black">
                 Trending Narratives
@@ -212,34 +180,101 @@ useEffect(() => {
           </div>
 
           <ul className="space-y-3">
-
-            {narratives.map((narrative, index) => (
-
+            {narratives.map((narrative) => (
               <li key={narrative.narrative_id}>
                 <Link
-                    href={`/narratives/${narrative.narrative_id}`}
-                    className="block p-3 rounded-lg hover:bg-gray-50"
+                  href={`/narratives/${narrative.narrative_id}`}
+                  className="block p-3 rounded-lg hover:bg-gray-50"
                 >
-                    <span className="text-gray-800 font-medium">
-                    {narrative.narrative_text}
-                    </span>
+                  <div className="flex items-start gap-3">
+                    <div
+                      className="w-2 h-2 rounded-full mt-2 shrink-0"
+                      style={{ backgroundColor: narrative.color }}
+                    />
 
-                    <p className="text-sm text-gray-500">
-                    {narrative.claim_count} claims
-                    </p>
+                    <div>
+                      <span className="text-gray-800 font-medium">
+                        {narrative.narrative_text}
+                      </span>
+
+                      <p className="text-sm text-gray-500 mt-1">
+                        {narrative.video_count}{" "}
+                        {narrative.video_count === 1 ? "video" : "videos"}
+                      </p>
+                    </div>
+                  </div>
                 </Link>
-                </li>
-
+              </li>
             ))}
-
           </ul>
-
         </div>
 
-        
+        <div className="bg-white rounded-lg border border-gray-200 p-6">
+          <div className="flex justify-between mb-4">
+            <h3 className="font-semibold text-black">Narratives over time</h3>
 
+            <div className="relative">
+              <button
+                onClick={() => setDropdownOpen(!dropdownOpen)}
+                className="bg-gray-700 text-white px-3 py-1 rounded text-sm"
+              >
+                Select Narratives
+              </button>
+
+              {dropdownOpen && (
+                <div className="absolute right-0 mt-2 bg-white border rounded shadow p-3 space-y-2 z-50 max-h-72 overflow-y-auto min-w-72">
+                  {narratives.map((narrative) => (
+                    <label
+                      key={narrative.narrative_id}
+                      className="flex items-center gap-2 text-sm text-gray-900 font-medium hover:bg-gray-100 px-2 py-1 rounded cursor-pointer"
+                    >
+                      <input
+                        type="checkbox"
+                        checked={selectedNarratives.includes(narrative.chart_label)}
+                        onChange={() => toggleNarrative(narrative.chart_label)}
+                      />
+
+                      <span
+                        className="w-2 h-2 rounded-full inline-block"
+                        style={{ backgroundColor: narrative.color }}
+                      />
+
+                      <span className="font-semibold">{narrative.chart_label}</span>
+                      <span className="text-gray-500 ml-1 line-clamp-1">
+                        — {narrative.narrative_text}
+                      </span>
+                    </label>
+                  ))}
+                </div>
+              )}
+            </div>
+          </div>
+
+          <ResponsiveContainer width="100%" height={320}>
+            <LineChart data={graphData}>
+              <CartesianGrid strokeDasharray="3 3" />
+              <XAxis dataKey="month" />
+              <YAxis />
+              <Tooltip />
+              <Legend />
+
+              {narratives
+                .filter((narrative) =>
+                  selectedNarratives.includes(narrative.chart_label)
+                )
+                .map((narrative) => (
+                  <Line
+                    key={narrative.narrative_id}
+                    type="monotone"
+                    dataKey={narrative.chart_label}
+                    stroke={narrative.color}
+                    strokeWidth={2}
+                  />
+                ))}
+            </LineChart>
+          </ResponsiveContainer>
+        </div>
       </div>
-
     </div>
   );
 }

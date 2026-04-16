@@ -122,8 +122,22 @@ export default function NarrativeDetailPage() {
   }
 
   if (!rows.length) {
-    return <div className="text-gray-600">No data found for this narrative.</div>;
-  }
+  return (
+    <div className="space-y-4">
+      <div className="flex items-center gap-4">
+        <Link
+          href="/narratives"
+          className="flex items-center gap-2 text-gray-600 hover:text-gray-900 transition-colors"
+        >
+          <ArrowLeft className="w-5 h-5" />
+          <span>Back to Narratives</span>
+        </Link>
+      </div>
+
+      <div className="text-gray-600">No data found for this narrative.</div>
+    </div>
+  );
+}
 
   return (
     <div className="space-y-6">
