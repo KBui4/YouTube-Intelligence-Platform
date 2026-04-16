@@ -78,6 +78,46 @@ WITH DATA;
 CREATE UNIQUE INDEX IF NOT EXISTS narrative_claim_video_view_uidx
 ON narrative_claim_video_view (narrative_id, claim_id, video_id);
 
--- CREATE MATERIALIZED VIEW IF NOT EXISTS trends_view AS
+CREATE MATERIALIZED VIEW IF NOT EXISTS narrative_trends_view AS
+WITH claim_dates AS (
+    SELECT
+        n.narrative_id,
+        n.narrative_text,
+        c.claim_id,
+        v.published_at::date AS claim_date
+    FROM narratives n
+    JOIN narrative_claims nc
+        ON n.narrative_id = nc.narrative_id
+    JOIN claims c
+        ON nc.claim_id = c.claim_id
+    JOIN video_data v
+        ON c.video_id = v.video_id
+),
+daily_counts AS (
+    SELECT
+        narrative_id,
+        narrative_text,
+        claim_date,
+        COUNT(claim_id) AS claims_on_date
+    FROM claim_dates
+    GROUP BY narrative_id, narrative_text, claim_date
+)
+SELECT
+    narrative_id,
+    narrative_text,
+    claim_date,
+    claims_on_date,
 
--- WITH DATA;
+    -- 7‑day moving average
+    AVG(claims_on_date) OVER (
+        PARTITION BY narrative_id
+        ORDER BY claim_date
+        ROWS BETWEEN 6 PRECEDING AND CURRENT ROW
+    ) AS claims_7d_avg
+
+FROM daily_counts
+ORDER BY narrative_id, claim_date
+WITH DATA;
+
+CREATE INDEX IF NOT EXISTS narrative_trends_view_idx
+ON narrative_trends_view (narrative_id, claim_date);
