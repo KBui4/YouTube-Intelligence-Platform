@@ -1,3 +1,4 @@
+import json
 import os
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
@@ -318,6 +319,19 @@ def create_comment(payload: Comment):
   else:
     return {"status": "skipped"}
 
+@app.post("/comments/lookup")
+def lookup_comment(payload: dict):
+  sql = """
+    SELECT comment_id
+    FROM comments
+    WHERE video_id = %s
+      AND author = %s
+      AND comment_text = %s;
+  """
+
+  row = execute(sql, (payload["video_id"], payload["author"], payload["text"]), fetch_one=True)
+  return row or {}
+
 @app.post("/claims", response_model=ClaimRead)
 def create_claim(payload: Claim):
   sql = """
@@ -440,3 +454,66 @@ def get_narrative_trends():
         ORDER BY narrative_id, claim_date;
     """
     return execute(sql, fetch_all=True)
+
+@app.patch("/videos/{video_id}/sentiment")
+def update_video_sentiment(video_id: str, data: dict):
+  sentiment_label = data.get("sentiment_label")
+  sentiment_score = data.get("sentiment_score")
+  summary = data.get("summary")
+  highlight_tokens = data.get("highlightTokens")
+
+  query = """
+    UPDATE video_data
+    SET sentiment_label = %s,
+        sentiment_score = %s,
+        sentiment_summary = %s,
+        sentiment_highlight_tokens = %s
+    WHERE video_id = %s
+    RETURNING video_id;
+  """
+
+  row = execute(
+    query,
+    (
+      sentiment_label,
+      sentiment_score,
+      summary,
+      json.dumps(highlight_tokens) if highlight_tokens else None,
+      video_id
+    ),
+    fetch_one=True
+  )
+
+  if row:
+    return {"status": "updated"}
+  return {"status": "skipped"}
+
+@app.patch("/comments/{comment_id}/sentiment")
+def update_comment_sentiment(comment_id: int, data: dict):
+  sentiment_label = data.get("sentiment_label")
+  sentiment_score = data.get("sentiment_score")
+  highlight_tokens = data.get("highlightTokens")
+
+  query = """
+    UPDATE comments
+    SET sentiment_label = %s,
+        sentiment_score = %s,
+        sentiment_highlight_tokens = %s
+    WHERE comment_id = %s
+    RETURNING comment_id;
+  """
+
+  row = execute(
+    query,
+    (
+      sentiment_label,
+      sentiment_score,
+      json.dumps(highlight_tokens) if highlight_tokens else None,
+      comment_id
+    ),
+    fetch_one=True
+  )
+
+  if row:
+    return {"status": "updated"}
+  return {"status": "skipped"}

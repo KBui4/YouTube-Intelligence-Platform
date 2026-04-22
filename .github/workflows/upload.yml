@@ -37,3 +37,4 @@ jobs:
           python ./uploaders/transcript_uploader.py
           python ./uploaders/narrative_claim_uploader.py
           python ./uploaders/comment_uploader.py
+          python ./uploaders/sentiment_uploader.py

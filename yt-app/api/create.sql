@@ -12,6 +12,8 @@ CREATE TABLE IF NOT EXISTS video_data (
   transcript TEXT,
   sentiment_label TEXT,
   sentiment_score double precision DEFAULT 0,
+  sentiment_summary TEXT,
+  sentiment_highlight_tokens JSONB,
   CHECK (duration_seconds > 0 OR duration_seconds IS NULL),
   CHECK (views >= 0 OR views IS NULL)
 );
@@ -47,6 +49,7 @@ CREATE TABLE IF NOT EXISTS comments (
   published_at TIMESTAMPTZ,
   sentiment_label TEXT,
   sentiment_score double precision DEFAULT 0,
+  sentiment_highlight_tokens JSONB,
   UNIQUE (video_id, author, comment_text)
 );
 
