@@ -33,17 +33,17 @@ type NarrativeWithMeta = Narrative & {
   chart_label: string;
 };
 
-const narrativeColors = [
-  '#3b82f6', '#10b981', '#f97316', '#ef4444',
-  '#6366f1', '#ec4899', '#eab308', '#14b8a6',
-  '#8b5cf6', '#06b6d4', '#84cc16', '#f43f5e',
-];
+function generateColor(i: number) {
+  const hue = (i * 137.508) % 360;
+  return `hsl(${hue}, 65%, 50%)`;
+}
 
 export default function Page() {
   const [narratives, setNarratives] = useState<NarrativeWithMeta[]>([]);
   const [trends, setTrends] = useState<NarrativeTrendRow[]>([]);
   const [selectedNarratives, setSelectedNarratives] = useState<string[]>([]);
   const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [highlighted, setHighlighted] = useState<string | null>(null);
 
   useEffect(() => {
     async function fetchData() {
@@ -60,7 +60,7 @@ export default function Page() {
           .filter(n => n.claim_count > 0)
           .map((n, index) => ({
             ...n,
-            color: narrativeColors[index % narrativeColors.length],
+            color: generateColor(index),
             chart_label: `N${index + 1}`
           }));
 
@@ -89,7 +89,7 @@ export default function Page() {
       narratives.map(n => [n.narrative_id, n.chart_label])
     );
 
-    const monthMap = new Map<string, Record<string, number>>();
+    const monthMap = new Map<string, Record<string, number | string>>();
 
     trends.forEach(row => {
       const label = idToLabel.get(row.narrative_id);
@@ -101,11 +101,11 @@ export default function Page() {
       const key = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}`;
 
       if (!monthMap.has(key)) {
-        monthMap.set(key, { month: parseInt(key) });
+        monthMap.set(key, { monthKey: key });
       }
 
       const bucket = monthMap.get(key)!;
-      bucket[label] = (bucket[label] || 0) + row.claims_on_date;
+      bucket[label] = (Number(bucket[label]) || 0) + row.claims_on_date
     });
 
     const sortedKeys = Array.from(monthMap.keys()).sort();
@@ -114,10 +114,17 @@ export default function Page() {
       const [year, month] = key.split('-');
       const date = new Date(Number(year), Number(month) - 1);
 
-      return {
-        ...monthMap.get(key)!,
-        month: date.toLocaleString('en-US', { month: 'short', year: 'numeric' })
-      };
+      const row = { ...monthMap.get(key)! };
+
+      narratives.forEach(n => {
+        if (row[n.chart_label] === undefined) {
+          row[n.chart_label] = 0;
+        }
+      });
+
+      row.month = date.toLocaleString('en-US', { month: 'short', year: 'numeric' });
+
+      return row;
     });
   }, [narratives, trends]);
 
@@ -131,7 +138,8 @@ export default function Page() {
       </div>
 
       <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">
-        <div className="bg-white rounded-lg border border-gray-200 p-6">
+        {/* LEFT SIDE */}
+        <div className="bg-white rounded-lg border border-gray-200 p-6 max-h-[80vh] overflow-y-auto">
           <div className="flex items-center gap-3 mb-6">
             <TrendingUp className="text-purple-600" />
             <div>
@@ -142,7 +150,12 @@ export default function Page() {
 
           <ul className="space-y-3">
             {narratives.map(n => (
-              <li key={n.narrative_id}>
+              <li
+                key={n.narrative_id}
+                className={`transition-colors duration-300 ${
+                  highlighted === n.chart_label ? "bg-yellow-100" : ""
+                }`}
+              >
                 <Link
                   href={`/narratives/${n.narrative_id}`}
                   className="block p-3 rounded-lg hover:bg-gray-50"
@@ -168,6 +181,7 @@ export default function Page() {
           </ul>
         </div>
 
+        {/* RIGHT SIDE — GRAPH */}
         <div className="bg-white rounded-lg border border-gray-200 p-6">
           <div className="flex justify-between mb-4">
             <h3 className="font-semibold text-black">Narratives over time</h3>
@@ -199,9 +213,6 @@ export default function Page() {
                       />
 
                       <span className="font-semibold">{n.chart_label}</span>
-                      <span className="text-gray-500 ml-1 line-clamp-1">
-                        — {n.narrative_text}
-                      </span>
                     </label>
                   ))}
                 </div>
@@ -209,25 +220,59 @@ export default function Page() {
             </div>
           </div>
 
-          <ResponsiveContainer width="100%" height={320}>
-            <LineChart data={graphData}>
+          <ResponsiveContainer width="100%" height={340}>
+            <LineChart data={graphData} margin={{ top: 20, right: 30, left: 10, bottom: 40 }}>
               <CartesianGrid strokeDasharray="3 3" />
-              <XAxis dataKey="month" />
-              <YAxis />
-              <Tooltip />
-              <Legend />
+
+              <XAxis
+                dataKey="month"
+                tick={{ fontSize: 12 }}
+                angle={-35}
+                textAnchor="end"
+                height={60}
+              />
+
+              <YAxis
+                tick={{ fontSize: 12 }}
+                label={{
+                  value: "Claims per Month",
+                  angle: -90,
+                  position: "insideLeft",
+                  style: { textAnchor: "middle", fill: "#555", fontSize: 12 }
+                }}
+              />
+
+              {/* Tooltip now shows only label + value */}
+              <Tooltip
+                formatter={(value, key) => [value, key]}
+                labelStyle={{ fontWeight: 600 }}
+              />
+
+              {/* Legend now shows only N1, N2, etc. */}
+              <Legend verticalAlign="top" height={40} />
 
               {narratives
                 .filter(n => selectedNarratives.includes(n.chart_label))
-                .map(n => (
-                  <Line
-                    key={n.narrative_id}
-                    type="monotone"
-                    dataKey={n.chart_label}
-                    stroke={n.color}
-                    strokeWidth={2}
-                  />
-                ))}
+                .map(n => {
+                  return (
+                    <Line
+                      key={n.narrative_id}
+                      type="monotone"
+                      dataKey={n.chart_label}
+                      stroke={n.color}
+                      strokeWidth={highlighted === n.chart_label ? 4 : 2}
+                      dot={false}
+                      activeDot={{ r: 6 }}
+                      onMouseEnter={() => setHighlighted(n.chart_label)}
+                      onMouseLeave={() => setHighlighted(null)}
+                      onClick={() =>
+                        setHighlighted(prev =>
+                          prev === n.chart_label ? null : n.chart_label
+                        )
+                      }
+                    />
+                  );
+                })}
             </LineChart>
           </ResponsiveContainer>
         </div>
