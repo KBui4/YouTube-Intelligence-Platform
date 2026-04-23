@@ -4,52 +4,98 @@ import { useEffect, useMemo, useState } from "react";
 import { Clock3 } from 'lucide-react';
 import { YouTubeEmbed } from '@next/third-parties/google';
 
-type NarrativeClaimVideoRow = {
+const API_URL =
+  process.env.NEXT_PUBLIC_API_URL || 'https://youtube-intelligence-platform-api.onrender.com';
+
+type VideoRow = {
   video_id: string;
-  video_title: string | null;
-  video_published_at: string | null;
+  title: string | null;
+  published_at: string | null;
   channel_name: string | null;
-  claim: string | null;
-  claim_number: number | null;
   video_url?: string | null;
   views?: number | null;
+  duration_seconds?: number | null;
+  matched_keywords?: string | null;
+  transcript?: string | null;
 };
 
-type VideoWithClaims = {
+type ClaimRow = {
+  claim_id: number;
   video_id: string;
-  video_title: string | null;
-  video_published_at: string | null;
-  channel_name: string | null;
-  video_url?: string | null;
-  views?: number | null;
-  claims: {
-    claim: string;
-    claim_number: number | null;
-  }[];
+  claim_text: string;
+  created_at: string;
+};
+
+type VideoWithClaims = VideoRow & {
+  claims: ClaimRow[];
 };
 
 type SortOption = 'newest' | 'oldest' | 'most_popular';
 
+const PAGE_SIZE = 20;
+
 export default function Page() {
-  const [rows, setRows] = useState<NarrativeClaimVideoRow[]>([]);
+  const [rows, setRows] = useState<VideoWithClaims[]>([]);
   const [sortBy, setSortBy] = useState<SortOption>('newest');
   const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [page, setPage] = useState(1);
+  const [loading, setLoading] = useState(true);
+  const [hasMore, setHasMore] = useState(false);
 
   useEffect(() => {
-    async function fetchVideoClaims() {
+    async function fetchVideosAndClaims() {
       try {
-        const res = await fetch('http://localhost:8000/narrative-claim-video');
-        const data = await res.json();
+        setLoading(true);
 
-        console.log("Dashboard video claim data:", data);
-        setRows(data);
+        const offset = (page - 1) * PAGE_SIZE;
+
+        const videosRes = await fetch(
+          `${API_URL}/videos?limit=${PAGE_SIZE}&offset=${offset}`
+        );
+
+        if (!videosRes.ok) {
+          throw new Error('Failed to fetch videos');
+        }
+
+        const videosData: VideoRow[] = await videosRes.json();
+        setHasMore(videosData.length === PAGE_SIZE);
+
+        const videosWithClaims = await Promise.all(
+          videosData.map(async (video) => {
+            try {
+              const claimsRes = await fetch(`${API_URL}/videos/${video.video_id}/claims`);
+
+              if (!claimsRes.ok) {
+                throw new Error(`Failed to fetch claims for video ${video.video_id}`);
+              }
+
+              const claimsData: ClaimRow[] = await claimsRes.json();
+
+              return {
+                ...video,
+                claims: claimsData,
+              };
+            } catch (err) {
+              console.error(err);
+
+              return {
+                ...video,
+                claims: [],
+              };
+            }
+          })
+        );
+
+        setRows(videosWithClaims);
       } catch (err) {
-        console.error("Error fetching dashboard data:", err);
+        console.error('Error fetching dashboard data:', err);
+      } finally {
+        setLoading(false);
       }
     }
 
-    fetchVideoClaims();
-  }, []);
+    fetchVideosAndClaims();
+  }, [page]);
 
   function formatDate(dateString: string | null) {
     if (!dateString) return 'Unknown date';
@@ -61,50 +107,11 @@ export default function Page() {
   }
 
   const videos = useMemo(() => {
-    const videoMap = new Map<string, VideoWithClaims>();
+    const sortedVideos = [...rows];
 
-    rows.forEach((row) => {
-      if (!videoMap.has(row.video_id)) {
-        videoMap.set(row.video_id, {
-          video_id: row.video_id,
-          video_title: row.video_title,
-          video_published_at: row.video_published_at,
-          channel_name: row.channel_name,
-          video_url: row.video_url,
-          views: row.views,
-          claims: [],
-        });
-      }
-
-      const video = videoMap.get(row.video_id)!;
-
-      if (
-        row.claim &&
-        !video.claims.some(
-          (existingClaim) =>
-            existingClaim.claim === row.claim &&
-            existingClaim.claim_number === row.claim_number
-        )
-      ) {
-        video.claims.push({
-          claim: row.claim,
-          claim_number: row.claim_number,
-        });
-      }
-    });
-
-    const groupedVideos = Array.from(videoMap.values()).map((video) => ({
-      ...video,
-      claims: [...video.claims].sort((a, b) => {
-        const aNum = a.claim_number ?? Number.MAX_SAFE_INTEGER;
-        const bNum = b.claim_number ?? Number.MAX_SAFE_INTEGER;
-        return aNum - bNum;
-      }),
-    }));
-
-    groupedVideos.sort((a, b) => {
-      const aTime = a.video_published_at ? new Date(a.video_published_at).getTime() : 0;
-      const bTime = b.video_published_at ? new Date(b.video_published_at).getTime() : 0;
+    sortedVideos.sort((a, b) => {
+      const aTime = a.published_at ? new Date(a.published_at).getTime() : 0;
+      const bTime = b.published_at ? new Date(b.published_at).getTime() : 0;
       const aViews = a.views ?? 0;
       const bViews = b.views ?? 0;
 
@@ -119,7 +126,7 @@ export default function Page() {
       return bTime - aTime;
     });
 
-    return groupedVideos;
+    return sortedVideos;
   }, [rows, sortBy]);
 
   const sortLabel =
@@ -128,6 +135,23 @@ export default function Page() {
       : sortBy === 'most_popular'
       ? 'Most Popular'
       : 'Newest';
+
+  const visiblePages = (() => {
+    const pages: (number | string)[] = [];
+
+    if (page <= 3) {
+      pages.push(1, 2, 3, 4, 5);
+      if (hasMore) pages.push("...");
+    } else {
+      pages.push(1, "...");
+      pages.push(page - 1, page, page + 1);
+      if (hasMore) {
+        pages.push("...");
+      }
+    }
+
+    return [...new Set(pages)].filter((p) => typeof p !== "number" || p > 0);
+  })();
 
   return (
     <div className="space-y-6">
@@ -194,75 +218,117 @@ export default function Page() {
           </div>
         </div>
 
-        <div className="space-y-8">
-          {videos.map((video) => {
-            const embedVideoId =
-              video.video_url?.split('v=')[1]?.split('&')[0] || video.video_id;
+        {loading ? (
+          <p className="text-gray-600">Loading videos...</p>
+        ) : (
+          <div className="space-y-8">
+            {videos.map((video) => {
+              const embedVideoId =
+                video.video_url?.split('v=')[1]?.split('&')[0] || video.video_id;
 
-            return (
-              <div
-                key={video.video_id}
-                className="border border-gray-200 rounded-lg p-5"
-              >
-                <div className="grid lg:grid-cols-[380px_1fr] gap-6">
-                  <div>
-                    {embedVideoId ? (
-                      <div className="rounded-lg overflow-hidden">
-                        <YouTubeEmbed
-                          videoid={embedVideoId}
-                          height={220}
-                          width={370}
-                        />
-                      </div>
-                    ) : (
-                      <div className="h-[220px] flex items-center justify-center bg-gray-100 rounded">
-                        <span className="text-sm text-gray-500">Video unavailable</span>
-                      </div>
-                    )}
-                  </div>
-
-                  <div>
-                    <h3 className="text-gray-900 font-semibold text-lg">
-                      {video.video_title || 'Untitled Video'}
-                    </h3>
-
-                    <p className="text-sm text-gray-600 mt-1">
-                      {video.channel_name || 'Unknown channel'}
-                    </p>
-
-                    <p className="text-sm text-gray-500 mt-1 mb-4">
-                      {formatDate(video.video_published_at)}
-                      {video.views !== null && video.views !== undefined
-                        ? ` • ${video.views.toLocaleString()} views`
-                        : ''}
-                    </p>
-
-                    <div className="space-y-3">
-                      {video.claims.length > 0 ? (
-                        video.claims.map((claimItem, index) => (
-                          <div
-                            key={`${video.video_id}-${claimItem.claim_number ?? index}`}
-                            className="bg-gray-50 rounded-md p-3"
-                          >
-                            <p className="text-sm font-medium text-gray-700 mb-1">
-                              Claim {claimItem.claim_number ?? index + 1}
-                            </p>
-                            <p className="text-gray-800 text-sm">
-                              {claimItem.claim}
-                            </p>
-                          </div>
-                        ))
+              return (
+                <div
+                  key={video.video_id}
+                  className="border border-gray-200 rounded-lg p-5"
+                >
+                  <div className="grid lg:grid-cols-[380px_1fr] gap-6">
+                    <div>
+                      {embedVideoId ? (
+                        <div className="rounded-lg overflow-hidden">
+                          <YouTubeEmbed
+                            videoid={embedVideoId}
+                            height={220}
+                            width={370}
+                          />
+                        </div>
                       ) : (
-                        <p className="text-sm text-gray-500">
-                          no claims on this video
-                        </p>
+                        <div className="h-[220px] flex items-center justify-center bg-gray-100 rounded">
+                          <span className="text-sm text-gray-500">Video unavailable</span>
+                        </div>
                       )}
+                    </div>
+
+                    <div>
+                      <h3 className="text-gray-900 font-semibold text-lg">
+                        {video.title || 'Untitled Video'}
+                      </h3>
+
+                      <p className="text-sm text-gray-600 mt-1">
+                        {video.channel_name || 'Unknown channel'}
+                      </p>
+
+                      <p className="text-sm text-gray-500 mt-1 mb-4">
+                        {formatDate(video.published_at)}
+                        {video.views !== null && video.views !== undefined
+                          ? ` • ${video.views.toLocaleString()} views`
+                          : ''}
+                      </p>
+
+                      <div className="space-y-3">
+                        {video.claims.length > 0 ? (
+                          video.claims.map((claimItem, index) => (
+                            <div
+                              key={claimItem.claim_id ?? `${video.video_id}-${index}`}
+                              className="bg-gray-50 rounded-md p-3"
+                            >
+                              <p className="text-sm font-medium text-gray-700 mb-1">
+                                Claim {index + 1}
+                              </p>
+                              <p className="text-gray-800 text-sm">
+                                {claimItem.claim_text}
+                              </p>
+                            </div>
+                          ))
+                        ) : (
+                          <p className="text-sm text-gray-500">
+                            No claims on this video
+                          </p>
+                        )}
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            );
-          })}
+              );
+            })}
+          </div>
+        )}
+
+        <div className="flex items-center justify-center gap-2 mt-8 flex-wrap">
+          <button
+            onClick={() => setPage((prev) => Math.max(prev - 1, 1))}
+            disabled={page === 1}
+            className="px-4 py-2 rounded bg-gray-200 text-gray-800 disabled:opacity-50"
+          >
+            Previous
+          </button>
+
+          {visiblePages.map((item, index) =>
+            item === "..." ? (
+              <span key={`ellipsis-${index}`} className="px-2 text-gray-500">
+                ...
+              </span>
+            ) : (
+              <button
+                key={item}
+                onClick={() => setPage(item as number)}
+                className={`px-3 py-2 rounded text-sm ${
+                  page === item
+                    ? "bg-gray-700 text-white"
+                    : "bg-gray-100 text-gray-800 hover:bg-gray-200"
+                }`}
+              >
+                {item}
+              </button>
+            )
+          )}
+
+          <button
+            onClick={() => setPage((prev) => prev + 1)}
+            disabled={!hasMore}
+            className="px-4 py-2 rounded bg-gray-700 text-white disabled:opacity-50"
+          >
+            Next
+          </button>
         </div>
       </div>
     </div>

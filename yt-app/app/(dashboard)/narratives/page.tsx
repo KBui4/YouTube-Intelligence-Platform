@@ -14,6 +14,9 @@ import {
   Legend
 } from 'recharts';
 
+const API_URL = process.env.NEXT_PUBLIC_API_URL;
+
+
 type Narrative = {
   narrative_id: number;
   narrative_text: string;
@@ -56,37 +59,65 @@ export default function Page() {
   useEffect(() => {
     async function fetchNarratives() {
       try {
-        const [narrativesRes, narrativeClaimVideoRes] = await Promise.all([
-          fetch('http://localhost:8000/narratives'),
-          fetch('http://localhost:8000/narrative-claim-video'),
-        ]);
+
+        const narrativesRes = await fetch(`${API_URL}/narratives`);
+
+        if (!narrativesRes.ok) {
+          throw new Error("Failed to fetch narratives");
+        }
 
         const narrativesData: Narrative[] = await narrativesRes.json();
-        const claimVideoData: NarrativeClaimVideo[] = await narrativeClaimVideoRes.json();
 
-        const videoCountMap = new Map<number, Set<string>>();
-
-        claimVideoData.forEach((row) => {
-          if (!videoCountMap.has(row.narrative_id)) {
-            videoCountMap.set(row.narrative_id, new Set());
-          }
-          videoCountMap.get(row.narrative_id)!.add(row.video_id);
-        });
-
-        const filteredNarratives = narrativesData
+        const filteredBase = narrativesData
           .filter((narrative) => narrative.claim_count > 0)
           .map((narrative, index) => ({
             ...narrative,
-            video_count: videoCountMap.get(narrative.narrative_id)?.size || 0,
+            video_count: 0,
             color: narrativeColors[index % narrativeColors.length],
             chart_label: `N${index + 1}`,
           }));
 
-        setNarratives(filteredNarratives);
-        setNarrativeClaimVideoData(claimVideoData);
+        // show the narratives right away
+        setNarratives(filteredBase);
         setSelectedNarratives(
-          filteredNarratives.slice(0, 5).map((narrative) => narrative.chart_label)
+          filteredBase.slice(0, 5).map((narrative) => narrative.chart_label)
         );
+
+        const allClaimVideoRows: NarrativeClaimVideo[] = [];
+
+        const updatedNarratives = await Promise.all(
+          filteredBase.map(async (narrative) => {
+            try {
+              const res = await fetch(
+                `${API_URL}/narrative/${narrative.narrative_id}/claims-videos`
+              );
+
+              if (!res.ok) {
+                throw new Error("Failed to fetch claims-videos");
+              }
+
+              const rows: NarrativeClaimVideo[] = await res.json();
+              allClaimVideoRows.push(...rows);
+
+              const uniqueVideos = new Set(rows.map((row) => row.video_id));
+
+              return {
+                ...narrative,
+                video_count: uniqueVideos.size,
+              };
+            } catch (err) {
+              console.error(
+                `Error fetching claims-videos for narrative ${narrative.narrative_id}:`,
+                err
+              );
+
+              return narrative;
+            }
+          })
+        );
+
+        setNarratives(updatedNarratives);
+        setNarrativeClaimVideoData(allClaimVideoRows);
       } catch (err) {
         console.error("Error fetching narratives:", err);
       }
@@ -196,11 +227,6 @@ export default function Page() {
                       <span className="text-gray-800 font-medium">
                         {narrative.narrative_text}
                       </span>
-
-                      <p className="text-sm text-gray-500 mt-1">
-                        {narrative.video_count}{" "}
-                        {narrative.video_count === 1 ? "video" : "videos"}
-                      </p>
                     </div>
                   </div>
                 </Link>
