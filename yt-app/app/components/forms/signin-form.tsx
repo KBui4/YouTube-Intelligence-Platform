@@ -1,5 +1,10 @@
 "use client";
+
+import { useState } from "react";
+import { useRouter } from "next/navigation";
 import Link from "next/link";
+import { signInWithEmailAndPassword } from "firebase/auth";
+import { auth } from "@/app/auth/firebase";
 
 import {
   CardTitle,
@@ -28,9 +33,31 @@ const styles = {
 };
 
 export function SigninForm() {
+  const router = useRouter();
+
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
+
+  async function handleSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    setLoading(true);
+    setError("");
+
+    try {
+      await signInWithEmailAndPassword(auth, email, password);
+      router.replace("/"); 
+    } catch (err: any) {
+      setError(err.message || "Failed to sign in");
+    } finally {
+      setLoading(false);
+    }
+  }
+
   return (
     <div className={styles.container}>
-      <form>
+      <form onSubmit={handleSubmit}>
         <Card className="bg-white border border-gray-200 shadow-sm">
           <CardHeader className={styles.header}>
             <CardTitle className={styles.title}>Sign In</CardTitle>
@@ -40,6 +67,10 @@ export function SigninForm() {
           </CardHeader>
 
           <CardContent className={styles.content}>
+            {error && (
+              <p className="text-red-600 text-sm mb-2">{error}</p>
+            )}
+
             <div className={styles.fieldGroup}>
               <Label className="text-gray-700" htmlFor="email">
                 Email
@@ -47,8 +78,10 @@ export function SigninForm() {
               <Input
                 id="identifier"
                 name="identifier"
-                type="text"
-                placeholder="username or email"
+                type="email"
+                placeholder="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
                 className="bg-white border-gray-300 text-gray-900 placeholder:text-gray-400"
               />
             </div>
@@ -62,13 +95,17 @@ export function SigninForm() {
                 name="password"
                 type="password"
                 placeholder="password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
                 className="bg-white border-gray-300 text-gray-900 placeholder:text-gray-400"
               />
             </div>
           </CardContent>
 
           <CardFooter className={styles.footer}>
-            <Button className={styles.button}>Sign In</Button>
+            <Button className={styles.button} disabled={loading}>
+              {loading ? "Signing in..." : "Sign In"}
+            </Button>
           </CardFooter>
         </Card>
 

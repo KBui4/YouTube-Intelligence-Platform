@@ -1,3 +1,4 @@
+import json
 import os
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
@@ -205,6 +206,25 @@ def get_video_claims(video_id: str):
 
     return execute(sql, (video_id,), fetch_all=True)
 
+@app.get("/videos-claims")
+def get_videos_claims():
+    sql = """
+        SELECT
+            v.video_id,
+            v.title AS video_title,
+            v.published_at AS video_published_at,
+            v.channel_name,
+            v.views,
+            v.video_url,
+            c.claim_id,
+            c.claim_text
+        FROM claims c
+        JOIN video_data v
+            ON c.video_id = v.video_id
+        ORDER BY v.published_at DESC
+    """
+    return execute(sql, fetch_all=True)
+
 @app.get("/claims/{claim_id}")
 def get_claim(claim_id: int):
 
@@ -298,6 +318,19 @@ def create_comment(payload: Comment):
     return {"status": "inserted"}
   else:
     return {"status": "skipped"}
+
+@app.post("/comments/lookup")
+def lookup_comment(payload: dict):
+  sql = """
+    SELECT comment_id
+    FROM comments
+    WHERE video_id = %s
+      AND author = %s
+      AND comment_text = %s;
+  """
+
+  row = execute(sql, (payload["video_id"], payload["author"], payload["text"]), fetch_one=True)
+  return row or {}
 
 @app.post("/claims", response_model=ClaimRead)
 def create_claim(payload: Claim):
@@ -407,3 +440,142 @@ def get_narrative_claim_video(narrative_id: int):
     WHERE narrative_id = %s
   """
   return execute(sql, (narrative_id,), fetch_all=True)
+
+@app.get("/narratives-trends")
+def get_narrative_trends():
+    sql = """
+        SELECT
+            narrative_id,
+            narrative_text,
+            claim_date,
+            claims_on_date,
+            claims_7d_avg
+        FROM narrative_trends_view
+        ORDER BY narrative_id, claim_date;
+    """
+    return execute(sql, fetch_all=True)
+
+@app.patch("/videos/{video_id}/sentiment")
+def update_video_sentiment(video_id: str, data: dict):
+  sentiment_label = data.get("sentiment_label")
+  sentiment_score = data.get("sentiment_score")
+  summary = data.get("summary")
+  highlight_tokens = data.get("highlightTokens")
+
+  query = """
+    UPDATE video_data
+    SET sentiment_label = %s,
+        sentiment_score = %s,
+        sentiment_summary = %s,
+        sentiment_highlight_tokens = %s
+    WHERE video_id = %s
+    RETURNING video_id;
+  """
+
+  row = execute(
+    query,
+    (
+      sentiment_label,
+      sentiment_score,
+      summary,
+      json.dumps(highlight_tokens) if highlight_tokens else None,
+      video_id
+    ),
+    fetch_one=True
+  )
+
+  if row:
+    return {"status": "updated"}
+  return {"status": "skipped"}
+
+@app.patch("/comments/{comment_id}/sentiment")
+def update_comment_sentiment(comment_id: int, data: dict):
+  sentiment_label = data.get("sentiment_label")
+  sentiment_score = data.get("sentiment_score")
+  highlight_tokens = data.get("highlightTokens")
+
+  query = """
+    UPDATE comments
+    SET sentiment_label = %s,
+        sentiment_score = %s,
+        sentiment_highlight_tokens = %s
+    WHERE comment_id = %s
+    RETURNING comment_id;
+  """
+
+  row = execute(
+    query,
+    (
+      sentiment_label,
+      sentiment_score,
+      json.dumps(highlight_tokens) if highlight_tokens else None,
+      comment_id
+    ),
+    fetch_one=True
+  )
+
+  if row:
+    return {"status": "updated"}
+  return {"status": "skipped"}
+
+@app.get("/videos/sentiment")
+def get_videos_sentiment(limit: int = 20, offset: int = 0):
+    sql = """
+      SELECT
+        video_id,
+        title,
+        channel_name,
+        published_at,
+        video_url,
+        sentiment_label,
+        sentiment_score
+      FROM video_data
+      WHERE sentiment_label IS NOT NULL
+      ORDER BY published_at DESC
+      LIMIT %s OFFSET %s;
+    """
+
+    videos = execute(sql, (limit, offset), fetch_all=True)
+    return videos
+
+@app.get("/videos/{video_id}/sentiment")
+def get_video_detail(video_id: str, comment_limit: int = 50):
+    sql_video = """
+      SELECT
+        video_id,
+        title,
+        channel_name,
+        published_at,
+        video_url,
+        transcript,
+        sentiment_label,
+        sentiment_score,
+        sentiment_summary,
+        sentiment_highlight_tokens
+      FROM video_data
+      WHERE video_id = %s
+        AND sentiment_label IS NOT NULL;
+    """
+
+    video = execute(sql_video, (video_id,), fetch_one=True)
+
+    if not video:
+        return {"error": "No sentiment data for this video"}
+
+    sql_comments = """
+      SELECT
+        comment_id,
+        author,
+        comment_text,
+        sentiment_label,
+        sentiment_score,
+        sentiment_highlight_tokens
+      FROM comments
+      WHERE video_id = %s
+        AND sentiment_label IS NOT NULL
+      ORDER BY published_at DESC
+      LIMIT %s;
+    """
+
+    video["comments"] = execute(sql_comments, (video_id, comment_limit), fetch_all=True)
+    return video
