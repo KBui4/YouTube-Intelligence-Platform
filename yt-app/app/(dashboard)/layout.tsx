@@ -15,7 +15,7 @@ export default function DashboardLayout({
   const [sidebarOpen, setSidebarOpen] = useState(true);
 
   const navigation = [
-    { name: 'Dashboard', href: '/', icon: LayoutDashboard },
+    { name: 'Claims', href: '/', icon: LayoutDashboard },
     { name: 'Narratives', href: '/narratives', icon: FileText },
     { name: 'Sentiments', href: '/sentiment', icon: Gauge },
     { name: 'Settings', href: '/settings', icon: Settings },

@@ -61,6 +61,7 @@ function highlightTranscript(text: string | null, tokens: HighlightToken[] | nul
   return html;
 }
 
+// ⭐ Score formatting helper
 function formatScore(label: string | null, score: number | null) {
   if (score == null) return "N/A";
   const abs = Math.abs(score).toFixed(3);
@@ -82,12 +83,18 @@ export default function SentimentPage() {
       );
       const data: VideoMeta[] = await res.json();
 
+      // Normalize labels
       const normalized = data.map((v) => ({
         ...v,
         sentiment_label: v.sentiment_label?.toLowerCase() ?? null,
       }));
 
-      setVideos((prev) => [...prev, ...normalized]);
+      // Deduplicate by video_id
+      setVideos((prev) => {
+        const merged = [...prev, ...normalized];
+        const unique = Array.from(new Map(merged.map((v) => [v.video_id, v])).values());
+        return unique;
+      });
     }
     load();
   }, [offset]);
@@ -99,6 +106,7 @@ export default function SentimentPage() {
       `${process.env.NEXT_PUBLIC_API_URL}/videos/${videoId}/sentiment?comment_limit=50`
     );
     const data: VideoDetail = await res.json();
+
     data.sentiment_label = data.sentiment_label?.toLowerCase() ?? null;
 
     setDetails((prev) => ({ ...prev, [videoId]: data }));
@@ -141,7 +149,7 @@ export default function SentimentPage() {
       </div>
 
       <div className="space-y-8">
-        {filteredVideos.map((video) => {
+        {filteredVideos.map((video, index) => {
           const detail = details[video.video_id];
           const embedVideoId =
             video.video_url?.split("v=")[1]?.split("&")[0] ||
@@ -149,7 +157,7 @@ export default function SentimentPage() {
 
           return (
             <div
-              key={video.video_id}
+              key={`${video.video_id}-${index}`}
               className="bg-white border rounded-lg p-6 shadow-sm"
             >
               <div className="flex items-center gap-3">
