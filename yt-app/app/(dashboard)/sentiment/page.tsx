@@ -136,7 +136,7 @@ export default function SentimentPage() {
         {["all", "positive", "negative", "neutral"].map((f) => (
           <button
             key={f}
-            onClick={() => setFilter(f as any)}
+            onClick={() => setFilter(f as "all" | "positive" | "negative" | "neutral")}
             className={`px-3 py-1 rounded text-sm border ${
               filter === f
                 ? "bg-purple-600 text-white border-purple-600"

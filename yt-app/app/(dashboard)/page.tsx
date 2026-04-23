@@ -1,6 +1,9 @@
 'use client';
 
 import { useEffect, useMemo, useState } from "react";
+import { useRouter } from "next/navigation";
+import { onAuthStateChanged } from "firebase/auth";
+import { auth } from "@/app/lib/firebase";
 import { Clock3 } from 'lucide-react';
 import { YouTubeEmbed } from '@next/third-parties/google';
 
@@ -31,36 +34,45 @@ type VideoWithClaims = {
 type SortOption = 'newest' | 'oldest' | 'most_popular';
 
 export default function Page() {
+  const router = useRouter();
+  const [authChecked, setAuthChecked] = useState(false);
   const [rows, setRows] = useState<NarrativeClaimVideoRow[]>([]);
   const [sortBy, setSortBy] = useState<SortOption>('newest');
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
   useEffect(() => {
+    const unsub = onAuthStateChanged(auth, (user) => {
+      if (!user) {
+        router.replace("/signup");
+      } else {
+        setAuthChecked(true);
+      }
+    });
+    return () => unsub();
+  }, [router]);
+
+  useEffect(() => {
+    if (!authChecked) return;
     async function fetchVideoClaims() {
       try {
         const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/videos-claims`);
         const data = await res.json();
         setRows(data);
-      } catch (err) {
-        console.error("Error fetching dashboard data:", err);
-      }
+      } catch (err) {}
     }
-
     fetchVideoClaims();
-  }, []);
+  }, [authChecked]);
 
   function formatDate(dateString: string | null) {
     if (!dateString) return 'Unknown date';
-
     const date = new Date(dateString);
     if (isNaN(date.getTime())) return 'Unknown date';
-
     return date.toLocaleDateString();
   }
 
   const videos = useMemo(() => {
+    if (!authChecked) return [];
     const videoMap = new Map<string, VideoWithClaims>();
-
     rows.forEach((row) => {
       if (!videoMap.has(row.video_id)) {
         videoMap.set(row.video_id, {
@@ -73,9 +85,7 @@ export default function Page() {
           claims: [],
         });
       }
-
       const video = videoMap.get(row.video_id)!;
-
       if (row.claim_text) {
         video.claims.push({
           claim: row.claim_text,
@@ -83,22 +93,26 @@ export default function Page() {
         });
       }
     });
-
     const groupedVideos = Array.from(videoMap.values());
-
     groupedVideos.sort((a, b) => {
       const aTime = a.video_published_at ? new Date(a.video_published_at).getTime() : 0;
       const bTime = b.video_published_at ? new Date(b.video_published_at).getTime() : 0;
       const aViews = a.views ?? 0;
       const bViews = b.views ?? 0;
-
       if (sortBy === 'oldest') return aTime - bTime;
       if (sortBy === 'most_popular') return bViews - aViews;
       return bTime - aTime;
     });
-
     return groupedVideos;
-  }, [rows, sortBy]);
+  }, [rows, sortBy, authChecked]);
+
+  if (!authChecked) {
+    return (
+      <div className="flex items-center justify-center h-screen text-black">
+        Checking authentication...
+      </div>
+    );
+  }
 
   const sortLabel =
     sortBy === 'oldest'
@@ -112,9 +126,7 @@ export default function Page() {
       <div className="flex items-start justify-between gap-4">
         <div>
           <h1 className="text-2xl text-black font-semibold">Dashboard Overview</h1>
-          <p className="text-black mt-1">
-            Browse videos and the claims connected to each one.
-          </p>
+          <p className="text-black mt-1">Browse videos and the claims connected to each one.</p>
         </div>
 
         <div className="relative">
@@ -166,9 +178,7 @@ export default function Page() {
           <Clock3 className="text-purple-600" />
           <div>
             <h2 className="font-semibold text-lg text-black">Videos</h2>
-            <p className="text-black text-sm">
-              Videos and their related claims
-            </p>
+            <p className="text-black text-sm">Videos and their related claims</p>
           </div>
         </div>
 
@@ -231,9 +241,7 @@ export default function Page() {
                           </div>
                         ))
                       ) : (
-                        <p className="text-sm text-gray-500">
-                          no claims on this video
-                        </p>
+                        <p className="text-sm text-gray-500">no claims on this video</p>
                       )}
                     </div>
                   </div>
