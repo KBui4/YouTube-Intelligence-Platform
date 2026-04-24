@@ -24,7 +24,7 @@ COMMENTS_FILE     = os.getenv("COMMENTS_FILE",     "/data/comments.json").strip(
 SENTIMENT_FILE    = os.getenv("SENTIMENT_FILE",    "/data/sentiment.json").strip()
 SENTIMENT_STATUS  = os.getenv("SENTIMENT_STATUS_FILE", "/data/sentiment_status.json").strip()
 
-DAILY_LIMIT       = int(os.getenv("SENTIMENT_DAILY_LIMIT", "50"))
+DAILY_LIMIT       = int(os.getenv("SENTIMENT_DAILY_LIMIT", "100"))
 SAVE_EVERY        = int(os.getenv("SENTIMENT_SAVE_EVERY", "5"))
 OLLAMA_TIMEOUT    = int(os.getenv("OLLAMA_TIMEOUT", "180"))
 OLLAMA_RETRIES    = 3
