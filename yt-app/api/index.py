@@ -407,3 +407,33 @@ def get_narrative_claim_video(narrative_id: int):
     WHERE narrative_id = %s
   """
   return execute(sql, (narrative_id,), fetch_all=True)
+
+
+@app.get("/videos/with-claims", response_model=list[VideoData])
+def get_videos_with_claims(
+    sort: str = "newest",
+    limit: int = 50,
+    offset: int = 0
+):
+
+ 
+    if sort == "oldest":
+        order_by = "vd.published_at ASC"
+    elif sort == "most_popular":
+        order_by = "vd.views DESC"
+    else:
+        order_by = "vd.published_at DESC"  
+
+    sql = f"""
+        SELECT *
+        FROM video_data vd
+        WHERE EXISTS (
+            SELECT 1
+            FROM claims c
+            WHERE c.video_id = vd.video_id
+        )
+        ORDER BY {order_by}
+        LIMIT %s OFFSET %s;
+    """
+
+    return execute(sql, (limit, offset), fetch_all=True)
