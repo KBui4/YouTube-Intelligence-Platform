@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { Clock3 } from 'lucide-react';
 import { YouTubeEmbed } from '@next/third-parties/google';
+import { useSearch } from '@/app/context/SearchContext';
 
 const API_URL =
   process.env.NEXT_PUBLIC_API_URL || 'https://youtube-intelligence-platform-api.onrender.com';
@@ -41,61 +42,69 @@ export default function Page() {
   const [page, setPage] = useState(1);
   const [loading, setLoading] = useState(true);
   const [hasMore, setHasMore] = useState(false);
+  const [expandedVideos, setExpandedVideos] = useState<Record<string, boolean>>({});
+  const search = useSearch();
 
   useEffect(() => {
-    async function fetchVideosAndClaims() {
-      try {
-        setLoading(true);
+  async function fetchVideosAndClaims() {
+    try {
+      setLoading(true);
 
-        const offset = (page - 1) * PAGE_SIZE;
+      const offset = (page - 1) * PAGE_SIZE;
 
-        const videosRes = await fetch(
-          `${API_URL}/videos?limit=${PAGE_SIZE}&offset=${offset}`
-        );
+      
+      const videosRes = await fetch(
+        `${API_URL}/videos/with-claims?sort=${sortBy}&limit=${PAGE_SIZE}&offset=${offset}`
+      );
 
-        if (!videosRes.ok) {
-          throw new Error('Failed to fetch videos');
-        }
-
-        const videosData: VideoRow[] = await videosRes.json();
-        setHasMore(videosData.length === PAGE_SIZE);
-
-        const videosWithClaims = await Promise.all(
-          videosData.map(async (video) => {
-            try {
-              const claimsRes = await fetch(`${API_URL}/videos/${video.video_id}/claims`);
-
-              if (!claimsRes.ok) {
-                throw new Error(`Failed to fetch claims for video ${video.video_id}`);
-              }
-
-              const claimsData: ClaimRow[] = await claimsRes.json();
-
-              return {
-                ...video,
-                claims: claimsData,
-              };
-            } catch (err) {
-              console.error(err);
-
-              return {
-                ...video,
-                claims: [],
-              };
-            }
-          })
-        );
-
-        setRows(videosWithClaims);
-      } catch (err) {
-        console.error('Error fetching dashboard data:', err);
-      } finally {
-        setLoading(false);
+      if (!videosRes.ok) {
+        throw new Error("Failed to fetch videos");
       }
-    }
 
-    fetchVideosAndClaims();
-  }, [page]);
+      const videosData = await videosRes.json();
+
+      setHasMore(videosData.length === PAGE_SIZE);
+
+      const videosWithClaims = await Promise.all(
+        videosData.map(async (video: any) => {
+          try {
+            const claimsRes = await fetch(
+              `${API_URL}/videos/${video.video_id}/claims`
+            );
+
+            if (!claimsRes.ok) throw new Error();
+
+            const claimsData = await claimsRes.json();
+
+            return {
+              ...video,
+              claims: claimsData, 
+            };
+          } catch (err) {
+            return {
+              ...video,
+              claims: [],
+            };
+          }
+        })
+      );
+
+      
+      setRows(videosWithClaims);
+
+    } catch (err) {
+      console.error("Error fetching dashboard data:", err);
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  fetchVideosAndClaims();
+}, [page, sortBy]);
+
+  useEffect(() => {
+    setPage(1);
+  }, [sortBy]);
 
   function formatDate(dateString: string | null) {
     if (!dateString) return 'Unknown date';
@@ -106,28 +115,22 @@ export default function Page() {
     return date.toLocaleDateString();
   }
 
-  const videos = useMemo(() => {
-    const sortedVideos = [...rows];
+  // const videos = useMemo(() => {
+  //   const sortedVideos = [...rows];
 
-    sortedVideos.sort((a, b) => {
-      const aTime = a.published_at ? new Date(a.published_at).getTime() : 0;
-      const bTime = b.published_at ? new Date(b.published_at).getTime() : 0;
-      const aViews = a.views ?? 0;
-      const bViews = b.views ?? 0;
+  //   sortedVideos.sort((a, b) => {
+  //     const aTime = a.published_at ? new Date(a.published_at).getTime() : 0;
+  //     const bTime = b.published_at ? new Date(b.published_at).getTime() : 0;
+  //     const aViews = a.views ?? 0;
+  //     const bViews = b.views ?? 0;
 
-      if (sortBy === 'oldest') {
-        return aTime - bTime;
-      }
+  //     if (sortBy === 'oldest') return aTime - bTime;
+  //     if (sortBy === 'most_popular') return bViews - aViews;
+  //     return bTime - aTime;
+  //   });
 
-      if (sortBy === 'most_popular') {
-        return bViews - aViews;
-      }
-
-      return bTime - aTime;
-    });
-
-    return sortedVideos;
-  }, [rows, sortBy]);
+  //   return sortedVideos;
+  // }, [rows, sortBy]);
 
   const sortLabel =
     sortBy === 'oldest'
@@ -145,13 +148,24 @@ export default function Page() {
     } else {
       pages.push(1, "...");
       pages.push(page - 1, page, page + 1);
-      if (hasMore) {
-        pages.push("...");
-      }
+      if (hasMore) pages.push("...");
     }
 
     return [...new Set(pages)].filter((p) => typeof p !== "number" || p > 0);
   })();
+
+
+  const filteredRows = rows.filter((video) => {
+  const query = (search || '').toLowerCase();
+
+  return (
+    video.title?.toLowerCase().includes(query) ||
+    video.channel_name?.toLowerCase().includes(query) ||
+    video.claims?.some((claim) =>
+      claim.claim_text.toLowerCase().includes(query)
+    )
+  );
+});
 
   return (
     <div className="space-y-6">
@@ -219,78 +233,91 @@ export default function Page() {
         </div>
 
         {loading ? (
-          <p className="text-gray-600">Loading videos...</p>
-        ) : (
-          <div className="space-y-8">
-            {videos.map((video) => {
+            <p className="text-gray-600">Loading videos...</p>
+          ) : (
+            <>
+              {filteredRows.length === 0 && (
+                <p className="text-gray-500">No videos match your search</p>
+              )}
+
+              <div className="grid md:grid-cols-2 gap-6">
+            {filteredRows.map((video) => {
               const embedVideoId =
                 video.video_url?.split('v=')[1]?.split('&')[0] || video.video_id;
 
               return (
                 <div
                   key={video.video_id}
-                  className="border border-gray-200 rounded-lg p-5"
+                  className="bg-white border border-gray-200 rounded-lg p-4 space-y-4"
                 >
-                  <div className="grid lg:grid-cols-[380px_1fr] gap-6">
-                    <div>
-                      {embedVideoId ? (
-                        <div className="rounded-lg overflow-hidden">
-                          <YouTubeEmbed
-                            videoid={embedVideoId}
-                            height={220}
-                            width={370}
-                          />
-                        </div>
-                      ) : (
-                        <div className="h-[220px] flex items-center justify-center bg-gray-100 rounded">
-                          <span className="text-sm text-gray-500">Video unavailable</span>
-                        </div>
-                      )}
+                  {embedVideoId ? (
+                    <YouTubeEmbed videoid={embedVideoId} />
+                  ) : (
+                    <div className="h-[220px] flex items-center justify-center bg-gray-100 rounded">
+                      <span className="text-sm text-gray-500">Video unavailable</span>
                     </div>
+                  )}
 
-                    <div>
-                      <h3 className="text-gray-900 font-semibold text-lg">
-                        {video.title || 'Untitled Video'}
-                      </h3>
+                  <div>
+                    <h3 className="font-semibold text-gray-900">
+                      {video.title || 'Untitled Video'}
+                    </h3>
 
-                      <p className="text-sm text-gray-600 mt-1">
-                        {video.channel_name || 'Unknown channel'}
-                      </p>
+                    <p className="text-sm text-gray-600">
+                      {video.channel_name || 'Unknown channel'}
+                    </p>
 
-                      <p className="text-sm text-gray-500 mt-1 mb-4">
-                        {formatDate(video.published_at)}
-                        {video.views !== null && video.views !== undefined
-                          ? ` • ${video.views.toLocaleString()} views`
-                          : ''}
-                      </p>
+                    <p className="text-sm text-gray-500">
+                      {formatDate(video.published_at)}
+                      {video.views !== null && video.views !== undefined
+                        ? ` • ${video.views.toLocaleString()} views`
+                        : ''}
+                    </p>
+                  </div>
 
-                      <div className="space-y-3">
-                        {video.claims.length > 0 ? (
-                          video.claims.map((claimItem, index) => (
-                            <div
-                              key={claimItem.claim_id ?? `${video.video_id}-${index}`}
-                              className="bg-gray-50 rounded-md p-3"
+                  <div>
+                    <h4 className="font-semibold text-gray-900 mb-2">Claims</h4>
+
+                    {video.claims && video.claims.length > 0 ? (
+                      <div>
+                        <ul className="list-disc pl-5 space-y-1 text-sm text-gray-700">
+                          {(expandedVideos[video.video_id]
+                            ? video.claims
+                            : video.claims.slice(0, 2)
+                          ).map((claim) => (
+                            <li key={claim.claim_id}>{claim.claim_text}</li>
+                          ))}
+                        </ul>
+
+                        {video.claims.length > 2 && (
+                          <div className="flex justify-center mt-3">
+                            <button
+                              onClick={() =>
+                                setExpandedVideos((prev) => ({
+                                  ...prev,
+                                  [video.video_id]: !prev[video.video_id],
+                                }))
+                              }
+                              className="text-blue-600 hover:text-blue-800 text-sm font-medium"
                             >
-                              <p className="text-sm font-medium text-gray-700 mb-1">
-                                Claim {index + 1}
-                              </p>
-                              <p className="text-gray-800 text-sm">
-                                {claimItem.claim_text}
-                              </p>
-                            </div>
-                          ))
-                        ) : (
-                          <p className="text-sm text-gray-500">
-                            No claims on this video
-                          </p>
+                              {expandedVideos[video.video_id]
+                                ? "Hide extra claims ▲"
+                                : `Show ${video.claims.length - 2} more claim(s) ▼`}
+                            </button>
+                          </div>
                         )}
                       </div>
-                    </div>
+                    ) : (
+                      <p className="text-sm text-gray-500">
+                        No claims on this video
+                      </p>
+                    )}
                   </div>
                 </div>
               );
             })}
           </div>
+          </>
         )}
 
         <div className="flex items-center justify-center gap-2 mt-8 flex-wrap">

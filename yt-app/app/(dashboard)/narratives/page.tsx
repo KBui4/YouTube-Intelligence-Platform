@@ -13,6 +13,9 @@ import {
   ResponsiveContainer,
   Legend
 } from 'recharts';
+import { useSearch } from '@/app/context/SearchContext';
+import { highlightText } from '@/app/utils/highlightText';
+
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL;
 
@@ -51,6 +54,7 @@ const narrativeColors = [
 ];
 
 export default function Page() {
+  const search = useSearch();
   const [narratives, setNarratives] = useState<NarrativeWithVideoCount[]>([]);
   const [narrativeClaimVideoData, setNarrativeClaimVideoData] = useState<NarrativeClaimVideo[]>([]);
   const [selectedNarratives, setSelectedNarratives] = useState<string[]>([]);
@@ -187,6 +191,29 @@ export default function Page() {
     });
   }, [narratives, narrativeClaimVideoData]);
 
+  const filteredNarratives = narratives.filter((narrative) =>
+    narrative.narrative_text
+      .toLowerCase()
+      .includes((search || '').toLowerCase())
+  );
+
+  const totalNarratives = narratives.length;
+
+  const totalVideos = new Set(
+    narrativeClaimVideoData.map(row => row.video_id)
+  ).size;
+
+  const totalClaims = narrativeClaimVideoData.length;
+
+  const avgClaimsPerVideo =
+    totalVideos > 0 ? (totalClaims / totalVideos).toFixed(1) : 0;
+
+  const topNarrative = [...narratives].sort(
+    (a, b) => b.video_count - a.video_count
+  )[0];
+
+
+
   return (
     <div className="space-y-6">
       <div>
@@ -210,8 +237,12 @@ export default function Page() {
             </div>
           </div>
 
+          {filteredNarratives.length === 0 && (
+            <p className="text-gray-500">No narratives found</p>
+          )}
+
           <ul className="space-y-3">
-            {narratives.map((narrative) => (
+            {filteredNarratives.map((narrative) => (
               <li key={narrative.narrative_id}>
                 <Link
                   href={`/narratives/${narrative.narrative_id}`}
@@ -225,7 +256,7 @@ export default function Page() {
 
                     <div>
                       <span className="text-gray-800 font-medium">
-                        {narrative.narrative_text}
+                        {highlightText(narrative.narrative_text, search)}
                       </span>
                     </div>
                   </div>
@@ -276,7 +307,7 @@ export default function Page() {
             </div>
           </div>
 
-          <ResponsiveContainer width="100%" height={320}>
+          <ResponsiveContainer width="100%" height={350}>
             <LineChart data={graphData}>
               <CartesianGrid strokeDasharray="3 3" />
               <XAxis dataKey="month" />
@@ -299,6 +330,51 @@ export default function Page() {
                 ))}
             </LineChart>
           </ResponsiveContainer>
+
+          <div className="mt-6 border-t pt-4 space-y-4">
+
+            
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+
+              <div>
+                <p className="text-xs text-gray-500">Narratives</p>
+                <p className="text-lg font-semibold text-black">{totalNarratives}</p>
+              </div>
+
+              <div>
+                <p className="text-xs text-gray-500">Videos</p>
+                <p className="text-lg font-semibold text-black">{totalVideos}</p>
+              </div>
+
+              <div>
+                <p className="text-xs text-gray-500">Claims</p>
+                <p className="text-lg font-semibold text-black">{totalClaims}</p>
+              </div>
+
+              <div>
+                <p className="text-xs text-gray-500">Avg / Video</p>
+                <p className="text-lg font-semibold text-black">{avgClaimsPerVideo}</p>
+              </div>
+
+            </div>
+
+            {/* Top Narrative */}
+            {topNarrative && (
+              <div className="pt-4 border-t">
+                <p className="text-xs text-gray-500 mb-1">Top Narrative</p>
+
+                <p className="text-sm font-medium text-gray-800 line-clamp-3">
+                  {topNarrative.narrative_text}
+                </p>
+
+                <p className="text-xs text-gray-500 mt-1">
+                  {topNarrative.video_count} videos
+                </p>
+              </div>
+            )}
+
+          </div>
+
         </div>
       </div>
     </div>
