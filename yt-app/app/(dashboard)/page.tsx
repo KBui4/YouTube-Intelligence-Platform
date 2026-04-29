@@ -2,8 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
-import { onAuthStateChanged } from "firebase/auth";
-import { auth } from "@/app/auth/firebase";
+import { hasAuthSession } from "@/app/auth/api";
 import { Clock3 } from 'lucide-react';
 import { YouTubeEmbed } from '@next/third-parties/google';
 
@@ -41,14 +40,12 @@ export default function Page() {
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
   useEffect(() => {
-    const unsub = onAuthStateChanged(auth, (user) => {
-      if (!user) {
-        router.replace("/signup");
-      } else {
-        setAuthChecked(true);
-      }
-    });
-    return () => unsub();
+    if (!hasAuthSession()) {
+      router.replace("/signup");
+      return;
+    }
+
+    setAuthChecked(true);
   }, [router]);
 
   useEffect(() => {

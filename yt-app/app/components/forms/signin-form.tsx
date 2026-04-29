@@ -3,8 +3,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { signInWithEmailAndPassword } from "firebase/auth";
-import { auth } from "@/app/auth/firebase";
+import { signInWithApi } from "@/app/auth/api";
 
 import {
   CardTitle,
@@ -46,10 +45,10 @@ export function SigninForm() {
     setError("");
 
     try {
-      await signInWithEmailAndPassword(auth, email, password);
+      await signInWithApi(email, password);
       router.replace("/"); 
-    } catch (err: any) {
-      setError(err.message || "Failed to sign in");
+    } catch (err: unknown) {
+      setError(err instanceof Error ? err.message : "Failed to sign in");
     } finally {
       setLoading(false);
     }

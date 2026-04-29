@@ -3,8 +3,9 @@
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { createUserWithEmailAndPassword, onAuthStateChanged } from "firebase/auth";
-import { auth } from "@/app/auth/firebase";
+import { toast } from "sonner";
+import { Check, X } from "lucide-react";
+import { hasAuthSession, signUpWithApi } from "@/app/auth/api";
 
 import {
   CardTitle,
@@ -32,6 +33,25 @@ const styles = {
   link: "ml-2 text-gray-900 hover:text-black font-medium",
 };
 
+const passwordRequirements = [
+  {
+    label: "At least 8 characters",
+    isValid: (value: string) => value.length >= 8,
+  },
+  {
+    label: "At least 1 capital letter",
+    isValid: (value: string) => /[A-Z]/.test(value),
+  },
+  {
+    label: "At least 1 special character",
+    isValid: (value: string) => /[^A-Za-z0-9]/.test(value),
+  },
+];
+
+function validatePassword(password: string) {
+  return passwordRequirements.find((requirement) => !requirement.isValid(password))?.label || "";
+}
+
 export function SignupForm() {
   const router = useRouter();
 
@@ -42,27 +62,33 @@ export function SignupForm() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
-  // 🔐 Redirect logged-in users away from signup
   useEffect(() => {
-    const unsub = onAuthStateChanged(auth, (user) => {
-      if (user) router.replace("/");
-    });
-    return () => unsub();
+    if (hasAuthSession()) {
+      router.replace("/");
+    }
   }, [router]);
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    setLoading(true);
     setError("");
 
+    const passwordError = validatePassword(password);
+    if (passwordError) {
+      setError(passwordError);
+      toast.error(passwordError);
+      return;
+    }
+
+    setLoading(true);
+
     try {
-      await createUserWithEmailAndPassword(auth, email, password);
-
-      // Optional: Save username to Firestore here if needed
-
-      router.replace("/"); // redirect to dashboard
-    } catch (err: any) {
-      setError(err.message || "Failed to create account");
+      await signUpWithApi(email, password);
+      toast.success("Account created.");
+      router.replace("/");
+    } catch (err: unknown) {
+      const message = err instanceof Error ? err.message : "Failed to create account";
+      setError(message);
+      toast.error(message);
     } finally {
       setLoading(false);
     }
@@ -127,6 +153,27 @@ export function SignupForm() {
                 onChange={(e) => setPassword(e.target.value)}
                 className="bg-white border-gray-300 text-gray-900 placeholder:text-gray-400"
               />
+              <div className="space-y-1 pt-1">
+                {passwordRequirements.map((requirement) => {
+                  const met = requirement.isValid(password);
+
+                  return (
+                    <div
+                      key={requirement.label}
+                      className={`flex items-center gap-2 text-sm ${
+                        met ? "text-green-700" : "text-gray-500"
+                      }`}
+                    >
+                      {met ? (
+                        <Check className="h-4 w-4" aria-hidden="true" />
+                      ) : (
+                        <X className="h-4 w-4" aria-hidden="true" />
+                      )}
+                      <span>{requirement.label}</span>
+                    </div>
+                  );
+                })}
+              </div>
             </div>
           </CardContent>
 
