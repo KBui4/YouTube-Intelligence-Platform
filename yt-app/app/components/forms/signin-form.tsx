@@ -1,12 +1,13 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 
-import { signInWithEmailAndPassword } from "firebase/auth";
+import { signInWithEmailAndPassword, onAuthStateChanged } from "firebase/auth";
 import { auth } from "@/app/auth/firebase";
+import { FirebaseError } from "firebase/app";
 
 import {
   CardTitle,
@@ -16,7 +17,6 @@ import {
   CardFooter,
   Card,
 } from "@/app/components/ui/card";
-
 import { Label } from "@/app/components/ui/label";
 import { Input } from "@/app/components/ui/input";
 import { Button } from "@/app/components/ui/button";
@@ -39,11 +39,17 @@ const styles = {
 
 export function SigninForm() {
   const router = useRouter();
-
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
+
+  useEffect(() => {
+    const unsub = onAuthStateChanged(auth, (user) => {
+      if (user) router.replace("/");
+    });
+    return () => unsub();
+  }, [router]);
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -52,34 +58,26 @@ export function SigninForm() {
 
     try {
       await signInWithEmailAndPassword(auth, email, password);
-      router.replace("/");
+      router.replace("/claims");
     } catch (err) {
-      if (err instanceof Error) {
-        setError(err.message)
+      if (err instanceof FirebaseError) {
+        setError(err.message);
       } else {
-        setError("Failed to sign in")
+        setError("Failed to sign in");
       }
     } finally {
       setLoading(false);
     }
   }
 
-  // Their back button logic
   const handleBack = () => {
-    if (window.history.length > 1) {
-      router.back();
-    } else {
-      router.push("/");
-    }
+    if (window.history.length > 1) router.back();
+    else router.push("/");
   };
 
   return (
     <div className={styles.wrapper}>
-      <button
-        type="button"
-        onClick={handleBack}
-        className={styles.backButton}
-      >
+      <button type="button" onClick={handleBack} className={styles.backButton}>
         <ArrowLeft className="w-5 h-5" />
         <span>Back</span>
       </button>
@@ -95,9 +93,7 @@ export function SigninForm() {
             </CardHeader>
 
             <CardContent className={styles.content}>
-              {error && (
-                <p className="text-red-600 text-sm mb-2">{error}</p>
-              )}
+              {error && <p className="text-red-600 text-sm mb-2">{error}</p>}
 
               <div className={styles.fieldGroup}>
                 <Label className="text-gray-700" htmlFor="email">
@@ -105,7 +101,6 @@ export function SigninForm() {
                 </Label>
                 <Input
                   id="email"
-                  name="email"
                   type="email"
                   placeholder="email"
                   value={email}
@@ -120,7 +115,6 @@ export function SigninForm() {
                 </Label>
                 <Input
                   id="password"
-                  name="password"
                   type="password"
                   placeholder="password"
                   value={password}

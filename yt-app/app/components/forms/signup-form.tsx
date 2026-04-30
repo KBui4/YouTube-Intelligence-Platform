@@ -5,8 +5,12 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 
-import { createUserWithEmailAndPassword, onAuthStateChanged } from "firebase/auth";
+import {
+  createUserWithEmailAndPassword,
+  onAuthStateChanged,
+} from "firebase/auth";
 import { auth } from "@/app/auth/firebase";
+import { FirebaseError } from "firebase/app";
 
 import {
   CardTitle,
@@ -16,10 +20,10 @@ import {
   CardFooter,
   Card,
 } from "@/app/components/ui/card";
-
 import { Label } from "@/app/components/ui/label";
 import { Input } from "@/app/components/ui/input";
 import { Button } from "@/app/components/ui/button";
+import { toast } from "sonner";
 
 const styles = {
   wrapper: "w-full max-w-md",
@@ -53,12 +57,13 @@ const passwordRequirements = [
 ];
 
 function validatePassword(password: string) {
-  return passwordRequirements.find((requirement) => !requirement.isValid(password))?.label || "";
+  return (
+    passwordRequirements.find((req) => !req.isValid(password))?.label || ""
+  );
 }
 
 export function SignupForm() {
   const router = useRouter();
-
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -66,9 +71,10 @@ export function SignupForm() {
   const [error, setError] = useState("");
 
   useEffect(() => {
-    if (hasAuthSession()) {
-      router.replace("/");
-    }
+    const unsubscribe = onAuthStateChanged(auth, (user) => {
+      if (user) router.replace("/");
+    });
+    return () => unsubscribe();
   }, [router]);
 
   async function handleSubmit(e: React.FormEvent) {
@@ -86,12 +92,14 @@ export function SignupForm() {
 
     try {
       await createUserWithEmailAndPassword(auth, email, password);
-      router.replace("/");
+      router.replace("/claims");
     } catch (err) {
-      if (err instanceof Error) {
-        setError(err.message)
+      if (err instanceof FirebaseError) {
+        setError(err.message);
+        toast.error(err.message);
       } else {
-        setError("Failed to sign in")
+        setError("Failed to create account");
+        toast.error("Failed to create account");
       }
     } finally {
       setLoading(false);
@@ -99,20 +107,13 @@ export function SignupForm() {
   }
 
   const handleBack = () => {
-    if (window.history.length > 1) {
-      router.back();
-    } else {
-      router.push("/");
-    }
+    if (window.history.length > 1) router.back();
+    else router.push("/");
   };
 
   return (
     <div className={styles.wrapper}>
-      <button
-        type="button"
-        onClick={handleBack}
-        className={styles.backButton}
-      >
+      <button type="button" onClick={handleBack} className={styles.backButton}>
         <ArrowLeft className="w-5 h-5" />
         <span>Back</span>
       </button>
@@ -128,9 +129,7 @@ export function SignupForm() {
             </CardHeader>
 
             <CardContent className={styles.content}>
-              {error && (
-                <p className="text-red-600 text-sm mb-2">{error}</p>
-              )}
+              {error && <p className="text-red-600 text-sm mb-2">{error}</p>}
 
               <div className={styles.fieldGroup}>
                 <Label className="text-gray-700" htmlFor="username">
@@ -138,7 +137,6 @@ export function SignupForm() {
                 </Label>
                 <Input
                   id="username"
-                  name="username"
                   type="text"
                   placeholder="username"
                   value={username}
@@ -153,7 +151,6 @@ export function SignupForm() {
                 </Label>
                 <Input
                   id="email"
-                  name="email"
                   type="email"
                   placeholder="name@example.com"
                   value={email}
@@ -168,7 +165,6 @@ export function SignupForm() {
                 </Label>
                 <Input
                   id="password"
-                  name="password"
                   type="password"
                   placeholder="password"
                   value={password}

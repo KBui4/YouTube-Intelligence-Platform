@@ -18,7 +18,7 @@ export default function LandingPage() {
       <section className="max-w-7xl mx-auto px-6 py-20 text-center">
         <div className="mx-auto max-w-3xl">
           <p className="mb-4 inline-flex items-center rounded-full bg-purple-100 px-4 py-2 text-sm font-medium text-purple-700">
-            Health claims, narratives, and video trends in one place
+            Health claims, narratives, and video trends all in one place
           </p>
 
           <h1 className="text-5xl font-bold tracking-tight text-gray-950">
@@ -26,13 +26,13 @@ export default function LandingPage() {
           </h1>
 
           <p className="mt-6 text-lg text-gray-600">
-            Analyze videos, uncover claims, and track how health topics spread
+            Analyze videos, uncover claims, view narratives, and track how health topics spread
             across YouTube content.
           </p>
 
           <div className="mt-8 flex justify-center gap-4">
             <Link
-              href="/"
+              href="/claims"
               className="inline-flex items-center gap-2 rounded-lg bg-gray-900 px-5 py-3 text-white hover:bg-black"
             >
               Explore Dashboard
@@ -58,7 +58,7 @@ export default function LandingPage() {
           </p>
 
           <p className="mt-3 text-gray-600 leading-relaxed">
-            The YouTube Intelligence Platform helps you break down health content at scale.
+            The YouTube Health Intelligence Platform helps you break down health content at scale.
             Instead of manually watching hours of videos, the platform groups 100s of videos into overall narratives, 
             extracts claims from those videos, analyzes the how the videos are recieved based on comments
             , and tracks how ideas spread across YouTube.
@@ -138,7 +138,7 @@ export default function LandingPage() {
           <h2 className="text-3xl font-bold">Why this matters</h2>
           <p className="mt-4 max-w-3xl text-gray-600">
             Health information online spreads quickly. This platform helps users
-            identify recurring claims, compare videos, and better understand how
+            identify recurring claims, compare video sentiment, and better understand how
             health narratives develop across content.
           </p>
         </div>
@@ -153,7 +153,7 @@ export default function LandingPage() {
 
         <div className="mt-8 flex justify-center gap-4">
           <Link
-            href="/"
+            href="/claims"
             className="rounded-lg bg-gray-900 px-5 py-3 text-white hover:bg-black"
           >
             Open Dashboard

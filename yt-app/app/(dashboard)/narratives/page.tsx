@@ -13,7 +13,7 @@ import {
   ResponsiveContainer,
   Legend,
 } from "recharts";
-import { useSearch } from "@/app/context/SearchContext";
+import { useSearch } from "@/app/utils/SearchContext";
 import { highlightText } from "@/app/utils/highlightText";
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL;

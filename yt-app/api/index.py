@@ -8,7 +8,6 @@ from typing import Optional
 from datetime import datetime
 from .auth import configure_firebase_auth
 from .database import execute
-from .firebase_identity import router as firebase_auth_router
 
 app = FastAPI()
 load_dotenv(find_dotenv())
@@ -23,8 +22,6 @@ app.add_middleware(
   allow_methods=["*"],
   allow_headers=["*"],
 )
-
-app.include_router(firebase_auth_router)
 
 # Models
 class VideoData(BaseModel):

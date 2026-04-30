@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { Clock3 } from 'lucide-react';
 import { YouTubeEmbed } from '@next/third-parties/google';
-import { useSearch } from '@/app/context/SearchContext';
+import { useSearch } from '@/app/utils/SearchContext';
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL;
 
@@ -65,7 +65,7 @@ export default function Page() {
       setHasMore(videosData.length === PAGE_SIZE);
 
       const videosWithClaims = await Promise.all(
-        videosData.map(async (video: any) => {
+        videosData.map(async (video: VideoWithClaims) => {
           try {
             const claimsRes = await fetch(
               `${API_URL}/videos/${video.video_id}/claims`
@@ -83,6 +83,7 @@ export default function Page() {
             return {
               ...video,
               claims: [],
+              err,
             };
           }
         })
@@ -252,7 +253,7 @@ export default function Page() {
                   {embedVideoId ? (
                     <YouTubeEmbed videoid={embedVideoId} />
                   ) : (
-                    <div className="h-[220px] flex items-center justify-center bg-gray-100 rounded">
+                    <div className="h-55 flex items-center justify-center bg-gray-100 rounded">
                       <span className="text-sm text-gray-500">Video unavailable</span>
                     </div>
                   )}

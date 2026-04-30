@@ -1,6 +1,5 @@
 import os
 from typing import Any, Optional
-
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.responses import JSONResponse
 from google.auth import exceptions as google_auth_exceptions
@@ -81,7 +80,7 @@ def _verify_firebase_token(token: str, project_id: str) -> dict[str, Any]:
     if not claims:
         raise HTTPException(status_code=401, detail="Invalid Firebase token")
 
-    return claims
+    return dict(claims) 
 
 
 def configure_firebase_auth(app: FastAPI) -> None:
