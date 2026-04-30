@@ -97,7 +97,7 @@ export default function TopicPage() {
                   width={350}
                 />
               ) : (
-                <div className="h-[200px] flex items-center justify-center bg-gray-100 rounded">
+                <div className="h-50 flex items-center justify-center bg-gray-100 rounded">
                   <span className="text-sm text-gray-500">Video unavailable</span>
                 </div>
               )}

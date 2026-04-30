@@ -8,6 +8,7 @@ import { ArrowLeft } from "lucide-react";
 import {
   createUserWithEmailAndPassword,
   onAuthStateChanged,
+  updateProfile,
 } from "firebase/auth";
 import { auth } from "@/app/auth/firebase";
 import { FirebaseError } from "firebase/app";
@@ -91,7 +92,11 @@ export function SignupForm() {
     setLoading(true);
 
     try {
-      await createUserWithEmailAndPassword(auth, email, password);
+      const userCredential = await createUserWithEmailAndPassword(auth, email, password);
+      await updateProfile(userCredential.user, {
+        displayName: username,
+      });
+      toast.success("Account created successfully!");
       router.replace("/claims");
     } catch (err) {
       if (err instanceof FirebaseError) {
