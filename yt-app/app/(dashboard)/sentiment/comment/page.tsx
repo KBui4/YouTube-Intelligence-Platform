@@ -27,14 +27,27 @@ type VideoWithComments = {
   channel_name: string;
   published_at: string;
   video_url: string | null;
+
   comments: Comment[];
+
+  positive_comments: number;
+  negative_comments: number;
+  neutral_comments: number;
+  total_comments: number;
 };
 
 export default function CommentSentimentDashboard() {
   const [videos, setVideos] = useState<VideoWithComments[]>([]);
   const [loading, setLoading] = useState(true);
   const [expanded, setExpanded] = useState<Record<string, boolean>>({});
-  const search = useSearch();
+
+  const [totalVideos, setTotalVideos] = useState(0);
+  const [totalComments, setTotalComments] = useState(0);
+  const [positiveComments, setPositiveComments] = useState(0);
+  const [negativeComments, setNegativeComments] = useState(0);
+  const [neutralComments, setNeutralComments] = useState(0);
+
+  const search = useSearch() ?? "";
 
   useEffect(() => {
     async function load() {
@@ -43,15 +56,51 @@ export default function CommentSentimentDashboard() {
         const res = await fetch(`${API_URL}/videos/comment-sentiment`);
         const data: VideoWithComments[] = await res.json();
 
-        const normalized = data.map((v: VideoWithComments) => ({
-          ...v,
-          comments: v.comments.map((c) => ({
-            ...c,
-            sentiment_label: c.sentiment_label?.toLowerCase() ?? null,
-          })).filter((c) => c.sentiment_score !== 0),
-        })).filter((v) => v.comments.length > 0)
+        const normalized = data
+          .map((v) => {
+            const filteredComments = v.comments
+              .map((c) => ({
+                ...c,
+                sentiment_label: c.sentiment_label?.toLowerCase() ?? null,
+              }))
+              .filter((c) => c.sentiment_score !== 0);
+
+            const positive = filteredComments.filter(
+              (c) => c.sentiment_label === "positive"
+            ).length;
+            const negative = filteredComments.filter(
+              (c) => c.sentiment_label === "negative"
+            ).length;
+            const neutral = filteredComments.filter(
+              (c) => c.sentiment_label === "neutral"
+            ).length;
+
+            return {
+              ...v,
+              comments: filteredComments,
+              positive_comments: positive,
+              negative_comments: negative,
+              neutral_comments: neutral,
+              total_comments: filteredComments.length,
+            };
+          })
+          .filter((v) => v.comments.length > 0);
 
         setVideos(normalized);
+
+        const allComments = normalized.flatMap((v) => v.comments);
+
+        setTotalVideos(normalized.length);
+        setTotalComments(allComments.length);
+        setPositiveComments(
+          allComments.filter((c) => c.sentiment_label === "positive").length
+        );
+        setNegativeComments(
+          allComments.filter((c) => c.sentiment_label === "negative").length
+        );
+        setNeutralComments(
+          allComments.filter((c) => c.sentiment_label === "neutral").length
+        );
       } finally {
         setLoading(false);
       }
@@ -83,7 +132,6 @@ export default function CommentSentimentDashboard() {
 
   return (
     <div className="space-y-6">
-
       <div className="bg-white rounded-lg border border-gray-200 p-6">
         <div className="mb-6">
           <h1 className="text-2xl font-semibold text-black">
@@ -92,12 +140,21 @@ export default function CommentSentimentDashboard() {
           <p className="text-black text-sm">
             Showing extracted sentiment from video comments.
           </p>
+
+          <p className="text-gray-700 text-sm mt-1">
+            {totalVideos} videos • {totalComments} comments
+            <br />
+            <span className="text-green-600">{positiveComments} positive comments</span> •
+            <span className="text-red-600"> {negativeComments} negative comments</span> •
+            <span className="text-gray-600"> {neutralComments} neutral comments</span>
+          </p>
+
           <a
-          href="/sentiment"
-          className="text-blue-600 hover:text-blue-800 text-sm"
-        >
-          ← Back to video sentiment
-        </a>
+            href="/sentiment"
+            className="text-blue-600 hover:text-blue-800 text-sm"
+          >
+            ← Back to video sentiment
+          </a>
         </div>
       </div>
 
@@ -123,7 +180,9 @@ export default function CommentSentimentDashboard() {
                   <YouTubeEmbed videoid={embedVideoId} />
                 ) : (
                   <div className="h-55 flex items-center justify-center bg-gray-100 rounded">
-                    <span className="text-sm text-gray-500">Video unavailable</span>
+                    <span className="text-sm text-gray-500">
+                      Video unavailable
+                    </span>
                   </div>
                 )}
 
@@ -131,8 +190,21 @@ export default function CommentSentimentDashboard() {
                   <h3 className="font-semibold text-gray-900">{video.title}</h3>
                   <p className="text-sm text-gray-600">{video.channel_name}</p>
                   <p className="text-sm text-gray-500">{video.published_at}</p>
-                  <p className="text-sm text-gray-500 mt-1">
-                    {video.comments.length} comment(s) with sentiment
+
+                  <p className="text-sm text-gray-700 mt-1">
+                    {video.total_comments} total comments  
+                    <br />
+                    <span className="text-green-600">
+                      {video.positive_comments} positive
+                    </span>{" "}
+                    •{" "}
+                    <span className="text-red-600">
+                      {video.negative_comments} negative
+                    </span>{" "}
+                    •{" "}
+                    <span className="text-gray-600">
+                      {video.neutral_comments} neutral
+                    </span>
                   </p>
                 </div>
 
@@ -147,21 +219,18 @@ export default function CommentSentimentDashboard() {
                   <div className="grid md:grid-cols-3 gap-6 pt-2">
                     <CommentColumn
                       title="Positive"
-                      color="green"
                       comments={video.comments.filter(
                         (c) => c.sentiment_label === "positive"
                       )}
                     />
                     <CommentColumn
                       title="Negative"
-                      color="red"
                       comments={video.comments.filter(
                         (c) => c.sentiment_label === "negative"
                       )}
                     />
                     <CommentColumn
                       title="Neutral"
-                      color="gray"
                       comments={video.comments.filter(
                         (c) => c.sentiment_label === "neutral"
                       )}
@@ -179,11 +248,9 @@ export default function CommentSentimentDashboard() {
 
 function CommentColumn({
   title,
-  color,
   comments,
 }: {
   title: string;
-  color: string;
   comments: Comment[];
 }) {
   const Icon =
@@ -206,7 +273,15 @@ function CommentColumn({
 
   return (
     <div>
-      <h3 className={`font-semibold text-${color}-700 flex items-center gap-2 mb-2`}>
+      <h3
+        className={`font-semibold flex items-center gap-2 mb-2 ${
+          title === "Positive"
+            ? "text-green-700"
+            : title === "Negative"
+            ? "text-red-700"
+            : "text-gray-700"
+        }`}
+      >
         <Icon className="w-4 h-4" /> {title}
       </h3>
 
@@ -227,7 +302,13 @@ function CommentColumn({
           return (
             <div
               key={c.comment_id}
-              className={`p-3 bg-${color}-50 border rounded`}
+              className={
+                title === "Positive"
+                  ? "p-3 border rounded bg-green-50"
+                  : title === "Negative"
+                  ? "p-3 border rounded bg-red-50"
+                  : "p-3 border rounded bg-gray-50"
+              }
             >
               <p className="text-black">{displayText}</p>
 

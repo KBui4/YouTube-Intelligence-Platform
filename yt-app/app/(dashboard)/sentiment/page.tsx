@@ -96,8 +96,12 @@ function extractSnippets(
         index + t.token.length + radius
       );
 
-      snippets.push(transcript.slice(start, end).trim());
+      let snippet = transcript.slice(start, end).trim();
+      const prefix = start > 0 ? "..." : "";
+      const suffix = end < transcript.length ? "..." : "";
+      snippet = `"${prefix}${snippet}${suffix}"`;
 
+      snippets.push(snippet);
       if (snippets.length >= maxSnippets) return snippets;
     }
   }
@@ -123,6 +127,11 @@ export default function SentimentPage() {
     "all" | "positive" | "negative" | "neutral"
   >("all");
 
+  const [totalVideos, setTotalVideos] = useState(0);
+  const [positiveVideos, setPositiveVideos] = useState(0);
+  const [negativeVideos, setNegativeVideos] = useState(0);
+  const [neutralVideos, setNeutralVideos] = useState(0);
+
   const search = useSearch() ?? "";
 
   useEffect(() => {
@@ -142,10 +151,12 @@ export default function SentimentPage() {
         const data: VideoMeta[] = await res.json();
         if (!active) return;
 
-        const normalized = data.map((v) => ({
-          ...v,
-          sentiment_label: v.sentiment_label?.toLowerCase() ?? null,
-        })).filter((v) => v.sentiment_score !== 0);
+        const normalized = data
+          .map((v) => ({
+            ...v,
+            sentiment_label: v.sentiment_label?.toLowerCase() ?? null,
+          }))
+          .filter((v) => v.sentiment_score !== 0);
 
         setVideos(normalized);
       } catch (err) {
@@ -159,6 +170,25 @@ export default function SentimentPage() {
     return () => {
       active = false;
     };
+  }, []);
+
+  useEffect(() => {
+    async function loadStats() {
+      try {
+        const res = await fetch(`${API_URL}/stats/video-sentiment`);
+        if (!res.ok) return;
+
+        const data = await res.json();
+        setTotalVideos(data.total_videos);
+        setPositiveVideos(data.positive_videos);
+        setNegativeVideos(data.negative_videos);
+        setNeutralVideos(data.neutral_videos);
+      } catch (err) {
+        console.error("Error loading sentiment stats:", err);
+      }
+    }
+
+    loadStats();
   }, []);
 
   const loadDetails = async (videoId: string) => {
@@ -236,6 +266,13 @@ export default function SentimentPage() {
           <h1 className="text-2xl font-semibold text-black">Sentiment Analysis</h1>
           <p className="text-black text-sm">
             Showing extracted sentiment from video transcripts.
+          </p>
+
+          <p className="text-gray-700 text-sm mt-1">
+            {totalVideos} videos total •
+            <span className="text-green-600"> {positiveVideos} positive</span> •
+            <span className="text-red-600"> {negativeVideos} negative</span> •
+            <span className="text-gray-600"> {neutralVideos} neutral</span>
           </p>
 
           <a
@@ -322,7 +359,7 @@ export default function SentimentPage() {
                   onClick={() => toggleExpand(video.video_id)}
                   className="text-blue-600 hover:text-blue-800 text-sm font-medium"
                 >
-                  {isOpen ? "Hide transcript ▲" : "Show transcript ▼"}
+                  {isOpen ? "Hide transcript excerpts ▲" : "Show transcript excerpts ▼"}
                 </button>
 
                 {isOpen && detail && (

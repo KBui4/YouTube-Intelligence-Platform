@@ -16,11 +16,11 @@ export default function Footer() {
 
           <div className="flex items-center gap-6 text-sm text-gray-600 flex-wrap">
             <Link href="/" className="hover:text-gray-900 transition-colors">
-              Dashboard
+              Home
             </Link>
 
-            <Link href="/narratives" className="hover:text-gray-900 transition-colors">
-              Narratives
+            <Link href="/claims" className="hover:text-gray-900 transition-colors">
+              Dashboard
             </Link>
 
             <Link href="/signup" className="hover:text-gray-900 transition-colors">

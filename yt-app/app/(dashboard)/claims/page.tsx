@@ -17,6 +17,13 @@ type VideoRow = {
   duration_seconds?: number | null;
   matched_keywords?: string | null;
   transcript?: string | null;
+
+  like_count?: number | null;
+  comment_count?: number | null;
+  engagement_rate?: number | null;
+  view_velocity?: number | null;
+  transcript_length?: number | null;
+  keyword_density?: number | null;
 };
 
 type ClaimRow = {
@@ -42,6 +49,9 @@ export default function Page() {
   const [loading, setLoading] = useState(true);
   const [hasMore, setHasMore] = useState(false);
   const [expandedVideos, setExpandedVideos] = useState<Record<string, boolean>>({});
+  const [totalVideos, setTotalVideos] = useState(0);
+  const [totalClaims, setTotalClaims] = useState(0);
+
   const search = useSearch();
 
   useEffect(() => {
@@ -74,6 +84,23 @@ export default function Page() {
   useEffect(() => {
     setPage(1);
   }, [sortBy]);
+
+  useEffect(() => {
+    async function fetchCounts() {
+      try {
+        const res = await fetch(`${API_URL}/stats/claim-overview`);
+        if (!res.ok) return;
+
+        const data = await res.json();
+        setTotalVideos(data.total_videos);
+        setTotalClaims(data.total_claims);
+      } catch (err) {
+        console.error("Error fetching counts:", err);
+      }
+    }
+
+    fetchCounts();
+  }, []);
 
   function formatDate(dateString: string | null) {
     if (!dateString) return 'Unknown date';
@@ -123,6 +150,10 @@ export default function Page() {
           <h1 className="text-2xl text-black font-semibold">Claims Overview</h1>
           <p className="text-black mt-1">
             Browse the claims extracted from video transcripts.
+            <br />
+            <span className="text-gray-700 text-sm">
+              {totalVideos} videos • {totalClaims} total claims
+            </span>
           </p>
         </div>
 
@@ -222,6 +253,10 @@ export default function Page() {
                           ? ` • ${video.views.toLocaleString()} views`
                           : ''}
                       </p>
+
+                      <p className="text-sm text-gray-500 font-medium">
+                        {video.claims.length} claim{video.claims.length !== 1 ? "s" : ""}
+                      </p>
                     </div>
 
                     <div>
@@ -234,7 +269,9 @@ export default function Page() {
                               ? video.claims
                               : video.claims.slice(0, 2)
                             ).map((claim) => (
-                              <li key={claim.claim_id}>{claim.claim_text}</li>
+                              <li key={claim.claim_id}>
+                                <div>{claim.claim_text}</div>
+                              </li>
                             ))}
                           </ul>
 

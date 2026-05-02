@@ -73,7 +73,7 @@ export function SignupForm() {
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (user) => {
-      if (user) router.replace("/");
+      if (user) router.replace("/claims");
     });
     return () => unsubscribe();
   }, [router]);

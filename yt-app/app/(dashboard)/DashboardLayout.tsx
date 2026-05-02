@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { LayoutDashboard, FileText, Gauge, Settings, Menu, Bell, Search, User, LogOut, Home } from 'lucide-react';
+import { LayoutDashboard, FileText, Gauge, Settings, Menu, Search, User, LogOut, Home } from 'lucide-react';
 import { useState } from 'react';
 import React from 'react';
 import { SearchContext } from '@/app/utils/SearchContext';
@@ -32,7 +32,7 @@ export default function DashboardLayout({
   const navigation = [
     { name: 'Home', href: '/', icon: Home},
     { name: 'Claims', href: '/claims', icon: LayoutDashboard },
-    { name: 'Narratives', href: '/narratives', icon: FileText },
+    { name: 'Narratives & Trends', href: '/narratives', icon: FileText },
     { name: 'Sentiments', href: '/sentiment', icon: Gauge },
     { name: 'Settings', href: '/settings', icon: Settings },
   ];
@@ -41,7 +41,7 @@ export default function DashboardLayout({
     <div className="flex min-h-full bg-gray-50">
       <aside className={`${sidebarOpen ? 'w-64' : 'w-20'} bg-white border-r border-gray-200 transition-all duration-300 flex flex-col`}>
         <div className="h-16 flex items-center justify-between px-4 border-b border-gray-200">
-          {sidebarOpen && <span className="font-semibold text-xl text-black">DataBoard</span>}
+          {sidebarOpen && <span className="font-semibold text-xl text-black">Dashboard</span>}
           <button onClick={() => setSidebarOpen(!sidebarOpen)} className="p-2 rounded-lg hover:bg-gray-100">
             <Menu className="w-5 h-5" />
           </button>
@@ -82,11 +82,6 @@ export default function DashboardLayout({
           </div>
 
           <div className="flex items-center gap-4">
-            <button className="p-2 hover:bg-gray-100 rounded-lg relative">
-              <Bell className="w-5 h-5 text-gray-600" />
-              <span className="absolute top-1 right-1 w-2 h-2 bg-red-500 rounded-full"></span>
-            </button>
-
             <div className="flex items-center gap-3">
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>

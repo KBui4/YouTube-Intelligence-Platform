@@ -353,27 +353,27 @@ def create_claim(payload: Claim):
   return row
 
 @app.get("/narratives")
-def get_narratives(domain: Optional[str] = None, limit: int = 50, offset: int = 0):
-
-    if domain:
-        sql = """
-            SELECT *
-            FROM narratives
-            WHERE domain = %s
-            ORDER BY claim_count DESC
-            LIMIT %s OFFSET %s;
-        """
-
-        return execute(sql, (domain, limit, offset), fetch_all=True)
-
+def get_narratives():
     sql = """
-        SELECT *
-        FROM narratives
-        ORDER BY claim_count DESC
-        LIMIT %s OFFSET %s;
-    """
+        SELECT
+            n.narrative_id,
+            n.narrative_text,
 
-    return execute(sql, (limit, offset), fetch_all=True)
+            COUNT(nc.claim_id) AS claim_count,
+            COUNT(DISTINCT v.video_id) AS video_count
+
+        FROM narratives n
+        LEFT JOIN narrative_claims nc
+            ON n.narrative_id = nc.narrative_id
+        LEFT JOIN claims c
+            ON nc.claim_id = c.claim_id
+        LEFT JOIN video_data v
+            ON c.video_id = v.video_id
+
+        GROUP BY n.narrative_id
+        ORDER BY n.narrative_id;
+    """
+    return execute(sql, fetch_all=True)
 
 
 @app.get("/narratives/{narrative_id}")
@@ -617,30 +617,123 @@ def get_videos_with_claims(sort="newest", limit=50, offset=0):
     return execute(sql, (limit, offset), fetch_all=True)
 
 @app.get("/videos/comment-sentiment")
-def get_all_comment_sentiment():
+def videos_comment_sentiment():
     sql = """
         SELECT
-            v.video_id,
-            v.title,
-            v.channel_name,
-            v.published_at,
-            v.video_url,
-            json_agg(
-                json_build_object(
-                    'comment_id', c.comment_id,
-                    'author', c.author,
-                    'comment_text', c.comment_text,
-                    'sentiment_label', c.sentiment_label,
-                    'sentiment_score', c.sentiment_score,
-                    'sentiment_highlight_tokens', c.sentiment_highlight_tokens
-                )
-            ) AS comments
-        FROM video_data v
-        JOIN comments c ON c.video_id = v.video_id
-        WHERE c.sentiment_label IS NOT NULL
-        GROUP BY v.video_id, v.title, v.channel_name, v.published_at, v.video_url
-        ORDER BY v.published_at DESC;
-    """
+            vd.video_id,
+            vd.title,
+            vd.channel_name,
+            vd.published_at,
+            vd.video_url,
 
-    rows = execute(sql, fetch_all=True)
-    return rows
+            -- Only count valid sentiment classifications
+            COUNT(*) FILTER (
+                WHERE c.sentiment_score <> 0
+                  AND LOWER(TRIM(c.sentiment_label)) = 'positive'
+            ) AS positive_comments,
+
+            COUNT(*) FILTER (
+                WHERE c.sentiment_score <> 0
+                  AND LOWER(TRIM(c.sentiment_label)) = 'negative'
+            ) AS negative_comments,
+
+            COUNT(*) FILTER (
+                WHERE c.sentiment_score <> 0
+                  AND LOWER(TRIM(c.sentiment_label)) = 'neutral'
+            ) AS neutral_comments,
+
+            COUNT(*) FILTER (
+                WHERE c.sentiment_score <> 0
+            ) AS total_comments,
+
+            COALESCE(
+                json_agg(
+                    json_build_object(
+                        'comment_id', c.comment_id,
+                        'author', c.author,
+                        'comment_text', c.comment_text,
+                        'sentiment_label', LOWER(TRIM(c.sentiment_label)),
+                        'sentiment_score', c.sentiment_score,
+                        'sentiment_highlight_tokens', c.sentiment_highlight_tokens
+                    )
+                ) FILTER (WHERE c.comment_id IS NOT NULL AND c.sentiment_score <> 0),
+                '[]'
+            ) AS comments
+
+        FROM video_data vd
+        LEFT JOIN comments c ON c.video_id = vd.video_id
+        GROUP BY vd.video_id
+        ORDER BY vd.published_at DESC;
+    """
+    return execute(sql, fetch_all=True)
+
+@app.get("/stats/claim-overview")
+def claim_overview_stats():
+    sql = """
+        SELECT
+            (SELECT COUNT(DISTINCT video_id) FROM claims) AS total_videos,
+            (SELECT COUNT(*) FROM claims) AS total_claims;
+    """
+    return execute(sql, fetch_one=True)
+
+@app.get("/stats/video-sentiment")
+def video_sentiment_stats():
+    sql = """
+        SELECT
+            (SELECT COUNT(*) FROM video_data) AS total_videos,
+            (SELECT COUNT(*) FROM video_data WHERE LOWER(sentiment_label) = 'positive') AS positive_videos,
+            (SELECT COUNT(*) FROM video_data WHERE LOWER(sentiment_label) = 'negative') AS negative_videos,
+            (SELECT COUNT(*) FROM video_data WHERE LOWER(sentiment_label) = 'neutral') AS neutral_videos;
+    """
+    return execute(sql, fetch_one=True)
+
+@app.get("/stats/comment-sentiment")
+def comment_sentiment_stats():
+    sql = """
+        SELECT
+            (SELECT COUNT(DISTINCT video_id) 
+             FROM comments 
+             WHERE sentiment_score <> 0) AS total_videos,
+
+            (SELECT COUNT(*) 
+             FROM comments 
+             WHERE sentiment_score <> 0) AS total_comments,
+
+            (SELECT COUNT(*) 
+             FROM comments 
+             WHERE sentiment_score <> 0
+               AND LOWER(TRIM(sentiment_label)) = 'positive') AS positive_comments,
+
+            (SELECT COUNT(*) 
+             FROM comments 
+             WHERE sentiment_score <> 0
+               AND LOWER(TRIM(sentiment_label)) = 'negative') AS negative_comments,
+
+            (SELECT COUNT(*) 
+             FROM comments 
+             WHERE sentiment_score <> 0
+               AND LOWER(TRIM(sentiment_label)) = 'neutral') AS neutral_comments;
+    """
+    return execute(sql, fetch_one=True)
+
+@app.get("/stats/narratives-overview")
+def narratives_overview():
+    sql = """
+        SELECT
+            (SELECT COUNT(*) FROM narratives) AS total_narratives,
+            (SELECT COUNT(*) FROM claims) AS total_claims,
+            (SELECT COUNT(DISTINCT video_id) FROM claims) AS total_videos;
+    """
+    return execute(sql, fetch_one=True)
+
+@app.get("/narratives-video-trends")
+def get_narrative_video_trends():
+    sql = """
+        SELECT
+            narrative_id,
+            month,
+            videos_in_month
+        FROM narrative_video_trends_view
+        ORDER BY narrative_id, month;
+    """
+    return execute(sql, fetch_all=True)
