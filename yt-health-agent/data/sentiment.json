@@ -390361,5 +390361,1652 @@
         }
       ]
     }
+  },
+  "7fFhqWRAVuQ": {
+    "transcript": {
+      "label": "Positive",
+      "score": 0.92,
+      "summary": "The speaker provides a comprehensive guide to healthy eating after 50, focusing on controlling blood sugar, protecting muscle, and reducing stress and inflammation.",
+      "highlightTokens": [
+        {
+          "token": "slow carbs",
+          "polarity": "positive"
+        },
+        {
+          "token": "leafy greens",
+          "polarity": "positive"
+        },
+        {
+          "token": "eggs",
+          "polarity": "positive"
+        },
+        {
+          "token": "protein shakes",
+          "polarity": "neutral"
+        },
+        {
+          "token": "fatty fish",
+          "polarity": "positive"
+        },
+        {
+          "token": "olive oil",
+          "polarity": "positive"
+        },
+        {
+          "token": "dark chocolate",
+          "polarity": "positive"
+        }
+      ]
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@TROdermatt",
+          "text": "📘 My new book The Over-50 Body Reset is now live:\nhttps://a.co/d/0cXr20nL.\n\n Clear protein I use with my clients → https://tidd.ly/49j5A9l\n\n🔥 Over 50 Strength Series playlist → https://studio.youtube.com/playlist/P...\n\nWhey Protein:  https://amzn.to/4sn53fiTRFit Merch Store: https://trfit-shop.fourthwall.com/\n\n⚠ MyProtein and Nutricost  links are affiliates link, which means I may earn a small commission at no extra cost to you. I only recommend products I actually use with my clients.",
+          "likes": 4,
+          "published_at": "2026-01-04T19:46:24Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "live",
+              "polarity": "positive"
+            },
+            {
+              "token": "Clear",
+              "polarity": "positive"
+            },
+            {
+              "token": "Over",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@marcelplavec6453",
+          "text": "ONE OF THE BEST VIDEO--SIMPLE AND CLEAR------LOVE IT",
+          "likes": 13,
+          "published_at": "2026-01-11T23:13:24Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "BEST",
+              "polarity": "positive"
+            },
+            {
+              "token": "LOVE",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@MohiraYusupova-89",
+          "text": "After 50 my body stopped responding 😩 weight stuck, muscle gone, blood sugar swings, no matter how “clean” I ate. Doctors said eat less. I felt broken. Then someone in a menopause group mentioned The Meno Reset Protocol by Olivia Wells. Eating in a way that matched my hormones changed everything, cravings eased, strength returned, and 27 lbs dropped. Turns out food timing mattered more than rules.",
+          "likes": 40,
+          "published_at": "2026-01-12T13:54:18Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "changed",
+              "polarity": "positive"
+            },
+            {
+              "token": "eased",
+              "polarity": "positive"
+            },
+            {
+              "token": "returned",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@d3mist0clesgee12",
+          "text": "great stuff, I'm a carnivore dieter and that seems to work for me,",
+          "likes": 0,
+          "published_at": "2026-01-25T20:14:57Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "great",
+              "polarity": "positive"
+            },
+            {
+              "token": "works",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@jamesfancher6861",
+          "text": "Great video your spot on",
+          "likes": 9,
+          "published_at": "2026-01-11T06:16:29Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "spot",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Private011",
+          "text": "I like this 5 minute video. Not a half hour.",
+          "likes": 0,
+          "published_at": "2026-01-21T04:09:03Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "like",
+              "polarity": "positive"
+            },
+            {
+              "token": "this",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@Jemer-324",
+          "text": "Thank you, Brother...we all need this info, even when it's a reminder.",
+          "likes": 1,
+          "published_at": "2026-01-15T14:37:40Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "need",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@algee8228",
+          "text": "Thank You! You just confirmed 95% of my diet for the past 10 years (since turning 55), the other 5% I was missing you just set me at ease on, which is eating eggs...I'll go back to enjoying eggs without fear!",
+          "likes": 2,
+          "published_at": "2026-01-14T23:54:40Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "confirmed",
+              "polarity": "positive"
+            },
+            {
+              "token": "ease",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@RoxanneTate-g5h",
+          "text": "Great info!  Can’t wait for the next video in the series !!!",
+          "likes": 3,
+          "published_at": "2026-01-05T15:17:30Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "Can’t",
+              "polarity": "neutral"
+            },
+            {
+              "token": "wait",
+              "polarity": "negative"
+            },
+            {
+              "token": "next",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "negative": [],
+      "neutral": [
+        {
+          "author": "@Mackdaddy4218",
+          "text": "Protein needs:\n General Recommendations (Grams per kg of body weight)\r\nHealthy, Active Seniors: 1.0 - 1.2 g/kg/day.\r\nIll or Injured Seniors: 1.2 - 1.5 g/kg/day.\r\nActive Seniors (Exercise): Can aim for 1.4 - 2 g/kg/day. \r\nHow to Calculate Your Needs\r\nConvert your weight: Divide your weight in pounds by 2.2 to get your weight in kilograms (kg).\r\nMultiply by your target: Multiply your weight in kg by your recommended protein factor (e.g., 1.2) to find your daily grams. \r\nExample: A 75 kg (165 lb.) man aiming for 1.2 g/kg/day needs about 90 grams of protein daily (75 kg * 1.2 g/kg).",
+          "likes": 5,
+          "published_at": "2026-01-13T18:48:47Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "Needs",
+              "polarity": "neutral"
+            },
+            {
+              "token": "Recommendations",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@TROdermatt",
+          "text": "📘 My new book The Over-50 Body Reset is now live:\nhttps://a.co/d/0cXr20nL.\n\n Clear protein I use with my clients → https://tidd.ly/49j5A9l\n\n🔥 Over 50 Strength Series playlist → https://studio.youtube.com/playlist/P...\n\nWhey Protein:  https://amzn.to/4sn53fiTRFit Merch Store: https://trfit-shop.fourthwall.com/\n\n⚠ MyProtein and Nutricost  links are affiliates link, which means I may earn a small commission at no extra cost to you. I only recommend products I actually use with my clients.",
+          "likes": 4,
+          "published_at": "2026-01-04T19:46:24Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "live",
+              "polarity": "positive"
+            },
+            {
+              "token": "Clear",
+              "polarity": "positive"
+            },
+            {
+              "token": "Over",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@marcelplavec6453",
+          "text": "ONE OF THE BEST VIDEO--SIMPLE AND CLEAR------LOVE IT",
+          "likes": 13,
+          "published_at": "2026-01-11T23:13:24Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "BEST",
+              "polarity": "positive"
+            },
+            {
+              "token": "LOVE",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@MohiraYusupova-89",
+          "text": "After 50 my body stopped responding 😩 weight stuck, muscle gone, blood sugar swings, no matter how “clean” I ate. Doctors said eat less. I felt broken. Then someone in a menopause group mentioned The Meno Reset Protocol by Olivia Wells. Eating in a way that matched my hormones changed everything, cravings eased, strength returned, and 27 lbs dropped. Turns out food timing mattered more than rules.",
+          "likes": 40,
+          "published_at": "2026-01-12T13:54:18Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "changed",
+              "polarity": "positive"
+            },
+            {
+              "token": "eased",
+              "polarity": "positive"
+            },
+            {
+              "token": "returned",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@d3mist0clesgee12",
+          "text": "great stuff, I'm a carnivore dieter and that seems to work for me,",
+          "likes": 0,
+          "published_at": "2026-01-25T20:14:57Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "great",
+              "polarity": "positive"
+            },
+            {
+              "token": "works",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Mackdaddy4218",
+          "text": "Protein needs:\n General Recommendations (Grams per kg of body weight)\r\nHealthy, Active Seniors: 1.0 - 1.2 g/kg/day.\r\nIll or Injured Seniors: 1.2 - 1.5 g/kg/day.\r\nActive Seniors (Exercise): Can aim for 1.4 - 2 g/kg/day. \r\nHow to Calculate Your Needs\r\nConvert your weight: Divide your weight in pounds by 2.2 to get your weight in kilograms (kg).\r\nMultiply by your target: Multiply your weight in kg by your recommended protein factor (e.g., 1.2) to find your daily grams. \r\nExample: A 75 kg (165 lb.) man aiming for 1.2 g/kg/day needs about 90 grams of protein daily (75 kg * 1.2 g/kg).",
+          "likes": 5,
+          "published_at": "2026-01-13T18:48:47Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "Needs",
+              "polarity": "neutral"
+            },
+            {
+              "token": "Recommendations",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@jamesfancher6861",
+          "text": "Great video your spot on",
+          "likes": 9,
+          "published_at": "2026-01-11T06:16:29Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "spot",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Private011",
+          "text": "I like this 5 minute video. Not a half hour.",
+          "likes": 0,
+          "published_at": "2026-01-21T04:09:03Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "like",
+              "polarity": "positive"
+            },
+            {
+              "token": "this",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@Jemer-324",
+          "text": "Thank you, Brother...we all need this info, even when it's a reminder.",
+          "likes": 1,
+          "published_at": "2026-01-15T14:37:40Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "need",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@algee8228",
+          "text": "Thank You! You just confirmed 95% of my diet for the past 10 years (since turning 55), the other 5% I was missing you just set me at ease on, which is eating eggs...I'll go back to enjoying eggs without fear!",
+          "likes": 2,
+          "published_at": "2026-01-14T23:54:40Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "confirmed",
+              "polarity": "positive"
+            },
+            {
+              "token": "ease",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@RoxanneTate-g5h",
+          "text": "Great info!  Can’t wait for the next video in the series !!!",
+          "likes": 3,
+          "published_at": "2026-01-05T15:17:30Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "Can’t",
+              "polarity": "neutral"
+            },
+            {
+              "token": "wait",
+              "polarity": "negative"
+            },
+            {
+              "token": "next",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "RzWiHyY-Qho": {
+    "transcript": {
+      "label": "Negative",
+      "score": 0.92,
+      "summary": "The speaker is critical of the food industry's tactics to manipulate consumers into buying unhealthy products.",
+      "highlightTokens": [
+        {
+          "token": "ultrarocessed",
+          "polarity": "negative"
+        },
+        {
+          "token": "addictive",
+          "polarity": "negative"
+        },
+        {
+          "token": "problematic",
+          "polarity": "negative"
+        },
+        {
+          "token": "joke",
+          "polarity": "negative"
+        },
+        {
+          "token": "sad",
+          "polarity": "negative"
+        }
+      ]
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@KianaDocherty",
+          "text": "Get 10 Free Meals and your first box ship free with code KIANAFM at https://bit.ly/4cSb26w!\n❤LIKE + COMMENT for the algorithm (plz) ❤\nThanks to HelloFresh for sponsoring this video!",
+          "likes": 137,
+          "published_at": "2026-03-25T17:51:58Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Free",
+              "polarity": "positive"
+            },
+            {
+              "token": "LIKE",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@ActualHumanPerson",
+          "text": "Create a problem, fix a problem. Get paid for each. This is the game.",
+          "likes": 5225,
+          "published_at": "2026-03-25T20:18:49Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "problem",
+              "polarity": "positive"
+            },
+            {
+              "token": "paid",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@gentlemancaller4058",
+          "text": "I heard beef and broccoli and thought hell yeah. Then getting shamed 10 seconds later",
+          "likes": 3097,
+          "published_at": "2026-03-25T21:06:04Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "hell yeah",
+              "polarity": "positive"
+            },
+            {
+              "token": "beef",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@seanrasmussen2877",
+          "text": "I grew up overweight, and looking back, it frustrates me how many adults in my life looked at me like \"why are you so fat?\" After handing me a lunchable and a Pepsi",
+          "likes": 8503,
+          "published_at": "2026-03-25T21:32:03Z",
+          "label": "Negative",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "frustrates",
+              "polarity": "negative"
+            },
+            {
+              "token": "fat",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@benl9047",
+          "text": "\"Eat like a kid again\" is such a gross phrase, it's totally normalising feeding unhealthy foods to children. Children should be mostly eating whole foods, just like adults.",
+          "likes": 1767,
+          "published_at": "2026-03-27T19:55:08Z",
+          "label": "Negative",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "gross",
+              "polarity": "negative"
+            },
+            {
+              "token": "unhealthy",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@avengermkii7872",
+          "text": "The irony of using attractive models to advertise unhealthy ultraprocessed fast food. Most of those models avoid fast food like the plague.",
+          "likes": 3062,
+          "published_at": "2026-03-25T21:55:35Z",
+          "label": "Negative",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "unhealthy",
+              "polarity": "negative"
+            },
+            {
+              "token": "plague",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@user-mf1rz9mn3l",
+          "text": "20% of Americans being on a GLP1 is INSANE",
+          "likes": 1237,
+          "published_at": "2026-03-28T17:04:00Z",
+          "label": "Negative",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "INSANE",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@Melissa-sct2g",
+          "text": "When I was a kid and I asked my Mom for a snack, she would say \"You're not hungry, you're bored. Find something to do.\" and behold, I wasn't fat.",
+          "likes": 3012,
+          "published_at": "2026-03-25T21:48:26Z",
+          "label": "Negative",
+          "score": 0.65,
+          "highlightTokens": [
+            {
+              "token": "bored",
+              "polarity": "negative"
+            },
+            {
+              "token": "fat",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@bottlecapbrony366",
+          "text": "Big Food: \"Eat more.\"\nMe: *Eats more grapes, apples, pomegranates, berries, veggies.\nBig Food: \"No not like that!\"",
+          "likes": 602,
+          "published_at": "2026-03-29T22:15:37Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "No",
+              "polarity": "negative"
+            },
+            {
+              "token": "not",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "neutral": [
+        {
+          "author": "@Reebert02",
+          "text": "I wonder how much of the “cutting back” is forced because of the economy. If the choice is putting gas in the tank vs a $6 bag of chips, the chips will lose for now.",
+          "likes": 1116,
+          "published_at": "2026-03-25T22:10:29Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "forced",
+              "polarity": "negative"
+            },
+            {
+              "token": "lose",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@KianaDocherty",
+          "text": "Get 10 Free Meals and your first box ship free with code KIANAFM at https://bit.ly/4cSb26w!\n❤LIKE + COMMENT for the algorithm (plz) ❤\nThanks to HelloFresh for sponsoring this video!",
+          "likes": 137,
+          "published_at": "2026-03-25T17:51:58Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Free",
+              "polarity": "positive"
+            },
+            {
+              "token": "LIKE",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@seanrasmussen2877",
+          "text": "I grew up overweight, and looking back, it frustrates me how many adults in my life looked at me like \"why are you so fat?\" After handing me a lunchable and a Pepsi",
+          "likes": 8503,
+          "published_at": "2026-03-25T21:32:03Z",
+          "label": "Negative",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "frustrates",
+              "polarity": "negative"
+            },
+            {
+              "token": "fat",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@ActualHumanPerson",
+          "text": "Create a problem, fix a problem. Get paid for each. This is the game.",
+          "likes": 5225,
+          "published_at": "2026-03-25T20:18:49Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "problem",
+              "polarity": "positive"
+            },
+            {
+              "token": "paid",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@benl9047",
+          "text": "\"Eat like a kid again\" is such a gross phrase, it's totally normalising feeding unhealthy foods to children. Children should be mostly eating whole foods, just like adults.",
+          "likes": 1767,
+          "published_at": "2026-03-27T19:55:08Z",
+          "label": "Negative",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "gross",
+              "polarity": "negative"
+            },
+            {
+              "token": "unhealthy",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@avengermkii7872",
+          "text": "The irony of using attractive models to advertise unhealthy ultraprocessed fast food. Most of those models avoid fast food like the plague.",
+          "likes": 3062,
+          "published_at": "2026-03-25T21:55:35Z",
+          "label": "Negative",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "unhealthy",
+              "polarity": "negative"
+            },
+            {
+              "token": "plague",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@Reebert02",
+          "text": "I wonder how much of the “cutting back” is forced because of the economy. If the choice is putting gas in the tank vs a $6 bag of chips, the chips will lose for now.",
+          "likes": 1116,
+          "published_at": "2026-03-25T22:10:29Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "forced",
+              "polarity": "negative"
+            },
+            {
+              "token": "lose",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@user-mf1rz9mn3l",
+          "text": "20% of Americans being on a GLP1 is INSANE",
+          "likes": 1237,
+          "published_at": "2026-03-28T17:04:00Z",
+          "label": "Negative",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "INSANE",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@Melissa-sct2g",
+          "text": "When I was a kid and I asked my Mom for a snack, she would say \"You're not hungry, you're bored. Find something to do.\" and behold, I wasn't fat.",
+          "likes": 3012,
+          "published_at": "2026-03-25T21:48:26Z",
+          "label": "Negative",
+          "score": 0.65,
+          "highlightTokens": [
+            {
+              "token": "bored",
+              "polarity": "negative"
+            },
+            {
+              "token": "fat",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@gentlemancaller4058",
+          "text": "I heard beef and broccoli and thought hell yeah. Then getting shamed 10 seconds later",
+          "likes": 3097,
+          "published_at": "2026-03-25T21:06:04Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "hell yeah",
+              "polarity": "positive"
+            },
+            {
+              "token": "beef",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@bottlecapbrony366",
+          "text": "Big Food: \"Eat more.\"\nMe: *Eats more grapes, apples, pomegranates, berries, veggies.\nBig Food: \"No not like that!\"",
+          "likes": 602,
+          "published_at": "2026-03-29T22:15:37Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "No",
+              "polarity": "negative"
+            },
+            {
+              "token": "not",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "jRWo9y2UbcQ": {
+    "transcript": {
+      "label": "Positive",
+      "score": 0.92,
+      "summary": "The video discusses the importance of eye health and provides evidence-based recommendations for supporting it through diet, specifically highlighting the benefits of eating kiwi before bed.",
+      "highlightTokens": [
+        {
+          "token": "kiwi",
+          "polarity": "positive"
+        },
+        {
+          "token": "vision impairment",
+          "polarity": "negative"
+        },
+        {
+          "token": "protect your vision",
+          "polarity": "positive"
+        },
+        {
+          "token": "deep sleep",
+          "polarity": "neutral"
+        }
+      ]
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@Roundtree-t4j",
+          "text": "Kiwi,papaya.,blue berries ,goji berries.grapes ..go for them.❤",
+          "likes": 146,
+          "published_at": "2026-04-22T06:58:28Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "go for them",
+              "polarity": "positive"
+            },
+            {
+              "token": "❤",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@HealthReset2k",
+          "text": "Kiwi, papaya, blueberries, goji berries, and grapes—go for them ❤",
+          "likes": 29,
+          "published_at": "2026-04-25T03:35:34Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "them",
+              "polarity": "positive"
+            },
+            {
+              "token": "❤",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@jennyyates8798",
+          "text": "What about blackberries? I put them on my breakfast cereal. They'll all homegrown - lots of big, juicy ones - and I freeze them to keep me supplied throughout the year.",
+          "likes": 16,
+          "published_at": "2026-04-24T16:07:59Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "big",
+              "polarity": "positive"
+            },
+            {
+              "token": "juicy",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@jackiefox7224",
+          "text": "I understand that pineapple is excellent for helping to minimize eye “floaters”.  Also a great source of Lutein is green leafy veggies, like spinach and kale, also broccoli, peas and parsley.  Vitamin A is in sweet potatoes, carrots, pumpkin, cantaloupe and also dark leafy greens… As a whole food plant based person, I’m blessed with excellent vision at 73.  🇨🇦",
+          "likes": 4,
+          "published_at": "2026-04-27T22:34:13Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "excellent",
+              "polarity": "positive"
+            },
+            {
+              "token": "blessed",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@johnfeeley7094",
+          "text": "Cold golden kiwis on a hot summer day🌟",
+          "likes": 5,
+          "published_at": "2026-04-25T00:13:16Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "golden",
+              "polarity": "positive"
+            },
+            {
+              "token": "summer",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Abbasshah168-f2t",
+          "text": "What a beneficial for health awareness.\n\nKeep it up more accurate than any other channel.\n\n\nI'm so excited for your work.",
+          "likes": 13,
+          "published_at": "2026-04-24T13:00:12Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "beneficial",
+              "polarity": "positive"
+            },
+            {
+              "token": "excited",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@BeatrizSuarez-n8j",
+          "text": "Wow excellent video .Its important to understand why he is recommending the fruits ,be patient and listen to whole video for knowledge is power",
+          "likes": 3,
+          "published_at": "2026-04-24T17:40:46Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "excellent",
+              "polarity": "positive"
+            },
+            {
+              "token": "important",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Cyrilmc222004",
+          "text": "Thank you so much Dr Carter, I really really enjoyed watching you talk about Kiwi fruit. Great advice which I will definitely share with my friends and family too. I’ve subscribed and given you a thumbs up too.",
+          "likes": 1,
+          "published_at": "2026-04-26T20:38:38Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "enjoyed",
+              "polarity": "positive"
+            },
+            {
+              "token": "Great",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@Pcz-e8h",
+          "text": "Seems like AI has taken over YouTube!",
+          "likes": 126,
+          "published_at": "2026-04-24T18:03:07Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "over",
+              "polarity": "negative"
+            },
+            {
+              "token": "taken",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "neutral": [
+        {
+          "author": "@davidhenderson1543",
+          "text": "Will eating kiwi help improve my vision if I have cataracts ?",
+          "likes": 15,
+          "published_at": "2026-04-24T13:43:35Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "help",
+              "polarity": "positive"
+            },
+            {
+              "token": "vision",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@Roundtree-t4j",
+          "text": "Kiwi,papaya.,blue berries ,goji berries.grapes ..go for them.❤",
+          "likes": 146,
+          "published_at": "2026-04-22T06:58:28Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "go for them",
+              "polarity": "positive"
+            },
+            {
+              "token": "❤",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Pcz-e8h",
+          "text": "Seems like AI has taken over YouTube!",
+          "likes": 126,
+          "published_at": "2026-04-24T18:03:07Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "over",
+              "polarity": "negative"
+            },
+            {
+              "token": "taken",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@HealthReset2k",
+          "text": "Kiwi, papaya, blueberries, goji berries, and grapes—go for them ❤",
+          "likes": 29,
+          "published_at": "2026-04-25T03:35:34Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "them",
+              "polarity": "positive"
+            },
+            {
+              "token": "❤",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@jennyyates8798",
+          "text": "What about blackberries? I put them on my breakfast cereal. They'll all homegrown - lots of big, juicy ones - and I freeze them to keep me supplied throughout the year.",
+          "likes": 16,
+          "published_at": "2026-04-24T16:07:59Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "big",
+              "polarity": "positive"
+            },
+            {
+              "token": "juicy",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@davidhenderson1543",
+          "text": "Will eating kiwi help improve my vision if I have cataracts ?",
+          "likes": 15,
+          "published_at": "2026-04-24T13:43:35Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "help",
+              "polarity": "positive"
+            },
+            {
+              "token": "vision",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@jackiefox7224",
+          "text": "I understand that pineapple is excellent for helping to minimize eye “floaters”.  Also a great source of Lutein is green leafy veggies, like spinach and kale, also broccoli, peas and parsley.  Vitamin A is in sweet potatoes, carrots, pumpkin, cantaloupe and also dark leafy greens… As a whole food plant based person, I’m blessed with excellent vision at 73.  🇨🇦",
+          "likes": 4,
+          "published_at": "2026-04-27T22:34:13Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "excellent",
+              "polarity": "positive"
+            },
+            {
+              "token": "blessed",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@johnfeeley7094",
+          "text": "Cold golden kiwis on a hot summer day🌟",
+          "likes": 5,
+          "published_at": "2026-04-25T00:13:16Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "golden",
+              "polarity": "positive"
+            },
+            {
+              "token": "summer",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Abbasshah168-f2t",
+          "text": "What a beneficial for health awareness.\n\nKeep it up more accurate than any other channel.\n\n\nI'm so excited for your work.",
+          "likes": 13,
+          "published_at": "2026-04-24T13:00:12Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "beneficial",
+              "polarity": "positive"
+            },
+            {
+              "token": "excited",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@BeatrizSuarez-n8j",
+          "text": "Wow excellent video .Its important to understand why he is recommending the fruits ,be patient and listen to whole video for knowledge is power",
+          "likes": 3,
+          "published_at": "2026-04-24T17:40:46Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "excellent",
+              "polarity": "positive"
+            },
+            {
+              "token": "important",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Cyrilmc222004",
+          "text": "Thank you so much Dr Carter, I really really enjoyed watching you talk about Kiwi fruit. Great advice which I will definitely share with my friends and family too. I’ve subscribed and given you a thumbs up too.",
+          "likes": 1,
+          "published_at": "2026-04-26T20:38:38Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "enjoyed",
+              "polarity": "positive"
+            },
+            {
+              "token": "Great",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "kR8jwCMpt2I": {
+    "transcript": {
+      "label": "Positive",
+      "score": 0.92,
+      "summary": "The speaker presents a positive and empowering message about aging, weight loss, and health, emphasizing the importance of understanding one's biology and working with it rather than against it.",
+      "highlightTokens": [
+        {
+          "token": "your body",
+          "polarity": "positive"
+        },
+        {
+          "token": "finally understand",
+          "polarity": "positive"
+        },
+        {
+          "token": "extraordinary capacity to heal",
+          "polarity": "positive"
+        }
+      ]
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@terridensmore",
+          "text": "My favorite snack is sardines wrapped in seaweed. Sometimes with a squirt of hot sauce. Ok, all the time! Cayenne is so good for you. Sprinkle it on there.",
+          "likes": 4,
+          "published_at": "2026-05-16T11:44:06Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "favorite",
+              "polarity": "positive"
+            },
+            {
+              "token": "good",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@xxcelr8rs",
+          "text": "Best video ever! Good info starts at 7 minutes in.",
+          "likes": 10,
+          "published_at": "2026-05-15T15:46:49Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "video",
+              "polarity": "positive"
+            },
+            {
+              "token": "ever",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@ruthrama3350",
+          "text": "Basically, this is the Mediterranean diet. Also these are  Mediterranean habits, such as lunch been the most important meal and more time devoted to it as compared to US diet and consumption timing.",
+          "likes": 4,
+          "published_at": "2026-05-16T06:31:05Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "Mediterranean",
+              "polarity": "positive"
+            },
+            {
+              "token": "important",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@djay2152",
+          "text": "Thank u Doc, at 57 this makes sense to me. Your explanation blew my mind and im making some of these changes instantantly 💥🇬🇧",
+          "likes": 1,
+          "published_at": "2026-05-16T13:15:34Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "blew",
+              "polarity": "positive"
+            },
+            {
+              "token": "instantly",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Patriot4JC",
+          "text": "Grateful to know I'm doing most things correctly, but a few things I need to tweek at 66. I need energy!",
+          "likes": 3,
+          "published_at": "2026-05-16T06:11:46Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "grateful",
+              "polarity": "positive"
+            },
+            {
+              "token": "correctly",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@leoniewright3306",
+          "text": "Really good information & doable too. I wondered why my weight wasn't shifting though eating mostly healthy. Doctor, what about exercise ? Thank you for sharing this information.",
+          "likes": 5,
+          "published_at": "2026-05-16T00:07:33Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "good",
+              "polarity": "positive"
+            },
+            {
+              "token": "doable",
+              "polarity": "positive"
+            },
+            {
+              "token": "thank you",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@mirta-s4h",
+          "text": "I feel like people only pay attention to health once something goes wrong. The book True Health Made Simple by Alex Richardson talks a lot about prevention, which I liked.",
+          "likes": 7,
+          "published_at": "2026-05-16T13:26:41Z",
+          "label": "Negative",
+          "score": 0.63,
+          "highlightTokens": [
+            {
+              "token": "wrong",
+              "polarity": "negative"
+            },
+            {
+              "token": "only",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@jndostal1507",
+          "text": "Unable to locate pinned comment for download. Is there another way to access it?",
+          "likes": 12,
+          "published_at": "2026-05-15T11:31:19Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "unable",
+              "polarity": "negative"
+            },
+            {
+              "token": "another",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@Daisy-i6g",
+          "text": "This hasn't worked - about 6 months of it. Honestly.",
+          "likes": 7,
+          "published_at": "2026-05-16T12:27:27Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "hasn't",
+              "polarity": "negative"
+            },
+            {
+              "token": "worked",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "neutral": [
+        {
+          "author": "@marykathleenbuckley3635",
+          "text": "This is my diet except I’m a vegetarian and my belly hasn’t changed in years, other than getting larger.",
+          "likes": 8,
+          "published_at": "2026-05-16T12:32:17Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "haven't",
+              "polarity": "neutral"
+            },
+            {
+              "token": "changed",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@marykathleenbuckley3635",
+          "text": "This is my diet except I’m a vegetarian and my belly hasn’t changed in years, other than getting larger.",
+          "likes": 8,
+          "published_at": "2026-05-16T12:32:17Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "haven't",
+              "polarity": "neutral"
+            },
+            {
+              "token": "changed",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@terridensmore",
+          "text": "My favorite snack is sardines wrapped in seaweed. Sometimes with a squirt of hot sauce. Ok, all the time! Cayenne is so good for you. Sprinkle it on there.",
+          "likes": 4,
+          "published_at": "2026-05-16T11:44:06Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "favorite",
+              "polarity": "positive"
+            },
+            {
+              "token": "good",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@mirta-s4h",
+          "text": "I feel like people only pay attention to health once something goes wrong. The book True Health Made Simple by Alex Richardson talks a lot about prevention, which I liked.",
+          "likes": 7,
+          "published_at": "2026-05-16T13:26:41Z",
+          "label": "Negative",
+          "score": 0.63,
+          "highlightTokens": [
+            {
+              "token": "wrong",
+              "polarity": "negative"
+            },
+            {
+              "token": "only",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@xxcelr8rs",
+          "text": "Best video ever! Good info starts at 7 minutes in.",
+          "likes": 10,
+          "published_at": "2026-05-15T15:46:49Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "video",
+              "polarity": "positive"
+            },
+            {
+              "token": "ever",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@ruthrama3350",
+          "text": "Basically, this is the Mediterranean diet. Also these are  Mediterranean habits, such as lunch been the most important meal and more time devoted to it as compared to US diet and consumption timing.",
+          "likes": 4,
+          "published_at": "2026-05-16T06:31:05Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "Mediterranean",
+              "polarity": "positive"
+            },
+            {
+              "token": "important",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@djay2152",
+          "text": "Thank u Doc, at 57 this makes sense to me. Your explanation blew my mind and im making some of these changes instantantly 💥🇬🇧",
+          "likes": 1,
+          "published_at": "2026-05-16T13:15:34Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "blew",
+              "polarity": "positive"
+            },
+            {
+              "token": "instantly",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Patriot4JC",
+          "text": "Grateful to know I'm doing most things correctly, but a few things I need to tweek at 66. I need energy!",
+          "likes": 3,
+          "published_at": "2026-05-16T06:11:46Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "grateful",
+              "polarity": "positive"
+            },
+            {
+              "token": "correctly",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@leoniewright3306",
+          "text": "Really good information & doable too. I wondered why my weight wasn't shifting though eating mostly healthy. Doctor, what about exercise ? Thank you for sharing this information.",
+          "likes": 5,
+          "published_at": "2026-05-16T00:07:33Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "good",
+              "polarity": "positive"
+            },
+            {
+              "token": "doable",
+              "polarity": "positive"
+            },
+            {
+              "token": "thank you",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@jndostal1507",
+          "text": "Unable to locate pinned comment for download. Is there another way to access it?",
+          "likes": 12,
+          "published_at": "2026-05-15T11:31:19Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "unable",
+              "polarity": "negative"
+            },
+            {
+              "token": "another",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@Daisy-i6g",
+          "text": "This hasn't worked - about 6 months of it. Honestly.",
+          "likes": 7,
+          "published_at": "2026-05-16T12:27:27Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "hasn't",
+              "polarity": "negative"
+            },
+            {
+              "token": "worked",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ]
+    }
   }
 }
