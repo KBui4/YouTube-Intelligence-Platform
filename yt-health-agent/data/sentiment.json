@@ -392008,5 +392008,2609 @@
         }
       ]
     }
+  },
+  "3uBfL-xGCyo": {
+    "transcript": {
+      "label": "Positive",
+      "score": 0.92,
+      "summary": "The host discusses the importance of gut health, shares her favorite recipes, and emphasizes the need for a balanced lifestyle, including proper nutrition, sleep, and stress management.",
+      "highlightTokens": [
+        {
+          "token": "gut health",
+          "polarity": "positive"
+        },
+        {
+          "token": "beans are good for your heart and gut",
+          "polarity": "positive"
+        },
+        {
+          "token": "legumes are fiber powerhouses",
+          "polarity": "positive"
+        },
+        {
+          "token": "sleep is so important",
+          "polarity": "positive"
+        },
+        {
+          "token": "don't ignore red flags in your stool",
+          "polarity": "negative"
+        }
+      ]
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@YourOrganizedAuntie",
+          "text": "Oh wow, the way “WHAT I EAT IN A DAY as a PhD Nutritionist for GUT HEALTH” videos make me feel both inspired and personally attacked at the same time is unreal, because the moment she starts her morning with chia pudding and fermented joy, my soul whispers, “Luise, girl, your breakfast was coffee and a questionable thought,” and not gonna lie, I once tried to copy a gut‑health day and by 10am my stomach was like, “I’m not confused, I’m just directionally challenged,” while my last two brain cells were playing pingpong trying to process all that fiber; and funny enough, I remember this one week where I got so motivated I bought sauerkraut, kefir, kombucha, and something called “gut‑loving super greens,” and can you imagine the chaos when I opened the fridge and everything hissed back at me like a probiotic zoo, and I whispered, “I’m not built for this,” but I kept going because my patience was on trial and losing; and Ha! the funniest part is that once I stopped trying to be a Pinterest nutritionist and started communicating with myself like a human instead of a malfunctioning wellness robot, everything clicked, my meals got simpler, my digestion stopped doing interpretive dance, and my productivity skyrocketed because I wasn’t bloated, confused, or spiritually horizontal; so trust me on this, gut health isn’t about perfection, it’s about tiny choices that don’t make your intestines file HR complaints, and once you find what works for your body, your whole life feels lighter, calmer, and way less dramatic than my kombucha incident of 2021.",
+          "likes": 21,
+          "published_at": "2026-03-10T12:54:10Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "inspired",
+              "polarity": "positive"
+            },
+            {
+              "token": "soul whispers",
+              "polarity": "neutral"
+            },
+            {
+              "token": "funny enough",
+              "polarity": "positive"
+            },
+            {
+              "token": "Ha!",
+              "polarity": "positive"
+            },
+            {
+              "token": "way less dramatic",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@LenaChandika",
+          "text": "Best format! Please more and more often and even hetter of a few days!❤ But you eat so little 😢",
+          "likes": 14,
+          "published_at": "2026-03-08T16:58:02Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "Best",
+              "polarity": "positive"
+            },
+            {
+              "token": "more",
+              "polarity": "positive"
+            },
+            {
+              "token": "even",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@kimc8668",
+          "text": "It may very well already be in the works (and gosh I hope it is,) but I would LOVE to see you produce a physical cookbook. ☺️",
+          "likes": 9,
+          "published_at": "2026-03-09T00:41:14Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "LOVE",
+              "polarity": "positive"
+            },
+            {
+              "token": "hope",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@esmadalgc9311",
+          "text": "I absolutely love your videos ; they’re informative, full of example meals, and so entertaining!",
+          "likes": 2,
+          "published_at": "2026-03-18T09:31:03Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "love",
+              "polarity": "positive"
+            },
+            {
+              "token": "entertaining",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@arwabagerlmhc2589",
+          "text": "Love these videos - I would like to see if we could get some videos on how to deal with IBD in remission - thank you 🙏",
+          "likes": 9,
+          "published_at": "2026-03-08T16:22:13Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Love",
+              "polarity": "positive"
+            },
+            {
+              "token": "thank",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@ExAnimo753",
+          "text": "Hi, Emily! Would you ever consider doing a video specifically for anti-inflammatory eating? I spoke with a dietitian who told me there was no evidence-based advice she could give me (?) and I’m skeptical about the quality of advice on the topic I’ve been able to find online. I’m working with a rheumatologist to deal with the underlying issue, but would love to be able to support my wellness journey through food choices.",
+          "likes": 28,
+          "published_at": "2026-03-08T22:08:34Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "consider",
+              "polarity": "positive"
+            },
+            {
+              "token": "skeptical",
+              "polarity": "negative"
+            },
+            {
+              "token": "love",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@carriehagstrom9777",
+          "text": "Love your what I eat in a day videos!  Your meal ideas look delicious and so nutritious.  And I appreciate how you explain how the foods are nourishing our bodies.  The aesthetics are on point too!",
+          "likes": 1,
+          "published_at": "2026-04-06T20:09:32Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Love",
+              "polarity": "positive"
+            },
+            {
+              "token": "delicious",
+              "polarity": "positive"
+            },
+            {
+              "token": "nourishing",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@thegunnyandthegrandma",
+          "text": "I have an elite gut just had it tested!  Comparable to Hadza.  I work on it and strive to keep it healthy.  This is that 64 years of age when you tend to lose some of that protectiveness.  Healthy aging. I also work out weightlifting three times a week and average 10k steps at least.",
+          "likes": 3,
+          "published_at": "2026-03-11T16:29:31Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "elite",
+              "polarity": "positive"
+            },
+            {
+              "token": "healthy",
+              "polarity": "positive"
+            },
+            {
+              "token": "protectiveness",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@lorisutton2423",
+          "text": "You are so right. I’m tired of the BS!",
+          "likes": 1,
+          "published_at": "2026-03-24T10:53:58Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "tired",
+              "polarity": "negative"
+            },
+            {
+              "token": "BS",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "neutral": [
+        {
+          "author": "@RealBibleAnswered",
+          "text": "This diet is a textbook example of a \"microbiome-centric\" approach. From a clinical nutrition standpoint, it hits the gold standard for gut health by prioritizing the Three Ps (Probiotics, Prebiotics, and Polyphenols) and aiming for that magic number of 30+ grams of fiber daily.\n\nHowever, \"good for you\" is relative. Here is the brutally honest breakdown of why this works and where it might actually cause you problems.\n\nThe Good: Why Your Microbiome Would Love This\nDiversity is King: The \"Rainforest\" analogy for the gut is accurate. By using chickpeas, multiple bean varieties, nuts, seeds, and whole grains, she is feeding different strains of bacteria. A diverse gut is a resilient gut.\n\nPolyphenol Power: The inclusion of matcha and 85% dark chocolate is smart. Polyphenols aren't just antioxidants; they act as prebiotics that specifically encourage the growth of Bifidobacterium and Lactobacillus.\n\nCircadian Rhythm Support: The 12-hour \"gut rest\" (fasting window) is perhaps the most underrated part of this plan. It allows for the Migrating Motor Complex (MMC) to sweep through the GI tract, clearing out waste and preventing bacterial overgrowth (SIBO).\n\nThe Bad: Why Your Physical Gut Might Hate This\nThe \"Fiber Bomb\" Effect: If you aren't currently eating a high-fiber diet, switching to this overnight would be a disaster. You are looking at significant bloating, gas, and potential cramping. The Myota supplement on top of chickpeas, beans, and whole grains is a massive amount of substrate for fermentation.\n\nAntinutrients: Chickpeas and beans are high in lectins and phytates. For some, these can irritate the gut lining rather than soothe it. If you have a sensitive system, \"fully loaded\" legumes at every meal might be inflammatory.\n\nBioavailability: While she stresses \"plant-forward,\" this diet is low in easily absorbable fat-soluble vitamins (A, D, K2) and B12, which are usually found in animal fats. The avocado helps, but it’s a lean profile.\n\nThe Verdict\nIs it good for your gut? Generally, yes—it promotes a thriving microbial ecosystem.\nIs it good for you? Only if your digestion is already \"trained\" for high volume.\n\nHere is the \"brutally honest\" breakdown of the vitamins, minerals, and bone health implications of this specific meal plan.\n\n1. The Mineral Absorption \"Wall\" (Phytates & Oxalates)\nThe biggest threat to bone health in this diet isn't a lack of minerals, but the inability to absorb them.\n\nThe Problem: Chickpeas (lunch/snack), various beans (dinner), and whole grains (breakfast/lunch) are loaded with phytates. Matcha and dark chocolate are high in oxalates.\n\nThe Bone Impact: These \"anti-nutrients\" bind to calcium, magnesium, and zinc in the digestive tract, preventing them from being absorbed into your bloodstream. If you eat a \"fully loaded\" chickpea sandwich and wash it down with matcha, you might only absorb a fraction of the calcium present in those foods.\n\nThe Fix: You must soak or sprout your legumes and grains. If you’re just opening a can of chickpeas and tossing them in a bowl, you are likely hitting a \"mineral wall.\"\n\n2. The Missing \"Bone-Building\" Duo: Vitamin D and K2\nBone health is a construction project: Calcium is the brick, but Vitamin D is the delivery truck and Vitamin K2 is the foreman who tells the calcium where to go.\n\nThe Gap: This diet is virtually devoid of Vitamin K2. While K1 is found in plants (like the spinach or jalapeño in the chili), K2—which prevents calcium from depositing in your arteries and shunts it into your bones—is primarily found in animal fats, egg yolks, and fermented foods like natto.\n\nThe Vitamin D Trap: Unless your yogurt or cereal is heavily fortified, there is very little Vitamin D here. Without it, your body cannot absorb the calcium from the yogurt or beans efficiently.\n\n3. The Protein-Bone Paradox\nYour bones are actually about 50% protein by volume.\n\nThe Observation: This diet relies heavily on plant-based proteins (chickpeas, beans). While these are great for the microbiome, they are less \"dense\" in essential amino acids than animal proteins.\n\nThe Risk: If your total protein intake is too low (common in \"plant-forward\" diets if not carefully tracked), your body may prioritize other functions over bone remodeling.\n\n4. The \"Gut-Bone Axis\" (The Secret Advantage)\nThere is a silver lining. Dr. Prpa’s approach relies on Short-Chain Fatty Acids (SCFAs) like butyrate, which are produced when your gut bacteria ferment all that fiber.\n\nThe Benefit: Research shows that SCFAs can actually signal osteoblasts (bone-building cells) to increase activity and reduce systemic inflammation that breaks down bone.\n\nThe Strategy: By feeding the microbiome with the \"diversity bowl,\" you are creating a chemical environment that supports bone density from the inside out—provided you are actually getting the raw materials (Calcium/D3/K2) from elsewhere.\nThe \"Brutal\" Summary\nIf you follow this diet exactly as written without supplementation or specific food prep (soaking/sprouting), you are at risk for sub-optimal bone density over time. The \"gut health\" wins, but the \"skeletal health\" may lose due to poor absorption.\n\n\nBreakfast: A yogurt bowl featuring live yogurt (probiotics), matcha granola (polyphenols from green tea), microwaved frozen berries (fiber), and a scoop of Myota fiber blend (prebiotics and extra fiber)—all emphasizing a plant-forward approach with the three Ps: plants/prebiotics, probiotics, and polyphenols.\r\n\r\nLunch: A fully loaded chickpea bowl on whole grain bread (fiber-rich legumes and grains), described as a \"gut health sonnie\" with chickpeas as the star for their fiber content to feed gut bacteria.\r\n\r\nSnack: Peppermint tea (for gut relaxation) and prebiotic rocky road made with chickpeas, nuts, seeds (fiber), and 85% dark chocolate (polyphenols).\r\n\r\nDinner: Chili bean diversity bowl with various fibrous beans in chili, whole grain rice (balanced carbs and fiber), avocado (healthy fats), and creamy jalapeño nacho chips on the side for joy—highlighting plant diversity like a \"rainforest\" for the microbiome.\r\n\r\nThroughout the day, she stresses hydration to pair with high-fiber meals, slow chewing, and no eating close to bedtime for a 12-hour gut rest.",
+          "likes": 8,
+          "published_at": "2026-03-15T11:11:49Z",
+          "label": "Neutral",
+          "score": 0.52,
+          "highlightTokens": [
+            {
+              "token": "diversity",
+              "polarity": "neutral"
+            },
+            {
+              "token": "gut health",
+              "polarity": "positive"
+            },
+            {
+              "token": "bone density",
+              "polarity": "negative"
+            },
+            {
+              "token": "problems",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@YourOrganizedAuntie",
+          "text": "Oh wow, the way “WHAT I EAT IN A DAY as a PhD Nutritionist for GUT HEALTH” videos make me feel both inspired and personally attacked at the same time is unreal, because the moment she starts her morning with chia pudding and fermented joy, my soul whispers, “Luise, girl, your breakfast was coffee and a questionable thought,” and not gonna lie, I once tried to copy a gut‑health day and by 10am my stomach was like, “I’m not confused, I’m just directionally challenged,” while my last two brain cells were playing pingpong trying to process all that fiber; and funny enough, I remember this one week where I got so motivated I bought sauerkraut, kefir, kombucha, and something called “gut‑loving super greens,” and can you imagine the chaos when I opened the fridge and everything hissed back at me like a probiotic zoo, and I whispered, “I’m not built for this,” but I kept going because my patience was on trial and losing; and Ha! the funniest part is that once I stopped trying to be a Pinterest nutritionist and started communicating with myself like a human instead of a malfunctioning wellness robot, everything clicked, my meals got simpler, my digestion stopped doing interpretive dance, and my productivity skyrocketed because I wasn’t bloated, confused, or spiritually horizontal; so trust me on this, gut health isn’t about perfection, it’s about tiny choices that don’t make your intestines file HR complaints, and once you find what works for your body, your whole life feels lighter, calmer, and way less dramatic than my kombucha incident of 2021.",
+          "likes": 21,
+          "published_at": "2026-03-10T12:54:10Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "inspired",
+              "polarity": "positive"
+            },
+            {
+              "token": "soul whispers",
+              "polarity": "neutral"
+            },
+            {
+              "token": "funny enough",
+              "polarity": "positive"
+            },
+            {
+              "token": "Ha!",
+              "polarity": "positive"
+            },
+            {
+              "token": "way less dramatic",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@LenaChandika",
+          "text": "Best format! Please more and more often and even hetter of a few days!❤ But you eat so little 😢",
+          "likes": 14,
+          "published_at": "2026-03-08T16:58:02Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "Best",
+              "polarity": "positive"
+            },
+            {
+              "token": "more",
+              "polarity": "positive"
+            },
+            {
+              "token": "even",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@kimc8668",
+          "text": "It may very well already be in the works (and gosh I hope it is,) but I would LOVE to see you produce a physical cookbook. ☺️",
+          "likes": 9,
+          "published_at": "2026-03-09T00:41:14Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "LOVE",
+              "polarity": "positive"
+            },
+            {
+              "token": "hope",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@esmadalgc9311",
+          "text": "I absolutely love your videos ; they’re informative, full of example meals, and so entertaining!",
+          "likes": 2,
+          "published_at": "2026-03-18T09:31:03Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "love",
+              "polarity": "positive"
+            },
+            {
+              "token": "entertaining",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@arwabagerlmhc2589",
+          "text": "Love these videos - I would like to see if we could get some videos on how to deal with IBD in remission - thank you 🙏",
+          "likes": 9,
+          "published_at": "2026-03-08T16:22:13Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Love",
+              "polarity": "positive"
+            },
+            {
+              "token": "thank",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@ExAnimo753",
+          "text": "Hi, Emily! Would you ever consider doing a video specifically for anti-inflammatory eating? I spoke with a dietitian who told me there was no evidence-based advice she could give me (?) and I’m skeptical about the quality of advice on the topic I’ve been able to find online. I’m working with a rheumatologist to deal with the underlying issue, but would love to be able to support my wellness journey through food choices.",
+          "likes": 28,
+          "published_at": "2026-03-08T22:08:34Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "consider",
+              "polarity": "positive"
+            },
+            {
+              "token": "skeptical",
+              "polarity": "negative"
+            },
+            {
+              "token": "love",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@carriehagstrom9777",
+          "text": "Love your what I eat in a day videos!  Your meal ideas look delicious and so nutritious.  And I appreciate how you explain how the foods are nourishing our bodies.  The aesthetics are on point too!",
+          "likes": 1,
+          "published_at": "2026-04-06T20:09:32Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Love",
+              "polarity": "positive"
+            },
+            {
+              "token": "delicious",
+              "polarity": "positive"
+            },
+            {
+              "token": "nourishing",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@lorisutton2423",
+          "text": "You are so right. I’m tired of the BS!",
+          "likes": 1,
+          "published_at": "2026-03-24T10:53:58Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "tired",
+              "polarity": "negative"
+            },
+            {
+              "token": "BS",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@RealBibleAnswered",
+          "text": "This diet is a textbook example of a \"microbiome-centric\" approach. From a clinical nutrition standpoint, it hits the gold standard for gut health by prioritizing the Three Ps (Probiotics, Prebiotics, and Polyphenols) and aiming for that magic number of 30+ grams of fiber daily.\n\nHowever, \"good for you\" is relative. Here is the brutally honest breakdown of why this works and where it might actually cause you problems.\n\nThe Good: Why Your Microbiome Would Love This\nDiversity is King: The \"Rainforest\" analogy for the gut is accurate. By using chickpeas, multiple bean varieties, nuts, seeds, and whole grains, she is feeding different strains of bacteria. A diverse gut is a resilient gut.\n\nPolyphenol Power: The inclusion of matcha and 85% dark chocolate is smart. Polyphenols aren't just antioxidants; they act as prebiotics that specifically encourage the growth of Bifidobacterium and Lactobacillus.\n\nCircadian Rhythm Support: The 12-hour \"gut rest\" (fasting window) is perhaps the most underrated part of this plan. It allows for the Migrating Motor Complex (MMC) to sweep through the GI tract, clearing out waste and preventing bacterial overgrowth (SIBO).\n\nThe Bad: Why Your Physical Gut Might Hate This\nThe \"Fiber Bomb\" Effect: If you aren't currently eating a high-fiber diet, switching to this overnight would be a disaster. You are looking at significant bloating, gas, and potential cramping. The Myota supplement on top of chickpeas, beans, and whole grains is a massive amount of substrate for fermentation.\n\nAntinutrients: Chickpeas and beans are high in lectins and phytates. For some, these can irritate the gut lining rather than soothe it. If you have a sensitive system, \"fully loaded\" legumes at every meal might be inflammatory.\n\nBioavailability: While she stresses \"plant-forward,\" this diet is low in easily absorbable fat-soluble vitamins (A, D, K2) and B12, which are usually found in animal fats. The avocado helps, but it’s a lean profile.\n\nThe Verdict\nIs it good for your gut? Generally, yes—it promotes a thriving microbial ecosystem.\nIs it good for you? Only if your digestion is already \"trained\" for high volume.\n\nHere is the \"brutally honest\" breakdown of the vitamins, minerals, and bone health implications of this specific meal plan.\n\n1. The Mineral Absorption \"Wall\" (Phytates & Oxalates)\nThe biggest threat to bone health in this diet isn't a lack of minerals, but the inability to absorb them.\n\nThe Problem: Chickpeas (lunch/snack), various beans (dinner), and whole grains (breakfast/lunch) are loaded with phytates. Matcha and dark chocolate are high in oxalates.\n\nThe Bone Impact: These \"anti-nutrients\" bind to calcium, magnesium, and zinc in the digestive tract, preventing them from being absorbed into your bloodstream. If you eat a \"fully loaded\" chickpea sandwich and wash it down with matcha, you might only absorb a fraction of the calcium present in those foods.\n\nThe Fix: You must soak or sprout your legumes and grains. If you’re just opening a can of chickpeas and tossing them in a bowl, you are likely hitting a \"mineral wall.\"\n\n2. The Missing \"Bone-Building\" Duo: Vitamin D and K2\nBone health is a construction project: Calcium is the brick, but Vitamin D is the delivery truck and Vitamin K2 is the foreman who tells the calcium where to go.\n\nThe Gap: This diet is virtually devoid of Vitamin K2. While K1 is found in plants (like the spinach or jalapeño in the chili), K2—which prevents calcium from depositing in your arteries and shunts it into your bones—is primarily found in animal fats, egg yolks, and fermented foods like natto.\n\nThe Vitamin D Trap: Unless your yogurt or cereal is heavily fortified, there is very little Vitamin D here. Without it, your body cannot absorb the calcium from the yogurt or beans efficiently.\n\n3. The Protein-Bone Paradox\nYour bones are actually about 50% protein by volume.\n\nThe Observation: This diet relies heavily on plant-based proteins (chickpeas, beans). While these are great for the microbiome, they are less \"dense\" in essential amino acids than animal proteins.\n\nThe Risk: If your total protein intake is too low (common in \"plant-forward\" diets if not carefully tracked), your body may prioritize other functions over bone remodeling.\n\n4. The \"Gut-Bone Axis\" (The Secret Advantage)\nThere is a silver lining. Dr. Prpa’s approach relies on Short-Chain Fatty Acids (SCFAs) like butyrate, which are produced when your gut bacteria ferment all that fiber.\n\nThe Benefit: Research shows that SCFAs can actually signal osteoblasts (bone-building cells) to increase activity and reduce systemic inflammation that breaks down bone.\n\nThe Strategy: By feeding the microbiome with the \"diversity bowl,\" you are creating a chemical environment that supports bone density from the inside out—provided you are actually getting the raw materials (Calcium/D3/K2) from elsewhere.\nThe \"Brutal\" Summary\nIf you follow this diet exactly as written without supplementation or specific food prep (soaking/sprouting), you are at risk for sub-optimal bone density over time. The \"gut health\" wins, but the \"skeletal health\" may lose due to poor absorption.\n\n\nBreakfast: A yogurt bowl featuring live yogurt (probiotics), matcha granola (polyphenols from green tea), microwaved frozen berries (fiber), and a scoop of Myota fiber blend (prebiotics and extra fiber)—all emphasizing a plant-forward approach with the three Ps: plants/prebiotics, probiotics, and polyphenols.\r\n\r\nLunch: A fully loaded chickpea bowl on whole grain bread (fiber-rich legumes and grains), described as a \"gut health sonnie\" with chickpeas as the star for their fiber content to feed gut bacteria.\r\n\r\nSnack: Peppermint tea (for gut relaxation) and prebiotic rocky road made with chickpeas, nuts, seeds (fiber), and 85% dark chocolate (polyphenols).\r\n\r\nDinner: Chili bean diversity bowl with various fibrous beans in chili, whole grain rice (balanced carbs and fiber), avocado (healthy fats), and creamy jalapeño nacho chips on the side for joy—highlighting plant diversity like a \"rainforest\" for the microbiome.\r\n\r\nThroughout the day, she stresses hydration to pair with high-fiber meals, slow chewing, and no eating close to bedtime for a 12-hour gut rest.",
+          "likes": 8,
+          "published_at": "2026-03-15T11:11:49Z",
+          "label": "Neutral",
+          "score": 0.52,
+          "highlightTokens": [
+            {
+              "token": "diversity",
+              "polarity": "neutral"
+            },
+            {
+              "token": "gut health",
+              "polarity": "positive"
+            },
+            {
+              "token": "bone density",
+              "polarity": "negative"
+            },
+            {
+              "token": "problems",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@thegunnyandthegrandma",
+          "text": "I have an elite gut just had it tested!  Comparable to Hadza.  I work on it and strive to keep it healthy.  This is that 64 years of age when you tend to lose some of that protectiveness.  Healthy aging. I also work out weightlifting three times a week and average 10k steps at least.",
+          "likes": 3,
+          "published_at": "2026-03-11T16:29:31Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "elite",
+              "polarity": "positive"
+            },
+            {
+              "token": "healthy",
+              "polarity": "positive"
+            },
+            {
+              "token": "protectiveness",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "HNxvjbkfd9I": {
+    "transcript": {
+      "label": "Positive",
+      "score": 0.92,
+      "summary": "The host shares her daily routine and recipes while emphasizing the importance of self-care and convenience in busy lives.",
+      "highlightTokens": [
+        {
+          "token": "I'm absolutely in love with it",
+          "polarity": "positive"
+        },
+        {
+          "token": "the sunshine just makes such a difference to my mood",
+          "polarity": "positive"
+        },
+        {
+          "token": "live your best life",
+          "polarity": "positive"
+        },
+        {
+          "token": "don't be afraid of using convenience as and when you need to",
+          "polarity": "neutral"
+        }
+      ]
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@laurenkretzer4064",
+          "text": "Just wanted to say that I love your channel. It's such a bright spot! You give wonderful advice, and I feel like I could hang out with you all day. Thank you!",
+          "likes": 5,
+          "published_at": "2026-04-21T17:05:37Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "love",
+              "polarity": "positive"
+            },
+            {
+              "token": "bright spot",
+              "polarity": "positive"
+            },
+            {
+              "token": "wonderful",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@cloudbreak526",
+          "text": "Love the positive view of easy prep! Also great for people with arthritis or other hand limitations. Would looovvvee to see a low FODMAP vid one day ❤️ So rarely get to see high quality/cinematic content on that topic.",
+          "likes": 3,
+          "published_at": "2026-04-19T17:32:36Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "positive",
+              "polarity": "positive"
+            },
+            {
+              "token": "great",
+              "polarity": "positive"
+            },
+            {
+              "token": "love",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@nazeeniranfar2616",
+          "text": "Thank you Emily for all the great tips and tricks 🙌",
+          "likes": 3,
+          "published_at": "2026-04-20T14:58:16Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "great",
+              "polarity": "positive"
+            },
+            {
+              "token": "thanks",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@BeckyTucker2010",
+          "text": "Love your content…collab with Flora next? ❤",
+          "likes": 0,
+          "published_at": "2026-05-09T19:03:44Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Love",
+              "polarity": "positive"
+            },
+            {
+              "token": "next",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@MadsWatson",
+          "text": "I am really really loving your channel. One of my favourite YouTubers to have discovered this year. Thanks so much for keeping it reallll xxx",
+          "likes": 1,
+          "published_at": "2026-04-21T21:43:05Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "loving",
+              "polarity": "positive"
+            },
+            {
+              "token": "favourite",
+              "polarity": "positive"
+            },
+            {
+              "token": "Thanks",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@KatharineJuneStudio",
+          "text": "Thank you so much for making these videos! They’re so helpful, and I love your personality! 💜",
+          "likes": 2,
+          "published_at": "2026-04-19T17:29:47Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "helpful",
+              "polarity": "positive"
+            },
+            {
+              "token": "love",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@annieboerner8435",
+          "text": "Love your videos and recipes!! I’ve tried a ton of your recipes and *love* every one of them!! \n👏💖 Thank you, and please keep them coming!",
+          "likes": 2,
+          "published_at": "2026-04-19T17:55:47Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Love",
+              "polarity": "positive"
+            },
+            {
+              "token": "love",
+              "polarity": "positive"
+            },
+            {
+              "token": "Thank you",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@anettesinn280",
+          "text": "Good Morning Dear 🙂 Your videos are a pleasure to watch. I could watch them more often. Thank you! ❤",
+          "likes": 2,
+          "published_at": "2026-04-20T12:38:13Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "pleasure",
+              "polarity": "positive"
+            },
+            {
+              "token": "watch",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@AnnaKoshian",
+          "text": "Your fried-rice seems so good! ✨ I always a fan of your lovely oatbowls🥣and your mind, full of nutrient-densed foods !   I think eating well is the best way to promote Earth Day🌎 \nLove from Japan🇯🇵🥄",
+          "likes": 0,
+          "published_at": "2026-04-21T06:51:03Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "good",
+              "polarity": "positive"
+            },
+            {
+              "token": "lovely",
+              "polarity": "positive"
+            },
+            {
+              "token": "nutrient-densed",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@biancamignone9328",
+          "text": "you're so relaxing and joyful to watch...what  a breath of fresh air!  (compared to what bombards us women today 🙈...(and i adore William Morris - have you been to his museum in Walthamstow? it's incredible!..the gardens...😍\n0",
+          "likes": 0,
+          "published_at": "2026-04-21T00:22:43Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "relaxing",
+              "polarity": "positive"
+            },
+            {
+              "token": "joyful",
+              "polarity": "positive"
+            },
+            {
+              "token": "breath of fresh air",
+              "polarity": "positive"
+            },
+            {
+              "token": "incredible",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [],
+      "neutral": [],
+      "all": [
+        {
+          "author": "@laurenkretzer4064",
+          "text": "Just wanted to say that I love your channel. It's such a bright spot! You give wonderful advice, and I feel like I could hang out with you all day. Thank you!",
+          "likes": 5,
+          "published_at": "2026-04-21T17:05:37Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "love",
+              "polarity": "positive"
+            },
+            {
+              "token": "bright spot",
+              "polarity": "positive"
+            },
+            {
+              "token": "wonderful",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@cloudbreak526",
+          "text": "Love the positive view of easy prep! Also great for people with arthritis or other hand limitations. Would looovvvee to see a low FODMAP vid one day ❤️ So rarely get to see high quality/cinematic content on that topic.",
+          "likes": 3,
+          "published_at": "2026-04-19T17:32:36Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "positive",
+              "polarity": "positive"
+            },
+            {
+              "token": "great",
+              "polarity": "positive"
+            },
+            {
+              "token": "love",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@nazeeniranfar2616",
+          "text": "Thank you Emily for all the great tips and tricks 🙌",
+          "likes": 3,
+          "published_at": "2026-04-20T14:58:16Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "great",
+              "polarity": "positive"
+            },
+            {
+              "token": "thanks",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@BeckyTucker2010",
+          "text": "Love your content…collab with Flora next? ❤",
+          "likes": 0,
+          "published_at": "2026-05-09T19:03:44Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Love",
+              "polarity": "positive"
+            },
+            {
+              "token": "next",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@MadsWatson",
+          "text": "I am really really loving your channel. One of my favourite YouTubers to have discovered this year. Thanks so much for keeping it reallll xxx",
+          "likes": 1,
+          "published_at": "2026-04-21T21:43:05Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "loving",
+              "polarity": "positive"
+            },
+            {
+              "token": "favourite",
+              "polarity": "positive"
+            },
+            {
+              "token": "Thanks",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@KatharineJuneStudio",
+          "text": "Thank you so much for making these videos! They’re so helpful, and I love your personality! 💜",
+          "likes": 2,
+          "published_at": "2026-04-19T17:29:47Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "helpful",
+              "polarity": "positive"
+            },
+            {
+              "token": "love",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@annieboerner8435",
+          "text": "Love your videos and recipes!! I’ve tried a ton of your recipes and *love* every one of them!! \n👏💖 Thank you, and please keep them coming!",
+          "likes": 2,
+          "published_at": "2026-04-19T17:55:47Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Love",
+              "polarity": "positive"
+            },
+            {
+              "token": "love",
+              "polarity": "positive"
+            },
+            {
+              "token": "Thank you",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@anettesinn280",
+          "text": "Good Morning Dear 🙂 Your videos are a pleasure to watch. I could watch them more often. Thank you! ❤",
+          "likes": 2,
+          "published_at": "2026-04-20T12:38:13Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "pleasure",
+              "polarity": "positive"
+            },
+            {
+              "token": "watch",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@AnnaKoshian",
+          "text": "Your fried-rice seems so good! ✨ I always a fan of your lovely oatbowls🥣and your mind, full of nutrient-densed foods !   I think eating well is the best way to promote Earth Day🌎 \nLove from Japan🇯🇵🥄",
+          "likes": 0,
+          "published_at": "2026-04-21T06:51:03Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "good",
+              "polarity": "positive"
+            },
+            {
+              "token": "lovely",
+              "polarity": "positive"
+            },
+            {
+              "token": "nutrient-densed",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@biancamignone9328",
+          "text": "you're so relaxing and joyful to watch...what  a breath of fresh air!  (compared to what bombards us women today 🙈...(and i adore William Morris - have you been to his museum in Walthamstow? it's incredible!..the gardens...😍\n0",
+          "likes": 0,
+          "published_at": "2026-04-21T00:22:43Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "relaxing",
+              "polarity": "positive"
+            },
+            {
+              "token": "joyful",
+              "polarity": "positive"
+            },
+            {
+              "token": "breath of fresh air",
+              "polarity": "positive"
+            },
+            {
+              "token": "incredible",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "RehEDg99fzo": {
+    "transcript": {
+      "label": "Negative",
+      "score": 0.62,
+      "summary": "The speaker warns seniors over 60 about potential dangers of eating avocados due to changes in their body with age.",
+      "highlightTokens": [
+        {
+          "token": "dangerous",
+          "polarity": "negative"
+        },
+        {
+          "token": "sensitized",
+          "polarity": "negative"
+        },
+        {
+          "token": "reaction can escalate",
+          "polarity": "negative"
+        }
+      ]
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@NormaChristian-h4w",
+          "text": "Thank you Dr.Li.❤",
+          "likes": 0,
+          "published_at": "2026-05-15T05:59:25Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "you",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@LathaHapugoda",
+          "text": "Very good information. I love avacado but do not over eat. I did not know the drug interactions with avacado for hypertensives, warfarin etc. Thank you Dr Li for your generosity in sharing knowledge. You are a gift to mankind from the heaven😍",
+          "likes": 2,
+          "published_at": "2026-05-09T10:21:40Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "good",
+              "polarity": "positive"
+            },
+            {
+              "token": "love",
+              "polarity": "positive"
+            },
+            {
+              "token": "thank you",
+              "polarity": "positive"
+            },
+            {
+              "token": "gift",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@davidhewett281",
+          "text": "Wow thanks for that information. David Hewett",
+          "likes": 0,
+          "published_at": "2026-05-14T16:39:11Z",
+          "label": "Positive",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "thanks",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@royahoffmeyer3959",
+          "text": "❤",
+          "likes": 0,
+          "published_at": "2026-05-16T08:07:13Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "❤",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@LynnPenner-q7u",
+          "text": "To say I appreciate the details and that concepts that Dr. Li pesents is to understate. I wish my doctor understood the concept that we are all metabolically unique. Thank you for the depth and breadth of your discussions. Is a video doctor visit with you possible?",
+          "likes": 1,
+          "published_at": "2026-05-10T14:46:59Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "appreciate",
+              "polarity": "positive"
+            },
+            {
+              "token": "depth",
+              "polarity": "positive"
+            },
+            {
+              "token": "broadth",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@JoyceEbrahim-kq3tl",
+          "text": "WE LOVE AVOCADOS AND WE WONT STOP EATING THEM. \nSO doctor please stop 🛑",
+          "likes": 2,
+          "published_at": "2026-05-15T15:22:39Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "LOVE",
+              "polarity": "positive"
+            },
+            {
+              "token": "WONT",
+              "polarity": "negative"
+            },
+            {
+              "token": "STOP",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@kidrengo",
+          "text": "If anything this report gives me another reason why  to cut back on avocados. Too expensive anyway.",
+          "likes": 0,
+          "published_at": "2026-05-18T00:31:22Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "expensive",
+              "polarity": "negative"
+            },
+            {
+              "token": "cut back",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@DonnaTobin-e5x",
+          "text": "If you can't listen then what can I say. Overdoing is bad with anything.",
+          "likes": 3,
+          "published_at": "2026-05-10T13:28:56Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "can't",
+              "polarity": "negative"
+            },
+            {
+              "token": "bad",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@harrybrooks9634",
+          "text": "Matsuko was TOLD to eat avocados!!! Now you say NO??? We will listen and try to understand your reasons...but we are shocked!",
+          "likes": 3,
+          "published_at": "2026-05-15T01:09:37Z",
+          "label": "Negative",
+          "score": 0.73,
+          "highlightTokens": [
+            {
+              "token": "shocked",
+              "polarity": "negative"
+            },
+            {
+              "token": "NO",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@gtracer6629",
+          "text": "Until 6 months ago I had never seen an avocado. I heard so much about them that I tried one. I found it the most awful tasting thing I ever eaten in my life. I promised myself never to touch one again.",
+          "likes": 1,
+          "published_at": "2026-05-13T17:57:24Z",
+          "label": "Negative",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "awful",
+              "polarity": "negative"
+            },
+            {
+              "token": "hated",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "neutral": [],
+      "all": [
+        {
+          "author": "@NormaChristian-h4w",
+          "text": "Thank you Dr.Li.❤",
+          "likes": 0,
+          "published_at": "2026-05-15T05:59:25Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "you",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@LathaHapugoda",
+          "text": "Very good information. I love avacado but do not over eat. I did not know the drug interactions with avacado for hypertensives, warfarin etc. Thank you Dr Li for your generosity in sharing knowledge. You are a gift to mankind from the heaven😍",
+          "likes": 2,
+          "published_at": "2026-05-09T10:21:40Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "good",
+              "polarity": "positive"
+            },
+            {
+              "token": "love",
+              "polarity": "positive"
+            },
+            {
+              "token": "thank you",
+              "polarity": "positive"
+            },
+            {
+              "token": "gift",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@davidhewett281",
+          "text": "Wow thanks for that information. David Hewett",
+          "likes": 0,
+          "published_at": "2026-05-14T16:39:11Z",
+          "label": "Positive",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "thanks",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@kidrengo",
+          "text": "If anything this report gives me another reason why  to cut back on avocados. Too expensive anyway.",
+          "likes": 0,
+          "published_at": "2026-05-18T00:31:22Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "expensive",
+              "polarity": "negative"
+            },
+            {
+              "token": "cut back",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@DonnaTobin-e5x",
+          "text": "If you can't listen then what can I say. Overdoing is bad with anything.",
+          "likes": 3,
+          "published_at": "2026-05-10T13:28:56Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "can't",
+              "polarity": "negative"
+            },
+            {
+              "token": "bad",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@harrybrooks9634",
+          "text": "Matsuko was TOLD to eat avocados!!! Now you say NO??? We will listen and try to understand your reasons...but we are shocked!",
+          "likes": 3,
+          "published_at": "2026-05-15T01:09:37Z",
+          "label": "Negative",
+          "score": 0.73,
+          "highlightTokens": [
+            {
+              "token": "shocked",
+              "polarity": "negative"
+            },
+            {
+              "token": "NO",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@royahoffmeyer3959",
+          "text": "❤",
+          "likes": 0,
+          "published_at": "2026-05-16T08:07:13Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "❤",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@LynnPenner-q7u",
+          "text": "To say I appreciate the details and that concepts that Dr. Li pesents is to understate. I wish my doctor understood the concept that we are all metabolically unique. Thank you for the depth and breadth of your discussions. Is a video doctor visit with you possible?",
+          "likes": 1,
+          "published_at": "2026-05-10T14:46:59Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "appreciate",
+              "polarity": "positive"
+            },
+            {
+              "token": "depth",
+              "polarity": "positive"
+            },
+            {
+              "token": "broadth",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@JoyceEbrahim-kq3tl",
+          "text": "WE LOVE AVOCADOS AND WE WONT STOP EATING THEM. \nSO doctor please stop 🛑",
+          "likes": 2,
+          "published_at": "2026-05-15T15:22:39Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "LOVE",
+              "polarity": "positive"
+            },
+            {
+              "token": "WONT",
+              "polarity": "negative"
+            },
+            {
+              "token": "STOP",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@gtracer6629",
+          "text": "Until 6 months ago I had never seen an avocado. I heard so much about them that I tried one. I found it the most awful tasting thing I ever eaten in my life. I promised myself never to touch one again.",
+          "likes": 1,
+          "published_at": "2026-05-13T17:57:24Z",
+          "label": "Negative",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "awful",
+              "polarity": "negative"
+            },
+            {
+              "token": "hated",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "VmjPeC9ggV0": {
+    "transcript": {
+      "label": "Positive",
+      "score": 0.92,
+      "summary": "The speaker discusses the benefits of certain foods, particularly carrots, in improving blood flow, reducing inflammation, and protecting vision and brain health.",
+      "highlightTokens": [
+        {
+          "token": "carrots",
+          "polarity": "positive"
+        },
+        {
+          "token": "blood vessels",
+          "polarity": "neutral"
+        },
+        {
+          "token": "inflammation",
+          "polarity": "negative"
+        }
+      ]
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@e.marker1989",
+          "text": "eat carrots, haha.",
+          "likes": 12,
+          "published_at": "2026-04-08T20:34:16Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "haha",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@LiSaX84",
+          "text": "I❤❤ CARROTS both raw and cooked.I also make juice with them😊",
+          "likes": 3,
+          "published_at": "2026-04-16T20:39:40Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "CARROTS",
+              "polarity": "positive"
+            },
+            {
+              "token": "❤❤",
+              "polarity": "positive"
+            },
+            {
+              "token": "😊",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@dema493",
+          "text": "Thank you!",
+          "likes": 3,
+          "published_at": "2026-04-11T13:31:08Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "you",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@CK-ku8br",
+          "text": "My nickname was my first name Carrot when I was a little girl. I ate them all the time and still love them I have cataracts. They didn’t help me……😢",
+          "likes": 7,
+          "published_at": "2026-04-12T16:14:24Z",
+          "label": "Positive",
+          "score": 0.65,
+          "highlightTokens": [
+            {
+              "token": "love",
+              "polarity": "positive"
+            },
+            {
+              "token": "still",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@1959AD",
+          "text": "Thanks .",
+          "likes": 3,
+          "published_at": "2026-04-11T08:13:28Z",
+          "label": "Positive",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "Thanks",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@aleks1203",
+          "text": "Thanks AI.",
+          "likes": 2,
+          "published_at": "2026-04-11T12:19:02Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Thanks",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@war1ordman",
+          "text": "Come from someone wearing glasses.  IRONIC.",
+          "likes": 19,
+          "published_at": "2026-04-08T13:07:15Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "IRONIC",
+              "polarity": "negative"
+            },
+            {
+              "token": "someone",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@judwatkins9478",
+          "text": "I wonder if Dr. Li had anything to do with this video.  The image of Dr. Li speaking without hesitation looks extremely well rehearsed - or could it be IT?",
+          "likes": 4,
+          "published_at": "2026-04-14T22:46:15Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "rehearsed",
+              "polarity": "negative"
+            },
+            {
+              "token": "IT",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@4evertrue830",
+          "text": "For a long, healthy life don't eat or drink any kind of processed sugars as part of your diet.",
+          "likes": 1,
+          "published_at": "2026-04-19T20:31:19Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "processed",
+              "polarity": "negative"
+            },
+            {
+              "token": "sugars",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@TheMAC0876",
+          "text": "Every eye video has someone wearing glasses🤣🤣🤣🤣. Looks like the only way to heal your eyes is with glasses!",
+          "likes": 3,
+          "published_at": "2026-04-14T21:08:09Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "glasses",
+              "polarity": "negative"
+            },
+            {
+              "token": "heal",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "neutral": [],
+      "all": [
+        {
+          "author": "@e.marker1989",
+          "text": "eat carrots, haha.",
+          "likes": 12,
+          "published_at": "2026-04-08T20:34:16Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "haha",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@LiSaX84",
+          "text": "I❤❤ CARROTS both raw and cooked.I also make juice with them😊",
+          "likes": 3,
+          "published_at": "2026-04-16T20:39:40Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "CARROTS",
+              "polarity": "positive"
+            },
+            {
+              "token": "❤❤",
+              "polarity": "positive"
+            },
+            {
+              "token": "😊",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@war1ordman",
+          "text": "Come from someone wearing glasses.  IRONIC.",
+          "likes": 19,
+          "published_at": "2026-04-08T13:07:15Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "IRONIC",
+              "polarity": "negative"
+            },
+            {
+              "token": "someone",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@dema493",
+          "text": "Thank you!",
+          "likes": 3,
+          "published_at": "2026-04-11T13:31:08Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "you",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@CK-ku8br",
+          "text": "My nickname was my first name Carrot when I was a little girl. I ate them all the time and still love them I have cataracts. They didn’t help me……😢",
+          "likes": 7,
+          "published_at": "2026-04-12T16:14:24Z",
+          "label": "Positive",
+          "score": 0.65,
+          "highlightTokens": [
+            {
+              "token": "love",
+              "polarity": "positive"
+            },
+            {
+              "token": "still",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@1959AD",
+          "text": "Thanks .",
+          "likes": 3,
+          "published_at": "2026-04-11T08:13:28Z",
+          "label": "Positive",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "Thanks",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@aleks1203",
+          "text": "Thanks AI.",
+          "likes": 2,
+          "published_at": "2026-04-11T12:19:02Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Thanks",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@judwatkins9478",
+          "text": "I wonder if Dr. Li had anything to do with this video.  The image of Dr. Li speaking without hesitation looks extremely well rehearsed - or could it be IT?",
+          "likes": 4,
+          "published_at": "2026-04-14T22:46:15Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "rehearsed",
+              "polarity": "negative"
+            },
+            {
+              "token": "IT",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@4evertrue830",
+          "text": "For a long, healthy life don't eat or drink any kind of processed sugars as part of your diet.",
+          "likes": 1,
+          "published_at": "2026-04-19T20:31:19Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "processed",
+              "polarity": "negative"
+            },
+            {
+              "token": "sugars",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@TheMAC0876",
+          "text": "Every eye video has someone wearing glasses🤣🤣🤣🤣. Looks like the only way to heal your eyes is with glasses!",
+          "likes": 3,
+          "published_at": "2026-04-14T21:08:09Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "glasses",
+              "polarity": "negative"
+            },
+            {
+              "token": "heal",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "nSfPSeb-CAU": {
+    "transcript": {
+      "label": "Positive",
+      "score": 0.92,
+      "summary": "The video discusses the benefits of certain drinks in boosting stem cells and promoting longevity, citing research from Dr. William Li.",
+      "highlightTokens": [
+        {
+          "token": "boost your stem cells",
+          "polarity": "positive"
+        },
+        {
+          "token": "live longer",
+          "polarity": "positive"
+        },
+        {
+          "token": "supercharge your body's natural healing powers",
+          "polarity": "positive"
+        },
+        {
+          "token": "double the number of stem cells",
+          "polarity": "positive"
+        },
+        {
+          "token": "cancer starving",
+          "polarity": "negative"
+        },
+        {
+          "token": "antioxidant",
+          "polarity": "neutral"
+        },
+        {
+          "token": "lower inflammation",
+          "polarity": "neutral"
+        }
+      ]
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@ItsMe-ic7on",
+          "text": "2 cups of hot chocolate a day dark chocolate what's 80% or more cacao. Lots of polyphenols. Call Delta stem cells. Blood vessels are kind of sick what kind of the definition of heart disease. Double the resiliency and the function of the blood vessels better rebound better agility the blood vessels are better shape do the stem cells regenerating their circulation. Is unsweetened powder or dark chocolate bar what's a high amount of cacao 80% is really preferred or higher. He's a pinch of cinnamon Ceylon cinnamon add flavor a hint of sweetness and helps balance blood sugar.2) pomegranate juice. The seeds are used to make the juice. Is there a cancer starving but it helps your gut make mucus and in the long run help stimulate stem cells. And this helps grow bacteria inside the mucus and one of that is akkermansia a guardian of our health. Helps fight cancer helps control blood sugar and boost stem cell count.3) green tea and black tea. Preparing that makes a difference in how much benefits you get. Two to three cups of green or black tea per day is recommended",
+          "likes": 50,
+          "published_at": "2026-03-02T21:26:06Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "polyphenols",
+              "polarity": "positive"
+            },
+            {
+              "token": "resiliency",
+              "polarity": "positive"
+            },
+            {
+              "token": "regenerating",
+              "polarity": "positive"
+            },
+            {
+              "token": "balance",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Илья-ы3ф9ц",
+          "text": "Regrowing stem cells for longevity sounds like such a powerful concept, and I love how the \"try it for 1 day\" approach makes it feel so accessible. Definitely makes me want to learn more about putting these methods into practice.",
+          "likes": 3,
+          "published_at": "2026-03-16T12:24:26Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "powerful",
+              "polarity": "positive"
+            },
+            {
+              "token": "accessible",
+              "polarity": "positive"
+            },
+            {
+              "token": "love",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Concrete-Ron",
+          "text": "Use 100% zested Baker's chocolate in coffee with cinnamon, ground clove, ch8, glycine, butter, 100% natural heavy cream, creatine.",
+          "likes": 17,
+          "published_at": "2026-03-05T11:01:41Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "zested",
+              "polarity": "positive"
+            },
+            {
+              "token": "natural",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@SolSamaraSol",
+          "text": "Eat cacao beans!! They are very yummy.",
+          "likes": 2,
+          "published_at": "2026-03-20T01:05:15Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "yummy",
+              "polarity": "positive"
+            },
+            {
+              "token": "very",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@jeffrey322",
+          "text": "Drink #1: High-Flavanol Dark Hot Chocolate\n\nMain Substance: Cacao (80% or higher).\n\nKey Compounds: Flavanols and Pro-anthocyanidins.\n\nBenefits: Shown to double the number of circulating stem cells and improve blood vessel resiliency.\n\nDr. Li's Tip: Use unsweetened cacao powder with water or almond milk. Add a pinch of cinnamon to help balance blood sugar.\n\nDrink #2: 100% Pomegranate Juice\n\nMain Substance: Pomegranate seeds and skin (ellagitannins).\n\nKey Compounds: Ellagitannins (which convert to Urolithin A in the gut).\n\nBenefits: Stimulates the growth of Akkermansia, a \"guardian\" gut bacteria that helps the immune system and controls blood sugar.\n\nDr. Li's Tip: Look for juice pressed with the skin to get the \"knockout punch\" of nutrients. Avoid brands with added sugar.\n\nDrink #3: Green and Black Tea\n\nMain Substance: Tea leaves (Camellia sinensis).\n\nKey Compounds: EGCG (in green tea) and specialized polyphenols (in black tea).\n\nBenefits: Prevents telomeres from shortening (slowing cellular aging) and supports natural cellular repair.\n\nDr. Li's Tip: Add a squeeze of lemon to help your body absorb the antioxidants better. Avoid adding milk, as it can block the absorption of certain nutrients.\n\n\n00:00 - Start\n00:47 - Drink #1\n04:28 - How to prepare\n06:01- Drink #2\n09:25 -  How to prepare\n10:09 - Drink #3\n13:05 - how to prepare",
+          "likes": 7,
+          "published_at": "2026-03-17T19:59:07Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "Benefits",
+              "polarity": "positive"
+            },
+            {
+              "token": "improve",
+              "polarity": "positive"
+            },
+            {
+              "token": "stimulates",
+              "polarity": "positive"
+            },
+            {
+              "token": "prevent",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@ItsMe-ic7on",
+          "text": "The squeeze of lemon in your teeth will help your body absorb the beneficial compounds more effectively. If you don't want the caffeine that's in the green tea steep it for about an hour in cold water so there is not as much caffeine activated.",
+          "likes": 5,
+          "published_at": "2026-03-02T21:27:14Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "beneficial",
+              "polarity": "positive"
+            },
+            {
+              "token": "help",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@db8646",
+          "text": "Avoid boiling water.",
+          "likes": 2,
+          "published_at": "2026-03-18T19:24:42Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "boiling",
+              "polarity": "negative"
+            },
+            {
+              "token": "water",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@ItsMe-ic7on",
+          "text": "Avoid sugar it reduces the healthy benefits of the drink and avoid milk with a tea because certain antioxidants may not be absorbed into the body",
+          "likes": 13,
+          "published_at": "2026-03-02T21:27:54Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "avoid",
+              "polarity": "negative"
+            },
+            {
+              "token": "reduces",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@Re-eh6wz",
+          "text": "I tested positive for cocaine use when I drank chocolate like this every day...I had to stop for a few days before my next test to get a negative",
+          "likes": 0,
+          "published_at": "2026-03-22T00:53:01Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "negative",
+              "polarity": "negative"
+            },
+            {
+              "token": "stop",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "neutral": [
+        {
+          "author": "@kpopandotherplaylists2518",
+          "text": "So dark chocolate,\n\n pomegranate\n\n and green tea.",
+          "likes": 29,
+          "published_at": "2026-03-15T21:52:36Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "dark chocolate",
+              "polarity": "positive"
+            },
+            {
+              "token": "green tea",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@ItsMe-ic7on",
+          "text": "2 cups of hot chocolate a day dark chocolate what's 80% or more cacao. Lots of polyphenols. Call Delta stem cells. Blood vessels are kind of sick what kind of the definition of heart disease. Double the resiliency and the function of the blood vessels better rebound better agility the blood vessels are better shape do the stem cells regenerating their circulation. Is unsweetened powder or dark chocolate bar what's a high amount of cacao 80% is really preferred or higher. He's a pinch of cinnamon Ceylon cinnamon add flavor a hint of sweetness and helps balance blood sugar.2) pomegranate juice. The seeds are used to make the juice. Is there a cancer starving but it helps your gut make mucus and in the long run help stimulate stem cells. And this helps grow bacteria inside the mucus and one of that is akkermansia a guardian of our health. Helps fight cancer helps control blood sugar and boost stem cell count.3) green tea and black tea. Preparing that makes a difference in how much benefits you get. Two to three cups of green or black tea per day is recommended",
+          "likes": 50,
+          "published_at": "2026-03-02T21:26:06Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "polyphenols",
+              "polarity": "positive"
+            },
+            {
+              "token": "resiliency",
+              "polarity": "positive"
+            },
+            {
+              "token": "regenerating",
+              "polarity": "positive"
+            },
+            {
+              "token": "balance",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Илья-ы3ф9ц",
+          "text": "Regrowing stem cells for longevity sounds like such a powerful concept, and I love how the \"try it for 1 day\" approach makes it feel so accessible. Definitely makes me want to learn more about putting these methods into practice.",
+          "likes": 3,
+          "published_at": "2026-03-16T12:24:26Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "powerful",
+              "polarity": "positive"
+            },
+            {
+              "token": "accessible",
+              "polarity": "positive"
+            },
+            {
+              "token": "love",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Concrete-Ron",
+          "text": "Use 100% zested Baker's chocolate in coffee with cinnamon, ground clove, ch8, glycine, butter, 100% natural heavy cream, creatine.",
+          "likes": 17,
+          "published_at": "2026-03-05T11:01:41Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "zested",
+              "polarity": "positive"
+            },
+            {
+              "token": "natural",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@kpopandotherplaylists2518",
+          "text": "So dark chocolate,\n\n pomegranate\n\n and green tea.",
+          "likes": 29,
+          "published_at": "2026-03-15T21:52:36Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "dark chocolate",
+              "polarity": "positive"
+            },
+            {
+              "token": "green tea",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@db8646",
+          "text": "Avoid boiling water.",
+          "likes": 2,
+          "published_at": "2026-03-18T19:24:42Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "boiling",
+              "polarity": "negative"
+            },
+            {
+              "token": "water",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@SolSamaraSol",
+          "text": "Eat cacao beans!! They are very yummy.",
+          "likes": 2,
+          "published_at": "2026-03-20T01:05:15Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "yummy",
+              "polarity": "positive"
+            },
+            {
+              "token": "very",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@jeffrey322",
+          "text": "Drink #1: High-Flavanol Dark Hot Chocolate\n\nMain Substance: Cacao (80% or higher).\n\nKey Compounds: Flavanols and Pro-anthocyanidins.\n\nBenefits: Shown to double the number of circulating stem cells and improve blood vessel resiliency.\n\nDr. Li's Tip: Use unsweetened cacao powder with water or almond milk. Add a pinch of cinnamon to help balance blood sugar.\n\nDrink #2: 100% Pomegranate Juice\n\nMain Substance: Pomegranate seeds and skin (ellagitannins).\n\nKey Compounds: Ellagitannins (which convert to Urolithin A in the gut).\n\nBenefits: Stimulates the growth of Akkermansia, a \"guardian\" gut bacteria that helps the immune system and controls blood sugar.\n\nDr. Li's Tip: Look for juice pressed with the skin to get the \"knockout punch\" of nutrients. Avoid brands with added sugar.\n\nDrink #3: Green and Black Tea\n\nMain Substance: Tea leaves (Camellia sinensis).\n\nKey Compounds: EGCG (in green tea) and specialized polyphenols (in black tea).\n\nBenefits: Prevents telomeres from shortening (slowing cellular aging) and supports natural cellular repair.\n\nDr. Li's Tip: Add a squeeze of lemon to help your body absorb the antioxidants better. Avoid adding milk, as it can block the absorption of certain nutrients.\n\n\n00:00 - Start\n00:47 - Drink #1\n04:28 - How to prepare\n06:01- Drink #2\n09:25 -  How to prepare\n10:09 - Drink #3\n13:05 - how to prepare",
+          "likes": 7,
+          "published_at": "2026-03-17T19:59:07Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "Benefits",
+              "polarity": "positive"
+            },
+            {
+              "token": "improve",
+              "polarity": "positive"
+            },
+            {
+              "token": "stimulates",
+              "polarity": "positive"
+            },
+            {
+              "token": "prevent",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@ItsMe-ic7on",
+          "text": "Avoid sugar it reduces the healthy benefits of the drink and avoid milk with a tea because certain antioxidants may not be absorbed into the body",
+          "likes": 13,
+          "published_at": "2026-03-02T21:27:54Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "avoid",
+              "polarity": "negative"
+            },
+            {
+              "token": "reduces",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@ItsMe-ic7on",
+          "text": "The squeeze of lemon in your teeth will help your body absorb the beneficial compounds more effectively. If you don't want the caffeine that's in the green tea steep it for about an hour in cold water so there is not as much caffeine activated.",
+          "likes": 5,
+          "published_at": "2026-03-02T21:27:14Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "beneficial",
+              "polarity": "positive"
+            },
+            {
+              "token": "help",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Re-eh6wz",
+          "text": "I tested positive for cocaine use when I drank chocolate like this every day...I had to stop for a few days before my next test to get a negative",
+          "likes": 0,
+          "published_at": "2026-03-22T00:53:01Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "negative",
+              "polarity": "negative"
+            },
+            {
+              "token": "stop",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "oCLCeZR5w30": {
+    "transcript": {
+      "label": "Positive",
+      "score": 0.92,
+      "summary": "The host discusses her pre- and post-workout nutrition as a PhD nutritionist, recommending various foods and supplements while sharing personal anecdotes.",
+      "highlightTokens": [
+        {
+          "token": "I absolutely love it",
+          "polarity": "positive"
+        },
+        {
+          "token": "Highly recommend if you're looking for just a really thoughtful, lovely book",
+          "polarity": "positive"
+        },
+        {
+          "token": "This is all going in the blender, by the way, all at once",
+          "polarity": "neutral"
+        },
+        {
+          "token": "I'm not having any coffee today",
+          "polarity": "negative"
+        }
+      ]
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@cindyblount8621",
+          "text": "Really love the snippets of the streets of London!\nThanks :)",
+          "likes": 3,
+          "published_at": "2026-04-05T20:47:56Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "love",
+              "polarity": "positive"
+            },
+            {
+              "token": "really",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@pois-sheesh",
+          "text": "Hi queen, I’d be interested to hear your take on oxalates in food! Thank you for the informative and entertaining content!",
+          "likes": 0,
+          "published_at": "2026-04-24T15:27:10Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "interested",
+              "polarity": "positive"
+            },
+            {
+              "token": "informative",
+              "polarity": "positive"
+            },
+            {
+              "token": "entertaining",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@meerkat2992",
+          "text": "Great video!! Beautiful country!!",
+          "likes": 0,
+          "published_at": "2026-04-09T09:30:26Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "Beautiful",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@juliannadickinson1853",
+          "text": "I'm starting pilates soon . But from home . I'm getting a reformer pilates board on Tuesday. I normally trink a mini Proteinshake before I workout . Goal is to form my body❤",
+          "likes": 1,
+          "published_at": "2026-04-05T17:50:28Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "soon",
+              "polarity": "positive"
+            },
+            {
+              "token": "getting",
+              "polarity": "positive"
+            },
+            {
+              "token": "reformer",
+              "polarity": "positive"
+            },
+            {
+              "token": "mini Proteinshake",
+              "polarity": "positive"
+            },
+            {
+              "token": "❤",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@juliamuller6978",
+          "text": "Great video!",
+          "likes": 0,
+          "published_at": "2026-04-08T07:36:53Z",
+          "label": "Positive",
+          "score": 0.9,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "video",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@nazeeniranfar2616",
+          "text": "Great vlog and thank you for sharing your pre and post workout routine and the information on protein intake immediately after workout 🙌",
+          "likes": 1,
+          "published_at": "2026-04-05T22:15:27Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "thank you",
+              "polarity": "positive"
+            },
+            {
+              "token": "pre and post workout routine",
+              "polarity": "neutral"
+            },
+            {
+              "token": "immediately after workout",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@juliarusso4547",
+          "text": "Thank you ❤",
+          "likes": 1,
+          "published_at": "2026-04-05T18:08:43Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "you",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@katietincello4481",
+          "text": "Hi Emily, thanks for another great video. Can I ask what you would recommend for those who don’t have much of an appetite after a workout ? I struggle with this (not the best with natural hunger cues), and I also know it’s more common with high intensity exercise. Is it ok to wait until properly hungry? Kim not worried about the “gains window”, but more interested in optimising for recovery, performance, etc, as some who trains regularly at a high level and intensity! Thank you ☺️",
+          "likes": 0,
+          "published_at": "2026-04-12T17:48:45Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "great",
+              "polarity": "positive"
+            },
+            {
+              "token": "thanks",
+              "polarity": "positive"
+            },
+            {
+              "token": "ok",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@clairesingleton7399",
+          "text": "I love Pilates 🧘‍♀️.  I suffer with a bad back so trying to do workouts to strengthen my core. We don’t have the fancy machines though. Our Pilates teacher is really good 😊.  I do like yoga but not many classes at my gym. Thank you for sharing ❤xxx",
+          "likes": 0,
+          "published_at": "2026-04-05T16:26:47Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "love",
+              "polarity": "positive"
+            },
+            {
+              "token": "good",
+              "polarity": "positive"
+            },
+            {
+              "token": "really",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@charissacools",
+          "text": "I love it! Very interested on knowing about the \"drama\" of eating or drinking too much Soy. Would be happy to know your view or POV. Myth or not 😄",
+          "likes": 0,
+          "published_at": "2026-04-06T07:58:25Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "love",
+              "polarity": "positive"
+            },
+            {
+              "token": "happy",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [],
+      "neutral": [],
+      "all": [
+        {
+          "author": "@cindyblount8621",
+          "text": "Really love the snippets of the streets of London!\nThanks :)",
+          "likes": 3,
+          "published_at": "2026-04-05T20:47:56Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "love",
+              "polarity": "positive"
+            },
+            {
+              "token": "really",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@pois-sheesh",
+          "text": "Hi queen, I’d be interested to hear your take on oxalates in food! Thank you for the informative and entertaining content!",
+          "likes": 0,
+          "published_at": "2026-04-24T15:27:10Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "interested",
+              "polarity": "positive"
+            },
+            {
+              "token": "informative",
+              "polarity": "positive"
+            },
+            {
+              "token": "entertaining",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@meerkat2992",
+          "text": "Great video!! Beautiful country!!",
+          "likes": 0,
+          "published_at": "2026-04-09T09:30:26Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "Beautiful",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@juliannadickinson1853",
+          "text": "I'm starting pilates soon . But from home . I'm getting a reformer pilates board on Tuesday. I normally trink a mini Proteinshake before I workout . Goal is to form my body❤",
+          "likes": 1,
+          "published_at": "2026-04-05T17:50:28Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "soon",
+              "polarity": "positive"
+            },
+            {
+              "token": "getting",
+              "polarity": "positive"
+            },
+            {
+              "token": "reformer",
+              "polarity": "positive"
+            },
+            {
+              "token": "mini Proteinshake",
+              "polarity": "positive"
+            },
+            {
+              "token": "❤",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@juliamuller6978",
+          "text": "Great video!",
+          "likes": 0,
+          "published_at": "2026-04-08T07:36:53Z",
+          "label": "Positive",
+          "score": 0.9,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "video",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@nazeeniranfar2616",
+          "text": "Great vlog and thank you for sharing your pre and post workout routine and the information on protein intake immediately after workout 🙌",
+          "likes": 1,
+          "published_at": "2026-04-05T22:15:27Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "thank you",
+              "polarity": "positive"
+            },
+            {
+              "token": "pre and post workout routine",
+              "polarity": "neutral"
+            },
+            {
+              "token": "immediately after workout",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@juliarusso4547",
+          "text": "Thank you ❤",
+          "likes": 1,
+          "published_at": "2026-04-05T18:08:43Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "you",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@katietincello4481",
+          "text": "Hi Emily, thanks for another great video. Can I ask what you would recommend for those who don’t have much of an appetite after a workout ? I struggle with this (not the best with natural hunger cues), and I also know it’s more common with high intensity exercise. Is it ok to wait until properly hungry? Kim not worried about the “gains window”, but more interested in optimising for recovery, performance, etc, as some who trains regularly at a high level and intensity! Thank you ☺️",
+          "likes": 0,
+          "published_at": "2026-04-12T17:48:45Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "great",
+              "polarity": "positive"
+            },
+            {
+              "token": "thanks",
+              "polarity": "positive"
+            },
+            {
+              "token": "ok",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@clairesingleton7399",
+          "text": "I love Pilates 🧘‍♀️.  I suffer with a bad back so trying to do workouts to strengthen my core. We don’t have the fancy machines though. Our Pilates teacher is really good 😊.  I do like yoga but not many classes at my gym. Thank you for sharing ❤xxx",
+          "likes": 0,
+          "published_at": "2026-04-05T16:26:47Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "love",
+              "polarity": "positive"
+            },
+            {
+              "token": "good",
+              "polarity": "positive"
+            },
+            {
+              "token": "really",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@charissacools",
+          "text": "I love it! Very interested on knowing about the \"drama\" of eating or drinking too much Soy. Would be happy to know your view or POV. Myth or not 😄",
+          "likes": 0,
+          "published_at": "2026-04-06T07:58:25Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "love",
+              "polarity": "positive"
+            },
+            {
+              "token": "happy",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ]
+    }
   }
 }
