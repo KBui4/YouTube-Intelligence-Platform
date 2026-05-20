@@ -394612,5 +394612,1373 @@
         }
       ]
     }
+  },
+  "FvvmBxuzuWo": {
+    "transcript": {
+      "label": "Positive",
+      "score": 0.92,
+      "summary": "The host shares their keto-friendly breakfast ideas and experiences, emphasizing the benefits of a low-carb lifestyle.",
+      "highlightTokens": [
+        {
+          "token": "keto journey",
+          "polarity": "positive"
+        },
+        {
+          "token": "lost another kilogram",
+          "polarity": "positive"
+        },
+        {
+          "token": "favorite recently",
+          "polarity": "positive"
+        },
+        {
+          "token": "delighted",
+          "polarity": "positive"
+        },
+        {
+          "token": "happy having eggs",
+          "polarity": "positive"
+        }
+      ]
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@annaflynn8520",
+          "text": "Love the yoghurt bowl ideas. I eat yoghurt as part of my keto plan every day. A measured amount but never thought of adding nuts and the flax seed. I'm definitely going to try it. Thank you 😊",
+          "likes": 4,
+          "published_at": "2026-04-13T18:11:36Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Love",
+              "polarity": "positive"
+            },
+            {
+              "token": "yoghurt",
+              "polarity": "neutral"
+            },
+            {
+              "token": "try",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@CardrossWestwood",
+          "text": "One of my favourite keto-friendly breakfasts is egg-drop soup. Just make up a cup of quality chicken stock. Bring it to a boil in a small pan on the stove top. Drop in a small handful of chopped spring onions (I keep a bag of them in my freezer; you can cook from frozen). Add a pinch of chilli pepper flakes if you like spice. Then whisk up 1 egg and dribble it all into the boiling stock. Don't stir it! Just drop it in and the boiling water will cook it in an instant. This is a delicious and filling meal that costs me only around 100 calories (depending on the size of the egg). I always have eggs and chicken stock and frozen spring onions at hand, so this is quick and easy to make.",
+          "likes": 5,
+          "published_at": "2026-04-23T05:42:20Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "delicious",
+              "polarity": "positive"
+            },
+            {
+              "token": "favourite",
+              "polarity": "positive"
+            },
+            {
+              "token": "easy",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@carolreid4692",
+          "text": "Look forward to seeing your dinner options. Like the breakfasts. Am starting this very soon.",
+          "likes": 3,
+          "published_at": "2026-04-15T14:35:00Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "forward",
+              "polarity": "positive"
+            },
+            {
+              "token": "Like",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@annacusdin5589",
+          "text": "Thank you for these videos. Good luck with the channel and your journal ❤\nI’ve restarted keto as nothing seems to work to lose weight anymore. Keto worked really well the first time I did it several years ago, but when I stopped and started introducing ‘healthy’ options. Dates, sourdough, all the influencer advised healthy foods… I piled the weight back on. I just can’t eat like the majority and carbs are definitely not my friend. Subsequently when I tried keto again I’d discovered ‘keto’ baking with almond flour and keto chocolate bars etc, this also stalled any weight loss! \nSo… here I am again… this time will try not to do the almond / coconut flour baking or buy the ‘nicks’ keto chocolate bars! 10 days in, 2lbs down, not as much as I’d like but now I’m going to add fasting until 12 daily also… if I get too hungry coffee with double cream (was approved by a brilliant dr) to stay in keto and not break fast).",
+          "likes": 2,
+          "published_at": "2026-04-22T08:46:51Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "good luck",
+              "polarity": "positive"
+            },
+            {
+              "token": "worked really well",
+              "polarity": "positive"
+            },
+            {
+              "token": "thank you",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@SharonCashmore",
+          "text": "Great video more recipes please",
+          "likes": 1,
+          "published_at": "2026-04-15T07:35:47Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "more",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@QueenAmethyst55",
+          "text": "Greek yogurt is so easy to make. I have a one litre electric model. One litre of full fat milk, some whey from the last batch. It sets 8-10 hrs then I strain it really well. It's the thickest, creamy yogurt you can get. Works out £1.20 for nearly 500 grams. I was interested in you saying you don't have too much. Is that because of the carbs? Great breakfast suggestions. Definitely egg ones are the most filling. 😊",
+          "likes": 5,
+          "published_at": "2026-04-16T19:30:40Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "easy",
+              "polarity": "positive"
+            },
+            {
+              "token": "thickest",
+              "polarity": "positive"
+            },
+            {
+              "token": "creamy",
+              "polarity": "positive"
+            },
+            {
+              "token": "filling",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@clairegarnham2742",
+          "text": "Thanks for the video. This month has been manic for me and I just wonder how you manage to keep to your plan when LIFE just gets in the way? I have had holidays family meals theatre and hotel stays, so lucky I know but I can’t keep to a plan. HELP! X",
+          "likes": 1,
+          "published_at": "2026-04-27T07:59:16Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "Thanks",
+              "polarity": "positive"
+            },
+            {
+              "token": "lucky",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@sandrachaney8995",
+          "text": "Thankyou Amanda for this very helpful video. I been trying to do low carb, keto for a few years now and have lost weight and then put it on again because of illness and fatigue so you have just given me a fresh perspective as I get a bit down hearted at times. I am 73 this year and can really only loose weight when I walk and exercise every day but lately I feel to exhausted to do that. I have a really sweet tooth so I make desserts , biscuits or cakes with almond flour and keto sugar or bananas , apples etc for sweetness . I am not feeling well at the moment so just trying to stay low carb  even if I’m eating a little to much.\nAny advise you could give me will help. I also find it really difficult to go without bread so I buy a low carb version or make a cottage cheese bread, but just can’t seem todo without bread with my eggs.\nBlessings from New Zealand🥰",
+          "likes": 2,
+          "published_at": "2026-04-19T23:19:08Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "helpful",
+              "polarity": "positive"
+            },
+            {
+              "token": "fresh perspective",
+              "polarity": "positive"
+            },
+            {
+              "token": "blessings",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@m.b.3601",
+          "text": "Hello Amanda👋! Just found your channel….thankyou for the informative videos. I‘ve been doing keto since April 24 and have lost 20 Kg. A lot of the health issues that I had have disappeared. I find it difficult to stay on track when it comes to birthdays and family gatherings….what is your strategy? Wishing you well 😊, Mary from Germany xx",
+          "likes": 1,
+          "published_at": "2026-04-22T07:21:28Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "thankyou",
+              "polarity": "positive"
+            },
+            {
+              "token": "informative",
+              "polarity": "positive"
+            },
+            {
+              "token": "lost",
+              "polarity": "positive"
+            },
+            {
+              "token": "disappeared",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@DebbieStott-i2n",
+          "text": "Thank you. Great breakfast idea's.",
+          "likes": 1,
+          "published_at": "2026-04-25T20:57:42Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "breakfast",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [],
+      "neutral": [],
+      "all": [
+        {
+          "author": "@annaflynn8520",
+          "text": "Love the yoghurt bowl ideas. I eat yoghurt as part of my keto plan every day. A measured amount but never thought of adding nuts and the flax seed. I'm definitely going to try it. Thank you 😊",
+          "likes": 4,
+          "published_at": "2026-04-13T18:11:36Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Love",
+              "polarity": "positive"
+            },
+            {
+              "token": "yoghurt",
+              "polarity": "neutral"
+            },
+            {
+              "token": "try",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@CardrossWestwood",
+          "text": "One of my favourite keto-friendly breakfasts is egg-drop soup. Just make up a cup of quality chicken stock. Bring it to a boil in a small pan on the stove top. Drop in a small handful of chopped spring onions (I keep a bag of them in my freezer; you can cook from frozen). Add a pinch of chilli pepper flakes if you like spice. Then whisk up 1 egg and dribble it all into the boiling stock. Don't stir it! Just drop it in and the boiling water will cook it in an instant. This is a delicious and filling meal that costs me only around 100 calories (depending on the size of the egg). I always have eggs and chicken stock and frozen spring onions at hand, so this is quick and easy to make.",
+          "likes": 5,
+          "published_at": "2026-04-23T05:42:20Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "delicious",
+              "polarity": "positive"
+            },
+            {
+              "token": "favourite",
+              "polarity": "positive"
+            },
+            {
+              "token": "easy",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@carolreid4692",
+          "text": "Look forward to seeing your dinner options. Like the breakfasts. Am starting this very soon.",
+          "likes": 3,
+          "published_at": "2026-04-15T14:35:00Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "forward",
+              "polarity": "positive"
+            },
+            {
+              "token": "Like",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@annacusdin5589",
+          "text": "Thank you for these videos. Good luck with the channel and your journal ❤\nI’ve restarted keto as nothing seems to work to lose weight anymore. Keto worked really well the first time I did it several years ago, but when I stopped and started introducing ‘healthy’ options. Dates, sourdough, all the influencer advised healthy foods… I piled the weight back on. I just can’t eat like the majority and carbs are definitely not my friend. Subsequently when I tried keto again I’d discovered ‘keto’ baking with almond flour and keto chocolate bars etc, this also stalled any weight loss! \nSo… here I am again… this time will try not to do the almond / coconut flour baking or buy the ‘nicks’ keto chocolate bars! 10 days in, 2lbs down, not as much as I’d like but now I’m going to add fasting until 12 daily also… if I get too hungry coffee with double cream (was approved by a brilliant dr) to stay in keto and not break fast).",
+          "likes": 2,
+          "published_at": "2026-04-22T08:46:51Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "good luck",
+              "polarity": "positive"
+            },
+            {
+              "token": "worked really well",
+              "polarity": "positive"
+            },
+            {
+              "token": "thank you",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@SharonCashmore",
+          "text": "Great video more recipes please",
+          "likes": 1,
+          "published_at": "2026-04-15T07:35:47Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "more",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@QueenAmethyst55",
+          "text": "Greek yogurt is so easy to make. I have a one litre electric model. One litre of full fat milk, some whey from the last batch. It sets 8-10 hrs then I strain it really well. It's the thickest, creamy yogurt you can get. Works out £1.20 for nearly 500 grams. I was interested in you saying you don't have too much. Is that because of the carbs? Great breakfast suggestions. Definitely egg ones are the most filling. 😊",
+          "likes": 5,
+          "published_at": "2026-04-16T19:30:40Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "easy",
+              "polarity": "positive"
+            },
+            {
+              "token": "thickest",
+              "polarity": "positive"
+            },
+            {
+              "token": "creamy",
+              "polarity": "positive"
+            },
+            {
+              "token": "filling",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@clairegarnham2742",
+          "text": "Thanks for the video. This month has been manic for me and I just wonder how you manage to keep to your plan when LIFE just gets in the way? I have had holidays family meals theatre and hotel stays, so lucky I know but I can’t keep to a plan. HELP! X",
+          "likes": 1,
+          "published_at": "2026-04-27T07:59:16Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "Thanks",
+              "polarity": "positive"
+            },
+            {
+              "token": "lucky",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@sandrachaney8995",
+          "text": "Thankyou Amanda for this very helpful video. I been trying to do low carb, keto for a few years now and have lost weight and then put it on again because of illness and fatigue so you have just given me a fresh perspective as I get a bit down hearted at times. I am 73 this year and can really only loose weight when I walk and exercise every day but lately I feel to exhausted to do that. I have a really sweet tooth so I make desserts , biscuits or cakes with almond flour and keto sugar or bananas , apples etc for sweetness . I am not feeling well at the moment so just trying to stay low carb  even if I’m eating a little to much.\nAny advise you could give me will help. I also find it really difficult to go without bread so I buy a low carb version or make a cottage cheese bread, but just can’t seem todo without bread with my eggs.\nBlessings from New Zealand🥰",
+          "likes": 2,
+          "published_at": "2026-04-19T23:19:08Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "helpful",
+              "polarity": "positive"
+            },
+            {
+              "token": "fresh perspective",
+              "polarity": "positive"
+            },
+            {
+              "token": "blessings",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@m.b.3601",
+          "text": "Hello Amanda👋! Just found your channel….thankyou for the informative videos. I‘ve been doing keto since April 24 and have lost 20 Kg. A lot of the health issues that I had have disappeared. I find it difficult to stay on track when it comes to birthdays and family gatherings….what is your strategy? Wishing you well 😊, Mary from Germany xx",
+          "likes": 1,
+          "published_at": "2026-04-22T07:21:28Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "thankyou",
+              "polarity": "positive"
+            },
+            {
+              "token": "informative",
+              "polarity": "positive"
+            },
+            {
+              "token": "lost",
+              "polarity": "positive"
+            },
+            {
+              "token": "disappeared",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@DebbieStott-i2n",
+          "text": "Thank you. Great breakfast idea's.",
+          "likes": 1,
+          "published_at": "2026-04-25T20:57:42Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "breakfast",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "kNyK7W-sKqo": {
+    "transcript": {
+      "label": "Positive",
+      "score": 0.92,
+      "summary": "The conversation with Dr. Mark D'Esposito is informative and optimistic about brain health, highlighting the importance of sleep, social connection, and cognitive function.",
+      "highlightTokens": [
+        {
+          "token": "brain health",
+          "polarity": "positive"
+        },
+        {
+          "token": "optimize",
+          "polarity": "positive"
+        },
+        {
+          "token": "slowwave sleep",
+          "polarity": "positive"
+        },
+        {
+          "token": "frontal lobe",
+          "polarity": "positive"
+        },
+        {
+          "token": "cognitive function",
+          "polarity": "positive"
+        }
+      ]
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@barbaralopez265",
+          "text": "Great interview",
+          "likes": 1,
+          "published_at": "2025-12-09T11:49:23Z",
+          "label": "Positive",
+          "score": 0.9,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [],
+      "neutral": [],
+      "all": [
+        {
+          "author": "@barbaralopez265",
+          "text": "Great interview",
+          "likes": 1,
+          "published_at": "2025-12-09T11:49:23Z",
+          "label": "Positive",
+          "score": 0.9,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "lXaZQ8Xi4cg": {
+    "transcript": {
+      "label": "Positive",
+      "score": 0.92,
+      "summary": "The speaker enthusiastically promotes tempeh as a nutritious and easily digestible plant food, highlighting its benefits over other protein sources.",
+      "highlightTokens": [
+        {
+          "token": "miraculous",
+          "polarity": "positive"
+        },
+        {
+          "token": "nutritiously superior",
+          "polarity": "positive"
+        },
+        {
+          "token": "living food again",
+          "polarity": "positive"
+        }
+      ]
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@tybrady4598",
+          "text": "It’s fairly easy to make. The fermentation makes the protein more bioavailable. It has more protein than the original soybeans.",
+          "likes": 3,
+          "published_at": "2026-04-12T04:17:11Z",
+          "label": "Positive",
+          "score": 0.88,
+          "highlightTokens": [
+            {
+              "token": "easy",
+              "polarity": "positive"
+            },
+            {
+              "token": "bioavailable",
+              "polarity": "positive"
+            },
+            {
+              "token": "more",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@helenswan705",
+          "text": "I love tempeh. You are right we forget about it in favour of tofu",
+          "likes": 7,
+          "published_at": "2026-03-31T04:55:38Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "love",
+              "polarity": "positive"
+            },
+            {
+              "token": "right",
+              "polarity": "neutral"
+            },
+            {
+              "token": "forget",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@ChrisPoindexter",
+          "text": "It's amazing the forgotten foods you find. I've started introducing some of them back into my diet and it's fantastic.",
+          "likes": 0,
+          "published_at": "2026-04-08T21:12:04Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "amazing",
+              "polarity": "positive"
+            },
+            {
+              "token": "fantastic",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@MinisterHenry-jc3vk",
+          "text": "great vidio",
+          "likes": 0,
+          "published_at": "2026-04-10T14:47:46Z",
+          "label": "Positive",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "great",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@anamariaclemencia",
+          "text": "Gracias ....",
+          "likes": 0,
+          "published_at": "2026-04-07T22:05:12Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Gracias",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@SUHSeungJi",
+          "text": "You can make tempeh out of any legume, grain or seed, even nuts. You have to split larger ones, like chickpeas or black beans first though. A lot of Indian brands can be bought already split 🎉",
+          "likes": 10,
+          "published_at": "2026-03-28T19:22:59Z",
+          "label": "Positive",
+          "score": 0.88,
+          "highlightTokens": [
+            {
+              "token": "any",
+              "polarity": "positive"
+            },
+            {
+              "token": "even",
+              "polarity": "positive"
+            },
+            {
+              "token": "a lot",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@rawlsrules",
+          "text": "Forgotten? Been eating it over 50 years.",
+          "likes": 1,
+          "published_at": "2026-04-12T21:41:38Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "forgotten",
+              "polarity": "negative"
+            },
+            {
+              "token": "eating",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@Souljahna",
+          "text": "Interesting video, but a really complicated, painstaking process making it almost impossible for busy families.  In addition, I don't know how you could characterize this process as anything but a 'highly processed food.'",
+          "likes": 0,
+          "published_at": "2026-04-09T16:27:53Z",
+          "label": "Negative",
+          "score": 0.73,
+          "highlightTokens": [
+            {
+              "token": "complicated",
+              "polarity": "negative"
+            },
+            {
+              "token": "painstaking",
+              "polarity": "negative"
+            },
+            {
+              "token": "impossible",
+              "polarity": "negative"
+            },
+            {
+              "token": "highly processed",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@rogerscottcathey",
+          "text": "Keuth, S., & Bisping, B. (1994). Vitamin B12 production by Citrobacter freundii during tempeh fermentation. Applied and Environmental Microbiology.\n\nAny form of soya that isn't sprouted and fermented is an anti-nutrient vehicle. Anti-elastase or anti-trypsin is reduced by sprouting and further by fermentation.\n\nWe require Trypsin and the other proteases to resolve proteins to amino acids. When the natural SERPINs (serine protease inhibitors) are not eliminated or greatly reduced, we stress our pancreas to resynthesize the debilitated proteases. Eventually this can induce an enlarged pancreas and enlargement can result in inflammation. Inflammation can result in constriction of blood supply and cell death, before one knows it pancreatitis results.  The pancreas is a vital organ, so when induced to regenerate lacking the surveillance enzymes that control regeneration mediating cells, trophoblasts, the process can result in patent cancers.",
+          "likes": 7,
+          "published_at": "2026-03-28T17:57:02Z",
+          "label": "Negative",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "anti-nutrient",
+              "polarity": "negative"
+            },
+            {
+              "token": "stress",
+              "polarity": "negative"
+            },
+            {
+              "token": "inflammation",
+              "polarity": "negative"
+            },
+            {
+              "token": "pancreatitis",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "neutral": [
+        {
+          "author": "@SpicyTacos2026",
+          "text": "Where’s Liam?",
+          "likes": 0,
+          "published_at": "2026-04-10T16:22:46Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "Liam",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@tybrady4598",
+          "text": "It’s fairly easy to make. The fermentation makes the protein more bioavailable. It has more protein than the original soybeans.",
+          "likes": 3,
+          "published_at": "2026-04-12T04:17:11Z",
+          "label": "Positive",
+          "score": 0.88,
+          "highlightTokens": [
+            {
+              "token": "easy",
+              "polarity": "positive"
+            },
+            {
+              "token": "bioavailable",
+              "polarity": "positive"
+            },
+            {
+              "token": "more",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@rawlsrules",
+          "text": "Forgotten? Been eating it over 50 years.",
+          "likes": 1,
+          "published_at": "2026-04-12T21:41:38Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "forgotten",
+              "polarity": "negative"
+            },
+            {
+              "token": "eating",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@helenswan705",
+          "text": "I love tempeh. You are right we forget about it in favour of tofu",
+          "likes": 7,
+          "published_at": "2026-03-31T04:55:38Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "love",
+              "polarity": "positive"
+            },
+            {
+              "token": "right",
+              "polarity": "neutral"
+            },
+            {
+              "token": "forget",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@ChrisPoindexter",
+          "text": "It's amazing the forgotten foods you find. I've started introducing some of them back into my diet and it's fantastic.",
+          "likes": 0,
+          "published_at": "2026-04-08T21:12:04Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "amazing",
+              "polarity": "positive"
+            },
+            {
+              "token": "fantastic",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@MinisterHenry-jc3vk",
+          "text": "great vidio",
+          "likes": 0,
+          "published_at": "2026-04-10T14:47:46Z",
+          "label": "Positive",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "great",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Souljahna",
+          "text": "Interesting video, but a really complicated, painstaking process making it almost impossible for busy families.  In addition, I don't know how you could characterize this process as anything but a 'highly processed food.'",
+          "likes": 0,
+          "published_at": "2026-04-09T16:27:53Z",
+          "label": "Negative",
+          "score": 0.73,
+          "highlightTokens": [
+            {
+              "token": "complicated",
+              "polarity": "negative"
+            },
+            {
+              "token": "painstaking",
+              "polarity": "negative"
+            },
+            {
+              "token": "impossible",
+              "polarity": "negative"
+            },
+            {
+              "token": "highly processed",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@anamariaclemencia",
+          "text": "Gracias ....",
+          "likes": 0,
+          "published_at": "2026-04-07T22:05:12Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Gracias",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@SUHSeungJi",
+          "text": "You can make tempeh out of any legume, grain or seed, even nuts. You have to split larger ones, like chickpeas or black beans first though. A lot of Indian brands can be bought already split 🎉",
+          "likes": 10,
+          "published_at": "2026-03-28T19:22:59Z",
+          "label": "Positive",
+          "score": 0.88,
+          "highlightTokens": [
+            {
+              "token": "any",
+              "polarity": "positive"
+            },
+            {
+              "token": "even",
+              "polarity": "positive"
+            },
+            {
+              "token": "a lot",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@SpicyTacos2026",
+          "text": "Where’s Liam?",
+          "likes": 0,
+          "published_at": "2026-04-10T16:22:46Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "Liam",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@rogerscottcathey",
+          "text": "Keuth, S., & Bisping, B. (1994). Vitamin B12 production by Citrobacter freundii during tempeh fermentation. Applied and Environmental Microbiology.\n\nAny form of soya that isn't sprouted and fermented is an anti-nutrient vehicle. Anti-elastase or anti-trypsin is reduced by sprouting and further by fermentation.\n\nWe require Trypsin and the other proteases to resolve proteins to amino acids. When the natural SERPINs (serine protease inhibitors) are not eliminated or greatly reduced, we stress our pancreas to resynthesize the debilitated proteases. Eventually this can induce an enlarged pancreas and enlargement can result in inflammation. Inflammation can result in constriction of blood supply and cell death, before one knows it pancreatitis results.  The pancreas is a vital organ, so when induced to regenerate lacking the surveillance enzymes that control regeneration mediating cells, trophoblasts, the process can result in patent cancers.",
+          "likes": 7,
+          "published_at": "2026-03-28T17:57:02Z",
+          "label": "Negative",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "anti-nutrient",
+              "polarity": "negative"
+            },
+            {
+              "token": "stress",
+              "polarity": "negative"
+            },
+            {
+              "token": "inflammation",
+              "polarity": "negative"
+            },
+            {
+              "token": "pancreatitis",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "vObMkVUFtlo": {
+    "transcript": {
+      "label": "Positive",
+      "score": 0.92,
+      "summary": "The speaker shares their personal story of weight loss and spiritual transformation, attributing it to four biblical principles: fasting, whole foods, avoiding gluttony, and mindful eating.",
+      "highlightTokens": [
+        {
+          "token": "I lost 40 lbs",
+          "polarity": "positive"
+        },
+        {
+          "token": "freedom from food controlling my life",
+          "polarity": "positive"
+        },
+        {
+          "token": "God designed it perfectly to deal with real food",
+          "polarity": "positive"
+        },
+        {
+          "token": "glutiny is one of the seven deadly sins",
+          "polarity": "negative"
+        }
+      ]
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@nataliean4",
+          "text": "1. Fasting \n2. Eat God made food\n3. Address food addiction \n4. Gratitude and glorify God.",
+          "likes": 1495,
+          "published_at": "2026-03-06T13:56:37Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Gratitude",
+              "polarity": "positive"
+            },
+            {
+              "token": "glorify",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@MSwan59",
+          "text": "I just asked God to help me with my weight 2 hours ago and then I find this!",
+          "likes": 443,
+          "published_at": "2026-03-12T00:51:18Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "help",
+              "polarity": "positive"
+            },
+            {
+              "token": "God",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@nicolecruse7811",
+          "text": "I really appreciated the biblical perspective of weight loss/management. 😊",
+          "likes": 82,
+          "published_at": "2026-03-12T00:17:35Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "appreciated",
+              "polarity": "positive"
+            },
+            {
+              "token": "perspective",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@trishthompson7598",
+          "text": "Thank you, I also prayed last night for help to stop gluttony and my sugar addiction.  God is SO good, thank you Holy Spirit and Father God and this very helpful video. God bless you",
+          "likes": 6,
+          "published_at": "2026-04-28T18:29:50Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "good",
+              "polarity": "positive"
+            },
+            {
+              "token": "helpful",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@malaynajordan",
+          "text": "The Lord told me years ago that the farther you get away from what He made the farther you get from satisfaction.  You wouldn't eat a bag of potatoes but you'd eat an entire bag of potato chips and not be full. Natural foods give satisfaction and it has changed my life drastically.  No more am I obese, not lethargic and no more depression or anxiety.  I was on disability for anxiety 9 years ago. I've lost 90 lbs and have kept it off for 6 years now! Great information here!! Good word for the body of Christ.",
+          "likes": 118,
+          "published_at": "2026-03-11T19:11:09Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "satisfaction",
+              "polarity": "positive"
+            },
+            {
+              "token": "changed",
+              "polarity": "positive"
+            },
+            {
+              "token": "lost",
+              "polarity": "positive"
+            },
+            {
+              "token": "Great",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@evelynzopf3519",
+          "text": "What a blessing this video is! Thank you so much!",
+          "likes": 2,
+          "published_at": "2026-04-24T17:52:09Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "blessing",
+              "polarity": "positive"
+            },
+            {
+              "token": "thank",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@louannramirez4278",
+          "text": "One of the BEST videos I have seen on weight loss and health!  A real light bulb moment. Thank you so much…",
+          "likes": 61,
+          "published_at": "2026-03-14T19:04:04Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "BEST",
+              "polarity": "positive"
+            },
+            {
+              "token": "light bulb moment",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@thamingobeni7075",
+          "text": "Hunger is not an emergency 🎉",
+          "likes": 249,
+          "published_at": "2026-03-11T05:51:41Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "not",
+              "polarity": "negative"
+            },
+            {
+              "token": "emergency",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@megamaze00",
+          "text": "I am guilty of using food as a method of escapism when I’m stressed out by my kids. I pray the Lord will give me the strength to obey his will.",
+          "likes": 226,
+          "published_at": "2026-03-11T14:26:02Z",
+          "label": "Negative",
+          "score": 0.63,
+          "highlightTokens": [
+            {
+              "token": "guilty",
+              "polarity": "negative"
+            },
+            {
+              "token": "stressed out",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "neutral": [
+        {
+          "author": "@nurselavie",
+          "text": "Let’s be honest for a second:\nDo you think weight loss today is mostly a physical battle… or a spiritual/mental one?\nNot trying to start an argument — I’m genuinely curious how people see it.\n1. Physical\n2. Mental\n3. Spiritual\n4. A mix of all three\nI’ll be reading through the responses.\n\nEdit:” @6:26 why do you have evolution? “….This question has come up a couple of times, so I just want to clarify. The clip wasn’t meant to suggest evolution or make a theological statement. I simply used it as a visual illustration of time and longevity. The point of that section was about taking care of the body God gave us so we can live long and healthy lives.",
+          "likes": 206,
+          "published_at": "2026-03-05T20:07:16Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "genuinely",
+              "polarity": "positive"
+            },
+            {
+              "token": "curious",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@nurselavie",
+          "text": "Let’s be honest for a second:\nDo you think weight loss today is mostly a physical battle… or a spiritual/mental one?\nNot trying to start an argument — I’m genuinely curious how people see it.\n1. Physical\n2. Mental\n3. Spiritual\n4. A mix of all three\nI’ll be reading through the responses.\n\nEdit:” @6:26 why do you have evolution? “….This question has come up a couple of times, so I just want to clarify. The clip wasn’t meant to suggest evolution or make a theological statement. I simply used it as a visual illustration of time and longevity. The point of that section was about taking care of the body God gave us so we can live long and healthy lives.",
+          "likes": 206,
+          "published_at": "2026-03-05T20:07:16Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "genuinely",
+              "polarity": "positive"
+            },
+            {
+              "token": "curious",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@nataliean4",
+          "text": "1. Fasting \n2. Eat God made food\n3. Address food addiction \n4. Gratitude and glorify God.",
+          "likes": 1495,
+          "published_at": "2026-03-06T13:56:37Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Gratitude",
+              "polarity": "positive"
+            },
+            {
+              "token": "glorify",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@MSwan59",
+          "text": "I just asked God to help me with my weight 2 hours ago and then I find this!",
+          "likes": 443,
+          "published_at": "2026-03-12T00:51:18Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "help",
+              "polarity": "positive"
+            },
+            {
+              "token": "God",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@thamingobeni7075",
+          "text": "Hunger is not an emergency 🎉",
+          "likes": 249,
+          "published_at": "2026-03-11T05:51:41Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "not",
+              "polarity": "negative"
+            },
+            {
+              "token": "emergency",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@nicolecruse7811",
+          "text": "I really appreciated the biblical perspective of weight loss/management. 😊",
+          "likes": 82,
+          "published_at": "2026-03-12T00:17:35Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "appreciated",
+              "polarity": "positive"
+            },
+            {
+              "token": "perspective",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@megamaze00",
+          "text": "I am guilty of using food as a method of escapism when I’m stressed out by my kids. I pray the Lord will give me the strength to obey his will.",
+          "likes": 226,
+          "published_at": "2026-03-11T14:26:02Z",
+          "label": "Negative",
+          "score": 0.63,
+          "highlightTokens": [
+            {
+              "token": "guilty",
+              "polarity": "negative"
+            },
+            {
+              "token": "stressed out",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@trishthompson7598",
+          "text": "Thank you, I also prayed last night for help to stop gluttony and my sugar addiction.  God is SO good, thank you Holy Spirit and Father God and this very helpful video. God bless you",
+          "likes": 6,
+          "published_at": "2026-04-28T18:29:50Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "good",
+              "polarity": "positive"
+            },
+            {
+              "token": "helpful",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@malaynajordan",
+          "text": "The Lord told me years ago that the farther you get away from what He made the farther you get from satisfaction.  You wouldn't eat a bag of potatoes but you'd eat an entire bag of potato chips and not be full. Natural foods give satisfaction and it has changed my life drastically.  No more am I obese, not lethargic and no more depression or anxiety.  I was on disability for anxiety 9 years ago. I've lost 90 lbs and have kept it off for 6 years now! Great information here!! Good word for the body of Christ.",
+          "likes": 118,
+          "published_at": "2026-03-11T19:11:09Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "satisfaction",
+              "polarity": "positive"
+            },
+            {
+              "token": "changed",
+              "polarity": "positive"
+            },
+            {
+              "token": "lost",
+              "polarity": "positive"
+            },
+            {
+              "token": "Great",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@evelynzopf3519",
+          "text": "What a blessing this video is! Thank you so much!",
+          "likes": 2,
+          "published_at": "2026-04-24T17:52:09Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "blessing",
+              "polarity": "positive"
+            },
+            {
+              "token": "thank",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@louannramirez4278",
+          "text": "One of the BEST videos I have seen on weight loss and health!  A real light bulb moment. Thank you so much…",
+          "likes": 61,
+          "published_at": "2026-03-14T19:04:04Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "BEST",
+              "polarity": "positive"
+            },
+            {
+              "token": "light bulb moment",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ]
+    }
   }
 }
