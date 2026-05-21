@@ -395980,5 +395980,1413 @@
         }
       ]
     }
+  },
+  "5nDYTETYoRw": {
+    "transcript": {
+      "label": "Negative",
+      "score": 0.62,
+      "summary": "The speaker discusses heart attacks and cardiovascular disease, highlighting the dangers of silent plaque buildup and the importance of understanding one's risk factors.",
+      "highlightTokens": [
+        {
+          "token": "heart attack",
+          "polarity": "negative"
+        },
+        {
+          "token": "silent damage",
+          "polarity": "negative"
+        },
+        {
+          "token": "unstable plaque",
+          "polarity": "negative"
+        },
+        {
+          "token": "inflammation",
+          "polarity": "negative"
+        }
+      ]
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@lifemunusone8681",
+          "text": "Thank you Dr for so nice information 😊",
+          "likes": 0,
+          "published_at": "2026-04-24T08:57:39Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "nice",
+              "polarity": "positive"
+            },
+            {
+              "token": "thank",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [],
+      "neutral": [
+        {
+          "author": "@MedicinăpeÎnțelesulTăuDrIon",
+          "text": "Could you please tell if there are any contraindications for this method",
+          "likes": 0,
+          "published_at": "2026-05-06T15:37:14Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "contraindications",
+              "polarity": "negative"
+            },
+            {
+              "token": "please",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@alanoneill1049",
+          "text": "What does breathlessness indicate?",
+          "likes": 0,
+          "published_at": "2026-04-24T22:42:41Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "breathlessness",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@lifemunusone8681",
+          "text": "Thank you Dr for so nice information 😊",
+          "likes": 0,
+          "published_at": "2026-04-24T08:57:39Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "nice",
+              "polarity": "positive"
+            },
+            {
+              "token": "thank",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@MedicinăpeÎnțelesulTăuDrIon",
+          "text": "Could you please tell if there are any contraindications for this method",
+          "likes": 0,
+          "published_at": "2026-05-06T15:37:14Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "contraindications",
+              "polarity": "negative"
+            },
+            {
+              "token": "please",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@alanoneill1049",
+          "text": "What does breathlessness indicate?",
+          "likes": 0,
+          "published_at": "2026-04-24T22:42:41Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "breathlessness",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "5tCliyboHAo": {
+    "transcript": {
+      "label": "Positive",
+      "score": 0.92,
+      "summary": "The video discusses the importance of choosing the right yogurt for senior health, highlighting four good and four bad options.",
+      "highlightTokens": [
+        {
+          "token": "living bacteria",
+          "polarity": "positive"
+        },
+        {
+          "token": "gut microbiome",
+          "polarity": "neutral"
+        },
+        {
+          "token": "synthetic additives",
+          "polarity": "negative"
+        },
+        {
+          "token": "chronic inflammation",
+          "polarity": "negative"
+        }
+      ]
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@learndailytd",
+          "text": "Thank you for explaining which yogurts are actually healthy and which ones are just desserts disguised as “healthy food\".",
+          "likes": 0,
+          "published_at": "2026-05-13T08:36:57Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "healthy",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@renukadevigarla1859",
+          "text": "77, i buy greek yogurt full fat , I make yogurt with whole milk at home. I use both.",
+          "likes": 6,
+          "published_at": "2026-05-07T03:04:28Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "buy",
+              "polarity": "positive"
+            },
+            {
+              "token": "full fat",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@mandybroodryk9620",
+          "text": "South Africa. Double cream plain yoghurt every morning",
+          "likes": 2,
+          "published_at": "2026-05-07T15:22:03Z",
+          "label": "Positive",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "Double",
+              "polarity": "positive"
+            },
+            {
+              "token": "every",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@mariaanavicente4993",
+          "text": "Norway thanks",
+          "likes": 2,
+          "published_at": "2026-05-06T18:05:14Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thanks",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@MargoGay-l6u",
+          "text": "South Carolina 75. Stopped taking it because I was told that yogurt was bad for me.",
+          "likes": 0,
+          "published_at": "2026-05-05T22:44:03Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "bad",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "neutral": [
+        {
+          "author": "@Rosemarysummers2",
+          "text": "Double cream plain yoghurt  South Africa",
+          "likes": 0,
+          "published_at": "2026-05-12T15:26:29Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "plain",
+              "polarity": "neutral"
+            },
+            {
+              "token": "yoghurt",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@mikegfound1994",
+          "text": "75, New Zealand, Geek natural unsweetened daily paried with Oats (non G M) and Blueberries.",
+          "likes": 0,
+          "published_at": "2026-05-09T06:43:03Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "unsweetened",
+              "polarity": "neutral"
+            },
+            {
+              "token": "natural",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@vickicopp-oo6ee",
+          "text": "How about homemade soy yogurt? Is that  good for seniors?",
+          "likes": 0,
+          "published_at": "2026-05-08T19:45:46Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "good",
+              "polarity": "positive"
+            },
+            {
+              "token": "seniors",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@MaureenKnowles",
+          "text": "81 I only eat yoghurt occasionally",
+          "likes": 0,
+          "published_at": "2026-05-17T22:40:03Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "occasionally",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@donnaallego3317",
+          "text": "Consider So Delicious products, including yogurt\nThese are non-dairy products that use coconut milk",
+          "likes": 0,
+          "published_at": "2026-05-10T00:44:14Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "consider",
+              "polarity": "neutral"
+            },
+            {
+              "token": "non-dairy",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@learndailytd",
+          "text": "Thank you for explaining which yogurts are actually healthy and which ones are just desserts disguised as “healthy food\".",
+          "likes": 0,
+          "published_at": "2026-05-13T08:36:57Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "healthy",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@renukadevigarla1859",
+          "text": "77, i buy greek yogurt full fat , I make yogurt with whole milk at home. I use both.",
+          "likes": 6,
+          "published_at": "2026-05-07T03:04:28Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "buy",
+              "polarity": "positive"
+            },
+            {
+              "token": "full fat",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Rosemarysummers2",
+          "text": "Double cream plain yoghurt  South Africa",
+          "likes": 0,
+          "published_at": "2026-05-12T15:26:29Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "plain",
+              "polarity": "neutral"
+            },
+            {
+              "token": "yoghurt",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@mikegfound1994",
+          "text": "75, New Zealand, Geek natural unsweetened daily paried with Oats (non G M) and Blueberries.",
+          "likes": 0,
+          "published_at": "2026-05-09T06:43:03Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "unsweetened",
+              "polarity": "neutral"
+            },
+            {
+              "token": "natural",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@vickicopp-oo6ee",
+          "text": "How about homemade soy yogurt? Is that  good for seniors?",
+          "likes": 0,
+          "published_at": "2026-05-08T19:45:46Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "good",
+              "polarity": "positive"
+            },
+            {
+              "token": "seniors",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@MaureenKnowles",
+          "text": "81 I only eat yoghurt occasionally",
+          "likes": 0,
+          "published_at": "2026-05-17T22:40:03Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "occasionally",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@mandybroodryk9620",
+          "text": "South Africa. Double cream plain yoghurt every morning",
+          "likes": 2,
+          "published_at": "2026-05-07T15:22:03Z",
+          "label": "Positive",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "Double",
+              "polarity": "positive"
+            },
+            {
+              "token": "every",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@mariaanavicente4993",
+          "text": "Norway thanks",
+          "likes": 2,
+          "published_at": "2026-05-06T18:05:14Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thanks",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@donnaallego3317",
+          "text": "Consider So Delicious products, including yogurt\nThese are non-dairy products that use coconut milk",
+          "likes": 0,
+          "published_at": "2026-05-10T00:44:14Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "consider",
+              "polarity": "neutral"
+            },
+            {
+              "token": "non-dairy",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@MargoGay-l6u",
+          "text": "South Carolina 75. Stopped taking it because I was told that yogurt was bad for me.",
+          "likes": 0,
+          "published_at": "2026-05-05T22:44:03Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "bad",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "aW8Nt8Ev32c": {
+    "transcript": {
+      "label": "Positive",
+      "score": 0.92,
+      "summary": "The video discusses the importance of proper hydration in seniors and provides five simple tricks to boost blood flow using water-based methods.",
+      "highlightTokens": [
+        {
+          "token": "boosts Blood Flow",
+          "polarity": "positive"
+        },
+        {
+          "token": "improved circulation",
+          "polarity": "positive"
+        },
+        {
+          "token": "natural vasodilators",
+          "polarity": "positive"
+        },
+        {
+          "token": "dramatically changes its bioavailability",
+          "polarity": "positive"
+        },
+        {
+          "token": "stimulate nitric oxide production",
+          "polarity": "positive"
+        }
+      ]
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@Jagan1278",
+          "text": "5. Room temperature water 15 minutes before physical activity \n4. Mineral enhanced water potassium, magnesium ( high quality sea salt) or add coconut water \n3. Hibiscus infused tea 3 cups daily at room temperature add a pinch of sea salt, you can add honey \n2. Lemon and Ginger water warm drink it slowly in 5 minutes \n1. Beetroot 1 teaspoon with a pinch of sea salt in warm water and do slow nasal breathing, 30 minutes before activity or in mid afternoon.",
+          "likes": 15,
+          "published_at": "2026-05-11T05:40:14Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "high quality",
+              "polarity": "positive"
+            },
+            {
+              "token": "honey",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@murielkock7431",
+          "text": "I will drink the ginger and lemons water hot in the morning",
+          "likes": 16,
+          "published_at": "2026-04-19T14:09:36Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "hot",
+              "polarity": "positive"
+            },
+            {
+              "token": "morning",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@lanesplitter3000",
+          "text": "i am so thankful i found your channel. you have giving me more good information watching the videos than any of my drs in 55 years of living and i thank you. god bless.",
+          "likes": 32,
+          "published_at": "2026-04-17T20:17:59Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thankful",
+              "polarity": "positive"
+            },
+            {
+              "token": "good",
+              "polarity": "positive"
+            },
+            {
+              "token": "bless",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@ashwinkrishnan9497",
+          "text": "Very helpful. I turned 80, will start room temp water with pinch of sea salt.",
+          "likes": 20,
+          "published_at": "2026-04-17T23:05:40Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "helpful",
+              "polarity": "positive"
+            },
+            {
+              "token": "will",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@valerierich7807",
+          "text": "Thank you I drink warm lemon water  first thing every morning will try it with ginger and also sea salt. I normally only drink room temperature water. God bless you Dr🙏",
+          "likes": 12,
+          "published_at": "2026-04-18T11:48:39Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "will try",
+              "polarity": "positive"
+            },
+            {
+              "token": "God bless you",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@philiavilmeus8141",
+          "text": "I suffer all the symptoms and I am going to do my best to do all of them. Thank you doctor🌹",
+          "likes": 12,
+          "published_at": "2026-04-21T20:59:50Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "best",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Dr.CharllotteTiwaa",
+          "text": "A vital reminder from Dr. Adeyemi. Many of my patients over 60 focus on the volume of water, but they miss how optimized hydration supports the endothelial lining of the arteries. When we combine proper hydration with the right biochemical signals like the dietary nitrates found in simple vegetables—we give the vascular system the 'flexibility' it needs to maintain healthy circulation. Great to see this focus on healthy aging.",
+          "likes": 39,
+          "published_at": "2026-04-16T10:07:14Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "vital",
+              "polarity": "positive"
+            },
+            {
+              "token": "optimized",
+              "polarity": "positive"
+            },
+            {
+              "token": "flexibility",
+              "polarity": "positive"
+            },
+            {
+              "token": "healthy",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@sophiesgreatg-ma5713",
+          "text": "Will change ice water to room temp…also mineral water w/sea salt, lemon and hibiscus water. Thanks for sharing doc.",
+          "likes": 8,
+          "published_at": "2026-04-26T04:39:14Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Thanks",
+              "polarity": "positive"
+            },
+            {
+              "token": "sharing",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@H.ADudleyPerera-fd1iv",
+          "text": "Dear doctor, thanks a lot for your priceless advice. I am seventy eight plus now, a retired English teacher from Sri Lanka. I am following your instructions  and I am feeling still fit. Thank you again.",
+          "likes": 24,
+          "published_at": "2026-04-15T22:06:12Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thanks",
+              "polarity": "positive"
+            },
+            {
+              "token": "priceless",
+              "polarity": "positive"
+            },
+            {
+              "token": "fit",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [],
+      "neutral": [
+        {
+          "author": "@winnie142ify",
+          "text": "I drink a glass of warm water with a pinch of pink salt and half of lemon juice .",
+          "likes": 21,
+          "published_at": "2026-04-19T04:02:22Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "warm",
+              "polarity": "neutral"
+            },
+            {
+              "token": "water",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@Jagan1278",
+          "text": "5. Room temperature water 15 minutes before physical activity \n4. Mineral enhanced water potassium, magnesium ( high quality sea salt) or add coconut water \n3. Hibiscus infused tea 3 cups daily at room temperature add a pinch of sea salt, you can add honey \n2. Lemon and Ginger water warm drink it slowly in 5 minutes \n1. Beetroot 1 teaspoon with a pinch of sea salt in warm water and do slow nasal breathing, 30 minutes before activity or in mid afternoon.",
+          "likes": 15,
+          "published_at": "2026-05-11T05:40:14Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "high quality",
+              "polarity": "positive"
+            },
+            {
+              "token": "honey",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@winnie142ify",
+          "text": "I drink a glass of warm water with a pinch of pink salt and half of lemon juice .",
+          "likes": 21,
+          "published_at": "2026-04-19T04:02:22Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "warm",
+              "polarity": "neutral"
+            },
+            {
+              "token": "water",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@murielkock7431",
+          "text": "I will drink the ginger and lemons water hot in the morning",
+          "likes": 16,
+          "published_at": "2026-04-19T14:09:36Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "hot",
+              "polarity": "positive"
+            },
+            {
+              "token": "morning",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@lanesplitter3000",
+          "text": "i am so thankful i found your channel. you have giving me more good information watching the videos than any of my drs in 55 years of living and i thank you. god bless.",
+          "likes": 32,
+          "published_at": "2026-04-17T20:17:59Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thankful",
+              "polarity": "positive"
+            },
+            {
+              "token": "good",
+              "polarity": "positive"
+            },
+            {
+              "token": "bless",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@ashwinkrishnan9497",
+          "text": "Very helpful. I turned 80, will start room temp water with pinch of sea salt.",
+          "likes": 20,
+          "published_at": "2026-04-17T23:05:40Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "helpful",
+              "polarity": "positive"
+            },
+            {
+              "token": "will",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@valerierich7807",
+          "text": "Thank you I drink warm lemon water  first thing every morning will try it with ginger and also sea salt. I normally only drink room temperature water. God bless you Dr🙏",
+          "likes": 12,
+          "published_at": "2026-04-18T11:48:39Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "will try",
+              "polarity": "positive"
+            },
+            {
+              "token": "God bless you",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@philiavilmeus8141",
+          "text": "I suffer all the symptoms and I am going to do my best to do all of them. Thank you doctor🌹",
+          "likes": 12,
+          "published_at": "2026-04-21T20:59:50Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "best",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Dr.CharllotteTiwaa",
+          "text": "A vital reminder from Dr. Adeyemi. Many of my patients over 60 focus on the volume of water, but they miss how optimized hydration supports the endothelial lining of the arteries. When we combine proper hydration with the right biochemical signals like the dietary nitrates found in simple vegetables—we give the vascular system the 'flexibility' it needs to maintain healthy circulation. Great to see this focus on healthy aging.",
+          "likes": 39,
+          "published_at": "2026-04-16T10:07:14Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "vital",
+              "polarity": "positive"
+            },
+            {
+              "token": "optimized",
+              "polarity": "positive"
+            },
+            {
+              "token": "flexibility",
+              "polarity": "positive"
+            },
+            {
+              "token": "healthy",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@sophiesgreatg-ma5713",
+          "text": "Will change ice water to room temp…also mineral water w/sea salt, lemon and hibiscus water. Thanks for sharing doc.",
+          "likes": 8,
+          "published_at": "2026-04-26T04:39:14Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Thanks",
+              "polarity": "positive"
+            },
+            {
+              "token": "sharing",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@H.ADudleyPerera-fd1iv",
+          "text": "Dear doctor, thanks a lot for your priceless advice. I am seventy eight plus now, a retired English teacher from Sri Lanka. I am following your instructions  and I am feeling still fit. Thank you again.",
+          "likes": 24,
+          "published_at": "2026-04-15T22:06:12Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thanks",
+              "polarity": "positive"
+            },
+            {
+              "token": "priceless",
+              "polarity": "positive"
+            },
+            {
+              "token": "fit",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "nVTEBaEJ46I": {
+    "transcript": {
+      "label": "Positive",
+      "score": 0.92,
+      "summary": "The conversation is enthusiastic, encouraging, and optimistic about the potential of food to transform one's health and life.",
+      "highlightTokens": [
+        {
+          "token": "rewrite my future",
+          "polarity": "positive"
+        },
+        {
+          "token": "more powerful than your family history",
+          "polarity": "positive"
+        },
+        {
+          "token": "glow stick",
+          "polarity": "positive"
+        },
+        {
+          "token": "genius",
+          "polarity": "positive"
+        }
+      ]
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@angiewalton1",
+          "text": "My Mom is also 84! She is a queen! She rides her bike to my house everyday usually bringing watermelon or homemade healthy cookies and we have coffee together and go for our morning walk! I am so blessed!😇",
+          "likes": 351,
+          "published_at": "2026-05-03T18:05:34Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "queen",
+              "polarity": "positive"
+            },
+            {
+              "token": "blessed",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@felishataylor2556",
+          "text": "Can we just acknowledge that beautiful hair on the Doc?!!!🙌🏾",
+          "likes": 92,
+          "published_at": "2026-05-07T12:20:38Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "beautiful",
+              "polarity": "positive"
+            },
+            {
+              "token": "hair",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@petrabailey5280",
+          "text": "Dr. Lucia is proof that an Italian can speak poetically about hard core science. Loved the podcast! ❤",
+          "likes": 167,
+          "published_at": "2026-04-30T15:03:56Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Loved",
+              "polarity": "positive"
+            },
+            {
+              "token": "poetically",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@monikajohnston-stewart6934",
+          "text": "I rarely comment on anything I watch , actually never.....but this one brought me to shivers at the end.    What a BEAUTIFUL HUMAN is Dr. Lucia. I know a lot about science of food because I'm a nutrition practitioner but her message about writing our own chapters hit close.  Thank you for being so wise, educated and humble all in one.",
+          "likes": 17,
+          "published_at": "2026-05-14T03:40:49Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "BEAUTIFUL",
+              "polarity": "positive"
+            },
+            {
+              "token": "wise",
+              "polarity": "positive"
+            },
+            {
+              "token": "educated",
+              "polarity": "positive"
+            },
+            {
+              "token": "humble",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@yoursleepguardian3010",
+          "text": "I have never witnessed someone being so good at teaching complex mechanisms. The way Dr. Aronica explained things got me leaning into the screen and smiling just like Mel was (At one point, I thought if I leaned in any closer I would atctually be in the room with them. LOL) This is amazing. Huge props. And thank you for this powerful episode, Mel <3.",
+          "likes": 226,
+          "published_at": "2026-04-30T12:55:58Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "good",
+              "polarity": "positive"
+            },
+            {
+              "token": "smiling",
+              "polarity": "positive"
+            },
+            {
+              "token": "amazing",
+              "polarity": "positive"
+            },
+            {
+              "token": "Huge props",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@mybuuta2758",
+          "text": "Can you please have a part 2 interview with her! There's so much to learn and I love how she speaks so slowly and softly. 🙏🙏🙏🙏",
+          "likes": 55,
+          "published_at": "2026-05-05T05:15:58Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "please",
+              "polarity": "positive"
+            },
+            {
+              "token": "love",
+              "polarity": "positive"
+            },
+            {
+              "token": "slowly",
+              "polarity": "positive"
+            },
+            {
+              "token": "softly",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@melaniedarling8949",
+          "text": "We desperately need a written summary or bullet points for us to follow.  So much good information.",
+          "likes": 121,
+          "published_at": "2026-05-02T19:54:09Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "good",
+              "polarity": "positive"
+            },
+            {
+              "token": "desperately need",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@Healing-wi1",
+          "text": "The idea that our genes are written in pencil and not pen is a total game-changer. ✏ 🧬 Dr. Aronica’s metaphor of the fork being the pencil that rewrites our health story is so empowering. It’s not just about a diet; it’s about sending the right cellular signals for a different life. Thank you Mel for this masterclass!",
+          "likes": 49,
+          "published_at": "2026-05-03T20:31:35Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "game-changer",
+              "polarity": "positive"
+            },
+            {
+              "token": "empowering",
+              "polarity": "positive"
+            },
+            {
+              "token": "masterclass",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@annetteulibarri9607",
+          "text": "\"You can't change someone but you can invite them\"...Im gonna use that every.single.day!❤",
+          "likes": 26,
+          "published_at": "2026-05-06T01:44:47Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "change",
+              "polarity": "neutral"
+            },
+            {
+              "token": "invite",
+              "polarity": "positive"
+            },
+            {
+              "token": "every.single.day",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@bestill670",
+          "text": "OK, just four minutes into this and before I even watch it I wanna comment on how Italian Dr. Veronica is and how slowly she speaks and how much I’m absolutely in love with this clarifying style. I know I’m already a really big label detective and super healthy eater and I can’t wait to refine My medicine with Mel Robbins and Dr. Veronica blessings here we go",
+          "likes": 27,
+          "published_at": "2026-04-30T14:21:58Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "in love",
+              "polarity": "positive"
+            },
+            {
+              "token": "absolutely",
+              "polarity": "positive"
+            },
+            {
+              "token": "blessings",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [],
+      "neutral": [],
+      "all": [
+        {
+          "author": "@angiewalton1",
+          "text": "My Mom is also 84! She is a queen! She rides her bike to my house everyday usually bringing watermelon or homemade healthy cookies and we have coffee together and go for our morning walk! I am so blessed!😇",
+          "likes": 351,
+          "published_at": "2026-05-03T18:05:34Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "queen",
+              "polarity": "positive"
+            },
+            {
+              "token": "blessed",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@felishataylor2556",
+          "text": "Can we just acknowledge that beautiful hair on the Doc?!!!🙌🏾",
+          "likes": 92,
+          "published_at": "2026-05-07T12:20:38Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "beautiful",
+              "polarity": "positive"
+            },
+            {
+              "token": "hair",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@petrabailey5280",
+          "text": "Dr. Lucia is proof that an Italian can speak poetically about hard core science. Loved the podcast! ❤",
+          "likes": 167,
+          "published_at": "2026-04-30T15:03:56Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Loved",
+              "polarity": "positive"
+            },
+            {
+              "token": "poetically",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@monikajohnston-stewart6934",
+          "text": "I rarely comment on anything I watch , actually never.....but this one brought me to shivers at the end.    What a BEAUTIFUL HUMAN is Dr. Lucia. I know a lot about science of food because I'm a nutrition practitioner but her message about writing our own chapters hit close.  Thank you for being so wise, educated and humble all in one.",
+          "likes": 17,
+          "published_at": "2026-05-14T03:40:49Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "BEAUTIFUL",
+              "polarity": "positive"
+            },
+            {
+              "token": "wise",
+              "polarity": "positive"
+            },
+            {
+              "token": "educated",
+              "polarity": "positive"
+            },
+            {
+              "token": "humble",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@yoursleepguardian3010",
+          "text": "I have never witnessed someone being so good at teaching complex mechanisms. The way Dr. Aronica explained things got me leaning into the screen and smiling just like Mel was (At one point, I thought if I leaned in any closer I would atctually be in the room with them. LOL) This is amazing. Huge props. And thank you for this powerful episode, Mel <3.",
+          "likes": 226,
+          "published_at": "2026-04-30T12:55:58Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "good",
+              "polarity": "positive"
+            },
+            {
+              "token": "smiling",
+              "polarity": "positive"
+            },
+            {
+              "token": "amazing",
+              "polarity": "positive"
+            },
+            {
+              "token": "Huge props",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@mybuuta2758",
+          "text": "Can you please have a part 2 interview with her! There's so much to learn and I love how she speaks so slowly and softly. 🙏🙏🙏🙏",
+          "likes": 55,
+          "published_at": "2026-05-05T05:15:58Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "please",
+              "polarity": "positive"
+            },
+            {
+              "token": "love",
+              "polarity": "positive"
+            },
+            {
+              "token": "slowly",
+              "polarity": "positive"
+            },
+            {
+              "token": "softly",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@melaniedarling8949",
+          "text": "We desperately need a written summary or bullet points for us to follow.  So much good information.",
+          "likes": 121,
+          "published_at": "2026-05-02T19:54:09Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "good",
+              "polarity": "positive"
+            },
+            {
+              "token": "desperately need",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@Healing-wi1",
+          "text": "The idea that our genes are written in pencil and not pen is a total game-changer. ✏ 🧬 Dr. Aronica’s metaphor of the fork being the pencil that rewrites our health story is so empowering. It’s not just about a diet; it’s about sending the right cellular signals for a different life. Thank you Mel for this masterclass!",
+          "likes": 49,
+          "published_at": "2026-05-03T20:31:35Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "game-changer",
+              "polarity": "positive"
+            },
+            {
+              "token": "empowering",
+              "polarity": "positive"
+            },
+            {
+              "token": "masterclass",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@annetteulibarri9607",
+          "text": "\"You can't change someone but you can invite them\"...Im gonna use that every.single.day!❤",
+          "likes": 26,
+          "published_at": "2026-05-06T01:44:47Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "change",
+              "polarity": "neutral"
+            },
+            {
+              "token": "invite",
+              "polarity": "positive"
+            },
+            {
+              "token": "every.single.day",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@bestill670",
+          "text": "OK, just four minutes into this and before I even watch it I wanna comment on how Italian Dr. Veronica is and how slowly she speaks and how much I’m absolutely in love with this clarifying style. I know I’m already a really big label detective and super healthy eater and I can’t wait to refine My medicine with Mel Robbins and Dr. Veronica blessings here we go",
+          "likes": 27,
+          "published_at": "2026-04-30T14:21:58Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "in love",
+              "polarity": "positive"
+            },
+            {
+              "token": "absolutely",
+              "polarity": "positive"
+            },
+            {
+              "token": "blessings",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ]
+    }
   }
 }
