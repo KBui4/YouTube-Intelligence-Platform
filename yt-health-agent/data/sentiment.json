@@ -397388,5 +397388,1612 @@
         }
       ]
     }
+  },
+  "-5T0ipny6Ck": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "No transcript available.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [],
+      "negative": [],
+      "neutral": [
+        {
+          "author": "@FatimaQasim20021",
+          "text": "Hi \nAre those found in iherb or Amazon?",
+          "likes": 0,
+          "published_at": "2026-03-27T11:27:26Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "found",
+              "polarity": "neutral"
+            },
+            {
+              "token": "those",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@FatimaQasim20021",
+          "text": "Hi \nAre those found in iherb or Amazon?",
+          "likes": 0,
+          "published_at": "2026-03-27T11:27:26Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "found",
+              "polarity": "neutral"
+            },
+            {
+              "token": "those",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "3ZVslVTAOKI": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "No transcript available.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@XavierTennis333",
+          "text": "Best AI I've seen so far, very convincing. Hopefully the actual information conveyed is real and correct. I challenge NF to keep this comment up",
+          "likes": 0,
+          "published_at": "2026-05-18T17:00:43Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "convinving",
+              "polarity": "positive"
+            },
+            {
+              "token": "best",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@ernestheau9146",
+          "text": "Excellent talk and I took notes on each instruction and will  follow them. Blueberries are among my top favorite fresh fruits along with wiki and papaya.",
+          "likes": 8,
+          "published_at": "2026-05-06T06:11:45Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Excellent",
+              "polarity": "positive"
+            },
+            {
+              "token": "follow",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@LuanaJoPatten-kn6bb",
+          "text": "Very informative.! Thanks.!",
+          "likes": 3,
+          "published_at": "2026-05-05T00:46:59Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "informative",
+              "polarity": "positive"
+            },
+            {
+              "token": "Thanks",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@chuckfullerton1667",
+          "text": "Great information Dr. Phillips",
+          "likes": 0,
+          "published_at": "2026-05-14T11:00:19Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@lifeafter50-o8m",
+          "text": "Great talk—I took notes on every point and I’m definitely going to follow these guidelines. Blueberries are also one of my favorite fresh fruits, along with kiwi and papaya.",
+          "likes": 1,
+          "published_at": "2026-05-07T13:03:48Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "follow",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [],
+      "neutral": [
+        {
+          "author": "@sheilawhelan2972",
+          "text": "I live in Ireland 🇮🇪",
+          "likes": 0,
+          "published_at": "2026-05-18T22:47:05Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "live",
+              "polarity": "neutral"
+            },
+            {
+              "token": "in",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@duck57",
+          "text": "91, USA, CA",
+          "likes": 0,
+          "published_at": "2026-05-17T03:08:06Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "USA",
+              "polarity": "neutral"
+            },
+            {
+              "token": "CA",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@DesireeMartin-z7s",
+          "text": "Desiree Martin, 82 years old, South Africa",
+          "likes": 1,
+          "published_at": "2026-05-06T17:29:31Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "Martin",
+              "polarity": "neutral"
+            },
+            {
+              "token": "South Africa",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@ByronCotton-l2o",
+          "text": "80 from Middle Georgia.",
+          "likes": 0,
+          "published_at": "2026-05-07T19:32:41Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "Middle",
+              "polarity": "neutral"
+            },
+            {
+              "token": "Georgia",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@leroymorris3624",
+          "text": "Iam 85 watching from Batbafod",
+          "likes": 0,
+          "published_at": "2026-05-11T21:11:30Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "watching",
+              "polarity": "neutral"
+            },
+            {
+              "token": "Batbafod",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@XavierTennis333",
+          "text": "Best AI I've seen so far, very convincing. Hopefully the actual information conveyed is real and correct. I challenge NF to keep this comment up",
+          "likes": 0,
+          "published_at": "2026-05-18T17:00:43Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "convinving",
+              "polarity": "positive"
+            },
+            {
+              "token": "best",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@sheilawhelan2972",
+          "text": "I live in Ireland 🇮🇪",
+          "likes": 0,
+          "published_at": "2026-05-18T22:47:05Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "live",
+              "polarity": "neutral"
+            },
+            {
+              "token": "in",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@ernestheau9146",
+          "text": "Excellent talk and I took notes on each instruction and will  follow them. Blueberries are among my top favorite fresh fruits along with wiki and papaya.",
+          "likes": 8,
+          "published_at": "2026-05-06T06:11:45Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Excellent",
+              "polarity": "positive"
+            },
+            {
+              "token": "follow",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@LuanaJoPatten-kn6bb",
+          "text": "Very informative.! Thanks.!",
+          "likes": 3,
+          "published_at": "2026-05-05T00:46:59Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "informative",
+              "polarity": "positive"
+            },
+            {
+              "token": "Thanks",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@chuckfullerton1667",
+          "text": "Great information Dr. Phillips",
+          "likes": 0,
+          "published_at": "2026-05-14T11:00:19Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@lifeafter50-o8m",
+          "text": "Great talk—I took notes on every point and I’m definitely going to follow these guidelines. Blueberries are also one of my favorite fresh fruits, along with kiwi and papaya.",
+          "likes": 1,
+          "published_at": "2026-05-07T13:03:48Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "follow",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@duck57",
+          "text": "91, USA, CA",
+          "likes": 0,
+          "published_at": "2026-05-17T03:08:06Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "USA",
+              "polarity": "neutral"
+            },
+            {
+              "token": "CA",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@DesireeMartin-z7s",
+          "text": "Desiree Martin, 82 years old, South Africa",
+          "likes": 1,
+          "published_at": "2026-05-06T17:29:31Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "Martin",
+              "polarity": "neutral"
+            },
+            {
+              "token": "South Africa",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@ByronCotton-l2o",
+          "text": "80 from Middle Georgia.",
+          "likes": 0,
+          "published_at": "2026-05-07T19:32:41Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "Middle",
+              "polarity": "neutral"
+            },
+            {
+              "token": "Georgia",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@leroymorris3624",
+          "text": "Iam 85 watching from Batbafod",
+          "likes": 0,
+          "published_at": "2026-05-11T21:11:30Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "watching",
+              "polarity": "neutral"
+            },
+            {
+              "token": "Batbafod",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "5pn8d_quFu0": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "No transcript available.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@EffiaSmith",
+          "text": "Very helpful and useful information blessed",
+          "likes": 0,
+          "published_at": "2026-05-20T19:19:37Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "helpful",
+              "polarity": "positive"
+            },
+            {
+              "token": "useful",
+              "polarity": "positive"
+            },
+            {
+              "token": "blessed",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@benegwuonwu4473",
+          "text": "I am 74 and some months old. I have stage 4 prostrate cancer. The channel is helpful",
+          "likes": 3,
+          "published_at": "2026-05-13T22:36:13Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "helpful",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@myottemyotte8393",
+          "text": "Thank you so much, I learned. I hope you keep contact with me",
+          "likes": 0,
+          "published_at": "2026-05-11T15:32:50Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "learned",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@medyaman",
+          "text": "I am 84 with a pace—maker after having 3 Ablation and 3 colonoscopy..I am following a strict timeline and consistent method.. I have personly followed a night time intake routine..",
+          "likes": 2,
+          "published_at": "2026-05-11T06:56:38Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "strict",
+              "polarity": "positive"
+            },
+            {
+              "token": "consistent",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@H.ADudleyPerera-fd1iv",
+          "text": "I am listening from Sri Lanka, aged 78. I am grateful to, dear doctor for your vivid explanation. Immense thanks.",
+          "likes": 0,
+          "published_at": "2026-05-10T00:58:05Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "grateful",
+              "polarity": "positive"
+            },
+            {
+              "token": "thanks",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@RhodaNkonde-h7c",
+          "text": "Im listening from Zambia  thank you",
+          "likes": 0,
+          "published_at": "2026-05-12T16:40:04Z",
+          "label": "Positive",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@terryhathorn2635",
+          "text": "I'm a 70 years old Black Female, I've been reading and watching different programs and hearing different doctors say that a lot of times these studies are not based on black Hispanics Native Americans or Asians they're basically based on Europeans/Caucasian, does it make a difference does it make a difference Nationality? Blood pressures, diabetes kidney long liver heart, Colon pancreas? Cataracts glaucoma?",
+          "likes": 3,
+          "published_at": "2026-05-12T16:06:40Z",
+          "label": "Negative",
+          "score": 0.63,
+          "highlightTokens": [
+            {
+              "token": "different",
+              "polarity": "negative"
+            },
+            {
+              "token": "not based on black Hispanics Native Americans or Asians",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "neutral": [
+        {
+          "author": "@joshuaadeyemi-cole1934",
+          "text": "I'm watching from Lagos and I'm 91years old",
+          "likes": 0,
+          "published_at": "2026-05-12T02:39:47Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "watching",
+              "polarity": "neutral"
+            },
+            {
+              "token": "Lagos",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@BrendaLMC-d6b9g",
+          "text": "I'm listening from Zambia I am 74",
+          "likes": 2,
+          "published_at": "2026-05-12T08:17:20Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "listening",
+              "polarity": "neutral"
+            },
+            {
+              "token": "Zambia",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@terryhathorn2635",
+          "text": "Lithonia, GA",
+          "likes": 0,
+          "published_at": "2026-05-12T16:07:16Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "GA",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@EffiaSmith",
+          "text": "Very helpful and useful information blessed",
+          "likes": 0,
+          "published_at": "2026-05-20T19:19:37Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "helpful",
+              "polarity": "positive"
+            },
+            {
+              "token": "useful",
+              "polarity": "positive"
+            },
+            {
+              "token": "blessed",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@benegwuonwu4473",
+          "text": "I am 74 and some months old. I have stage 4 prostrate cancer. The channel is helpful",
+          "likes": 3,
+          "published_at": "2026-05-13T22:36:13Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "helpful",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@myottemyotte8393",
+          "text": "Thank you so much, I learned. I hope you keep contact with me",
+          "likes": 0,
+          "published_at": "2026-05-11T15:32:50Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "learned",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@medyaman",
+          "text": "I am 84 with a pace—maker after having 3 Ablation and 3 colonoscopy..I am following a strict timeline and consistent method.. I have personly followed a night time intake routine..",
+          "likes": 2,
+          "published_at": "2026-05-11T06:56:38Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "strict",
+              "polarity": "positive"
+            },
+            {
+              "token": "consistent",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@joshuaadeyemi-cole1934",
+          "text": "I'm watching from Lagos and I'm 91years old",
+          "likes": 0,
+          "published_at": "2026-05-12T02:39:47Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "watching",
+              "polarity": "neutral"
+            },
+            {
+              "token": "Lagos",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@BrendaLMC-d6b9g",
+          "text": "I'm listening from Zambia I am 74",
+          "likes": 2,
+          "published_at": "2026-05-12T08:17:20Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "listening",
+              "polarity": "neutral"
+            },
+            {
+              "token": "Zambia",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@H.ADudleyPerera-fd1iv",
+          "text": "I am listening from Sri Lanka, aged 78. I am grateful to, dear doctor for your vivid explanation. Immense thanks.",
+          "likes": 0,
+          "published_at": "2026-05-10T00:58:05Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "grateful",
+              "polarity": "positive"
+            },
+            {
+              "token": "thanks",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@terryhathorn2635",
+          "text": "I'm a 70 years old Black Female, I've been reading and watching different programs and hearing different doctors say that a lot of times these studies are not based on black Hispanics Native Americans or Asians they're basically based on Europeans/Caucasian, does it make a difference does it make a difference Nationality? Blood pressures, diabetes kidney long liver heart, Colon pancreas? Cataracts glaucoma?",
+          "likes": 3,
+          "published_at": "2026-05-12T16:06:40Z",
+          "label": "Negative",
+          "score": 0.63,
+          "highlightTokens": [
+            {
+              "token": "different",
+              "polarity": "negative"
+            },
+            {
+              "token": "not based on black Hispanics Native Americans or Asians",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@terryhathorn2635",
+          "text": "Lithonia, GA",
+          "likes": 0,
+          "published_at": "2026-05-12T16:07:16Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "GA",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@RhodaNkonde-h7c",
+          "text": "Im listening from Zambia  thank you",
+          "likes": 0,
+          "published_at": "2026-05-12T16:40:04Z",
+          "label": "Positive",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "UePKzAegBi8": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "No transcript available.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@ShahaBunne",
+          "text": "I’m stunned by how much sense this makes now!",
+          "likes": 4,
+          "published_at": "2025-12-06T00:54:36Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "stunned",
+              "polarity": "positive"
+            },
+            {
+              "token": "sense",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@hakimsenane7875",
+          "text": "Very interesting. Thank you: Where can we find the reference of those research?",
+          "likes": 2,
+          "published_at": "2025-12-05T18:09:29Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "interesting",
+              "polarity": "positive"
+            },
+            {
+              "token": "thank you",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@TheLogicRoom",
+          "text": "Did you try the test? Let me know in the comments: Can you hit the 20-second mark with your eyes closed, or did you wobble? 👇",
+          "likes": 3,
+          "published_at": "2025-11-29T11:02:23Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "wobble",
+              "polarity": "negative"
+            },
+            {
+              "token": "eyes closed",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@xgx899",
+          "text": "Very interesting. Now please present the results of statistical studies from respected researchers including the p-values.",
+          "likes": 1,
+          "published_at": "2025-12-05T14:01:20Z",
+          "label": "Positive",
+          "score": 0.88,
+          "highlightTokens": [
+            {
+              "token": "interesting",
+              "polarity": "positive"
+            },
+            {
+              "token": "respected",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@TerriblePerfection",
+          "text": "I had very unexpected results! I can readily balance on one leg with my eyes open, so I assumed that I could at least approximate the same with them closed. No. I had to actively adjust my body to do it for about half the time. Then I did better when I changed where I positioned the elevated leg.\nAnyway, I found it very interesting and revealing, and I'm going to play around with it again.\nThanks for sharing! 🔆",
+          "likes": 1,
+          "published_at": "2025-12-06T12:11:22Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "interesting",
+              "polarity": "positive"
+            },
+            {
+              "token": "revealing",
+              "polarity": "positive"
+            },
+            {
+              "token": "play around",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@daniele_go",
+          "text": "Ok, nice but....can yourself do this 20 seconds balance with closed eyes?",
+          "likes": 1,
+          "published_at": "2025-12-04T21:52:54Z",
+          "label": "Negative",
+          "score": 0.63,
+          "highlightTokens": [
+            {
+              "token": "but",
+              "polarity": "negative"
+            },
+            {
+              "token": "can't",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@harpharp-k2t",
+          "text": "จริงป่าววะ",
+          "likes": 1,
+          "published_at": "2025-12-06T12:08:46Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "ป่าววะ",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@Edita-m6z",
+          "text": "Why is America obsessed with freaky medical advice. Lack of free healthcare is the reason. I don't need to be constantly assessing my health because in Britain I can just go to the doctor for anything that doesn't seem ok. It's free and they actually keep prompting me to come and get COVID and flu jabs and shingles jabs and if there was anything bothering me I would just say. America is useless.",
+          "likes": 2,
+          "published_at": "2025-12-05T06:21:43Z",
+          "label": "Negative",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "useless",
+              "polarity": "negative"
+            },
+            {
+              "token": "freaky",
+              "polarity": "negative"
+            },
+            {
+              "token": "America",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "neutral": [
+        {
+          "author": "@Mentalist_71",
+          "text": "eyes open 5 minutes plus... eyes closed 10-15 seconds",
+          "likes": 7,
+          "published_at": "2025-11-29T18:25:52Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "open",
+              "polarity": "neutral"
+            },
+            {
+              "token": "closed",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@angelomichelemaiorano4332",
+          "text": "È la posizione yogica di Vardamana, il Guru jinaista.",
+          "likes": 1,
+          "published_at": "2025-12-03T16:56:05Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "yogica",
+              "polarity": "neutral"
+            },
+            {
+              "token": "jinaista",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@ShahaBunne",
+          "text": "I’m stunned by how much sense this makes now!",
+          "likes": 4,
+          "published_at": "2025-12-06T00:54:36Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "stunned",
+              "polarity": "positive"
+            },
+            {
+              "token": "sense",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Mentalist_71",
+          "text": "eyes open 5 minutes plus... eyes closed 10-15 seconds",
+          "likes": 7,
+          "published_at": "2025-11-29T18:25:52Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "open",
+              "polarity": "neutral"
+            },
+            {
+              "token": "closed",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@hakimsenane7875",
+          "text": "Very interesting. Thank you: Where can we find the reference of those research?",
+          "likes": 2,
+          "published_at": "2025-12-05T18:09:29Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "interesting",
+              "polarity": "positive"
+            },
+            {
+              "token": "thank you",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@TheLogicRoom",
+          "text": "Did you try the test? Let me know in the comments: Can you hit the 20-second mark with your eyes closed, or did you wobble? 👇",
+          "likes": 3,
+          "published_at": "2025-11-29T11:02:23Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "wobble",
+              "polarity": "negative"
+            },
+            {
+              "token": "eyes closed",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@angelomichelemaiorano4332",
+          "text": "È la posizione yogica di Vardamana, il Guru jinaista.",
+          "likes": 1,
+          "published_at": "2025-12-03T16:56:05Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "yogica",
+              "polarity": "neutral"
+            },
+            {
+              "token": "jinaista",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@xgx899",
+          "text": "Very interesting. Now please present the results of statistical studies from respected researchers including the p-values.",
+          "likes": 1,
+          "published_at": "2025-12-05T14:01:20Z",
+          "label": "Positive",
+          "score": 0.88,
+          "highlightTokens": [
+            {
+              "token": "interesting",
+              "polarity": "positive"
+            },
+            {
+              "token": "respected",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@TerriblePerfection",
+          "text": "I had very unexpected results! I can readily balance on one leg with my eyes open, so I assumed that I could at least approximate the same with them closed. No. I had to actively adjust my body to do it for about half the time. Then I did better when I changed where I positioned the elevated leg.\nAnyway, I found it very interesting and revealing, and I'm going to play around with it again.\nThanks for sharing! 🔆",
+          "likes": 1,
+          "published_at": "2025-12-06T12:11:22Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "interesting",
+              "polarity": "positive"
+            },
+            {
+              "token": "revealing",
+              "polarity": "positive"
+            },
+            {
+              "token": "play around",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@daniele_go",
+          "text": "Ok, nice but....can yourself do this 20 seconds balance with closed eyes?",
+          "likes": 1,
+          "published_at": "2025-12-04T21:52:54Z",
+          "label": "Negative",
+          "score": 0.63,
+          "highlightTokens": [
+            {
+              "token": "but",
+              "polarity": "negative"
+            },
+            {
+              "token": "can't",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@harpharp-k2t",
+          "text": "จริงป่าววะ",
+          "likes": 1,
+          "published_at": "2025-12-06T12:08:46Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "ป่าววะ",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@Edita-m6z",
+          "text": "Why is America obsessed with freaky medical advice. Lack of free healthcare is the reason. I don't need to be constantly assessing my health because in Britain I can just go to the doctor for anything that doesn't seem ok. It's free and they actually keep prompting me to come and get COVID and flu jabs and shingles jabs and if there was anything bothering me I would just say. America is useless.",
+          "likes": 2,
+          "published_at": "2025-12-05T06:21:43Z",
+          "label": "Negative",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "useless",
+              "polarity": "negative"
+            },
+            {
+              "token": "freaky",
+              "polarity": "negative"
+            },
+            {
+              "token": "America",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_z-IK0vblzM": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "No transcript available.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [],
+      "negative": [
+        {
+          "author": "@user-mf1uw4sz6c",
+          "text": "AI bot😮",
+          "likes": 0,
+          "published_at": "2026-04-17T16:22:45Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "bot",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "neutral": [],
+      "all": [
+        {
+          "author": "@user-mf1uw4sz6c",
+          "text": "AI bot😮",
+          "likes": 0,
+          "published_at": "2026-04-17T16:22:45Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "bot",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "v3e7uHsVUvk": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "No transcript available.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@butterfly2604",
+          "text": "Age is just a number..The happier a person feels the more they want to take care of themselves on all levels.. I've always been and old soul 😂 acting like a teenager no matter my age..😊",
+          "likes": 18,
+          "published_at": "2026-04-29T14:42:46Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "happier",
+              "polarity": "positive"
+            },
+            {
+              "token": "take care of themselves",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@janetblanc7658",
+          "text": "I know this is AI but the information is valuable. Thank you.",
+          "likes": 32,
+          "published_at": "2026-04-28T05:06:26Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "valuable",
+              "polarity": "positive"
+            },
+            {
+              "token": "thank",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@ancillabernstein1111",
+          "text": "I am 45 years old, I have been taking all these vitamins since 2011 when I was turned 30 years old. And obviously eating healthy.",
+          "likes": 9,
+          "published_at": "2026-04-29T09:31:06Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "healthy",
+              "polarity": "positive"
+            },
+            {
+              "token": "vitamins",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@ChiraeBarnes-l6v",
+          "text": "Very very nice awesome and vald information..thank you so much.keep up thee amazing work.🙏🎁💫",
+          "likes": 0,
+          "published_at": "2026-05-03T18:43:32Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "nice",
+              "polarity": "positive"
+            },
+            {
+              "token": "awesome",
+              "polarity": "positive"
+            },
+            {
+              "token": "vald",
+              "polarity": "positive"
+            },
+            {
+              "token": "amazing",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@christineHolloway-t2g",
+          "text": "I AM Aging( Backward. ,resurrecting ). . This is a great video and I had a wonderful  lunch ,chicken and rice carrots Brussel sprouts, kiwi. while I listened..Thanks for this good sense..",
+          "likes": 19,
+          "published_at": "2026-04-27T19:18:39Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "great",
+              "polarity": "positive"
+            },
+            {
+              "token": "wonderful",
+              "polarity": "positive"
+            },
+            {
+              "token": "good",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@marcialee8446",
+          "text": "Where's the rest of the video?",
+          "likes": 0,
+          "published_at": "2026-05-02T23:40:51Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "rest",
+              "polarity": "negative"
+            },
+            {
+              "token": "video",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@cherylk.m.7228",
+          "text": "It did happen to me that way… disconcerting and actually emotionally painful. ☺️ part of my personal problem was having to give up my years of HRT. I got a letter from Medicare saying we are not paying, you don’t need it at your age. And I was so healthy it  cost Medicare almost nothing. 😑 Nevada 🇺🇸 \nC, D, K,  natural immune system dietary needs.",
+          "likes": 1,
+          "published_at": "2026-05-02T22:31:58Z",
+          "label": "Negative",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "disconcerting",
+              "polarity": "negative"
+            },
+            {
+              "token": "painful",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@ChiraeBarnes-l6v",
+          "text": "Is there anything I can do to help my eyelids..they are sinking in..and I feel my scull sculpture..",
+          "likes": 0,
+          "published_at": "2026-05-03T18:41:15Z",
+          "label": "Negative",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "sinking",
+              "polarity": "negative"
+            },
+            {
+              "token": "scull",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@ChiraeBarnes-l6v",
+          "text": "I’m from Brooklyn I can’t eat no sea food what else can I take..what can grow eyebrows",
+          "likes": 0,
+          "published_at": "2026-05-03T18:32:26Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "can't",
+              "polarity": "negative"
+            },
+            {
+              "token": "no",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "neutral": [
+        {
+          "author": "@Tk-iz2ws",
+          "text": "C, D & biotin",
+          "likes": 55,
+          "published_at": "2026-04-29T19:10:43Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "biotin",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@Tk-iz2ws",
+          "text": "C, D & biotin",
+          "likes": 55,
+          "published_at": "2026-04-29T19:10:43Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "biotin",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@butterfly2604",
+          "text": "Age is just a number..The happier a person feels the more they want to take care of themselves on all levels.. I've always been and old soul 😂 acting like a teenager no matter my age..😊",
+          "likes": 18,
+          "published_at": "2026-04-29T14:42:46Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "happier",
+              "polarity": "positive"
+            },
+            {
+              "token": "take care of themselves",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@janetblanc7658",
+          "text": "I know this is AI but the information is valuable. Thank you.",
+          "likes": 32,
+          "published_at": "2026-04-28T05:06:26Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "valuable",
+              "polarity": "positive"
+            },
+            {
+              "token": "thank",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@ancillabernstein1111",
+          "text": "I am 45 years old, I have been taking all these vitamins since 2011 when I was turned 30 years old. And obviously eating healthy.",
+          "likes": 9,
+          "published_at": "2026-04-29T09:31:06Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "healthy",
+              "polarity": "positive"
+            },
+            {
+              "token": "vitamins",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@marcialee8446",
+          "text": "Where's the rest of the video?",
+          "likes": 0,
+          "published_at": "2026-05-02T23:40:51Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "rest",
+              "polarity": "negative"
+            },
+            {
+              "token": "video",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@cherylk.m.7228",
+          "text": "It did happen to me that way… disconcerting and actually emotionally painful. ☺️ part of my personal problem was having to give up my years of HRT. I got a letter from Medicare saying we are not paying, you don’t need it at your age. And I was so healthy it  cost Medicare almost nothing. 😑 Nevada 🇺🇸 \nC, D, K,  natural immune system dietary needs.",
+          "likes": 1,
+          "published_at": "2026-05-02T22:31:58Z",
+          "label": "Negative",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "disconcerting",
+              "polarity": "negative"
+            },
+            {
+              "token": "painful",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@ChiraeBarnes-l6v",
+          "text": "Very very nice awesome and vald information..thank you so much.keep up thee amazing work.🙏🎁💫",
+          "likes": 0,
+          "published_at": "2026-05-03T18:43:32Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "nice",
+              "polarity": "positive"
+            },
+            {
+              "token": "awesome",
+              "polarity": "positive"
+            },
+            {
+              "token": "vald",
+              "polarity": "positive"
+            },
+            {
+              "token": "amazing",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@ChiraeBarnes-l6v",
+          "text": "Is there anything I can do to help my eyelids..they are sinking in..and I feel my scull sculpture..",
+          "likes": 0,
+          "published_at": "2026-05-03T18:41:15Z",
+          "label": "Negative",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "sinking",
+              "polarity": "negative"
+            },
+            {
+              "token": "scull",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@ChiraeBarnes-l6v",
+          "text": "I’m from Brooklyn I can’t eat no sea food what else can I take..what can grow eyebrows",
+          "likes": 0,
+          "published_at": "2026-05-03T18:32:26Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "can't",
+              "polarity": "negative"
+            },
+            {
+              "token": "no",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@christineHolloway-t2g",
+          "text": "I AM Aging( Backward. ,resurrecting ). . This is a great video and I had a wonderful  lunch ,chicken and rice carrots Brussel sprouts, kiwi. while I listened..Thanks for this good sense..",
+          "likes": 19,
+          "published_at": "2026-04-27T19:18:39Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "great",
+              "polarity": "positive"
+            },
+            {
+              "token": "wonderful",
+              "polarity": "positive"
+            },
+            {
+              "token": "good",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ]
+    }
   }
 }
