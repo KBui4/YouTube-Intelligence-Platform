@@ -410671,5 +410671,5151 @@
         }
       ]
     }
+  },
+  "5L_nFwX4CRQ": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "No transcript available.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@allcbts",
+          "text": "🔥 Hey fam! If you’re watching this and enjoying the value, don’t just sit back—SMASH that Like button and hit Subscribe right now so that every time we upload an update to this video, youtube can notify you!\r\n\r\nAlso, ensure you join the conversation in the comments - argue, debate every idea - this is part of learning and helps the clarity for all.\r\n\r\nJoin the conversation on our WhatsApp/Telegram, get the link here: https://allcbts.com/connect",
+          "likes": 12,
+          "published_at": "2026-03-29T11:17:47Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "enjoying",
+              "polarity": "positive"
+            },
+            {
+              "token": "SMASH",
+              "polarity": "positive"
+            },
+            {
+              "token": "Subscribe",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@FaithAnthony-t9s",
+          "text": "photoGRApher\nComforTAble\nperMISsion\ndanGERous",
+          "likes": 7,
+          "published_at": "2026-02-16T19:52:35Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "ComforTAble",
+              "polarity": "positive"
+            },
+            {
+              "token": "perMISsion",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@FavourGodsgift-n6g",
+          "text": "❤❤❤❤🎉am enjoying it",
+          "likes": 0,
+          "published_at": "2026-04-15T23:09:53Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "enjoying",
+              "polarity": "positive"
+            },
+            {
+              "token": "it",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@AdedamolaShobande",
+          "text": "Yes am new here but please sir be audible thank you sir",
+          "likes": 1,
+          "published_at": "2026-04-12T15:39:25Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "sir",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@AnasMuhammad-h8h",
+          "text": "I learned more",
+          "likes": 0,
+          "published_at": "2026-03-14T16:35:09Z",
+          "label": "Positive",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "learned",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@AdedamolaShobande",
+          "text": "eduCAtion \nPhoTOgrapher\nComFORable\nPerMISsion\nDanGERous\n\nGod bless you sir I really enjoyed ur class ❤",
+          "likes": 0,
+          "published_at": "2026-04-12T15:45:24Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "enjoyed",
+              "polarity": "positive"
+            },
+            {
+              "token": "bless",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@MGroove_",
+          "text": "👍👍",
+          "likes": 1,
+          "published_at": "2026-04-14T19:01:58Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "👍",
+              "polarity": "positive"
+            },
+            {
+              "token": "👍",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@fatimahbintumuhammed",
+          "text": "Many thanks, sir. May the Lord honour you.\n\nEduCAtion\nPhoTographer\nComforTable\nPerMIssion\nDanGErous",
+          "likes": 1,
+          "published_at": "2026-04-13T16:21:24Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Many thanks",
+              "polarity": "positive"
+            },
+            {
+              "token": "honour",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@AmaraOkoye-k8d",
+          "text": "Sir,please mark mine. 🥺😔\n1: Ed-u-CA-tion (Stress is on the 3rd syllable)\n2: Pho-TOG-ra-pher (Stress is on the 2nd syllable)\n3: COM-fort-a-ble (Stress is on the 1st syllable)\n4: Per-MIS-sion (Stress is on the 2nd syllable)\n5: DAN-ger-ous (Stress is on the 1st syllable)",
+          "likes": 8,
+          "published_at": "2026-03-12T21:31:34Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "😔",
+              "polarity": "negative"
+            },
+            {
+              "token": "🥺",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@splatermode",
+          "text": "Pls try upgrading ur sound ,like mic",
+          "likes": 4,
+          "published_at": "2026-04-12T14:01:42Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "ur",
+              "polarity": "negative"
+            },
+            {
+              "token": "mic",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "neutral": [],
+      "all": [
+        {
+          "author": "@allcbts",
+          "text": "🔥 Hey fam! If you’re watching this and enjoying the value, don’t just sit back—SMASH that Like button and hit Subscribe right now so that every time we upload an update to this video, youtube can notify you!\r\n\r\nAlso, ensure you join the conversation in the comments - argue, debate every idea - this is part of learning and helps the clarity for all.\r\n\r\nJoin the conversation on our WhatsApp/Telegram, get the link here: https://allcbts.com/connect",
+          "likes": 12,
+          "published_at": "2026-03-29T11:17:47Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "enjoying",
+              "polarity": "positive"
+            },
+            {
+              "token": "SMASH",
+              "polarity": "positive"
+            },
+            {
+              "token": "Subscribe",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@AmaraOkoye-k8d",
+          "text": "Sir,please mark mine. 🥺😔\n1: Ed-u-CA-tion (Stress is on the 3rd syllable)\n2: Pho-TOG-ra-pher (Stress is on the 2nd syllable)\n3: COM-fort-a-ble (Stress is on the 1st syllable)\n4: Per-MIS-sion (Stress is on the 2nd syllable)\n5: DAN-ger-ous (Stress is on the 1st syllable)",
+          "likes": 8,
+          "published_at": "2026-03-12T21:31:34Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "😔",
+              "polarity": "negative"
+            },
+            {
+              "token": "🥺",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@FaithAnthony-t9s",
+          "text": "photoGRApher\nComforTAble\nperMISsion\ndanGERous",
+          "likes": 7,
+          "published_at": "2026-02-16T19:52:35Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "ComforTAble",
+              "polarity": "positive"
+            },
+            {
+              "token": "perMISsion",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@splatermode",
+          "text": "Pls try upgrading ur sound ,like mic",
+          "likes": 4,
+          "published_at": "2026-04-12T14:01:42Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "ur",
+              "polarity": "negative"
+            },
+            {
+              "token": "mic",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@FavourGodsgift-n6g",
+          "text": "❤❤❤❤🎉am enjoying it",
+          "likes": 0,
+          "published_at": "2026-04-15T23:09:53Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "enjoying",
+              "polarity": "positive"
+            },
+            {
+              "token": "it",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@AdedamolaShobande",
+          "text": "Yes am new here but please sir be audible thank you sir",
+          "likes": 1,
+          "published_at": "2026-04-12T15:39:25Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "sir",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@AnasMuhammad-h8h",
+          "text": "I learned more",
+          "likes": 0,
+          "published_at": "2026-03-14T16:35:09Z",
+          "label": "Positive",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "learned",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@AdedamolaShobande",
+          "text": "eduCAtion \nPhoTOgrapher\nComFORable\nPerMISsion\nDanGERous\n\nGod bless you sir I really enjoyed ur class ❤",
+          "likes": 0,
+          "published_at": "2026-04-12T15:45:24Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "enjoyed",
+              "polarity": "positive"
+            },
+            {
+              "token": "bless",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@MGroove_",
+          "text": "👍👍",
+          "likes": 1,
+          "published_at": "2026-04-14T19:01:58Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "👍",
+              "polarity": "positive"
+            },
+            {
+              "token": "👍",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@fatimahbintumuhammed",
+          "text": "Many thanks, sir. May the Lord honour you.\n\nEduCAtion\nPhoTographer\nComforTable\nPerMIssion\nDanGErous",
+          "likes": 1,
+          "published_at": "2026-04-13T16:21:24Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Many thanks",
+              "polarity": "positive"
+            },
+            {
+              "token": "honour",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "8LM9PvTHbww": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "No transcript available.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@catherinerossblair8727",
+          "text": "Vit C, Niacin always take with food, Vit K2, Vitamin D, both are miraculous@  and COQ10, also take with Fat/Food. Selenium plus Vitamin E also is an important Gift! Vitamin B12 is another important Vitamin that delivers O2 to your capilarries, etc and it stimulates the regeneration of nerve fibers! ❤and take Methylfolate also❤Sublingual Thank you Dr Li",
+          "likes": 11,
+          "published_at": "2026-05-13T21:25:38Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "miraculous",
+              "polarity": "positive"
+            },
+            {
+              "token": "Gift",
+              "polarity": "positive"
+            },
+            {
+              "token": "delivers",
+              "polarity": "positive"
+            },
+            {
+              "token": "regeneration",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@finakhan5221",
+          "text": "You are a Godsend. Thank you🙏❤️🇨🇦",
+          "likes": 0,
+          "published_at": "2026-05-13T00:05:59Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Godsend",
+              "polarity": "positive"
+            },
+            {
+              "token": "Thank",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@EvelynLecitivo",
+          "text": "Subscribed",
+          "likes": 0,
+          "published_at": "2026-05-13T04:07:41Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Subscribed",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@CAMILLEKOORASINGH",
+          "text": "I am 84 yrs recently my ankles are swollen at the end of the day",
+          "likes": 1,
+          "published_at": "2026-05-13T22:57:44Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "swollen",
+              "polarity": "negative"
+            },
+            {
+              "token": "day",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@CarolynMcKay-b7b",
+          "text": "56 and I wake up because my feet are so cold, I get leg cramps occasionally",
+          "likes": 0,
+          "published_at": "2026-05-17T22:52:53Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "cold",
+              "polarity": "negative"
+            },
+            {
+              "token": "cramps",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@kiwikim5163",
+          "text": "Ascorbic acid tears up my bladder.",
+          "likes": 0,
+          "published_at": "2026-05-17T01:21:08Z",
+          "label": "Negative",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "tears",
+              "polarity": "negative"
+            },
+            {
+              "token": "bladder",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@finakhan5221",
+          "text": "My lower legs around my ankles at discoloured and swollen,",
+          "likes": 1,
+          "published_at": "2026-05-12T23:48:33Z",
+          "label": "Negative",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "discoloured",
+              "polarity": "negative"
+            },
+            {
+              "token": "swollen",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "neutral": [
+        {
+          "author": "@charlottewhite9649",
+          "text": "AGE 78 NO COLDNESS BUT LOW ENERGY THAT JUST PICKED UP",
+          "likes": 1,
+          "published_at": "2026-05-14T18:23:45Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "NO",
+              "polarity": "negative"
+            },
+            {
+              "token": "LOW",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@MariaPeters-t3m",
+          "text": "I did  a lot of what you recommended and I slowly let it go.\n\nI start over again.  Old imprints have something to do with not believing it works.\n\nThanks Dr. LEE",
+          "likes": 0,
+          "published_at": "2026-05-22T19:20:11Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "let",
+              "polarity": "neutral"
+            },
+            {
+              "token": "go",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@marilynadams6612",
+          "text": "Ty Dr",
+          "likes": 0,
+          "published_at": "2026-05-17T04:38:30Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "Dr",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@catherinerossblair8727",
+          "text": "Vit C, Niacin always take with food, Vit K2, Vitamin D, both are miraculous@  and COQ10, also take with Fat/Food. Selenium plus Vitamin E also is an important Gift! Vitamin B12 is another important Vitamin that delivers O2 to your capilarries, etc and it stimulates the regeneration of nerve fibers! ❤and take Methylfolate also❤Sublingual Thank you Dr Li",
+          "likes": 11,
+          "published_at": "2026-05-13T21:25:38Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "miraculous",
+              "polarity": "positive"
+            },
+            {
+              "token": "Gift",
+              "polarity": "positive"
+            },
+            {
+              "token": "delivers",
+              "polarity": "positive"
+            },
+            {
+              "token": "regeneration",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@charlottewhite9649",
+          "text": "AGE 78 NO COLDNESS BUT LOW ENERGY THAT JUST PICKED UP",
+          "likes": 1,
+          "published_at": "2026-05-14T18:23:45Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "NO",
+              "polarity": "negative"
+            },
+            {
+              "token": "LOW",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@CAMILLEKOORASINGH",
+          "text": "I am 84 yrs recently my ankles are swollen at the end of the day",
+          "likes": 1,
+          "published_at": "2026-05-13T22:57:44Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "swollen",
+              "polarity": "negative"
+            },
+            {
+              "token": "day",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@CarolynMcKay-b7b",
+          "text": "56 and I wake up because my feet are so cold, I get leg cramps occasionally",
+          "likes": 0,
+          "published_at": "2026-05-17T22:52:53Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "cold",
+              "polarity": "negative"
+            },
+            {
+              "token": "cramps",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@kiwikim5163",
+          "text": "Ascorbic acid tears up my bladder.",
+          "likes": 0,
+          "published_at": "2026-05-17T01:21:08Z",
+          "label": "Negative",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "tears",
+              "polarity": "negative"
+            },
+            {
+              "token": "bladder",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@finakhan5221",
+          "text": "You are a Godsend. Thank you🙏❤️🇨🇦",
+          "likes": 0,
+          "published_at": "2026-05-13T00:05:59Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Godsend",
+              "polarity": "positive"
+            },
+            {
+              "token": "Thank",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@MariaPeters-t3m",
+          "text": "I did  a lot of what you recommended and I slowly let it go.\n\nI start over again.  Old imprints have something to do with not believing it works.\n\nThanks Dr. LEE",
+          "likes": 0,
+          "published_at": "2026-05-22T19:20:11Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "let",
+              "polarity": "neutral"
+            },
+            {
+              "token": "go",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@finakhan5221",
+          "text": "My lower legs around my ankles at discoloured and swollen,",
+          "likes": 1,
+          "published_at": "2026-05-12T23:48:33Z",
+          "label": "Negative",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "discoloured",
+              "polarity": "negative"
+            },
+            {
+              "token": "swollen",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@EvelynLecitivo",
+          "text": "Subscribed",
+          "likes": 0,
+          "published_at": "2026-05-13T04:07:41Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Subscribed",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@marilynadams6612",
+          "text": "Ty Dr",
+          "likes": 0,
+          "published_at": "2026-05-17T04:38:30Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "Dr",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "BSqkYtqcSlo": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "No transcript available.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@alicialycan",
+          "text": "Speaking from experience, high fat = faster recovery, less inflammation, and our brains and muscles need far less glucose than we have been led to believe.",
+          "likes": 2,
+          "published_at": "2026-05-12T19:40:41Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "faster",
+              "polarity": "positive"
+            },
+            {
+              "token": "less",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@uwrossl",
+          "text": "Makes sense not to count what what's consumed during runs because it's burned up.  Fuel is such a huge part of performance and at 48yo getting that part right both during activity and outside of it massively changed my recovery and performance.  Managing where those carbs come from is an important part of the equation as well.",
+          "likes": 0,
+          "published_at": "2026-05-25T15:42:43Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "Makes sense",
+              "polarity": "positive"
+            },
+            {
+              "token": "changed my recovery and performance",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@thomasslowey3316",
+          "text": "Great content, very good speaker, common sense approach to training, thanks..",
+          "likes": 1,
+          "published_at": "2026-02-17T05:33:13Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "good",
+              "polarity": "positive"
+            },
+            {
+              "token": "thanks",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@OnurDeniz-o3s",
+          "text": "Another good content. I don't agree with the most of the advices in the video regarding the nutrition (I am verry happy with my low carb strategy but i have to say that i don't care about performance i am only focused on my health) but, you show a good example of interviewing. In most of the interview videos, we see that hosts often interrupt the things that the guests explain, and make his/her guests to divert from the main topic a lot and they never get that topic again. So as a watcher, we leave the video with a lot of unresolved questions in our mind. It seems that you put a lot of effert and time before you take these videos. Good questions, nice management of the conversations. Keep up the good work.",
+          "likes": 4,
+          "published_at": "2026-02-02T08:12:36Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "good",
+              "polarity": "positive"
+            },
+            {
+              "token": "happy",
+              "polarity": "positive"
+            },
+            {
+              "token": "effert",
+              "polarity": "positive"
+            },
+            {
+              "token": "nice",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@EricPepper76",
+          "text": "Love the content",
+          "likes": 3,
+          "published_at": "2026-02-01T15:30:34Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Love",
+              "polarity": "positive"
+            },
+            {
+              "token": "content",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@speedyhobbit4515",
+          "text": "I restricted calories so badly as a teen and 20-something that I've actually noticed my metabolism surging up in my late30s",
+          "likes": 1,
+          "published_at": "2026-02-06T14:42:29Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "surging",
+              "polarity": "positive"
+            },
+            {
+              "token": "up",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@richardmiddleton7770",
+          "text": "There's no doubt carbs increase performance, but only up to a point. You mentioned that training is \"hard enough\" without reducing carbs, but most training for endurance athletes is supposed to be easy! Metabolic flexibility is the ability to use already stored fuel (fat and glycogen). If you are feeling such a difference from taking in 15g of carbs from apple sauce for a 30 minute jog, that just says that you're not metabolically flexible, or you have severely depleted your glycogen the previous day, and not eaten anything since!",
+          "likes": 7,
+          "published_at": "2026-02-02T09:05:04Z",
+          "label": "Negative",
+          "score": 0.62,
+          "highlightTokens": [
+            {
+              "token": "not",
+              "polarity": "negative"
+            },
+            {
+              "token": "depleted",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@tridecemlineatus",
+          "text": "As an endurance athlete I find it hard to be in a 500 calorie deficit without weighing everything I eat. Which gets more complicated when I eat partial meals. Like 200 grams of carrots and I eat 75%. Now I have to re-weight the remainder to get the amount consumed. Tedious….",
+          "likes": 0,
+          "published_at": "2026-02-11T20:51:43Z",
+          "label": "Negative",
+          "score": 0.63,
+          "highlightTokens": [
+            {
+              "token": "hard",
+              "polarity": "negative"
+            },
+            {
+              "token": "tedious",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "neutral": [
+        {
+          "author": "@PrettyLittlePlantBased",
+          "text": "Yep, I’m like a raccoon in the pantry 😂 Yikes! I need to work on proper fueling through the day.",
+          "likes": 1,
+          "published_at": "2026-02-27T03:45:40Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "Yikes",
+              "polarity": "negative"
+            },
+            {
+              "token": "need",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@fraac",
+          "text": "on fructose, i understood that for long endurance efforts you get sick of fructose before glucose if you're eating normal ultramarathon food (don't know about cycling). so maltodextrin works when tailwind stops working",
+          "likes": 1,
+          "published_at": "2026-02-02T00:14:18Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "sick",
+              "polarity": "negative"
+            },
+            {
+              "token": "stops",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@alicialycan",
+          "text": "Speaking from experience, high fat = faster recovery, less inflammation, and our brains and muscles need far less glucose than we have been led to believe.",
+          "likes": 2,
+          "published_at": "2026-05-12T19:40:41Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "faster",
+              "polarity": "positive"
+            },
+            {
+              "token": "less",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@uwrossl",
+          "text": "Makes sense not to count what what's consumed during runs because it's burned up.  Fuel is such a huge part of performance and at 48yo getting that part right both during activity and outside of it massively changed my recovery and performance.  Managing where those carbs come from is an important part of the equation as well.",
+          "likes": 0,
+          "published_at": "2026-05-25T15:42:43Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "Makes sense",
+              "polarity": "positive"
+            },
+            {
+              "token": "changed my recovery and performance",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@richardmiddleton7770",
+          "text": "There's no doubt carbs increase performance, but only up to a point. You mentioned that training is \"hard enough\" without reducing carbs, but most training for endurance athletes is supposed to be easy! Metabolic flexibility is the ability to use already stored fuel (fat and glycogen). If you are feeling such a difference from taking in 15g of carbs from apple sauce for a 30 minute jog, that just says that you're not metabolically flexible, or you have severely depleted your glycogen the previous day, and not eaten anything since!",
+          "likes": 7,
+          "published_at": "2026-02-02T09:05:04Z",
+          "label": "Negative",
+          "score": 0.62,
+          "highlightTokens": [
+            {
+              "token": "not",
+              "polarity": "negative"
+            },
+            {
+              "token": "depleted",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@thomasslowey3316",
+          "text": "Great content, very good speaker, common sense approach to training, thanks..",
+          "likes": 1,
+          "published_at": "2026-02-17T05:33:13Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "good",
+              "polarity": "positive"
+            },
+            {
+              "token": "thanks",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@OnurDeniz-o3s",
+          "text": "Another good content. I don't agree with the most of the advices in the video regarding the nutrition (I am verry happy with my low carb strategy but i have to say that i don't care about performance i am only focused on my health) but, you show a good example of interviewing. In most of the interview videos, we see that hosts often interrupt the things that the guests explain, and make his/her guests to divert from the main topic a lot and they never get that topic again. So as a watcher, we leave the video with a lot of unresolved questions in our mind. It seems that you put a lot of effert and time before you take these videos. Good questions, nice management of the conversations. Keep up the good work.",
+          "likes": 4,
+          "published_at": "2026-02-02T08:12:36Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "good",
+              "polarity": "positive"
+            },
+            {
+              "token": "happy",
+              "polarity": "positive"
+            },
+            {
+              "token": "effert",
+              "polarity": "positive"
+            },
+            {
+              "token": "nice",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@EricPepper76",
+          "text": "Love the content",
+          "likes": 3,
+          "published_at": "2026-02-01T15:30:34Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Love",
+              "polarity": "positive"
+            },
+            {
+              "token": "content",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@speedyhobbit4515",
+          "text": "I restricted calories so badly as a teen and 20-something that I've actually noticed my metabolism surging up in my late30s",
+          "likes": 1,
+          "published_at": "2026-02-06T14:42:29Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "surging",
+              "polarity": "positive"
+            },
+            {
+              "token": "up",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@PrettyLittlePlantBased",
+          "text": "Yep, I’m like a raccoon in the pantry 😂 Yikes! I need to work on proper fueling through the day.",
+          "likes": 1,
+          "published_at": "2026-02-27T03:45:40Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "Yikes",
+              "polarity": "negative"
+            },
+            {
+              "token": "need",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@fraac",
+          "text": "on fructose, i understood that for long endurance efforts you get sick of fructose before glucose if you're eating normal ultramarathon food (don't know about cycling). so maltodextrin works when tailwind stops working",
+          "likes": 1,
+          "published_at": "2026-02-02T00:14:18Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "sick",
+              "polarity": "negative"
+            },
+            {
+              "token": "stops",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@tridecemlineatus",
+          "text": "As an endurance athlete I find it hard to be in a 500 calorie deficit without weighing everything I eat. Which gets more complicated when I eat partial meals. Like 200 grams of carrots and I eat 75%. Now I have to re-weight the remainder to get the amount consumed. Tedious….",
+          "likes": 0,
+          "published_at": "2026-02-11T20:51:43Z",
+          "label": "Negative",
+          "score": 0.63,
+          "highlightTokens": [
+            {
+              "token": "hard",
+              "polarity": "negative"
+            },
+            {
+              "token": "tedious",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "FVdikBoypA4": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "No transcript available.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@TorBoy9",
+          "text": "Again, an excellent description of insulin resistance, why it is so damaging, and what we can do about it. The complete package for excellent metabolic health, done by Dr Bikman, a great communicator. Thank you.",
+          "likes": 13,
+          "published_at": "2026-02-15T02:43:27Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "excellent",
+              "polarity": "positive"
+            },
+            {
+              "token": "great",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@jfidelis46",
+          "text": "Superb lecture Dr. Bikman!! I am an OMAD carnivore fasting 18+ hours a day. Carbs no longer influence my diet. Strong work sir!!!",
+          "likes": 5,
+          "published_at": "2026-02-16T13:40:45Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Superb",
+              "polarity": "positive"
+            },
+            {
+              "token": "Strong",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@freedom234liberty6",
+          "text": "BEN BIKMAN IS 👑 KING❤ HE'S DECLARING THE WHOLE TRUTH ABOUT THE TOTAL DECEPTION OF FIXED/STAGED TESTIMONIALS FROM BIG PHARMA AND PEOPLE ARE LAUGHING 😢 SO EVERYONE IS ACCOUNTABLE AT THE END FOR THE CHOICES HE/SHE MAKES ❤ I ADORE HIM",
+          "likes": 15,
+          "published_at": "2026-02-14T19:05:08Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "KING",
+              "polarity": "positive"
+            },
+            {
+              "token": "DECLARING",
+              "polarity": "neutral"
+            },
+            {
+              "token": "LAUGHING",
+              "polarity": "negative"
+            },
+            {
+              "token": "ADORE",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@tymom9313",
+          "text": "My favorite bedtime story 😴 💕",
+          "likes": 0,
+          "published_at": "2026-02-20T08:59:13Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "favorite",
+              "polarity": "positive"
+            },
+            {
+              "token": "bedtime story",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@yoe91",
+          "text": "Brilliant presentation. Nothing but super valuable non filler facts.",
+          "likes": 0,
+          "published_at": "2026-02-22T09:52:04Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Brilliant",
+              "polarity": "positive"
+            },
+            {
+              "token": "super",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@MH-Tesla",
+          "text": "Did the video cut out to early? it didn't seem like the lecture was over yet. But I listen to it twice. Very informative",
+          "likes": 0,
+          "published_at": "2026-02-20T13:16:38Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "informative",
+              "polarity": "positive"
+            },
+            {
+              "token": "twice",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@DawidRoos-y7g",
+          "text": "Insulin resistance is caused by mitochondrial dysfunction...... The unsaturated fatty acids in seed oils cause violent reactions which harm the mitochondria.",
+          "likes": 3,
+          "published_at": "2026-02-17T10:21:19Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "violent",
+              "polarity": "negative"
+            },
+            {
+              "token": "harm",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@Александр-ш3ю2у",
+          "text": "Do not eat what you should not eat if you are physically inactive—carbohydrates! Hyperglycaemia is primary, so tissues that do not contain Glut4 suffer first!",
+          "likes": 1,
+          "published_at": "2026-02-14T23:16:49Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "should not eat",
+              "polarity": "negative"
+            },
+            {
+              "token": "Hyperglycaemia",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "neutral": [
+        {
+          "author": "@petersymons7817",
+          "text": "Manganese, R Alpha Lipoic acid. Etc Glycine",
+          "likes": 2,
+          "published_at": "2026-02-19T02:42:08Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "Etc",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@petersymons7817",
+          "text": "Benforthiamin B1",
+          "likes": 2,
+          "published_at": "2026-02-19T02:39:44Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "B1",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@TorBoy9",
+          "text": "Again, an excellent description of insulin resistance, why it is so damaging, and what we can do about it. The complete package for excellent metabolic health, done by Dr Bikman, a great communicator. Thank you.",
+          "likes": 13,
+          "published_at": "2026-02-15T02:43:27Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "excellent",
+              "polarity": "positive"
+            },
+            {
+              "token": "great",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@jfidelis46",
+          "text": "Superb lecture Dr. Bikman!! I am an OMAD carnivore fasting 18+ hours a day. Carbs no longer influence my diet. Strong work sir!!!",
+          "likes": 5,
+          "published_at": "2026-02-16T13:40:45Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Superb",
+              "polarity": "positive"
+            },
+            {
+              "token": "Strong",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@freedom234liberty6",
+          "text": "BEN BIKMAN IS 👑 KING❤ HE'S DECLARING THE WHOLE TRUTH ABOUT THE TOTAL DECEPTION OF FIXED/STAGED TESTIMONIALS FROM BIG PHARMA AND PEOPLE ARE LAUGHING 😢 SO EVERYONE IS ACCOUNTABLE AT THE END FOR THE CHOICES HE/SHE MAKES ❤ I ADORE HIM",
+          "likes": 15,
+          "published_at": "2026-02-14T19:05:08Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "KING",
+              "polarity": "positive"
+            },
+            {
+              "token": "DECLARING",
+              "polarity": "neutral"
+            },
+            {
+              "token": "LAUGHING",
+              "polarity": "negative"
+            },
+            {
+              "token": "ADORE",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@tymom9313",
+          "text": "My favorite bedtime story 😴 💕",
+          "likes": 0,
+          "published_at": "2026-02-20T08:59:13Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "favorite",
+              "polarity": "positive"
+            },
+            {
+              "token": "bedtime story",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@yoe91",
+          "text": "Brilliant presentation. Nothing but super valuable non filler facts.",
+          "likes": 0,
+          "published_at": "2026-02-22T09:52:04Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Brilliant",
+              "polarity": "positive"
+            },
+            {
+              "token": "super",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@DawidRoos-y7g",
+          "text": "Insulin resistance is caused by mitochondrial dysfunction...... The unsaturated fatty acids in seed oils cause violent reactions which harm the mitochondria.",
+          "likes": 3,
+          "published_at": "2026-02-17T10:21:19Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "violent",
+              "polarity": "negative"
+            },
+            {
+              "token": "harm",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@petersymons7817",
+          "text": "Manganese, R Alpha Lipoic acid. Etc Glycine",
+          "likes": 2,
+          "published_at": "2026-02-19T02:42:08Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "Etc",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@MH-Tesla",
+          "text": "Did the video cut out to early? it didn't seem like the lecture was over yet. But I listen to it twice. Very informative",
+          "likes": 0,
+          "published_at": "2026-02-20T13:16:38Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "informative",
+              "polarity": "positive"
+            },
+            {
+              "token": "twice",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@petersymons7817",
+          "text": "Benforthiamin B1",
+          "likes": 2,
+          "published_at": "2026-02-19T02:39:44Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "B1",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@Александр-ш3ю2у",
+          "text": "Do not eat what you should not eat if you are physically inactive—carbohydrates! Hyperglycaemia is primary, so tissues that do not contain Glut4 suffer first!",
+          "likes": 1,
+          "published_at": "2026-02-14T23:16:49Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "should not eat",
+              "polarity": "negative"
+            },
+            {
+              "token": "Hyperglycaemia",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "GCx5KddJ6lU": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "No transcript available.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@cates_keto",
+          "text": "This assumes we are fasting for weight loss. I fast to prevent chronic illness. They’re different.",
+          "likes": 3,
+          "published_at": "2026-02-24T05:10:40Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "prevent",
+              "polarity": "positive"
+            },
+            {
+              "token": "different",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@terrancegrant1664",
+          "text": "Excellent info on the protein synthesis. Thanks.",
+          "likes": 2,
+          "published_at": "2026-02-22T21:38:19Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Excellent",
+              "polarity": "positive"
+            },
+            {
+              "token": "Thanks",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Paeoniarosa",
+          "text": "I've heard people say that caloric restriction will slow metabolism, but I was skeptical until seeing the data he showed. I found this channel by searching for more Dr. Bikman content, but am appreciating the other doctors you include on the channel. Thanks 🙏",
+          "likes": 0,
+          "published_at": "2026-03-27T03:27:56Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "appreciating",
+              "polarity": "positive"
+            },
+            {
+              "token": "Thanks",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@danielaorsero1970",
+          "text": "Infatti vorrei fare 2 giorni di digiuno completo e 2 giorni di midollo. Per prolungamento di \"digiuno\".",
+          "likes": 2,
+          "published_at": "2026-02-22T17:44:33Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "vogli",
+              "polarity": "positive"
+            },
+            {
+              "token": "prolungamento",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@1timbarrett",
+          "text": "It was so frustrating to lose Dr Phinney’s voice every few minutes.  That doesn’t usually happen on this channel.  What went wrong this time…?",
+          "likes": 1,
+          "published_at": "2026-02-23T12:33:55Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "frustrating",
+              "polarity": "negative"
+            },
+            {
+              "token": "lose",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "neutral": [
+        {
+          "author": "@dorlajacobson6988",
+          "text": "Information to consider...",
+          "likes": 0,
+          "published_at": "2026-02-25T13:49:24Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "consider",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@cates_keto",
+          "text": "This assumes we are fasting for weight loss. I fast to prevent chronic illness. They’re different.",
+          "likes": 3,
+          "published_at": "2026-02-24T05:10:40Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "prevent",
+              "polarity": "positive"
+            },
+            {
+              "token": "different",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@terrancegrant1664",
+          "text": "Excellent info on the protein synthesis. Thanks.",
+          "likes": 2,
+          "published_at": "2026-02-22T21:38:19Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Excellent",
+              "polarity": "positive"
+            },
+            {
+              "token": "Thanks",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@dorlajacobson6988",
+          "text": "Information to consider...",
+          "likes": 0,
+          "published_at": "2026-02-25T13:49:24Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "consider",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@Paeoniarosa",
+          "text": "I've heard people say that caloric restriction will slow metabolism, but I was skeptical until seeing the data he showed. I found this channel by searching for more Dr. Bikman content, but am appreciating the other doctors you include on the channel. Thanks 🙏",
+          "likes": 0,
+          "published_at": "2026-03-27T03:27:56Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "appreciating",
+              "polarity": "positive"
+            },
+            {
+              "token": "Thanks",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@1timbarrett",
+          "text": "It was so frustrating to lose Dr Phinney’s voice every few minutes.  That doesn’t usually happen on this channel.  What went wrong this time…?",
+          "likes": 1,
+          "published_at": "2026-02-23T12:33:55Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "frustrating",
+              "polarity": "negative"
+            },
+            {
+              "token": "lose",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@danielaorsero1970",
+          "text": "Infatti vorrei fare 2 giorni di digiuno completo e 2 giorni di midollo. Per prolungamento di \"digiuno\".",
+          "likes": 2,
+          "published_at": "2026-02-22T17:44:33Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "vogli",
+              "polarity": "positive"
+            },
+            {
+              "token": "prolungamento",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "KoNW0Czt1jI": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "No transcript available.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@scottmorgan-g2v",
+          "text": "I understand antihistamines better now",
+          "likes": 2,
+          "published_at": "2026-04-26T15:50:28Z",
+          "label": "Positive",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "better",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@RichardHall-o7g",
+          "text": "Good explanation for everyone",
+          "likes": 2,
+          "published_at": "2026-04-24T05:20:15Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "good",
+              "polarity": "positive"
+            },
+            {
+              "token": "explanation",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Elijahsmith-e8r",
+          "text": "Now I can choose better antihistamines for daytime and nighttime use",
+          "likes": 0,
+          "published_at": "2026-05-20T05:14:38Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "better",
+              "polarity": "positive"
+            },
+            {
+              "token": "choose",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "negative": [],
+      "neutral": [],
+      "all": [
+        {
+          "author": "@scottmorgan-g2v",
+          "text": "I understand antihistamines better now",
+          "likes": 2,
+          "published_at": "2026-04-26T15:50:28Z",
+          "label": "Positive",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "better",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@RichardHall-o7g",
+          "text": "Good explanation for everyone",
+          "likes": 2,
+          "published_at": "2026-04-24T05:20:15Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "good",
+              "polarity": "positive"
+            },
+            {
+              "token": "explanation",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Elijahsmith-e8r",
+          "text": "Now I can choose better antihistamines for daytime and nighttime use",
+          "likes": 0,
+          "published_at": "2026-05-20T05:14:38Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "better",
+              "polarity": "positive"
+            },
+            {
+              "token": "choose",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "M9W7DkpxHBs": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "No transcript available.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@Sungodv",
+          "text": "Going on seven years of living in an almost constant state of ketosis since the age of 60...low carb, high fat (LCHF) was first thought to really only treat Epilepsy and later, to lose weight.  It is quite rapidly proving to be the proper human diet and that it can prevent and reverse many physical and mental disorders.  After losing 50 pounds, I have maintained the weight and waist size I was almost 50 years ago in high school and no longer have any health issues whatsoever. None.\r\nNo pre-Diabetes, Hypertension, GERD, IBS or NAFL...even my skin tags disappeared.",
+          "likes": 9,
+          "published_at": "2026-02-13T14:33:51Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "ketosis",
+              "polarity": "positive"
+            },
+            {
+              "token": "proper",
+              "polarity": "positive"
+            },
+            {
+              "token": "prevent",
+              "polarity": "positive"
+            },
+            {
+              "token": "reversed",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@aivkara",
+          "text": "Dr. Phinney is an absolute fountain of knowledge! Thank you🙏🏻",
+          "likes": 3,
+          "published_at": "2026-02-12T16:22:06Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "absolute",
+              "polarity": "positive"
+            },
+            {
+              "token": "fountain",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@AnetteEngel-s3d",
+          "text": "Gruß aus Deutschland - ❤ lichen Dank",
+          "likes": 0,
+          "published_at": "2026-02-14T06:34:40Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "❤",
+              "polarity": "positive"
+            },
+            {
+              "token": "lichen",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@葉瓊鞠",
+          "text": "以下是針對 **STEPHEN PHINNEY | KETONES …cut inflammation; preferred by HEART; support liver | DoctorsToTrust** 的重點摘要與補充評論：\r\n\r\n---\r\n\r\n## 🔎 內容摘要\r\n\r\nStephen Phinney 博士主要說明「酮體（Ketones）」對身體的重要作用，尤其在低醣或生酮飲食狀態下的影響：\r\n\r\n### 1⃣ 酮體能降低發炎（Cut Inflammation）\r\n\r\n* 酮體（特別是 β-hydroxybutyrate）不只是能量來源，也是一種訊號分子。\r\n* 它可以抑制發炎反應，例如降低某些發炎相關的發炎小體（inflammasome）活性。\r\n* 因此對慢性發炎疾病可能有幫助。\r\n\r\n### 2⃣ 心臟偏好酮體作為燃料（Preferred by the Heart）\r\n\r\n* 心臟其實很「喜歡」使用酮體。\r\n* 在某些情況下（例如心臟衰竭），心臟使用酮體的效率比葡萄糖更好。\r\n* 酮體提供穩定、乾淨的能量來源。\r\n\r\n### 💕💕3⃣ 支持肝臟功能（Support Liver）\r\n\r\n* 酮體是由肝臟製造。\r\n* 當身體進入生酮狀態時，肝臟會有效地轉換脂肪為酮體。\r\n* 有研究指出，適當的生酮飲食可能有助於改善脂肪肝。\r\n\r\n---\r\n\r\n## 💬 補充評論\r\n\r\n### ✔ 優點\r\n\r\n* 近年研究確實支持酮體具有抗發炎與代謝調節功能。\r\n* 心臟在代謝彈性（metabolic flexibility）方面，確實可以有效利用酮體。\r\n* 生酮飲食對某些代謝症候群患者可能有幫助。\r\n\r\n### ⚠💕💕 需要注意的地方\r\n\r\n* 並非每個人都適合長期生酮飲食。\r\n* 有肝臟或腎臟疾病者應諮詢醫師。\r\n* 生酮飲食若執行不當（例如高加工肉類、油脂品質不佳）可能反而增加風險。\r\n* 目前多數研究仍在持續進行中，並非所有效果都已完全確立。\r\n\r\n---\r\n\r\n## 🧠 簡單總結\r\n\r\n酮體不只是「備用燃料」，它還可能：\r\n\r\n* 幫助降低發炎\r\n* 為心臟提供有效能量\r\n* 在某些情況下支持肝臟健康\r\n\r\n但是否適合自己，仍需根據個人體質與健康狀況來評估。\r\n\r\n---\r\n\r\n如果您希望，我也可以幫您整理成：\r\n\r\n* 📌 條列式筆記版\r\n* 📊 生酮飲食優缺點比較表\r\n* 🫀❤❤ 心臟與酮體的科學機制說明\r\n* 🧾 或是更生活化、白話版本\r\n\r\n請告訴我您想要哪一種 😊",
+          "likes": 1,
+          "published_at": "2026-02-12T03:36:53Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "酮體",
+              "polarity": "positive"
+            },
+            {
+              "token": "降低發炎",
+              "polarity": "positive"
+            },
+            {
+              "token": "心臟偏好酮體",
+              "polarity": "positive"
+            },
+            {
+              "token": "支持肝臟功能",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@DiarioCarnivoro",
+          "text": "He forgot to say that magnesium is inhibited by oxalates and phytates in plants, and that it is also found aboundantly in the sea. So, the best sources of magnesium would be the fishes (especially some that are rich in it, like mackerel) and the seaweed. His belief that the potassium contained in unprocessed meat would not be enough is based on what, exactly? The RDA? The RDA's are based on the estimated nutritional needs of mostly sick people who eat everything, not on healthy people who thrive eating only meat. So, the requirement of certain nutrients might be either underestimated or overestimated.",
+          "likes": 0,
+          "published_at": "2026-02-23T12:36:01Z",
+          "label": "Negative",
+          "score": 0.68,
+          "highlightTokens": [
+            {
+              "token": "inhibited",
+              "polarity": "negative"
+            },
+            {
+              "token": "forgot",
+              "polarity": "negative"
+            },
+            {
+              "token": "not enough",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@johneubank8543",
+          "text": "Love Dr. Phinney. I'll forgive him for relying on \"calories,\" which is ridiculous. I prefer carnivore and he seems more keto-friendly. And I disagree with him on booze. I quit drinking it. I've seen what it does to old people who don't cut back or stop, and it's not good. \n\nAs we age, we lose our ability to quickly and efficiently get rid of ethanol. Even when young, it kills neurons - which do not grow back. But you lose more per drink as you age. Furthermore, the main interim chem. which ethanol becomes as it is broken down is acetaldehyde. As nasty as ethanol is, I'd argue that acetaldehyde is even worse. The longer it hangs around, the more it kills organelles, like mitochondria. And as we age, it almost certainly lingers in us longer before rendered safe.",
+          "likes": 2,
+          "published_at": "2026-02-12T21:22:21Z",
+          "label": "Negative",
+          "score": 0.63,
+          "highlightTokens": [
+            {
+              "token": "ridiculous",
+              "polarity": "negative"
+            },
+            {
+              "token": "kills",
+              "polarity": "negative"
+            },
+            {
+              "token": "nasty",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@nani-hm2uq",
+          "text": "Però chi ha insufficienza renale cronica non può assumere potassio, anche il cardiologo a mia mamma ha vietato anche le arance",
+          "likes": 0,
+          "published_at": "2026-03-28T13:11:50Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "insufficienza",
+              "polarity": "negative"
+            },
+            {
+              "token": "vietato",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "neutral": [
+        {
+          "author": "@robert2b2",
+          "text": "It sounded like Max asked about sodium....",
+          "likes": 0,
+          "published_at": "2026-02-11T19:33:02Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "sounded",
+              "polarity": "neutral"
+            },
+            {
+              "token": "like",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@Sungodv",
+          "text": "Going on seven years of living in an almost constant state of ketosis since the age of 60...low carb, high fat (LCHF) was first thought to really only treat Epilepsy and later, to lose weight.  It is quite rapidly proving to be the proper human diet and that it can prevent and reverse many physical and mental disorders.  After losing 50 pounds, I have maintained the weight and waist size I was almost 50 years ago in high school and no longer have any health issues whatsoever. None.\r\nNo pre-Diabetes, Hypertension, GERD, IBS or NAFL...even my skin tags disappeared.",
+          "likes": 9,
+          "published_at": "2026-02-13T14:33:51Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "ketosis",
+              "polarity": "positive"
+            },
+            {
+              "token": "proper",
+              "polarity": "positive"
+            },
+            {
+              "token": "prevent",
+              "polarity": "positive"
+            },
+            {
+              "token": "reversed",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@aivkara",
+          "text": "Dr. Phinney is an absolute fountain of knowledge! Thank you🙏🏻",
+          "likes": 3,
+          "published_at": "2026-02-12T16:22:06Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "absolute",
+              "polarity": "positive"
+            },
+            {
+              "token": "fountain",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@AnetteEngel-s3d",
+          "text": "Gruß aus Deutschland - ❤ lichen Dank",
+          "likes": 0,
+          "published_at": "2026-02-14T06:34:40Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "❤",
+              "polarity": "positive"
+            },
+            {
+              "token": "lichen",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@DiarioCarnivoro",
+          "text": "He forgot to say that magnesium is inhibited by oxalates and phytates in plants, and that it is also found aboundantly in the sea. So, the best sources of magnesium would be the fishes (especially some that are rich in it, like mackerel) and the seaweed. His belief that the potassium contained in unprocessed meat would not be enough is based on what, exactly? The RDA? The RDA's are based on the estimated nutritional needs of mostly sick people who eat everything, not on healthy people who thrive eating only meat. So, the requirement of certain nutrients might be either underestimated or overestimated.",
+          "likes": 0,
+          "published_at": "2026-02-23T12:36:01Z",
+          "label": "Negative",
+          "score": 0.68,
+          "highlightTokens": [
+            {
+              "token": "inhibited",
+              "polarity": "negative"
+            },
+            {
+              "token": "forgot",
+              "polarity": "negative"
+            },
+            {
+              "token": "not enough",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@johneubank8543",
+          "text": "Love Dr. Phinney. I'll forgive him for relying on \"calories,\" which is ridiculous. I prefer carnivore and he seems more keto-friendly. And I disagree with him on booze. I quit drinking it. I've seen what it does to old people who don't cut back or stop, and it's not good. \n\nAs we age, we lose our ability to quickly and efficiently get rid of ethanol. Even when young, it kills neurons - which do not grow back. But you lose more per drink as you age. Furthermore, the main interim chem. which ethanol becomes as it is broken down is acetaldehyde. As nasty as ethanol is, I'd argue that acetaldehyde is even worse. The longer it hangs around, the more it kills organelles, like mitochondria. And as we age, it almost certainly lingers in us longer before rendered safe.",
+          "likes": 2,
+          "published_at": "2026-02-12T21:22:21Z",
+          "label": "Negative",
+          "score": 0.63,
+          "highlightTokens": [
+            {
+              "token": "ridiculous",
+              "polarity": "negative"
+            },
+            {
+              "token": "kills",
+              "polarity": "negative"
+            },
+            {
+              "token": "nasty",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@robert2b2",
+          "text": "It sounded like Max asked about sodium....",
+          "likes": 0,
+          "published_at": "2026-02-11T19:33:02Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "sounded",
+              "polarity": "neutral"
+            },
+            {
+              "token": "like",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@nani-hm2uq",
+          "text": "Però chi ha insufficienza renale cronica non può assumere potassio, anche il cardiologo a mia mamma ha vietato anche le arance",
+          "likes": 0,
+          "published_at": "2026-03-28T13:11:50Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "insufficienza",
+              "polarity": "negative"
+            },
+            {
+              "token": "vietato",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@葉瓊鞠",
+          "text": "以下是針對 **STEPHEN PHINNEY | KETONES …cut inflammation; preferred by HEART; support liver | DoctorsToTrust** 的重點摘要與補充評論：\r\n\r\n---\r\n\r\n## 🔎 內容摘要\r\n\r\nStephen Phinney 博士主要說明「酮體（Ketones）」對身體的重要作用，尤其在低醣或生酮飲食狀態下的影響：\r\n\r\n### 1⃣ 酮體能降低發炎（Cut Inflammation）\r\n\r\n* 酮體（特別是 β-hydroxybutyrate）不只是能量來源，也是一種訊號分子。\r\n* 它可以抑制發炎反應，例如降低某些發炎相關的發炎小體（inflammasome）活性。\r\n* 因此對慢性發炎疾病可能有幫助。\r\n\r\n### 2⃣ 心臟偏好酮體作為燃料（Preferred by the Heart）\r\n\r\n* 心臟其實很「喜歡」使用酮體。\r\n* 在某些情況下（例如心臟衰竭），心臟使用酮體的效率比葡萄糖更好。\r\n* 酮體提供穩定、乾淨的能量來源。\r\n\r\n### 💕💕3⃣ 支持肝臟功能（Support Liver）\r\n\r\n* 酮體是由肝臟製造。\r\n* 當身體進入生酮狀態時，肝臟會有效地轉換脂肪為酮體。\r\n* 有研究指出，適當的生酮飲食可能有助於改善脂肪肝。\r\n\r\n---\r\n\r\n## 💬 補充評論\r\n\r\n### ✔ 優點\r\n\r\n* 近年研究確實支持酮體具有抗發炎與代謝調節功能。\r\n* 心臟在代謝彈性（metabolic flexibility）方面，確實可以有效利用酮體。\r\n* 生酮飲食對某些代謝症候群患者可能有幫助。\r\n\r\n### ⚠💕💕 需要注意的地方\r\n\r\n* 並非每個人都適合長期生酮飲食。\r\n* 有肝臟或腎臟疾病者應諮詢醫師。\r\n* 生酮飲食若執行不當（例如高加工肉類、油脂品質不佳）可能反而增加風險。\r\n* 目前多數研究仍在持續進行中，並非所有效果都已完全確立。\r\n\r\n---\r\n\r\n## 🧠 簡單總結\r\n\r\n酮體不只是「備用燃料」，它還可能：\r\n\r\n* 幫助降低發炎\r\n* 為心臟提供有效能量\r\n* 在某些情況下支持肝臟健康\r\n\r\n但是否適合自己，仍需根據個人體質與健康狀況來評估。\r\n\r\n---\r\n\r\n如果您希望，我也可以幫您整理成：\r\n\r\n* 📌 條列式筆記版\r\n* 📊 生酮飲食優缺點比較表\r\n* 🫀❤❤ 心臟與酮體的科學機制說明\r\n* 🧾 或是更生活化、白話版本\r\n\r\n請告訴我您想要哪一種 😊",
+          "likes": 1,
+          "published_at": "2026-02-12T03:36:53Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "酮體",
+              "polarity": "positive"
+            },
+            {
+              "token": "降低發炎",
+              "polarity": "positive"
+            },
+            {
+              "token": "心臟偏好酮體",
+              "polarity": "positive"
+            },
+            {
+              "token": "支持肝臟功能",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "Mi9bjSj7PvM": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "No transcript available.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@reshmaraveendran1921",
+          "text": "Good explanation",
+          "likes": 0,
+          "published_at": "2026-04-27T16:32:24Z",
+          "label": "Positive",
+          "score": 0.9,
+          "highlightTokens": [
+            {
+              "token": "Good",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@MehnajYT",
+          "text": "Very nice vedio",
+          "likes": 1,
+          "published_at": "2026-04-15T14:41:19Z",
+          "label": "Positive",
+          "score": 0.9,
+          "highlightTokens": [
+            {
+              "token": "nice",
+              "polarity": "positive"
+            },
+            {
+              "token": "vedio",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@AmitRaaj-x2v8i",
+          "text": "Now protein makes more sense to me",
+          "likes": 0,
+          "published_at": "2026-05-09T09:17:56Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "sense",
+              "polarity": "positive"
+            },
+            {
+              "token": "me",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "negative": [],
+      "neutral": [
+        {
+          "author": "@maksatilamanov4091",
+          "text": "I also eat protein but I like strength training more",
+          "likes": 2,
+          "published_at": "2026-04-19T12:48:47Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "protein",
+              "polarity": "neutral"
+            },
+            {
+              "token": "strength",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@maksatilamanov4091",
+          "text": "I also eat protein but I like strength training more",
+          "likes": 2,
+          "published_at": "2026-04-19T12:48:47Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "protein",
+              "polarity": "neutral"
+            },
+            {
+              "token": "strength",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@reshmaraveendran1921",
+          "text": "Good explanation",
+          "likes": 0,
+          "published_at": "2026-04-27T16:32:24Z",
+          "label": "Positive",
+          "score": 0.9,
+          "highlightTokens": [
+            {
+              "token": "Good",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@MehnajYT",
+          "text": "Very nice vedio",
+          "likes": 1,
+          "published_at": "2026-04-15T14:41:19Z",
+          "label": "Positive",
+          "score": 0.9,
+          "highlightTokens": [
+            {
+              "token": "nice",
+              "polarity": "positive"
+            },
+            {
+              "token": "vedio",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@AmitRaaj-x2v8i",
+          "text": "Now protein makes more sense to me",
+          "likes": 0,
+          "published_at": "2026-05-09T09:17:56Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "sense",
+              "polarity": "positive"
+            },
+            {
+              "token": "me",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "S42MdWDXmLw": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "No transcript available.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@Tired_of_being_run_over",
+          "text": "I knew someone who was diagnosed with an inoperable terminal brain tumor about 25 years ago. She went to a clinic in Mexico to undergo intensive IV therapy consisting of vitamins and homeopathic ingredients. Over a period of several months they were able to shrink the tumor from the size of a lemon to the size of a pea. Apparently it works because she's still alive even though her American physicians told her that she had a few months to live.",
+          "likes": 132,
+          "published_at": "2026-04-29T03:23:56Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "still",
+              "polarity": "positive"
+            },
+            {
+              "token": "alive",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@reneeowens-Naynay",
+          "text": "I treat naturally, came home with liver cancer in 2010, after being treated for hep C for  10 years, 3 different failure in pharmaceuticals. I was done, came home did Gerson Therapy and lots of vitamin c that was in 2010, I'm still here, 65 years young",
+          "likes": 63,
+          "published_at": "2026-04-29T17:43:49Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "still",
+              "polarity": "positive"
+            },
+            {
+              "token": "here",
+              "polarity": "positive"
+            },
+            {
+              "token": "young",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@amytucker6142",
+          "text": "I did 75 grams a week before and during chemo/radiation. Went stage 4b  to cancer free.",
+          "likes": 74,
+          "published_at": "2026-04-29T14:57:24Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "cancer",
+              "polarity": "negative"
+            },
+            {
+              "token": "free",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@avgejoeschmoe2027",
+          "text": "Look into adding other anti cancer weapons as well\nIvermectin, mebendazole, fenbendazole,  D3+K2, strict Keto diet + coniferous veggies, Akkermansia M. , vit C, intermittant fasting",
+          "likes": 66,
+          "published_at": "2026-04-29T14:52:26Z",
+          "label": "Positive",
+          "score": 0.88,
+          "highlightTokens": [
+            {
+              "token": "anti cancer",
+              "polarity": "positive"
+            },
+            {
+              "token": "weapons",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@BuddhaLove77",
+          "text": "Thank you so much for this video.\nMy mother, who passed from lung cancer in 2009, was refused intravenous Vitamin C.  To this day, I believe that had she been permitted the treatment, she would have survived.",
+          "likes": 30,
+          "published_at": "2026-04-30T14:28:21Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "Thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "survived",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@khm2128",
+          "text": "Thank you, RPh Dan! I love hearing insight from pharmacists! (Rx tech here, since 1999). I know of a general  med doctor who treated his c19 with IV vit C in 2021. There was a write up about him in the Downey, California newspaper. That's weird about Cisplat. I have admixed that.",
+          "likes": 0,
+          "published_at": "2026-05-25T20:08:27Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "love",
+              "polarity": "positive"
+            },
+            {
+              "token": "insight",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Aimercesttous",
+          "text": "My doctor used IV with 10000 units of vit.C on his dog (a big one) and made him cancer free, from a mammal tumor. Just one experience.",
+          "likes": 4,
+          "published_at": "2026-05-05T22:41:56Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "cancer",
+              "polarity": "negative"
+            },
+            {
+              "token": "free",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@lenacummings1313",
+          "text": "So many are suffering and dying from this terrible disease.  Thank you for doing more to help.",
+          "likes": 4,
+          "published_at": "2026-05-13T13:41:12Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "helping",
+              "polarity": "positive"
+            },
+            {
+              "token": "thank",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@yaiburanakul8505",
+          "text": "\"They\" don't want us to use things that actually work.",
+          "likes": 13,
+          "published_at": "2026-05-01T16:02:06Z",
+          "label": "Negative",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "don't",
+              "polarity": "negative"
+            },
+            {
+              "token": "want",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "neutral": [
+        {
+          "author": "@sergejpanov5543",
+          "text": "Pubmed 1978 study link please?",
+          "likes": 10,
+          "published_at": "2026-04-29T06:04:58Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "please",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@sergejpanov5543",
+          "text": "Pubmed 1978 study link please?",
+          "likes": 10,
+          "published_at": "2026-04-29T06:04:58Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "please",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@Tired_of_being_run_over",
+          "text": "I knew someone who was diagnosed with an inoperable terminal brain tumor about 25 years ago. She went to a clinic in Mexico to undergo intensive IV therapy consisting of vitamins and homeopathic ingredients. Over a period of several months they were able to shrink the tumor from the size of a lemon to the size of a pea. Apparently it works because she's still alive even though her American physicians told her that she had a few months to live.",
+          "likes": 132,
+          "published_at": "2026-04-29T03:23:56Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "still",
+              "polarity": "positive"
+            },
+            {
+              "token": "alive",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@reneeowens-Naynay",
+          "text": "I treat naturally, came home with liver cancer in 2010, after being treated for hep C for  10 years, 3 different failure in pharmaceuticals. I was done, came home did Gerson Therapy and lots of vitamin c that was in 2010, I'm still here, 65 years young",
+          "likes": 63,
+          "published_at": "2026-04-29T17:43:49Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "still",
+              "polarity": "positive"
+            },
+            {
+              "token": "here",
+              "polarity": "positive"
+            },
+            {
+              "token": "young",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@amytucker6142",
+          "text": "I did 75 grams a week before and during chemo/radiation. Went stage 4b  to cancer free.",
+          "likes": 74,
+          "published_at": "2026-04-29T14:57:24Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "cancer",
+              "polarity": "negative"
+            },
+            {
+              "token": "free",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@avgejoeschmoe2027",
+          "text": "Look into adding other anti cancer weapons as well\nIvermectin, mebendazole, fenbendazole,  D3+K2, strict Keto diet + coniferous veggies, Akkermansia M. , vit C, intermittant fasting",
+          "likes": 66,
+          "published_at": "2026-04-29T14:52:26Z",
+          "label": "Positive",
+          "score": 0.88,
+          "highlightTokens": [
+            {
+              "token": "anti cancer",
+              "polarity": "positive"
+            },
+            {
+              "token": "weapons",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@BuddhaLove77",
+          "text": "Thank you so much for this video.\nMy mother, who passed from lung cancer in 2009, was refused intravenous Vitamin C.  To this day, I believe that had she been permitted the treatment, she would have survived.",
+          "likes": 30,
+          "published_at": "2026-04-30T14:28:21Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "Thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "survived",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@khm2128",
+          "text": "Thank you, RPh Dan! I love hearing insight from pharmacists! (Rx tech here, since 1999). I know of a general  med doctor who treated his c19 with IV vit C in 2021. There was a write up about him in the Downey, California newspaper. That's weird about Cisplat. I have admixed that.",
+          "likes": 0,
+          "published_at": "2026-05-25T20:08:27Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "love",
+              "polarity": "positive"
+            },
+            {
+              "token": "insight",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Aimercesttous",
+          "text": "My doctor used IV with 10000 units of vit.C on his dog (a big one) and made him cancer free, from a mammal tumor. Just one experience.",
+          "likes": 4,
+          "published_at": "2026-05-05T22:41:56Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "cancer",
+              "polarity": "negative"
+            },
+            {
+              "token": "free",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@lenacummings1313",
+          "text": "So many are suffering and dying from this terrible disease.  Thank you for doing more to help.",
+          "likes": 4,
+          "published_at": "2026-05-13T13:41:12Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "helping",
+              "polarity": "positive"
+            },
+            {
+              "token": "thank",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@yaiburanakul8505",
+          "text": "\"They\" don't want us to use things that actually work.",
+          "likes": 13,
+          "published_at": "2026-05-01T16:02:06Z",
+          "label": "Negative",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "don't",
+              "polarity": "negative"
+            },
+            {
+              "token": "want",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "Utfk2LkrmLg": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "No transcript available.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@revbikerbigd8664",
+          "text": "Dr said 5cm tumor in colon, how can I take D3 to kill this cancer? How much daily and K2 is needed???how much do I take daily?",
+          "likes": 19,
+          "published_at": "2026-04-15T01:21:19Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "kill",
+              "polarity": "positive"
+            },
+            {
+              "token": "daily",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@TiffaniRSalemMinistry",
+          "text": "I have spinal stenosis, degenerative disc disease, arthritis in my hips and a herniated disc in L-4& L5 I am excruciating pain all the time, no one talked about vitamin D, I was prescribed naproxen, flexoril, and steroids my hair fell completely out. It felt like it was never ending. I started doing my own research and realized my iron levels have always been low because I don’t eat meat or dairy. I started taking high doses of vitamin D and started taking liquid iron instead of tablets and combined collagen peptides, k2, and I love magnesium but this does not work alone, the vitamin D started working immediately no pain at all. I hope the research comes to light and helps a lot of people.",
+          "likes": 2,
+          "published_at": "2026-05-08T19:22:54Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "immediately",
+              "polarity": "positive"
+            },
+            {
+              "token": "no pain at all",
+              "polarity": "positive"
+            },
+            {
+              "token": "love",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@toddjacksonpoetry",
+          "text": "It sounds like my daily  30,000 IU D3 seems like a good idea.",
+          "likes": 8,
+          "published_at": "2026-04-21T15:15:52Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "good",
+              "polarity": "positive"
+            },
+            {
+              "token": "idea",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@kahvac",
+          "text": "I'm taking 15,000 iu D3 daily I eat 3 soft boiled eggs daily to get K2 naturally with my D3 and blood level is 80 I was taking 10,000 iu D3 blood level was 60 I am an elderly male and overweight so need more D3 to absorb it properly. I feel great taking it for about 5 years now.",
+          "likes": 4,
+          "published_at": "2026-04-22T10:56:26Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "great",
+              "polarity": "positive"
+            },
+            {
+              "token": "feel",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@cathompson58",
+          "text": "I am a pulmonologist and test Vitamin D levels first visit and periodically after .. have everyone get their levels to 60-90 ng/ml with K2 (mostly MK7) 200-300 mcg/d .. of course we do use standard medication for diseases but they know I will ask them about exercise, sunlight and smoking each visit",
+          "likes": 14,
+          "published_at": "2026-04-15T13:57:08Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "60-90 ng/ml",
+              "polarity": "positive"
+            },
+            {
+              "token": "K2 (mostly MK7)",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@jerrywest7068",
+          "text": "Most oncologists say don't take anything. Just eat the donuts and sweets we lay out for you to snack on after chemo infusion.",
+          "likes": 38,
+          "published_at": "2026-04-15T02:46:13Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "donuts",
+              "polarity": "positive"
+            },
+            {
+              "token": "sweets",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@LuciaLarotonda-d8j",
+          "text": "Thank you. This is really interesting.  It does many helpful things. I didn't know if helped with apoptosis.",
+          "likes": 6,
+          "published_at": "2026-04-14T23:26:42Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "interesting",
+              "polarity": "positive"
+            },
+            {
+              "token": "helpful",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@janka9832",
+          "text": "W kontekście znaczenia witaminy D to znany mi onkolog i pewien konował z POZ to niebezpieczne trepy których ludzie powinni omijać na kilometr, bo żadna instytucja kontrolna i prawna nie będzie miała odwagi sie nimi zająć. Zanim zaufacie lekarzowi postarajcie się zrozumieć co tak naprawdę  tobą robią",
+          "likes": 5,
+          "published_at": "2026-04-17T15:04:51Z",
+          "label": "Negative",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "niebezpieczne",
+              "polarity": "negative"
+            },
+            {
+              "token": "omijać",
+              "polarity": "negative"
+            },
+            {
+              "token": "żadna",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@christyjeannemorgan",
+          "text": "Oncologists could care less about D3. They don't even check the levels of their patients, so those who come to me get tested and we get their D3 up into the 90's- very important.",
+          "likes": 13,
+          "published_at": "2026-04-16T13:44:30Z",
+          "label": "Negative",
+          "score": 0.63,
+          "highlightTokens": [
+            {
+              "token": "care less",
+              "polarity": "negative"
+            },
+            {
+              "token": "don't even check",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@JanieHoops",
+          "text": "Chemotherapy is a killer of people!!!! someone needs to be held accountable for ever sticking chemo in any human body. I mean uneducated person knows this..",
+          "likes": 6,
+          "published_at": "2026-04-16T14:13:48Z",
+          "label": "Negative",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "killer",
+              "polarity": "negative"
+            },
+            {
+              "token": "accountable",
+              "polarity": "negative"
+            },
+            {
+              "token": "uneducated",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "neutral": [],
+      "all": [
+        {
+          "author": "@revbikerbigd8664",
+          "text": "Dr said 5cm tumor in colon, how can I take D3 to kill this cancer? How much daily and K2 is needed???how much do I take daily?",
+          "likes": 19,
+          "published_at": "2026-04-15T01:21:19Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "kill",
+              "polarity": "positive"
+            },
+            {
+              "token": "daily",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@TiffaniRSalemMinistry",
+          "text": "I have spinal stenosis, degenerative disc disease, arthritis in my hips and a herniated disc in L-4& L5 I am excruciating pain all the time, no one talked about vitamin D, I was prescribed naproxen, flexoril, and steroids my hair fell completely out. It felt like it was never ending. I started doing my own research and realized my iron levels have always been low because I don’t eat meat or dairy. I started taking high doses of vitamin D and started taking liquid iron instead of tablets and combined collagen peptides, k2, and I love magnesium but this does not work alone, the vitamin D started working immediately no pain at all. I hope the research comes to light and helps a lot of people.",
+          "likes": 2,
+          "published_at": "2026-05-08T19:22:54Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "immediately",
+              "polarity": "positive"
+            },
+            {
+              "token": "no pain at all",
+              "polarity": "positive"
+            },
+            {
+              "token": "love",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@janka9832",
+          "text": "W kontekście znaczenia witaminy D to znany mi onkolog i pewien konował z POZ to niebezpieczne trepy których ludzie powinni omijać na kilometr, bo żadna instytucja kontrolna i prawna nie będzie miała odwagi sie nimi zająć. Zanim zaufacie lekarzowi postarajcie się zrozumieć co tak naprawdę  tobą robią",
+          "likes": 5,
+          "published_at": "2026-04-17T15:04:51Z",
+          "label": "Negative",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "niebezpieczne",
+              "polarity": "negative"
+            },
+            {
+              "token": "omijać",
+              "polarity": "negative"
+            },
+            {
+              "token": "żadna",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@toddjacksonpoetry",
+          "text": "It sounds like my daily  30,000 IU D3 seems like a good idea.",
+          "likes": 8,
+          "published_at": "2026-04-21T15:15:52Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "good",
+              "polarity": "positive"
+            },
+            {
+              "token": "idea",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@kahvac",
+          "text": "I'm taking 15,000 iu D3 daily I eat 3 soft boiled eggs daily to get K2 naturally with my D3 and blood level is 80 I was taking 10,000 iu D3 blood level was 60 I am an elderly male and overweight so need more D3 to absorb it properly. I feel great taking it for about 5 years now.",
+          "likes": 4,
+          "published_at": "2026-04-22T10:56:26Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "great",
+              "polarity": "positive"
+            },
+            {
+              "token": "feel",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@christyjeannemorgan",
+          "text": "Oncologists could care less about D3. They don't even check the levels of their patients, so those who come to me get tested and we get their D3 up into the 90's- very important.",
+          "likes": 13,
+          "published_at": "2026-04-16T13:44:30Z",
+          "label": "Negative",
+          "score": 0.63,
+          "highlightTokens": [
+            {
+              "token": "care less",
+              "polarity": "negative"
+            },
+            {
+              "token": "don't even check",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@cathompson58",
+          "text": "I am a pulmonologist and test Vitamin D levels first visit and periodically after .. have everyone get their levels to 60-90 ng/ml with K2 (mostly MK7) 200-300 mcg/d .. of course we do use standard medication for diseases but they know I will ask them about exercise, sunlight and smoking each visit",
+          "likes": 14,
+          "published_at": "2026-04-15T13:57:08Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "60-90 ng/ml",
+              "polarity": "positive"
+            },
+            {
+              "token": "K2 (mostly MK7)",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@jerrywest7068",
+          "text": "Most oncologists say don't take anything. Just eat the donuts and sweets we lay out for you to snack on after chemo infusion.",
+          "likes": 38,
+          "published_at": "2026-04-15T02:46:13Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "donuts",
+              "polarity": "positive"
+            },
+            {
+              "token": "sweets",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@JanieHoops",
+          "text": "Chemotherapy is a killer of people!!!! someone needs to be held accountable for ever sticking chemo in any human body. I mean uneducated person knows this..",
+          "likes": 6,
+          "published_at": "2026-04-16T14:13:48Z",
+          "label": "Negative",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "killer",
+              "polarity": "negative"
+            },
+            {
+              "token": "accountable",
+              "polarity": "negative"
+            },
+            {
+              "token": "uneducated",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@LuciaLarotonda-d8j",
+          "text": "Thank you. This is really interesting.  It does many helpful things. I didn't know if helped with apoptosis.",
+          "likes": 6,
+          "published_at": "2026-04-14T23:26:42Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "interesting",
+              "polarity": "positive"
+            },
+            {
+              "token": "helpful",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "aw94W5n6WYE": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "No transcript available.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@Dr_memantine",
+          "text": "1.dotn go to bed or go outside with wet hair\n2.drink warm water\n3.keep your neck abdomen feet warm \n4.eat hot and cooked veggies\n5.slow down no screen eating \n6.Teas soups \n7.11pm to 1am window for sleep \n8. Rest more during luteal phase\n9.gentoe flowing movements \n10.walk after meals\n11.notice emotional patterns \n12.treat your cycle",
+          "likes": 2525,
+          "published_at": "2026-03-22T06:46:34Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "warm",
+              "polarity": "positive"
+            },
+            {
+              "token": "hot",
+              "polarity": "positive"
+            },
+            {
+              "token": "Rest",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@merlinelencantador645",
+          "text": "I am from a European country, and in my country, we eat according to the weather. In winter we eat soups, stews, warm teas and coffees etc and in summer we eat salads, juices, summer fruits like watermelons, cold soups...",
+          "likes": 2624,
+          "published_at": "2026-03-21T16:08:40Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "soups",
+              "polarity": "positive"
+            },
+            {
+              "token": "salads",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@bTiffanyyy",
+          "text": "Not me watching this while eating 😅",
+          "likes": 792,
+          "published_at": "2026-03-22T17:51:22Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "watching",
+              "polarity": "positive"
+            },
+            {
+              "token": "eating",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@Tatertotdeb888",
+          "text": "I will start drinking warm water in the morning to start.  Thank you for sharing ❤I am a black woman in my mid-40s.  I think it is never too late to start somewhere. Health is wealth❤",
+          "likes": 97,
+          "published_at": "2026-03-27T17:13:05Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "warm water",
+              "polarity": "positive"
+            },
+            {
+              "token": "Thank you",
+              "polarity": "positive"
+            },
+            {
+              "token": "Health is wealth",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@RebeccaSandy-s3h",
+          "text": "As a black girly. One thing I'll do is listen to a Chinese woman speak and take notes 📝 ❤",
+          "likes": 1436,
+          "published_at": "2026-03-23T12:10:00Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "listen",
+              "polarity": "positive"
+            },
+            {
+              "token": "❤",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@velvetyblack3745",
+          "text": "As someone from a Slavic (and Balkan) country, which is far away from relating to chinese culture, I have to say that I was surprised how many things from this list we actually do on regular basis, especially the wet hair part 😂",
+          "likes": 38,
+          "published_at": "2026-03-30T15:28:03Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "surprised",
+              "polarity": "positive"
+            },
+            {
+              "token": "actually",
+              "polarity": "neutral"
+            },
+            {
+              "token": "especially",
+              "polarity": "neutral"
+            },
+            {
+              "token": "😂",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Sky-gc8wj",
+          "text": "I turn 19 tomorrow so its the perfect time to watch this 😂",
+          "likes": 120,
+          "published_at": "2026-03-23T14:27:35Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "perfect",
+              "polarity": "positive"
+            },
+            {
+              "token": "😂",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@cxnela",
+          "text": "I'm going through a similar revelation with my Mexican mother. Over half of the things she tells me that I believed to be  wive's tales or unimportant are actually true lol 😭",
+          "likes": 210,
+          "published_at": "2026-03-23T05:28:19Z",
+          "label": "Positive",
+          "score": 0.88,
+          "highlightTokens": [
+            {
+              "token": "revelation",
+              "polarity": "positive"
+            },
+            {
+              "token": "true",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@serenatheresegonzalez1660",
+          "text": "Guys... dont spend 75 dollars on teas please.\n\nYou can look up a simple tea blend thats organic and get maybe two different kinds. Getting a ton of product for less than 30 dollars. I bought red raspberry leaf tea. Huge bag almost 4 lbs of loose leaf. 20 bucks. But its good for the ladies.",
+          "likes": 715,
+          "published_at": "2026-03-21T22:38:49Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "dont",
+              "polarity": "negative"
+            },
+            {
+              "token": "less",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@BuildABorzoi",
+          "text": "I am 23, i feel like i have lost myself. i feel so disconnected from every part of me. i hope these tips help me to find myself again.",
+          "likes": 94,
+          "published_at": "2026-04-01T04:53:14Z",
+          "label": "Negative",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "lost",
+              "polarity": "negative"
+            },
+            {
+              "token": "disconnected",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "neutral": [],
+      "all": [
+        {
+          "author": "@Dr_memantine",
+          "text": "1.dotn go to bed or go outside with wet hair\n2.drink warm water\n3.keep your neck abdomen feet warm \n4.eat hot and cooked veggies\n5.slow down no screen eating \n6.Teas soups \n7.11pm to 1am window for sleep \n8. Rest more during luteal phase\n9.gentoe flowing movements \n10.walk after meals\n11.notice emotional patterns \n12.treat your cycle",
+          "likes": 2525,
+          "published_at": "2026-03-22T06:46:34Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "warm",
+              "polarity": "positive"
+            },
+            {
+              "token": "hot",
+              "polarity": "positive"
+            },
+            {
+              "token": "Rest",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@merlinelencantador645",
+          "text": "I am from a European country, and in my country, we eat according to the weather. In winter we eat soups, stews, warm teas and coffees etc and in summer we eat salads, juices, summer fruits like watermelons, cold soups...",
+          "likes": 2624,
+          "published_at": "2026-03-21T16:08:40Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "soups",
+              "polarity": "positive"
+            },
+            {
+              "token": "salads",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@bTiffanyyy",
+          "text": "Not me watching this while eating 😅",
+          "likes": 792,
+          "published_at": "2026-03-22T17:51:22Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "watching",
+              "polarity": "positive"
+            },
+            {
+              "token": "eating",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@Tatertotdeb888",
+          "text": "I will start drinking warm water in the morning to start.  Thank you for sharing ❤I am a black woman in my mid-40s.  I think it is never too late to start somewhere. Health is wealth❤",
+          "likes": 97,
+          "published_at": "2026-03-27T17:13:05Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "warm water",
+              "polarity": "positive"
+            },
+            {
+              "token": "Thank you",
+              "polarity": "positive"
+            },
+            {
+              "token": "Health is wealth",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@serenatheresegonzalez1660",
+          "text": "Guys... dont spend 75 dollars on teas please.\n\nYou can look up a simple tea blend thats organic and get maybe two different kinds. Getting a ton of product for less than 30 dollars. I bought red raspberry leaf tea. Huge bag almost 4 lbs of loose leaf. 20 bucks. But its good for the ladies.",
+          "likes": 715,
+          "published_at": "2026-03-21T22:38:49Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "dont",
+              "polarity": "negative"
+            },
+            {
+              "token": "less",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@RebeccaSandy-s3h",
+          "text": "As a black girly. One thing I'll do is listen to a Chinese woman speak and take notes 📝 ❤",
+          "likes": 1436,
+          "published_at": "2026-03-23T12:10:00Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "listen",
+              "polarity": "positive"
+            },
+            {
+              "token": "❤",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@BuildABorzoi",
+          "text": "I am 23, i feel like i have lost myself. i feel so disconnected from every part of me. i hope these tips help me to find myself again.",
+          "likes": 94,
+          "published_at": "2026-04-01T04:53:14Z",
+          "label": "Negative",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "lost",
+              "polarity": "negative"
+            },
+            {
+              "token": "disconnected",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@velvetyblack3745",
+          "text": "As someone from a Slavic (and Balkan) country, which is far away from relating to chinese culture, I have to say that I was surprised how many things from this list we actually do on regular basis, especially the wet hair part 😂",
+          "likes": 38,
+          "published_at": "2026-03-30T15:28:03Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "surprised",
+              "polarity": "positive"
+            },
+            {
+              "token": "actually",
+              "polarity": "neutral"
+            },
+            {
+              "token": "especially",
+              "polarity": "neutral"
+            },
+            {
+              "token": "😂",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Sky-gc8wj",
+          "text": "I turn 19 tomorrow so its the perfect time to watch this 😂",
+          "likes": 120,
+          "published_at": "2026-03-23T14:27:35Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "perfect",
+              "polarity": "positive"
+            },
+            {
+              "token": "😂",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@cxnela",
+          "text": "I'm going through a similar revelation with my Mexican mother. Over half of the things she tells me that I believed to be  wive's tales or unimportant are actually true lol 😭",
+          "likes": 210,
+          "published_at": "2026-03-23T05:28:19Z",
+          "label": "Positive",
+          "score": 0.88,
+          "highlightTokens": [
+            {
+              "token": "revelation",
+              "polarity": "positive"
+            },
+            {
+              "token": "true",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "pjaUIl-BHbI": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "No transcript available.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@rs6090",
+          "text": "Thank you Dan!!!",
+          "likes": 0,
+          "published_at": "2026-05-17T11:09:34Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "you",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@DoubtingThomas-mx8sl",
+          "text": "I take 60,000iu per day. When my level hits 100, I cut back to 15,000 per day for 3 months, then back up to 60,000. I never got c@vid even when my wife did. No masks, social distancing,  and certainly no mRNA. I added Magnesium Glycinate,  K2, and Zinc. I take 3 drops of Lugol's iodine daily. At 68, I never felt better. I never took a flu shot and never got the flu. I take no prescriptions.",
+          "likes": 62,
+          "published_at": "2026-04-23T09:19:51Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "better",
+              "polarity": "positive"
+            },
+            {
+              "token": "never",
+              "polarity": "neutral"
+            },
+            {
+              "token": "felt",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@maplenook",
+          "text": "10,000 a day except in summer to stay 80-100. 5000 in summer.",
+          "likes": 69,
+          "published_at": "2026-04-22T03:42:33Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "day",
+              "polarity": "positive"
+            },
+            {
+              "token": "stay",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Redhawkeye",
+          "text": "The coolest story behind Vit D3… mainly derived from the lanolin from sheep’s wool! Saved by the lamb! Biblical",
+          "likes": 11,
+          "published_at": "2026-04-26T04:09:30Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "coolest",
+              "polarity": "positive"
+            },
+            {
+              "token": "Saved",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@crangonvulgaris9820",
+          "text": "At the outbreak of COVID 19 I started supplementing with D3 at 8,000 iu per day with K2 at 400  micrograms.\nAfter 5 years my serum levels reached 150 ng/ml.\nA study investigating D3 OH 25 serum levels in tropical hunter gatherer populations discovered that normal levels in these populations are in the 130 - 160 ng/ml range, strongly indicating the optimal norm to be in this range...",
+          "likes": 28,
+          "published_at": "2026-04-22T12:21:14Z",
+          "label": "Positive",
+          "score": 0.88,
+          "highlightTokens": [
+            {
+              "token": "optimal",
+              "polarity": "positive"
+            },
+            {
+              "token": "strongly",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@laurabellgia8182",
+          "text": "I'm in the CA sun daily with no sunscreen and skin exposure. My D level was 45. After 1 year of 10,000iu of D3 with K2 it's now 81. My dr says that's great.",
+          "likes": 12,
+          "published_at": "2026-05-01T00:50:32Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "great",
+              "polarity": "positive"
+            },
+            {
+              "token": "D level was 45",
+              "polarity": "neutral"
+            },
+            {
+              "token": "81",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@MaryEllenCehonski",
+          "text": "My last test my level was 82ng/ml.  I do take K2 & magnesium. My Dr has always encouraged taking higher doses of vitamin D3 to keep levels at the higher ranges",
+          "likes": 67,
+          "published_at": "2026-04-22T02:50:52Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "higher",
+              "polarity": "positive"
+            },
+            {
+              "token": "ranges",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@RandyGnome",
+          "text": "Humans evolved outdoors in the sun and had plenty of vitamin D until we started living indoors and avoiding the sun as we were told to do from the 1970s onwards. For the last 50 years we have been told to slip on a shirt, slop on sunscreen and slap on a hat. At the same time we started spending nearly all day inside buildings. Cancer levels during the last 50 years have started to skyrocket and most people who have cancer have low vitamin D levels. Increasing sun exposure (avoid midday sun in hot climates) and vitamin D levels could help with preventing cancer.",
+          "likes": 46,
+          "published_at": "2026-04-22T06:02:40Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "plenty",
+              "polarity": "positive"
+            },
+            {
+              "token": "skyrocket",
+              "polarity": "negative"
+            },
+            {
+              "token": "help",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@Nick23at63",
+          "text": "I go with an 82 year old friend to his doctor visits, since he doesn't always remember what they tell him about his issues. When he recently went to his Nephrology doctor, they told him he was low on his Vitamin D level, which was at 19mg/dl. They told him to take D3 supplements to get his level up to 30. I asked if 30 was high enough, and they said anything over 30 was unsafe and would cause cardiovascular issues. The majority of physicians are so uninformed of the data, they are stuck on what they learned in medical school from years ago.",
+          "likes": 93,
+          "published_at": "2026-04-22T16:37:33Z",
+          "label": "Negative",
+          "score": 0.73,
+          "highlightTokens": [
+            {
+              "token": "uninformed",
+              "polarity": "negative"
+            },
+            {
+              "token": "unsafe",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@eliseville",
+          "text": "This pisses me off so much!!! Just prior to Covid being released on us I had my very first D blood test. I’d had brain surgery in 1995, then Rx’d carbamazepine that perfectly controlled my grandmal seizures. No doc or surgeon ever recommended supplementing D3, though all the research found it blocked by carbamazepine (AND most other antiseizure meds!) Went from a competitively fit bicycle racer physique to double that fit weight, a very short prediabetic, severely depressed, arthritic, 250lb ball of fat!\n\nSo, with the test at a scary low 6ng/ml, I was Rx’d preloading, then 5,000IU/day. It took months to get me to a still “insufficient 29ng. So I quadrupled the daily dose to 20,000IU/day to get CovidSafe above 50ng/ml! Still caught Covid, but almost no typical symptoms but anosmia & half a day of sore throat, till day 10 when MCAS reactions set off with systemic hives & a few short spells of anaphylaxis. I almost succeeded in getting Ivermectin, when I  visited the local ER, but my impatient mother prevented me from waiting for it! I believe that would far more quickly have cured me.\n\nMy 85yo father was dying of lung cancer at home on Hospice with my PhD of Nursing mom caring for him. I know his D level was abysmal. And his appetite sucked so he was drinking those sugar-toxic hi calorie canned drinks, spurring tumor growth & metastasis!\n\nAfter I finally got my MCAS symptoms calmed down, much easier with a great D level, I went keto to begin losing the massive weight I had gained and learned how sugar & glutamate feed cancer growth and metastasis. If only I had learned it earlier!!!\n\nHe died too soon, and the medical system completely failed to appropriately treat him. My highly trained PhD of Nursing mother has so bought in to that system, that even excellent studies cannot pierce her programming. She has watched my health progress, even agreed to take the 10,000IU D3/200mcg K2 + 400mg magnesium L-Threonate I gave her, but she won’t put it into her daily pill boxes with her doctor’s Rx’s and so constantly forgets. Her level got up to 35ng, but her personal doctor poo poo’s D, so she ignorantly ignores me!\n\nPropaganda always sucks, but medical propaganda kills.",
+          "likes": 9,
+          "published_at": "2026-04-30T06:21:45Z",
+          "label": "Negative",
+          "score": 0.93,
+          "highlightTokens": [
+            {
+              "token": "pisses",
+              "polarity": "negative"
+            },
+            {
+              "token": "failed",
+              "polarity": "negative"
+            },
+            {
+              "token": "propaganda",
+              "polarity": "negative"
+            },
+            {
+              "token": "kills",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "neutral": [],
+      "all": [
+        {
+          "author": "@rs6090",
+          "text": "Thank you Dan!!!",
+          "likes": 0,
+          "published_at": "2026-05-17T11:09:34Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "you",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@DoubtingThomas-mx8sl",
+          "text": "I take 60,000iu per day. When my level hits 100, I cut back to 15,000 per day for 3 months, then back up to 60,000. I never got c@vid even when my wife did. No masks, social distancing,  and certainly no mRNA. I added Magnesium Glycinate,  K2, and Zinc. I take 3 drops of Lugol's iodine daily. At 68, I never felt better. I never took a flu shot and never got the flu. I take no prescriptions.",
+          "likes": 62,
+          "published_at": "2026-04-23T09:19:51Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "better",
+              "polarity": "positive"
+            },
+            {
+              "token": "never",
+              "polarity": "neutral"
+            },
+            {
+              "token": "felt",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Nick23at63",
+          "text": "I go with an 82 year old friend to his doctor visits, since he doesn't always remember what they tell him about his issues. When he recently went to his Nephrology doctor, they told him he was low on his Vitamin D level, which was at 19mg/dl. They told him to take D3 supplements to get his level up to 30. I asked if 30 was high enough, and they said anything over 30 was unsafe and would cause cardiovascular issues. The majority of physicians are so uninformed of the data, they are stuck on what they learned in medical school from years ago.",
+          "likes": 93,
+          "published_at": "2026-04-22T16:37:33Z",
+          "label": "Negative",
+          "score": 0.73,
+          "highlightTokens": [
+            {
+              "token": "uninformed",
+              "polarity": "negative"
+            },
+            {
+              "token": "unsafe",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@maplenook",
+          "text": "10,000 a day except in summer to stay 80-100. 5000 in summer.",
+          "likes": 69,
+          "published_at": "2026-04-22T03:42:33Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "day",
+              "polarity": "positive"
+            },
+            {
+              "token": "stay",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Redhawkeye",
+          "text": "The coolest story behind Vit D3… mainly derived from the lanolin from sheep’s wool! Saved by the lamb! Biblical",
+          "likes": 11,
+          "published_at": "2026-04-26T04:09:30Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "coolest",
+              "polarity": "positive"
+            },
+            {
+              "token": "Saved",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@crangonvulgaris9820",
+          "text": "At the outbreak of COVID 19 I started supplementing with D3 at 8,000 iu per day with K2 at 400  micrograms.\nAfter 5 years my serum levels reached 150 ng/ml.\nA study investigating D3 OH 25 serum levels in tropical hunter gatherer populations discovered that normal levels in these populations are in the 130 - 160 ng/ml range, strongly indicating the optimal norm to be in this range...",
+          "likes": 28,
+          "published_at": "2026-04-22T12:21:14Z",
+          "label": "Positive",
+          "score": 0.88,
+          "highlightTokens": [
+            {
+              "token": "optimal",
+              "polarity": "positive"
+            },
+            {
+              "token": "strongly",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@laurabellgia8182",
+          "text": "I'm in the CA sun daily with no sunscreen and skin exposure. My D level was 45. After 1 year of 10,000iu of D3 with K2 it's now 81. My dr says that's great.",
+          "likes": 12,
+          "published_at": "2026-05-01T00:50:32Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "great",
+              "polarity": "positive"
+            },
+            {
+              "token": "D level was 45",
+              "polarity": "neutral"
+            },
+            {
+              "token": "81",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@MaryEllenCehonski",
+          "text": "My last test my level was 82ng/ml.  I do take K2 & magnesium. My Dr has always encouraged taking higher doses of vitamin D3 to keep levels at the higher ranges",
+          "likes": 67,
+          "published_at": "2026-04-22T02:50:52Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "higher",
+              "polarity": "positive"
+            },
+            {
+              "token": "ranges",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@eliseville",
+          "text": "This pisses me off so much!!! Just prior to Covid being released on us I had my very first D blood test. I’d had brain surgery in 1995, then Rx’d carbamazepine that perfectly controlled my grandmal seizures. No doc or surgeon ever recommended supplementing D3, though all the research found it blocked by carbamazepine (AND most other antiseizure meds!) Went from a competitively fit bicycle racer physique to double that fit weight, a very short prediabetic, severely depressed, arthritic, 250lb ball of fat!\n\nSo, with the test at a scary low 6ng/ml, I was Rx’d preloading, then 5,000IU/day. It took months to get me to a still “insufficient 29ng. So I quadrupled the daily dose to 20,000IU/day to get CovidSafe above 50ng/ml! Still caught Covid, but almost no typical symptoms but anosmia & half a day of sore throat, till day 10 when MCAS reactions set off with systemic hives & a few short spells of anaphylaxis. I almost succeeded in getting Ivermectin, when I  visited the local ER, but my impatient mother prevented me from waiting for it! I believe that would far more quickly have cured me.\n\nMy 85yo father was dying of lung cancer at home on Hospice with my PhD of Nursing mom caring for him. I know his D level was abysmal. And his appetite sucked so he was drinking those sugar-toxic hi calorie canned drinks, spurring tumor growth & metastasis!\n\nAfter I finally got my MCAS symptoms calmed down, much easier with a great D level, I went keto to begin losing the massive weight I had gained and learned how sugar & glutamate feed cancer growth and metastasis. If only I had learned it earlier!!!\n\nHe died too soon, and the medical system completely failed to appropriately treat him. My highly trained PhD of Nursing mother has so bought in to that system, that even excellent studies cannot pierce her programming. She has watched my health progress, even agreed to take the 10,000IU D3/200mcg K2 + 400mg magnesium L-Threonate I gave her, but she won’t put it into her daily pill boxes with her doctor’s Rx’s and so constantly forgets. Her level got up to 35ng, but her personal doctor poo poo’s D, so she ignorantly ignores me!\n\nPropaganda always sucks, but medical propaganda kills.",
+          "likes": 9,
+          "published_at": "2026-04-30T06:21:45Z",
+          "label": "Negative",
+          "score": 0.93,
+          "highlightTokens": [
+            {
+              "token": "pisses",
+              "polarity": "negative"
+            },
+            {
+              "token": "failed",
+              "polarity": "negative"
+            },
+            {
+              "token": "propaganda",
+              "polarity": "negative"
+            },
+            {
+              "token": "kills",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@RandyGnome",
+          "text": "Humans evolved outdoors in the sun and had plenty of vitamin D until we started living indoors and avoiding the sun as we were told to do from the 1970s onwards. For the last 50 years we have been told to slip on a shirt, slop on sunscreen and slap on a hat. At the same time we started spending nearly all day inside buildings. Cancer levels during the last 50 years have started to skyrocket and most people who have cancer have low vitamin D levels. Increasing sun exposure (avoid midday sun in hot climates) and vitamin D levels could help with preventing cancer.",
+          "likes": 46,
+          "published_at": "2026-04-22T06:02:40Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "plenty",
+              "polarity": "positive"
+            },
+            {
+              "token": "skyrocket",
+              "polarity": "negative"
+            },
+            {
+              "token": "help",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "w45E4ZrQvR0": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "No transcript available.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@joshuabhujun3835",
+          "text": "Dr. Mason is a blessing for us all. Thank you",
+          "likes": 14,
+          "published_at": "2026-01-22T02:13:28Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "blessing",
+              "polarity": "positive"
+            },
+            {
+              "token": "thank",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@eltsac9319",
+          "text": "Not feeling hungry is the best part of low carb living. It makes it so easy to stick to. I think if people realized this, they would be more inclined to give it a try. This is from someone who has lost 30kg from May 2024be just low-carb eating. If doctors won't tell them, how are people meant to learn.",
+          "likes": 7,
+          "published_at": "2026-01-22T23:29:47Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "best",
+              "polarity": "positive"
+            },
+            {
+              "token": "easy",
+              "polarity": "positive"
+            },
+            {
+              "token": "try",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@nikoscaldera",
+          "text": "Thank you Dr. Mason, knowledge is saving lives! Thank you for sharing!",
+          "likes": 0,
+          "published_at": "2026-01-26T09:34:39Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "saving",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@thomassaddul",
+          "text": "❤❤❤",
+          "likes": 1,
+          "published_at": "2026-01-23T13:04:24Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "❤❤❤",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Habanero777",
+          "text": "My sleep protocol nightly is..2 glycine,  2 magnesium glycinate, 1 or 2 potassium and 6-10mg melatonin 😊😊😊 works great 🎉",
+          "likes": 12,
+          "published_at": "2026-01-21T15:21:41Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "works",
+              "polarity": "positive"
+            },
+            {
+              "token": "great",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@Patb-y3b",
+          "text": "The Dr.",
+          "likes": 2,
+          "published_at": "2026-01-22T00:20:21Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "Dr.",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@PointsSOL",
+          "text": "Humans have lost True -Noth... weve taught ourselves to belive that enabling is the same as truth and healthy incentive... it's critical to be honest with yourself...",
+          "likes": 1,
+          "published_at": "2026-01-22T00:30:59Z",
+          "label": "Negative",
+          "score": 0.63,
+          "highlightTokens": [
+            {
+              "token": "lost",
+              "polarity": "negative"
+            },
+            {
+              "token": "belive",
+              "polarity": "neutral"
+            },
+            {
+              "token": "unhealthy",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@AN-zg3sr",
+          "text": "I have to take around 60 gm of complex carbs with the protein to get a best sleep tried everything nothing works",
+          "likes": 4,
+          "published_at": "2026-01-22T12:20:16Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "nothing",
+              "polarity": "negative"
+            },
+            {
+              "token": "works",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@deelicious1610",
+          "text": "I'm in the nothing works camp when it comes to sleep. I don't choose when to wake up. It’s multiple times a night; the final wake up is anywhere between 1 and 3. Does that mean I have to go to bed at 7 pm?",
+          "likes": 1,
+          "published_at": "2026-01-25T13:50:23Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "nothing works",
+              "polarity": "negative"
+            },
+            {
+              "token": "wake up",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@heavychevy4616",
+          "text": "what the hell is a \"duna\"?",
+          "likes": 1,
+          "published_at": "2026-01-22T13:37:23Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "hell",
+              "polarity": "negative"
+            },
+            {
+              "token": "is",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "neutral": [],
+      "all": [
+        {
+          "author": "@joshuabhujun3835",
+          "text": "Dr. Mason is a blessing for us all. Thank you",
+          "likes": 14,
+          "published_at": "2026-01-22T02:13:28Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "blessing",
+              "polarity": "positive"
+            },
+            {
+              "token": "thank",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@eltsac9319",
+          "text": "Not feeling hungry is the best part of low carb living. It makes it so easy to stick to. I think if people realized this, they would be more inclined to give it a try. This is from someone who has lost 30kg from May 2024be just low-carb eating. If doctors won't tell them, how are people meant to learn.",
+          "likes": 7,
+          "published_at": "2026-01-22T23:29:47Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "best",
+              "polarity": "positive"
+            },
+            {
+              "token": "easy",
+              "polarity": "positive"
+            },
+            {
+              "token": "try",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@nikoscaldera",
+          "text": "Thank you Dr. Mason, knowledge is saving lives! Thank you for sharing!",
+          "likes": 0,
+          "published_at": "2026-01-26T09:34:39Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "saving",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Patb-y3b",
+          "text": "The Dr.",
+          "likes": 2,
+          "published_at": "2026-01-22T00:20:21Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "Dr.",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@PointsSOL",
+          "text": "Humans have lost True -Noth... weve taught ourselves to belive that enabling is the same as truth and healthy incentive... it's critical to be honest with yourself...",
+          "likes": 1,
+          "published_at": "2026-01-22T00:30:59Z",
+          "label": "Negative",
+          "score": 0.63,
+          "highlightTokens": [
+            {
+              "token": "lost",
+              "polarity": "negative"
+            },
+            {
+              "token": "belive",
+              "polarity": "neutral"
+            },
+            {
+              "token": "unhealthy",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@thomassaddul",
+          "text": "❤❤❤",
+          "likes": 1,
+          "published_at": "2026-01-23T13:04:24Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "❤❤❤",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@AN-zg3sr",
+          "text": "I have to take around 60 gm of complex carbs with the protein to get a best sleep tried everything nothing works",
+          "likes": 4,
+          "published_at": "2026-01-22T12:20:16Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "nothing",
+              "polarity": "negative"
+            },
+            {
+              "token": "works",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@deelicious1610",
+          "text": "I'm in the nothing works camp when it comes to sleep. I don't choose when to wake up. It’s multiple times a night; the final wake up is anywhere between 1 and 3. Does that mean I have to go to bed at 7 pm?",
+          "likes": 1,
+          "published_at": "2026-01-25T13:50:23Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "nothing works",
+              "polarity": "negative"
+            },
+            {
+              "token": "wake up",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@Habanero777",
+          "text": "My sleep protocol nightly is..2 glycine,  2 magnesium glycinate, 1 or 2 potassium and 6-10mg melatonin 😊😊😊 works great 🎉",
+          "likes": 12,
+          "published_at": "2026-01-21T15:21:41Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "works",
+              "polarity": "positive"
+            },
+            {
+              "token": "great",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@heavychevy4616",
+          "text": "what the hell is a \"duna\"?",
+          "likes": 1,
+          "published_at": "2026-01-22T13:37:23Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "hell",
+              "polarity": "negative"
+            },
+            {
+              "token": "is",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "xsqnsjPTpPE": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "No transcript available.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@thewhole_picture1743",
+          "text": "NAD+ (nicotinamide adenine dinucleotide). The vitamin that addresses this is called nicotinamide riboside, which is a specific form of B3 (not niacin). 300mg for 8 weeks to start before considering increase. Take it with breakfast as evening supplementation can interfere with sleep. Look for products specifically labelled nicotinamide riboside chloride or using the branded ingredient TruNiagen which have been 3rd party tested.",
+          "likes": 24,
+          "published_at": "2026-04-14T20:30:22Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "specific",
+              "polarity": "positive"
+            },
+            {
+              "token": "tested",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@StraightTalkwithMattWaterman",
+          "text": "AI assistant for Straight Talk with Matt Waterman here. The NR vs NMN debate is worth digging into — the evidence for NR is actually stronger in humans right now, partly because it has more clinical trials behind it. The timing point is underrated too, most people take it in the evening and then wonder why it disrupts their sleep. Worth noting that the research on these compounds is moving fast — what was uncertain 2 years ago is looking more solid now.",
+          "likes": 0,
+          "published_at": "2026-04-20T15:38:17Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "stronger",
+              "polarity": "positive"
+            },
+            {
+              "token": "worth noting",
+              "polarity": "positive"
+            },
+            {
+              "token": "solid",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@richardredd-cp4hy",
+          "text": "Always enjoy DR SARAHs wise advice/  At 75 I am trying different elements to improve energy but NAD plus is unknown to me/ I will give it a try!!❤🎉",
+          "likes": 0,
+          "published_at": "2026-05-11T08:25:26Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "enjoy",
+              "polarity": "positive"
+            },
+            {
+              "token": "wise",
+              "polarity": "positive"
+            },
+            {
+              "token": "try",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@glendavarga9559",
+          "text": "73.  Brain fog and poor sleep",
+          "likes": 0,
+          "published_at": "2026-05-18T17:59:22Z",
+          "label": "Negative",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "fog",
+              "polarity": "negative"
+            },
+            {
+              "token": "poor",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@mariahogemann8453",
+          "text": "You can say in  one .minute which  vitamin  that is",
+          "likes": 2,
+          "published_at": "2026-04-29T15:15:08Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "can't",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@robertferguson7800",
+          "text": "I agree to long didn’t watch till the end",
+          "likes": 0,
+          "published_at": "2026-04-27T05:26:40Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "didn't",
+              "polarity": "negative"
+            },
+            {
+              "token": "watch",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@lilimarialaszlo4813",
+          "text": "87,lake of energy",
+          "likes": 1,
+          "published_at": "2026-04-16T10:59:43Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "energy",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@PamelaTingen",
+          "text": "76 severe vertigo is my current untreatable challenge after all kinds of twisty ear and eye tests and various imaging tests. They can;t seem to find a reason.",
+          "likes": 3,
+          "published_at": "2026-04-18T01:16:01Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "untreatable",
+              "polarity": "negative"
+            },
+            {
+              "token": "challenge",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@HelenWilson-bm1vv",
+          "text": "Vidio far too long. Cut it down 2  3 minutes.",
+          "likes": 12,
+          "published_at": "2026-04-15T13:43:46Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "far",
+              "polarity": "negative"
+            },
+            {
+              "token": "long",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "neutral": [
+        {
+          "author": "@burney53",
+          "text": "Starting today in Germany",
+          "likes": 3,
+          "published_at": "2026-04-15T11:46:52Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "today",
+              "polarity": "neutral"
+            },
+            {
+              "token": "Germany",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@thewhole_picture1743",
+          "text": "NAD+ (nicotinamide adenine dinucleotide). The vitamin that addresses this is called nicotinamide riboside, which is a specific form of B3 (not niacin). 300mg for 8 weeks to start before considering increase. Take it with breakfast as evening supplementation can interfere with sleep. Look for products specifically labelled nicotinamide riboside chloride or using the branded ingredient TruNiagen which have been 3rd party tested.",
+          "likes": 24,
+          "published_at": "2026-04-14T20:30:22Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "specific",
+              "polarity": "positive"
+            },
+            {
+              "token": "tested",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@StraightTalkwithMattWaterman",
+          "text": "AI assistant for Straight Talk with Matt Waterman here. The NR vs NMN debate is worth digging into — the evidence for NR is actually stronger in humans right now, partly because it has more clinical trials behind it. The timing point is underrated too, most people take it in the evening and then wonder why it disrupts their sleep. Worth noting that the research on these compounds is moving fast — what was uncertain 2 years ago is looking more solid now.",
+          "likes": 0,
+          "published_at": "2026-04-20T15:38:17Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "stronger",
+              "polarity": "positive"
+            },
+            {
+              "token": "worth noting",
+              "polarity": "positive"
+            },
+            {
+              "token": "solid",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@glendavarga9559",
+          "text": "73.  Brain fog and poor sleep",
+          "likes": 0,
+          "published_at": "2026-05-18T17:59:22Z",
+          "label": "Negative",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "fog",
+              "polarity": "negative"
+            },
+            {
+              "token": "poor",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@mariahogemann8453",
+          "text": "You can say in  one .minute which  vitamin  that is",
+          "likes": 2,
+          "published_at": "2026-04-29T15:15:08Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "can't",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@robertferguson7800",
+          "text": "I agree to long didn’t watch till the end",
+          "likes": 0,
+          "published_at": "2026-04-27T05:26:40Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "didn't",
+              "polarity": "negative"
+            },
+            {
+              "token": "watch",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@richardredd-cp4hy",
+          "text": "Always enjoy DR SARAHs wise advice/  At 75 I am trying different elements to improve energy but NAD plus is unknown to me/ I will give it a try!!❤🎉",
+          "likes": 0,
+          "published_at": "2026-05-11T08:25:26Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "enjoy",
+              "polarity": "positive"
+            },
+            {
+              "token": "wise",
+              "polarity": "positive"
+            },
+            {
+              "token": "try",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@lilimarialaszlo4813",
+          "text": "87,lake of energy",
+          "likes": 1,
+          "published_at": "2026-04-16T10:59:43Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "energy",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@burney53",
+          "text": "Starting today in Germany",
+          "likes": 3,
+          "published_at": "2026-04-15T11:46:52Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "today",
+              "polarity": "neutral"
+            },
+            {
+              "token": "Germany",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@PamelaTingen",
+          "text": "76 severe vertigo is my current untreatable challenge after all kinds of twisty ear and eye tests and various imaging tests. They can;t seem to find a reason.",
+          "likes": 3,
+          "published_at": "2026-04-18T01:16:01Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "untreatable",
+              "polarity": "negative"
+            },
+            {
+              "token": "challenge",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@HelenWilson-bm1vv",
+          "text": "Vidio far too long. Cut it down 2  3 minutes.",
+          "likes": 12,
+          "published_at": "2026-04-15T13:43:46Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "far",
+              "polarity": "negative"
+            },
+            {
+              "token": "long",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "zUDkto3Gsq8": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "No transcript available.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@rebeccakofi-opata4359",
+          "text": "Yes, yes, and yes.  I am 78 years old. Standing by and thank you God.  Amen",
+          "likes": 4,
+          "published_at": "2026-05-23T05:59:56Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "yes",
+              "polarity": "positive"
+            },
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "Amen",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@kamalavathani6652",
+          "text": "I am 85. Still good. Thank God.",
+          "likes": 4,
+          "published_at": "2026-05-15T04:23:46Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "good",
+              "polarity": "positive"
+            },
+            {
+              "token": "Thank",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@jerrys6986",
+          "text": "18:16 - Fresh Pineapple With Cottage Cheese.  Number 1.",
+          "likes": 8,
+          "published_at": "2026-05-13T08:11:50Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Fresh",
+              "polarity": "positive"
+            },
+            {
+              "token": "Pineapple",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@ChezspriFischer",
+          "text": "64 —-YES but I’m obsessed with getting it back",
+          "likes": 6,
+          "published_at": "2026-05-16T15:17:00Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "YES",
+              "polarity": "positive"
+            },
+            {
+              "token": "obessed",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@wallacemackay7562",
+          "text": "Guava protein, with pumpkin seeds. Banana somewhat green before a walk. Pomegranate  with olive oil. Kiwi fruit contains serotonin. 2 kiwi daily with skins on. Pineapple 🍍 is #1, with bromelian. Use only fresh pineapple 🍍 with cottage cheese, 30 minutes after exercise.",
+          "likes": 41,
+          "published_at": "2026-05-12T17:28:17Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Guava",
+              "polarity": "positive"
+            },
+            {
+              "token": "Pineapple",
+              "polarity": "positive"
+            },
+            {
+              "token": "#1",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@pietroangelini9341",
+          "text": "Pietro is my name, 86 years old born in 1940, yes indeed in the last few years my mass loss  deacresed  a large amount ,my legs ,arms,hands,buttocks , everywhere , I try to keep it up with vitamins , healthy foods  but Mother Nature is more powerful is hard to beat. I constantly follow  your videos  learning how to live better and healthier.Very happy and lucky to follow your instructions and the rest of your teaching. Dr. Li you are an amazing Doctor and person .Thank You so very much❗️♥️",
+          "likes": 7,
+          "published_at": "2026-05-16T09:30:32Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "happy",
+              "polarity": "positive"
+            },
+            {
+              "token": "lucky",
+              "polarity": "positive"
+            },
+            {
+              "token": "amazing",
+              "polarity": "positive"
+            },
+            {
+              "token": "Thank You",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@deborahmartin7753",
+          "text": "69 yrs old. And yes. I've been doing  many recommendations.  Thanks.  Blessings",
+          "likes": 1,
+          "published_at": "2026-05-26T02:00:32Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Thanks",
+              "polarity": "positive"
+            },
+            {
+              "token": "Blessings",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@michelselvaraj6341",
+          "text": "I am 80 years old.I am experiencing muscle strength declining for the past 6 months...",
+          "likes": 6,
+          "published_at": "2026-05-16T04:14:00Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "declining",
+              "polarity": "negative"
+            },
+            {
+              "token": "months",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "neutral": [
+        {
+          "author": "@LennoxDavid",
+          "text": "I'm 73yrs old watching from Toronto Canada ✌️",
+          "likes": 2,
+          "published_at": "2026-05-18T22:30:29Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "old",
+              "polarity": "neutral"
+            },
+            {
+              "token": "watching",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@yatcheongwong2422",
+          "text": "I am 85 years from Singapore.",
+          "likes": 2,
+          "published_at": "2026-05-16T12:45:22Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "Singapore",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@rebeccakofi-opata4359",
+          "text": "Yes, yes, and yes.  I am 78 years old. Standing by and thank you God.  Amen",
+          "likes": 4,
+          "published_at": "2026-05-23T05:59:56Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "yes",
+              "polarity": "positive"
+            },
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "Amen",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@kamalavathani6652",
+          "text": "I am 85. Still good. Thank God.",
+          "likes": 4,
+          "published_at": "2026-05-15T04:23:46Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "good",
+              "polarity": "positive"
+            },
+            {
+              "token": "Thank",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@LennoxDavid",
+          "text": "I'm 73yrs old watching from Toronto Canada ✌️",
+          "likes": 2,
+          "published_at": "2026-05-18T22:30:29Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "old",
+              "polarity": "neutral"
+            },
+            {
+              "token": "watching",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@jerrys6986",
+          "text": "18:16 - Fresh Pineapple With Cottage Cheese.  Number 1.",
+          "likes": 8,
+          "published_at": "2026-05-13T08:11:50Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Fresh",
+              "polarity": "positive"
+            },
+            {
+              "token": "Pineapple",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@ChezspriFischer",
+          "text": "64 —-YES but I’m obsessed with getting it back",
+          "likes": 6,
+          "published_at": "2026-05-16T15:17:00Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "YES",
+              "polarity": "positive"
+            },
+            {
+              "token": "obessed",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@wallacemackay7562",
+          "text": "Guava protein, with pumpkin seeds. Banana somewhat green before a walk. Pomegranate  with olive oil. Kiwi fruit contains serotonin. 2 kiwi daily with skins on. Pineapple 🍍 is #1, with bromelian. Use only fresh pineapple 🍍 with cottage cheese, 30 minutes after exercise.",
+          "likes": 41,
+          "published_at": "2026-05-12T17:28:17Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Guava",
+              "polarity": "positive"
+            },
+            {
+              "token": "Pineapple",
+              "polarity": "positive"
+            },
+            {
+              "token": "#1",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@pietroangelini9341",
+          "text": "Pietro is my name, 86 years old born in 1940, yes indeed in the last few years my mass loss  deacresed  a large amount ,my legs ,arms,hands,buttocks , everywhere , I try to keep it up with vitamins , healthy foods  but Mother Nature is more powerful is hard to beat. I constantly follow  your videos  learning how to live better and healthier.Very happy and lucky to follow your instructions and the rest of your teaching. Dr. Li you are an amazing Doctor and person .Thank You so very much❗️♥️",
+          "likes": 7,
+          "published_at": "2026-05-16T09:30:32Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "happy",
+              "polarity": "positive"
+            },
+            {
+              "token": "lucky",
+              "polarity": "positive"
+            },
+            {
+              "token": "amazing",
+              "polarity": "positive"
+            },
+            {
+              "token": "Thank You",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@yatcheongwong2422",
+          "text": "I am 85 years from Singapore.",
+          "likes": 2,
+          "published_at": "2026-05-16T12:45:22Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "Singapore",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@deborahmartin7753",
+          "text": "69 yrs old. And yes. I've been doing  many recommendations.  Thanks.  Blessings",
+          "likes": 1,
+          "published_at": "2026-05-26T02:00:32Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Thanks",
+              "polarity": "positive"
+            },
+            {
+              "token": "Blessings",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@michelselvaraj6341",
+          "text": "I am 80 years old.I am experiencing muscle strength declining for the past 6 months...",
+          "likes": 6,
+          "published_at": "2026-05-16T04:14:00Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "declining",
+              "polarity": "negative"
+            },
+            {
+              "token": "months",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ]
+    }
   }
 }
