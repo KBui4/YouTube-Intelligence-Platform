@@ -415817,5 +415817,4039 @@
         }
       ]
     }
+  },
+  "35J1XiqO-5I": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "No transcript available.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@ljhayes044",
+          "text": "Finally gets to the recommended position at 6:49.",
+          "likes": 2,
+          "published_at": "2026-04-16T23:41:47Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "recommended",
+              "polarity": "positive"
+            },
+            {
+              "token": "gets",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@mushduluqqumsal3221",
+          "text": "big like for your useful channel...",
+          "likes": 1,
+          "published_at": "2026-04-19T04:09:56Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "like",
+              "polarity": "positive"
+            },
+            {
+              "token": "useful",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@inktvis6453",
+          "text": "Thanks doc.Steven for sharing your wisdom. 👍🪷",
+          "likes": 1,
+          "published_at": "2026-04-23T23:23:09Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "wisdom",
+              "polarity": "positive"
+            },
+            {
+              "token": "sharing",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@mushduluqqumsal3221",
+          "text": "I have been living with atrial fibrillation since I was 60yrs old. now I am 83 years old I use to sleep both back-right side and back- left side for entire life without taking any medication I am still alive that I was told 4 up to 5 year can live with atrial  fibrillation bt cardiologist!",
+          "likes": 2,
+          "published_at": "2026-04-19T04:09:28Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "still",
+              "polarity": "positive"
+            },
+            {
+              "token": "alive",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@vijayannm3654",
+          "text": "The captions disappear quickly before one could read n understand.  As such the correct and ideal position to sleep can't be understood.  You may show the ideal position to sleep with right caption to be useful to adopt.",
+          "likes": 1,
+          "published_at": "2026-04-15T16:15:14Z",
+          "label": "Negative",
+          "score": 0.63,
+          "highlightTokens": [
+            {
+              "token": "disappear",
+              "polarity": "negative"
+            },
+            {
+              "token": "can't",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@hookywookywithmalarkyman704",
+          "text": "Pain in left arm also side of your neck then get seen to fast !! i had this 2 years ago & i had a mild heart attack next day.",
+          "likes": 0,
+          "published_at": "2026-04-23T06:51:22Z",
+          "label": "Negative",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "pain",
+              "polarity": "negative"
+            },
+            {
+              "token": "mild heart attack",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@bigwiggybossa1",
+          "text": "More AI slop!",
+          "likes": 0,
+          "published_at": "2026-04-22T19:08:38Z",
+          "label": "Negative",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "slop",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "neutral": [
+        {
+          "author": "@mickphartaman",
+          "text": "I sleep on my left side with a cushion between my knees",
+          "likes": 2,
+          "published_at": "2026-04-18T07:25:42Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "cushion",
+              "polarity": "neutral"
+            },
+            {
+              "token": "knees",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@JohnBuchanan-d4t",
+          "text": "I sleep on my back",
+          "likes": 0,
+          "published_at": "2026-04-18T02:00:50Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "sleep",
+              "polarity": "neutral"
+            },
+            {
+              "token": "back",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@ljhayes044",
+          "text": "Finally gets to the recommended position at 6:49.",
+          "likes": 2,
+          "published_at": "2026-04-16T23:41:47Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "recommended",
+              "polarity": "positive"
+            },
+            {
+              "token": "gets",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@mushduluqqumsal3221",
+          "text": "big like for your useful channel...",
+          "likes": 1,
+          "published_at": "2026-04-19T04:09:56Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "like",
+              "polarity": "positive"
+            },
+            {
+              "token": "useful",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@inktvis6453",
+          "text": "Thanks doc.Steven for sharing your wisdom. 👍🪷",
+          "likes": 1,
+          "published_at": "2026-04-23T23:23:09Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "wisdom",
+              "polarity": "positive"
+            },
+            {
+              "token": "sharing",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@mickphartaman",
+          "text": "I sleep on my left side with a cushion between my knees",
+          "likes": 2,
+          "published_at": "2026-04-18T07:25:42Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "cushion",
+              "polarity": "neutral"
+            },
+            {
+              "token": "knees",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@mushduluqqumsal3221",
+          "text": "I have been living with atrial fibrillation since I was 60yrs old. now I am 83 years old I use to sleep both back-right side and back- left side for entire life without taking any medication I am still alive that I was told 4 up to 5 year can live with atrial  fibrillation bt cardiologist!",
+          "likes": 2,
+          "published_at": "2026-04-19T04:09:28Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "still",
+              "polarity": "positive"
+            },
+            {
+              "token": "alive",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@vijayannm3654",
+          "text": "The captions disappear quickly before one could read n understand.  As such the correct and ideal position to sleep can't be understood.  You may show the ideal position to sleep with right caption to be useful to adopt.",
+          "likes": 1,
+          "published_at": "2026-04-15T16:15:14Z",
+          "label": "Negative",
+          "score": 0.63,
+          "highlightTokens": [
+            {
+              "token": "disappear",
+              "polarity": "negative"
+            },
+            {
+              "token": "can't",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@hookywookywithmalarkyman704",
+          "text": "Pain in left arm also side of your neck then get seen to fast !! i had this 2 years ago & i had a mild heart attack next day.",
+          "likes": 0,
+          "published_at": "2026-04-23T06:51:22Z",
+          "label": "Negative",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "pain",
+              "polarity": "negative"
+            },
+            {
+              "token": "mild heart attack",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@JohnBuchanan-d4t",
+          "text": "I sleep on my back",
+          "likes": 0,
+          "published_at": "2026-04-18T02:00:50Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "sleep",
+              "polarity": "neutral"
+            },
+            {
+              "token": "back",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@bigwiggybossa1",
+          "text": "More AI slop!",
+          "likes": 0,
+          "published_at": "2026-04-22T19:08:38Z",
+          "label": "Negative",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "slop",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "4IfCNr92zwU": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "No transcript available.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@MineralMasteryPro",
+          "text": "\"It’s insightful to see the focus shifting toward these often-overlooked minerals. When dealing with long-term muscle fasciculations and sleep disturbances, choosing the right form of Magnesium is game-changing. Unlike generic forms that often cause digestive upset, Magnesium Glycinate is the 'gold standard' for bioavailability and gastrointestinal comfort. It doesn't just relax the nervous system; it actively supports heart rhythm regulation and eases chronic muscle tension. Taking it an hour before bed is the perfect strategy to reset your internal clock. True wellness often stems from these small, targeted adjustments rather than broad fixes. Consistency is key!\"",
+          "likes": 2,
+          "published_at": "2026-01-30T07:57:33Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "insightful",
+              "polarity": "positive"
+            },
+            {
+              "token": "game-changing",
+              "polarity": "positive"
+            },
+            {
+              "token": "gold standard",
+              "polarity": "positive"
+            },
+            {
+              "token": "perfect",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@ritawilliams8473",
+          "text": "I don’t really care how long you take as long as the information is correct 👍🏽 👌🏽🙏🏾",
+          "likes": 4,
+          "published_at": "2025-12-30T23:55:09Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "correct",
+              "polarity": "positive"
+            },
+            {
+              "token": "👍🏽",
+              "polarity": "positive"
+            },
+            {
+              "token": "🙏🏾",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@supplementtruth25",
+          "text": "🔥 This video is a must-watch for anyone serious about leveling up their health! I love how you break down WHY magnesium glycinate, vitamin D3, and K2 work best together — not as random supplements, but as a synergistic trio that actually helps your body absorb and use calcium properly. 🙌💪\r\n\r\nMagnesium activates vitamin D3, D3 improves calcium absorption, and K2 makes sure calcium goes to the bones — not the arteries 🦴❤. It’s all about the right dose at the right time — so we get benefits without guesswork or unnecessary risk. 👏💡\r\n\r\nCan’t wait for more evidence-based wellness content like this!",
+          "likes": 13,
+          "published_at": "2025-12-12T11:43:54Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "must-watch",
+              "polarity": "positive"
+            },
+            {
+              "token": "love",
+              "polarity": "positive"
+            },
+            {
+              "token": "synergistic",
+              "polarity": "positive"
+            },
+            {
+              "token": "helps",
+              "polarity": "positive"
+            },
+            {
+              "token": "benefits",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@yohibadash6907",
+          "text": "Thank you that was very helpful",
+          "likes": 2,
+          "published_at": "2026-01-09T09:13:21Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "helpful",
+              "polarity": "positive"
+            },
+            {
+              "token": "thank",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@COLDMKULTRA",
+          "text": "Very good info ... thank you !",
+          "likes": 1,
+          "published_at": "2025-12-10T23:54:27Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "good",
+              "polarity": "positive"
+            },
+            {
+              "token": "thank",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Hldv12",
+          "text": "Thank you for the great information",
+          "likes": 0,
+          "published_at": "2026-01-09T22:02:43Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "great",
+              "polarity": "positive"
+            },
+            {
+              "token": "thank",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@LThill-ks2uz",
+          "text": "I just watched Dr Li say d3 in the day and magnesium in the evening. I will tell you what I told him, you all need to collaborate and come to a consensus as to timing and dosages. Every expert I watch has a different opinion and it's driving me nuts.",
+          "likes": 35,
+          "published_at": "2026-01-18T14:55:40Z",
+          "label": "Negative",
+          "score": 0.63,
+          "highlightTokens": [
+            {
+              "token": "nuts",
+              "polarity": "negative"
+            },
+            {
+              "token": "different",
+              "polarity": "neutral"
+            },
+            {
+              "token": "driving",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@glen9115",
+          "text": "Jeez it really s#its me how these health videos waffle on for ages instead of getting straight to the point.",
+          "likes": 1,
+          "published_at": "2026-05-24T21:03:21Z",
+          "label": "Negative",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "s#its",
+              "polarity": "negative"
+            },
+            {
+              "token": "waffle",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "neutral": [
+        {
+          "author": "@Martydavenport-o4s",
+          "text": "dr john campbell vitamin d3 and k2",
+          "likes": 10,
+          "published_at": "2025-12-13T15:36:30Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "vitamin",
+              "polarity": "neutral"
+            },
+            {
+              "token": "d3",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@LThill-ks2uz",
+          "text": "That's pronounced mal-ate not ma-la-tee",
+          "likes": 1,
+          "published_at": "2026-01-18T14:45:19Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "not",
+              "polarity": "neutral"
+            },
+            {
+              "token": "mal-ate",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@LThill-ks2uz",
+          "text": "I just watched Dr Li say d3 in the day and magnesium in the evening. I will tell you what I told him, you all need to collaborate and come to a consensus as to timing and dosages. Every expert I watch has a different opinion and it's driving me nuts.",
+          "likes": 35,
+          "published_at": "2026-01-18T14:55:40Z",
+          "label": "Negative",
+          "score": 0.63,
+          "highlightTokens": [
+            {
+              "token": "nuts",
+              "polarity": "negative"
+            },
+            {
+              "token": "different",
+              "polarity": "neutral"
+            },
+            {
+              "token": "driving",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@glen9115",
+          "text": "Jeez it really s#its me how these health videos waffle on for ages instead of getting straight to the point.",
+          "likes": 1,
+          "published_at": "2026-05-24T21:03:21Z",
+          "label": "Negative",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "s#its",
+              "polarity": "negative"
+            },
+            {
+              "token": "waffle",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@MineralMasteryPro",
+          "text": "\"It’s insightful to see the focus shifting toward these often-overlooked minerals. When dealing with long-term muscle fasciculations and sleep disturbances, choosing the right form of Magnesium is game-changing. Unlike generic forms that often cause digestive upset, Magnesium Glycinate is the 'gold standard' for bioavailability and gastrointestinal comfort. It doesn't just relax the nervous system; it actively supports heart rhythm regulation and eases chronic muscle tension. Taking it an hour before bed is the perfect strategy to reset your internal clock. True wellness often stems from these small, targeted adjustments rather than broad fixes. Consistency is key!\"",
+          "likes": 2,
+          "published_at": "2026-01-30T07:57:33Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "insightful",
+              "polarity": "positive"
+            },
+            {
+              "token": "game-changing",
+              "polarity": "positive"
+            },
+            {
+              "token": "gold standard",
+              "polarity": "positive"
+            },
+            {
+              "token": "perfect",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Martydavenport-o4s",
+          "text": "dr john campbell vitamin d3 and k2",
+          "likes": 10,
+          "published_at": "2025-12-13T15:36:30Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "vitamin",
+              "polarity": "neutral"
+            },
+            {
+              "token": "d3",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@ritawilliams8473",
+          "text": "I don’t really care how long you take as long as the information is correct 👍🏽 👌🏽🙏🏾",
+          "likes": 4,
+          "published_at": "2025-12-30T23:55:09Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "correct",
+              "polarity": "positive"
+            },
+            {
+              "token": "👍🏽",
+              "polarity": "positive"
+            },
+            {
+              "token": "🙏🏾",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@LThill-ks2uz",
+          "text": "That's pronounced mal-ate not ma-la-tee",
+          "likes": 1,
+          "published_at": "2026-01-18T14:45:19Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "not",
+              "polarity": "neutral"
+            },
+            {
+              "token": "mal-ate",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@supplementtruth25",
+          "text": "🔥 This video is a must-watch for anyone serious about leveling up their health! I love how you break down WHY magnesium glycinate, vitamin D3, and K2 work best together — not as random supplements, but as a synergistic trio that actually helps your body absorb and use calcium properly. 🙌💪\r\n\r\nMagnesium activates vitamin D3, D3 improves calcium absorption, and K2 makes sure calcium goes to the bones — not the arteries 🦴❤. It’s all about the right dose at the right time — so we get benefits without guesswork or unnecessary risk. 👏💡\r\n\r\nCan’t wait for more evidence-based wellness content like this!",
+          "likes": 13,
+          "published_at": "2025-12-12T11:43:54Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "must-watch",
+              "polarity": "positive"
+            },
+            {
+              "token": "love",
+              "polarity": "positive"
+            },
+            {
+              "token": "synergistic",
+              "polarity": "positive"
+            },
+            {
+              "token": "helps",
+              "polarity": "positive"
+            },
+            {
+              "token": "benefits",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@yohibadash6907",
+          "text": "Thank you that was very helpful",
+          "likes": 2,
+          "published_at": "2026-01-09T09:13:21Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "helpful",
+              "polarity": "positive"
+            },
+            {
+              "token": "thank",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@COLDMKULTRA",
+          "text": "Very good info ... thank you !",
+          "likes": 1,
+          "published_at": "2025-12-10T23:54:27Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "good",
+              "polarity": "positive"
+            },
+            {
+              "token": "thank",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Hldv12",
+          "text": "Thank you for the great information",
+          "likes": 0,
+          "published_at": "2026-01-09T22:02:43Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "great",
+              "polarity": "positive"
+            },
+            {
+              "token": "thank",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "CH4o8Vq6-Vc": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "No transcript available.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@SeniorHealthLife60",
+          "text": "11:42 This really opened my mind to how the body changes with age. It’s encouraging to know there are still ways to support it naturally. I feel motivated to keep learning and taking better care each day 🙏",
+          "likes": 0,
+          "published_at": "2026-05-13T02:19:34Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "encouraging",
+              "polarity": "positive"
+            },
+            {
+              "token": "motivated",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@deepakpartani5582",
+          "text": "I am 65  thank you.",
+          "likes": 0,
+          "published_at": "2026-05-12T00:41:29Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@LonelyMiyoba",
+          "text": "Great teacher watching from Zambia 🇿🇲 greetings",
+          "likes": 0,
+          "published_at": "2026-05-12T15:47:05Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "teacher",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@indiramahatoo4267",
+          "text": "I am 81. Arm muscles.",
+          "likes": 0,
+          "published_at": "2026-05-11T19:22:23Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "am",
+              "polarity": "positive"
+            },
+            {
+              "token": "muscles",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@KapandaSkue",
+          "text": "59, experience weak legs and tiredness in the morning",
+          "likes": 0,
+          "published_at": "2026-05-12T18:27:11Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "weak",
+              "polarity": "negative"
+            },
+            {
+              "token": "tiredness",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@Vanessa-ue3jh",
+          "text": "I am 75 and I was told that at my age my body cannot process protein like when I was younger",
+          "likes": 3,
+          "published_at": "2026-05-09T00:06:44Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "cannot",
+              "polarity": "negative"
+            },
+            {
+              "token": "younger",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@kamalhoodeennauthoo4568",
+          "text": "I am 82. \nSuffering from muscle loss.\nAnd also peripheral neuropathy. Pain, weak legs, walking difficulties, body balance from Mauritius 🇲🇺. Retired biology teacher and head master.",
+          "likes": 1,
+          "published_at": "2026-05-11T15:18:57Z",
+          "label": "Negative",
+          "score": 0.63,
+          "highlightTokens": [
+            {
+              "token": "suffering",
+              "polarity": "negative"
+            },
+            {
+              "token": "pain",
+              "polarity": "negative"
+            },
+            {
+              "token": "weak",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@ronaldblair3236",
+          "text": "I’m 82 and need better muscle’s in my legs",
+          "likes": 0,
+          "published_at": "2026-05-12T19:46:24Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "need",
+              "polarity": "negative"
+            },
+            {
+              "token": "better",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@PWWolfe",
+          "text": "81    very recently muscle lose",
+          "likes": 2,
+          "published_at": "2026-05-10T16:34:39Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "lose",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "neutral": [
+        {
+          "author": "@carolyndaigle4612",
+          "text": "This picture looks like AI",
+          "likes": 10,
+          "published_at": "2026-05-10T11:31:47Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "looks",
+              "polarity": "neutral"
+            },
+            {
+              "token": "like",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@KapandaSkue",
+          "text": "59, experience weak legs and tiredness in the morning",
+          "likes": 0,
+          "published_at": "2026-05-12T18:27:11Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "weak",
+              "polarity": "negative"
+            },
+            {
+              "token": "tiredness",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@carolyndaigle4612",
+          "text": "This picture looks like AI",
+          "likes": 10,
+          "published_at": "2026-05-10T11:31:47Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "looks",
+              "polarity": "neutral"
+            },
+            {
+              "token": "like",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@Vanessa-ue3jh",
+          "text": "I am 75 and I was told that at my age my body cannot process protein like when I was younger",
+          "likes": 3,
+          "published_at": "2026-05-09T00:06:44Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "cannot",
+              "polarity": "negative"
+            },
+            {
+              "token": "younger",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@SeniorHealthLife60",
+          "text": "11:42 This really opened my mind to how the body changes with age. It’s encouraging to know there are still ways to support it naturally. I feel motivated to keep learning and taking better care each day 🙏",
+          "likes": 0,
+          "published_at": "2026-05-13T02:19:34Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "encouraging",
+              "polarity": "positive"
+            },
+            {
+              "token": "motivated",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@deepakpartani5582",
+          "text": "I am 65  thank you.",
+          "likes": 0,
+          "published_at": "2026-05-12T00:41:29Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@kamalhoodeennauthoo4568",
+          "text": "I am 82. \nSuffering from muscle loss.\nAnd also peripheral neuropathy. Pain, weak legs, walking difficulties, body balance from Mauritius 🇲🇺. Retired biology teacher and head master.",
+          "likes": 1,
+          "published_at": "2026-05-11T15:18:57Z",
+          "label": "Negative",
+          "score": 0.63,
+          "highlightTokens": [
+            {
+              "token": "suffering",
+              "polarity": "negative"
+            },
+            {
+              "token": "pain",
+              "polarity": "negative"
+            },
+            {
+              "token": "weak",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@ronaldblair3236",
+          "text": "I’m 82 and need better muscle’s in my legs",
+          "likes": 0,
+          "published_at": "2026-05-12T19:46:24Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "need",
+              "polarity": "negative"
+            },
+            {
+              "token": "better",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@PWWolfe",
+          "text": "81    very recently muscle lose",
+          "likes": 2,
+          "published_at": "2026-05-10T16:34:39Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "lose",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@LonelyMiyoba",
+          "text": "Great teacher watching from Zambia 🇿🇲 greetings",
+          "likes": 0,
+          "published_at": "2026-05-12T15:47:05Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "teacher",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@indiramahatoo4267",
+          "text": "I am 81. Arm muscles.",
+          "likes": 0,
+          "published_at": "2026-05-11T19:22:23Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "am",
+              "polarity": "positive"
+            },
+            {
+              "token": "muscles",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "H1yKY1xVQbI": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "No transcript available.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@HealthbyScience-5z",
+          "text": "The concept of 'insulin-independent glucose uptake' via muscle contraction is exactly why post-meal walks are non-negotiable for metabolic health. It’s essentially a free pass to clear glucose without taxing the pancreas.",
+          "likes": 13,
+          "published_at": "2026-01-21T14:38:59Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "non-negotiable",
+              "polarity": "positive"
+            },
+            {
+              "token": "free pass",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@testaddict",
+          "text": "if you are lazy to walk outside and if your knees are still okay. squats do wonders!",
+          "likes": 8,
+          "published_at": "2026-01-21T18:56:02Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "wonders",
+              "polarity": "positive"
+            },
+            {
+              "token": "do",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@PraveenSr8325",
+          "text": "I walk about 6 miles a day inside and outside every single day",
+          "likes": 2,
+          "published_at": "2026-01-21T23:33:23Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "walk",
+              "polarity": "positive"
+            },
+            {
+              "token": "day",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@archaeobard1",
+          "text": "I jump on my treadmill for 20 mins or longer after a meal. I usually walk with crutches due to 24 years of rheumatoid arthritis, but I can help support myself on the side rails of the treadmill. I also notice that if I am still slightly hungry after eating and I walk, I'm no longer hungry after walking.",
+          "likes": 2,
+          "published_at": "2026-01-25T09:04:06Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "help",
+              "polarity": "positive"
+            },
+            {
+              "token": "support",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@simplypositiveme",
+          "text": "Subscribed 🎉",
+          "likes": 0,
+          "published_at": "2026-03-26T02:36:13Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "🎉",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@sanjeevdhokte2545",
+          "text": "Very helpful. I liked the bit about being aware of low sugar times and avoiding strenuous activity during those times.  A side note, in the language of the region/state of India I come from, we have an old concept called \"shata paavli\" which literally means 100 steps.  It is said that you should walk gently for a 100 steps post meals. Admittedly, 100 would be less, but the point and wisdom is cool 😊",
+          "likes": 1,
+          "published_at": "2026-01-24T02:50:03Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "helpful",
+              "polarity": "positive"
+            },
+            {
+              "token": "liked",
+              "polarity": "positive"
+            },
+            {
+              "token": "cool",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@generation_arts",
+          "text": "Very helpful, thanks",
+          "likes": 0,
+          "published_at": "2026-02-03T02:00:26Z",
+          "label": "Positive",
+          "score": 0.9,
+          "highlightTokens": [
+            {
+              "token": "helpful",
+              "polarity": "positive"
+            },
+            {
+              "token": "thanks",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@jawajab5173",
+          "text": "V helpful educational vlog even as I am in the process of finding a discernible trend for post-meal blood glucose readings. Getting better 😺",
+          "likes": 0,
+          "published_at": "2026-01-27T06:28:47Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "helpful",
+              "polarity": "positive"
+            },
+            {
+              "token": "educational",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [],
+      "neutral": [
+        {
+          "author": "@PraveenSr8325",
+          "text": "I walk both before and after meals",
+          "likes": 4,
+          "published_at": "2026-01-21T23:52:18Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "before",
+              "polarity": "neutral"
+            },
+            {
+              "token": "after",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@AndiWard",
+          "text": "I walk before and after to make sure it's not high before eating, then walk after. 2 miles each side of the meal.",
+          "likes": 4,
+          "published_at": "2026-01-21T17:49:54Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "make",
+              "polarity": "neutral"
+            },
+            {
+              "token": "sure",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@HealthbyScience-5z",
+          "text": "The concept of 'insulin-independent glucose uptake' via muscle contraction is exactly why post-meal walks are non-negotiable for metabolic health. It’s essentially a free pass to clear glucose without taxing the pancreas.",
+          "likes": 13,
+          "published_at": "2026-01-21T14:38:59Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "non-negotiable",
+              "polarity": "positive"
+            },
+            {
+              "token": "free pass",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@testaddict",
+          "text": "if you are lazy to walk outside and if your knees are still okay. squats do wonders!",
+          "likes": 8,
+          "published_at": "2026-01-21T18:56:02Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "wonders",
+              "polarity": "positive"
+            },
+            {
+              "token": "do",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@PraveenSr8325",
+          "text": "I walk both before and after meals",
+          "likes": 4,
+          "published_at": "2026-01-21T23:52:18Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "before",
+              "polarity": "neutral"
+            },
+            {
+              "token": "after",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@AndiWard",
+          "text": "I walk before and after to make sure it's not high before eating, then walk after. 2 miles each side of the meal.",
+          "likes": 4,
+          "published_at": "2026-01-21T17:49:54Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "make",
+              "polarity": "neutral"
+            },
+            {
+              "token": "sure",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@PraveenSr8325",
+          "text": "I walk about 6 miles a day inside and outside every single day",
+          "likes": 2,
+          "published_at": "2026-01-21T23:33:23Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "walk",
+              "polarity": "positive"
+            },
+            {
+              "token": "day",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@archaeobard1",
+          "text": "I jump on my treadmill for 20 mins or longer after a meal. I usually walk with crutches due to 24 years of rheumatoid arthritis, but I can help support myself on the side rails of the treadmill. I also notice that if I am still slightly hungry after eating and I walk, I'm no longer hungry after walking.",
+          "likes": 2,
+          "published_at": "2026-01-25T09:04:06Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "help",
+              "polarity": "positive"
+            },
+            {
+              "token": "support",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@simplypositiveme",
+          "text": "Subscribed 🎉",
+          "likes": 0,
+          "published_at": "2026-03-26T02:36:13Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "🎉",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@sanjeevdhokte2545",
+          "text": "Very helpful. I liked the bit about being aware of low sugar times and avoiding strenuous activity during those times.  A side note, in the language of the region/state of India I come from, we have an old concept called \"shata paavli\" which literally means 100 steps.  It is said that you should walk gently for a 100 steps post meals. Admittedly, 100 would be less, but the point and wisdom is cool 😊",
+          "likes": 1,
+          "published_at": "2026-01-24T02:50:03Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "helpful",
+              "polarity": "positive"
+            },
+            {
+              "token": "liked",
+              "polarity": "positive"
+            },
+            {
+              "token": "cool",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@generation_arts",
+          "text": "Very helpful, thanks",
+          "likes": 0,
+          "published_at": "2026-02-03T02:00:26Z",
+          "label": "Positive",
+          "score": 0.9,
+          "highlightTokens": [
+            {
+              "token": "helpful",
+              "polarity": "positive"
+            },
+            {
+              "token": "thanks",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@jawajab5173",
+          "text": "V helpful educational vlog even as I am in the process of finding a discernible trend for post-meal blood glucose readings. Getting better 😺",
+          "likes": 0,
+          "published_at": "2026-01-27T06:28:47Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "helpful",
+              "polarity": "positive"
+            },
+            {
+              "token": "educational",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "J3xhu3fDcwo": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "No transcript available.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@HealthSphereTV01",
+          "text": "This is why awareness is so important. You won’t feel it, but it’s there.",
+          "likes": 0,
+          "published_at": "2026-04-15T11:21:54Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "awareness",
+              "polarity": "positive"
+            },
+            {
+              "token": "important",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@diannebates8817",
+          "text": "Beet juice is also good for lowering blood pressure",
+          "likes": 4,
+          "published_at": "2026-04-14T00:31:42Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "good",
+              "polarity": "positive"
+            },
+            {
+              "token": "lowering",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@EdithTimile",
+          "text": "Apple cider vinegar is the first now.Thanks.",
+          "likes": 2,
+          "published_at": "2026-04-14T21:55:44Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "Thanks",
+              "polarity": "positive"
+            },
+            {
+              "token": "first",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@beverlywilliams6923",
+          "text": "I tried the sorrel/ hibiscus tea and my blood pressure decreased substantially.",
+          "likes": 2,
+          "published_at": "2026-04-13T14:51:27Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "decreased",
+              "polarity": "positive"
+            },
+            {
+              "token": "substantially",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@phumzilegamede9443",
+          "text": "Thanks Dr for your help from South Africa",
+          "likes": 0,
+          "published_at": "2026-04-16T06:40:38Z",
+          "label": "Positive",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "help",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@ElkeLewis",
+          "text": "very sound advice. Try one thing at a time. Hibiscus tea is effective, but very sour.",
+          "likes": 0,
+          "published_at": "2026-04-17T05:24:51Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "sound",
+              "polarity": "positive"
+            },
+            {
+              "token": "effective",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@EdithTimile",
+          "text": "I will try all.Thank you very much Dr.",
+          "likes": 0,
+          "published_at": "2026-04-14T21:49:14Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "very",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@nicolemaxey4432",
+          "text": "Thank you I will give it a try. I don’t the hibiscus tea. I will have to force myself. Thank you for helping us through repetition. I really appreciate it.",
+          "likes": 0,
+          "published_at": "2026-04-13T20:04:32Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "Thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "really",
+              "polarity": "positive"
+            },
+            {
+              "token": "appreciate",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [],
+      "neutral": [
+        {
+          "author": "@deedickinson1643",
+          "text": "Apple cider vinegar, hibiscus tea, coconut oil MCT",
+          "likes": 2,
+          "published_at": "2026-04-13T19:06:31Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "cider",
+              "polarity": "neutral"
+            },
+            {
+              "token": "oil",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@jennyzerefa4944",
+          "text": "Hibiscus tea",
+          "likes": 3,
+          "published_at": "2026-04-13T23:29:03Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "tea",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@HealthSphereTV01",
+          "text": "This is why awareness is so important. You won’t feel it, but it’s there.",
+          "likes": 0,
+          "published_at": "2026-04-15T11:21:54Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "awareness",
+              "polarity": "positive"
+            },
+            {
+              "token": "important",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@diannebates8817",
+          "text": "Beet juice is also good for lowering blood pressure",
+          "likes": 4,
+          "published_at": "2026-04-14T00:31:42Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "good",
+              "polarity": "positive"
+            },
+            {
+              "token": "lowering",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@deedickinson1643",
+          "text": "Apple cider vinegar, hibiscus tea, coconut oil MCT",
+          "likes": 2,
+          "published_at": "2026-04-13T19:06:31Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "cider",
+              "polarity": "neutral"
+            },
+            {
+              "token": "oil",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@EdithTimile",
+          "text": "Apple cider vinegar is the first now.Thanks.",
+          "likes": 2,
+          "published_at": "2026-04-14T21:55:44Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "Thanks",
+              "polarity": "positive"
+            },
+            {
+              "token": "first",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@beverlywilliams6923",
+          "text": "I tried the sorrel/ hibiscus tea and my blood pressure decreased substantially.",
+          "likes": 2,
+          "published_at": "2026-04-13T14:51:27Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "decreased",
+              "polarity": "positive"
+            },
+            {
+              "token": "substantially",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@phumzilegamede9443",
+          "text": "Thanks Dr for your help from South Africa",
+          "likes": 0,
+          "published_at": "2026-04-16T06:40:38Z",
+          "label": "Positive",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "help",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@jennyzerefa4944",
+          "text": "Hibiscus tea",
+          "likes": 3,
+          "published_at": "2026-04-13T23:29:03Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "tea",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@ElkeLewis",
+          "text": "very sound advice. Try one thing at a time. Hibiscus tea is effective, but very sour.",
+          "likes": 0,
+          "published_at": "2026-04-17T05:24:51Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "sound",
+              "polarity": "positive"
+            },
+            {
+              "token": "effective",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@EdithTimile",
+          "text": "I will try all.Thank you very much Dr.",
+          "likes": 0,
+          "published_at": "2026-04-14T21:49:14Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "very",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@nicolemaxey4432",
+          "text": "Thank you I will give it a try. I don’t the hibiscus tea. I will have to force myself. Thank you for helping us through repetition. I really appreciate it.",
+          "likes": 0,
+          "published_at": "2026-04-13T20:04:32Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "Thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "really",
+              "polarity": "positive"
+            },
+            {
+              "token": "appreciate",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "TT7M3HYBnW0": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "No transcript available.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@movie4funo",
+          "text": "Nice video",
+          "likes": 1,
+          "published_at": "2026-05-02T03:45:28Z",
+          "label": "Positive",
+          "score": 0.9,
+          "highlightTokens": [
+            {
+              "token": "video",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [],
+      "neutral": [
+        {
+          "author": "@LilCraftyNook",
+          "text": "I know I need to get my eating pattern right.  I walk every morning, and shoot for 5K a day right now.",
+          "likes": 3,
+          "published_at": "2026-04-28T16:11:23Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "right",
+              "polarity": "neutral"
+            },
+            {
+              "token": "now",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@LilCraftyNook",
+          "text": "I know I need to get my eating pattern right.  I walk every morning, and shoot for 5K a day right now.",
+          "likes": 3,
+          "published_at": "2026-04-28T16:11:23Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "right",
+              "polarity": "neutral"
+            },
+            {
+              "token": "now",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@movie4funo",
+          "text": "Nice video",
+          "likes": 1,
+          "published_at": "2026-05-02T03:45:28Z",
+          "label": "Positive",
+          "score": 0.9,
+          "highlightTokens": [
+            {
+              "token": "video",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "UAma8EMZM2w": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "No transcript available.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@matchless6",
+          "text": "Ready and thank you from Ireland.",
+          "likes": 2,
+          "published_at": "2026-05-13T20:08:59Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "you",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@rolfafi3033",
+          "text": "83 years male. Thanks for your very valuable information.",
+          "likes": 7,
+          "published_at": "2026-04-29T01:45:49Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "valuable",
+              "polarity": "positive"
+            },
+            {
+              "token": "thanks",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@irmazavala9675",
+          "text": "81",
+          "likes": 2,
+          "published_at": "2026-05-03T08:35:04Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "81",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@EulaliaCasane",
+          "text": "64",
+          "likes": 2,
+          "published_at": "2026-05-10T05:37:59Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "64",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "neutral": [
+        {
+          "author": "@frankDoegbfgdfbfb",
+          "text": "64years living in Liberia",
+          "likes": 2,
+          "published_at": "2026-05-14T21:13:40Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "living",
+              "polarity": "neutral"
+            },
+            {
+              "token": "Liberia",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@jimhurleywhitakerjr",
+          "text": "73, Naples, Florida",
+          "likes": 2,
+          "published_at": "2026-05-12T10:11:37Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "Florida",
+              "polarity": "neutral"
+            },
+            {
+              "token": "Naples",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@brookalexandergreenedelsob3303",
+          "text": "86.",
+          "likes": 2,
+          "published_at": "2026-05-12T20:55:55Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "86",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@marlenecaballero-bosque9008",
+          "text": "I'm 79 from California.",
+          "likes": 1,
+          "published_at": "2026-05-12T23:23:43Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "California",
+              "polarity": "neutral"
+            },
+            {
+              "token": "from",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@debraadimey4672",
+          "text": "65 and flax seed and tart cherry juice",
+          "likes": 2,
+          "published_at": "2026-05-13T11:33:21Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "flax seed",
+              "polarity": "neutral"
+            },
+            {
+              "token": "tart cherry juice",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@DonaldDalton-j1n",
+          "text": "I take them in the morning now in the evening",
+          "likes": 2,
+          "published_at": "2026-05-14T23:56:05Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "now",
+              "polarity": "neutral"
+            },
+            {
+              "token": "evening",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@frankDoegbfgdfbfb",
+          "text": "64years living in Liberia",
+          "likes": 2,
+          "published_at": "2026-05-14T21:13:40Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "living",
+              "polarity": "neutral"
+            },
+            {
+              "token": "Liberia",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@jimhurleywhitakerjr",
+          "text": "73, Naples, Florida",
+          "likes": 2,
+          "published_at": "2026-05-12T10:11:37Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "Florida",
+              "polarity": "neutral"
+            },
+            {
+              "token": "Naples",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@matchless6",
+          "text": "Ready and thank you from Ireland.",
+          "likes": 2,
+          "published_at": "2026-05-13T20:08:59Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "you",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@brookalexandergreenedelsob3303",
+          "text": "86.",
+          "likes": 2,
+          "published_at": "2026-05-12T20:55:55Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "86",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@marlenecaballero-bosque9008",
+          "text": "I'm 79 from California.",
+          "likes": 1,
+          "published_at": "2026-05-12T23:23:43Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "California",
+              "polarity": "neutral"
+            },
+            {
+              "token": "from",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@irmazavala9675",
+          "text": "81",
+          "likes": 2,
+          "published_at": "2026-05-03T08:35:04Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "81",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@rolfafi3033",
+          "text": "83 years male. Thanks for your very valuable information.",
+          "likes": 7,
+          "published_at": "2026-04-29T01:45:49Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "valuable",
+              "polarity": "positive"
+            },
+            {
+              "token": "thanks",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@EulaliaCasane",
+          "text": "64",
+          "likes": 2,
+          "published_at": "2026-05-10T05:37:59Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "64",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@debraadimey4672",
+          "text": "65 and flax seed and tart cherry juice",
+          "likes": 2,
+          "published_at": "2026-05-13T11:33:21Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "flax seed",
+              "polarity": "neutral"
+            },
+            {
+              "token": "tart cherry juice",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@DonaldDalton-j1n",
+          "text": "I take them in the morning now in the evening",
+          "likes": 2,
+          "published_at": "2026-05-14T23:56:05Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "now",
+              "polarity": "neutral"
+            },
+            {
+              "token": "evening",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "e3A3ZDGOlKU": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "No transcript available.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@Rit-if1fv",
+          "text": "This video makes a lot of sense to so many people who don't rest their eyes",
+          "likes": 1,
+          "published_at": "2026-05-28T00:00:51Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "sense",
+              "polarity": "positive"
+            },
+            {
+              "token": "many",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@leelamanasseh7989",
+          "text": "Cinnamon tea is more practical and realistic.  Also boiled  beet ➕️ carrot  with cinnamon and cloves is excellent.",
+          "likes": 6,
+          "published_at": "2026-05-25T05:12:56Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "practical",
+              "polarity": "positive"
+            },
+            {
+              "token": "excellent",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@troytompkins2532",
+          "text": "1 CUP OF WARM UNSWEETEN TART CHERRY JUICE * NOTBOILING HOT, 1 BAG OF HIBISCUS TEA",
+          "likes": 4,
+          "published_at": "2026-05-25T22:39:43Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "WARM",
+              "polarity": "positive"
+            },
+            {
+              "token": "UNSWWEETEN",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@juancarrasco104",
+          "text": "Thank you so much for this important information.",
+          "likes": 1,
+          "published_at": "2026-05-28T20:40:47Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "important",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@HealthClarityLabHD",
+          "text": "The characterization of the retina's metabolic demands here is spot on. The Retinal Pigment Epithelium (RPE) has one of the highest oxygen consumption rates in the human body. When overnight mitochondrial autophagy is disrupted by modern light environments, cellular debris (lipofuscin) accumulates rapidly. Optimizing the nocturnal recovery window is arguably the most critical bio-hack for visual longevity.",
+          "likes": 3,
+          "published_at": "2026-05-26T01:20:22Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "spot on",
+              "polarity": "positive"
+            },
+            {
+              "token": "optimizing",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@leelamanasseh7989",
+          "text": "By God's grace i celebrated my 72nd birthday last month.",
+          "likes": 3,
+          "published_at": "2026-05-25T05:14:59Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "celebrated",
+              "polarity": "positive"
+            },
+            {
+              "token": "grace",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@NazamFazal-h2r",
+          "text": "Great lesson for all lives Karachi Pakistan",
+          "likes": 4,
+          "published_at": "2026-05-24T17:30:50Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "lesson",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@Rit-if1fv",
+          "text": "What about people who work night times? The eyes don't get time to repair 😮. Very sad",
+          "likes": 4,
+          "published_at": "2026-05-27T23:58:39Z",
+          "label": "Negative",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "sad",
+              "polarity": "negative"
+            },
+            {
+              "token": "don't",
+              "polarity": "neutral"
+            },
+            {
+              "token": "repair",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "neutral": [
+        {
+          "author": "@viemerveilleuse4758",
+          "text": "It is important to consult with a medical professional before making changes to your diet or health regimen to ensure that any specific advice is appropriate for your individual needs.",
+          "likes": 7,
+          "published_at": "2026-05-25T05:03:07Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "important",
+              "polarity": "neutral"
+            },
+            {
+              "token": "ensure",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@shimari100",
+          "text": "How to heal gloucoma naturally",
+          "likes": 4,
+          "published_at": "2026-05-25T17:48:06Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "heal",
+              "polarity": "positive"
+            },
+            {
+              "token": "naturally",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@Rit-if1fv",
+          "text": "What about people who work night times? The eyes don't get time to repair 😮. Very sad",
+          "likes": 4,
+          "published_at": "2026-05-27T23:58:39Z",
+          "label": "Negative",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "sad",
+              "polarity": "negative"
+            },
+            {
+              "token": "don't",
+              "polarity": "neutral"
+            },
+            {
+              "token": "repair",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@Rit-if1fv",
+          "text": "This video makes a lot of sense to so many people who don't rest their eyes",
+          "likes": 1,
+          "published_at": "2026-05-28T00:00:51Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "sense",
+              "polarity": "positive"
+            },
+            {
+              "token": "many",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@viemerveilleuse4758",
+          "text": "It is important to consult with a medical professional before making changes to your diet or health regimen to ensure that any specific advice is appropriate for your individual needs.",
+          "likes": 7,
+          "published_at": "2026-05-25T05:03:07Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "important",
+              "polarity": "neutral"
+            },
+            {
+              "token": "ensure",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@leelamanasseh7989",
+          "text": "Cinnamon tea is more practical and realistic.  Also boiled  beet ➕️ carrot  with cinnamon and cloves is excellent.",
+          "likes": 6,
+          "published_at": "2026-05-25T05:12:56Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "practical",
+              "polarity": "positive"
+            },
+            {
+              "token": "excellent",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@troytompkins2532",
+          "text": "1 CUP OF WARM UNSWEETEN TART CHERRY JUICE * NOTBOILING HOT, 1 BAG OF HIBISCUS TEA",
+          "likes": 4,
+          "published_at": "2026-05-25T22:39:43Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "WARM",
+              "polarity": "positive"
+            },
+            {
+              "token": "UNSWWEETEN",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@juancarrasco104",
+          "text": "Thank you so much for this important information.",
+          "likes": 1,
+          "published_at": "2026-05-28T20:40:47Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "important",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@HealthClarityLabHD",
+          "text": "The characterization of the retina's metabolic demands here is spot on. The Retinal Pigment Epithelium (RPE) has one of the highest oxygen consumption rates in the human body. When overnight mitochondrial autophagy is disrupted by modern light environments, cellular debris (lipofuscin) accumulates rapidly. Optimizing the nocturnal recovery window is arguably the most critical bio-hack for visual longevity.",
+          "likes": 3,
+          "published_at": "2026-05-26T01:20:22Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "spot on",
+              "polarity": "positive"
+            },
+            {
+              "token": "optimizing",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@leelamanasseh7989",
+          "text": "By God's grace i celebrated my 72nd birthday last month.",
+          "likes": 3,
+          "published_at": "2026-05-25T05:14:59Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "celebrated",
+              "polarity": "positive"
+            },
+            {
+              "token": "grace",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@NazamFazal-h2r",
+          "text": "Great lesson for all lives Karachi Pakistan",
+          "likes": 4,
+          "published_at": "2026-05-24T17:30:50Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "lesson",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@shimari100",
+          "text": "How to heal gloucoma naturally",
+          "likes": 4,
+          "published_at": "2026-05-25T17:48:06Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "heal",
+              "polarity": "positive"
+            },
+            {
+              "token": "naturally",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "k93QXxnvffo": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "No transcript available.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@lawrencekoh",
+          "text": "*What are the 3 please  ?*\n*Say first before your story*\n*Thank You*",
+          "likes": 7,
+          "published_at": "2026-04-17T15:16:51Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "You",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@CharlotteCoetzee-lb5hh",
+          "text": "Eish! What an eye opener .I am going to try my best to eat more healthier",
+          "likes": 0,
+          "published_at": "2026-04-18T11:24:01Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "healthier",
+              "polarity": "positive"
+            },
+            {
+              "token": "best",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@GigMaresh",
+          "text": "I rid my house of granulated sugar 6 years ago. The only bag of sugar I still purchase is to make nectar for the hummers when they come to visit.\nWent to using that left hand Stevia in my one cup of coffee in the morning.\nI would gladly eat rye bread, especially dark bread, but it is not available in this tiny town in south central Missouri.  And since I do not drive and Walmart online will not deliver it without a gargantuan delivery fee, I do without.\nAlso salmon is only available canned or those teeny tiny pouches. All the frozen fish selections are coated with some ugly breading. Not a fish counter here either.\nI do eat tuna packed in water.\nNot all of us are eating bad diets because we want to.\nSometimes it is our only choice",
+          "likes": 0,
+          "published_at": "2026-04-21T20:28:28Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "gladly",
+              "polarity": "positive"
+            },
+            {
+              "token": "hummers",
+              "polarity": "positive"
+            },
+            {
+              "token": "do without",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@shoaibasghar9247",
+          "text": "Great video. Curious—do you see better results from detailed demos or quick high-impact edits?",
+          "likes": 0,
+          "published_at": "2026-04-18T05:57:10Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "better",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@CharlotteCoetzee-lb5hh",
+          "text": "Sugar ,bread and much more",
+          "likes": 0,
+          "published_at": "2026-04-18T11:19:58Z",
+          "label": "Positive",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "sugar",
+              "polarity": "positive"
+            },
+            {
+              "token": "more",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@JeanDelgado-e5r",
+          "text": "Sugar. Gluten. Fried foods.  Your eyes will heal",
+          "likes": 5,
+          "published_at": "2026-04-17T22:35:01Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "heal",
+              "polarity": "positive"
+            },
+            {
+              "token": "eyes",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@lawrencekoh",
+          "text": "*Bread*",
+          "likes": 2,
+          "published_at": "2026-04-17T15:20:52Z",
+          "label": "Positive",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "Bread",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@MsGabiele",
+          "text": "Unfortunately, most olive oil are not really what is mentioned on the label. Test it, olive oil always gets hard in the fridge (below 7C), canola oil and other stuff was mixed into it if it stays liquid in the fridge.",
+          "likes": 3,
+          "published_at": "2026-04-18T20:02:00Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "unfortunately",
+              "polarity": "negative"
+            },
+            {
+              "token": "hard",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@AfricanIntellectual",
+          "text": "Almost 20min to explain 3 things? Way too long for me. Other videos out there 🙏",
+          "likes": 4,
+          "published_at": "2026-04-17T18:52:10Z",
+          "label": "Negative",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "Way",
+              "polarity": "negative"
+            },
+            {
+              "token": "too",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "neutral": [
+        {
+          "author": "@paulinehadiz879",
+          "text": "How about sprouted flourless bread doctor?",
+          "likes": 2,
+          "published_at": "2026-04-17T08:34:34Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "sprouted",
+              "polarity": "neutral"
+            },
+            {
+              "token": "flourless",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@lawrencekoh",
+          "text": "*What are the 3 please  ?*\n*Say first before your story*\n*Thank You*",
+          "likes": 7,
+          "published_at": "2026-04-17T15:16:51Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "You",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@MsGabiele",
+          "text": "Unfortunately, most olive oil are not really what is mentioned on the label. Test it, olive oil always gets hard in the fridge (below 7C), canola oil and other stuff was mixed into it if it stays liquid in the fridge.",
+          "likes": 3,
+          "published_at": "2026-04-18T20:02:00Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "unfortunately",
+              "polarity": "negative"
+            },
+            {
+              "token": "hard",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@CharlotteCoetzee-lb5hh",
+          "text": "Eish! What an eye opener .I am going to try my best to eat more healthier",
+          "likes": 0,
+          "published_at": "2026-04-18T11:24:01Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "healthier",
+              "polarity": "positive"
+            },
+            {
+              "token": "best",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@GigMaresh",
+          "text": "I rid my house of granulated sugar 6 years ago. The only bag of sugar I still purchase is to make nectar for the hummers when they come to visit.\nWent to using that left hand Stevia in my one cup of coffee in the morning.\nI would gladly eat rye bread, especially dark bread, but it is not available in this tiny town in south central Missouri.  And since I do not drive and Walmart online will not deliver it without a gargantuan delivery fee, I do without.\nAlso salmon is only available canned or those teeny tiny pouches. All the frozen fish selections are coated with some ugly breading. Not a fish counter here either.\nI do eat tuna packed in water.\nNot all of us are eating bad diets because we want to.\nSometimes it is our only choice",
+          "likes": 0,
+          "published_at": "2026-04-21T20:28:28Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "gladly",
+              "polarity": "positive"
+            },
+            {
+              "token": "hummers",
+              "polarity": "positive"
+            },
+            {
+              "token": "do without",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@paulinehadiz879",
+          "text": "How about sprouted flourless bread doctor?",
+          "likes": 2,
+          "published_at": "2026-04-17T08:34:34Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "sprouted",
+              "polarity": "neutral"
+            },
+            {
+              "token": "flourless",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@AfricanIntellectual",
+          "text": "Almost 20min to explain 3 things? Way too long for me. Other videos out there 🙏",
+          "likes": 4,
+          "published_at": "2026-04-17T18:52:10Z",
+          "label": "Negative",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "Way",
+              "polarity": "negative"
+            },
+            {
+              "token": "too",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@shoaibasghar9247",
+          "text": "Great video. Curious—do you see better results from detailed demos or quick high-impact edits?",
+          "likes": 0,
+          "published_at": "2026-04-18T05:57:10Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "better",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@CharlotteCoetzee-lb5hh",
+          "text": "Sugar ,bread and much more",
+          "likes": 0,
+          "published_at": "2026-04-18T11:19:58Z",
+          "label": "Positive",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "sugar",
+              "polarity": "positive"
+            },
+            {
+              "token": "more",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@JeanDelgado-e5r",
+          "text": "Sugar. Gluten. Fried foods.  Your eyes will heal",
+          "likes": 5,
+          "published_at": "2026-04-17T22:35:01Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "heal",
+              "polarity": "positive"
+            },
+            {
+              "token": "eyes",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@lawrencekoh",
+          "text": "*Bread*",
+          "likes": 2,
+          "published_at": "2026-04-17T15:20:52Z",
+          "label": "Positive",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "Bread",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "oM3WZA0CAFo": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "No transcript available.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@Bodydecoding",
+          "text": "This video is a total game-changer for me! 🌙 Huge thanks to LazyFit Science for such a deep dive into the relationship between Insulin and Growth Hormone (GH). I never realized that a simple late-night snack could literally 'shut down' my body’s natural fat-burning mode for the entire night.\n\nThe breakdown of the 3-hour cutoff rule and prioritizing protein/fats for the final meal makes so much sense and is actually doable. I love how you explain the complex biology in such a logical and engaging way. ✨\n\nI’m starting this protocol tonight! Looking forward to more bio-optimization tips from the channel! 🧘‍♂️💪🔥",
+          "likes": 15,
+          "published_at": "2026-03-30T03:53:00Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "game-changer",
+              "polarity": "positive"
+            },
+            {
+              "token": "thanks",
+              "polarity": "positive"
+            },
+            {
+              "token": "love",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@vgcq02",
+          "text": "It’s almost 10 pm and my DoorDash is arriving",
+          "likes": 230,
+          "published_at": "2026-02-18T13:14:33Z",
+          "label": "Positive",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "almost",
+              "polarity": "positive"
+            },
+            {
+              "token": "arriving",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@foggy4125",
+          "text": "Me eating Taco Bell at 10:38 pm 👁️ 👄 👁️",
+          "likes": 65,
+          "published_at": "2026-02-23T03:38:30Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Taco Bell",
+              "polarity": "positive"
+            },
+            {
+              "token": "eating",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@StarGazerJim",
+          "text": "I don’t consume any calories between dinner (usually finished by 6pm) and breakfast (normally about 7am). That’s a 13 hour fast. I’ve been doing this rigidly for the last 11 months and am down 85lbs so far.",
+          "likes": 149,
+          "published_at": "2026-02-20T03:04:34Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "down",
+              "polarity": "positive"
+            },
+            {
+              "token": "85lbs",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Health.Mic1",
+          "text": "Here’s me waiting for my pizza to come at almost midnight😂",
+          "likes": 0,
+          "published_at": "2026-05-13T15:33:23Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "waiting",
+              "polarity": "positive"
+            },
+            {
+              "token": "come",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@theresecooper3034",
+          "text": "I fast from dinner about 5:30, until around 9 or 10 a.m. I try for 14-16 hour fast.",
+          "likes": 9,
+          "published_at": "2026-02-24T04:09:54Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "fast",
+              "polarity": "positive"
+            },
+            {
+              "token": "try",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@StickManNoah",
+          "text": "Room temperature tip is underrated, sleep felt deeper immediately.",
+          "likes": 6,
+          "published_at": "2026-02-18T09:05:31Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "underrated",
+              "polarity": "positive"
+            },
+            {
+              "token": "deeper",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@laura1000",
+          "text": "\"Final meal\" sounds ominous.",
+          "likes": 34,
+          "published_at": "2026-02-18T19:36:57Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "ominous",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@dbszady",
+          "text": "Gotta love these videos that say not to do things after a specific time as though the whole world only works normal hours",
+          "likes": 5,
+          "published_at": "2026-03-25T04:09:08Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "not",
+              "polarity": "negative"
+            },
+            {
+              "token": "specific",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@KwehKwehKweh",
+          "text": "9:37 instructions unclear ate bread and rice 😂",
+          "likes": 11,
+          "published_at": "2026-02-23T07:33:21Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "unclear",
+              "polarity": "negative"
+            },
+            {
+              "token": "ate",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "neutral": [],
+      "all": [
+        {
+          "author": "@Bodydecoding",
+          "text": "This video is a total game-changer for me! 🌙 Huge thanks to LazyFit Science for such a deep dive into the relationship between Insulin and Growth Hormone (GH). I never realized that a simple late-night snack could literally 'shut down' my body’s natural fat-burning mode for the entire night.\n\nThe breakdown of the 3-hour cutoff rule and prioritizing protein/fats for the final meal makes so much sense and is actually doable. I love how you explain the complex biology in such a logical and engaging way. ✨\n\nI’m starting this protocol tonight! Looking forward to more bio-optimization tips from the channel! 🧘‍♂️💪🔥",
+          "likes": 15,
+          "published_at": "2026-03-30T03:53:00Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "game-changer",
+              "polarity": "positive"
+            },
+            {
+              "token": "thanks",
+              "polarity": "positive"
+            },
+            {
+              "token": "love",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@vgcq02",
+          "text": "It’s almost 10 pm and my DoorDash is arriving",
+          "likes": 230,
+          "published_at": "2026-02-18T13:14:33Z",
+          "label": "Positive",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "almost",
+              "polarity": "positive"
+            },
+            {
+              "token": "arriving",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@foggy4125",
+          "text": "Me eating Taco Bell at 10:38 pm 👁️ 👄 👁️",
+          "likes": 65,
+          "published_at": "2026-02-23T03:38:30Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Taco Bell",
+              "polarity": "positive"
+            },
+            {
+              "token": "eating",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@StarGazerJim",
+          "text": "I don’t consume any calories between dinner (usually finished by 6pm) and breakfast (normally about 7am). That’s a 13 hour fast. I’ve been doing this rigidly for the last 11 months and am down 85lbs so far.",
+          "likes": 149,
+          "published_at": "2026-02-20T03:04:34Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "down",
+              "polarity": "positive"
+            },
+            {
+              "token": "85lbs",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@laura1000",
+          "text": "\"Final meal\" sounds ominous.",
+          "likes": 34,
+          "published_at": "2026-02-18T19:36:57Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "ominous",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@dbszady",
+          "text": "Gotta love these videos that say not to do things after a specific time as though the whole world only works normal hours",
+          "likes": 5,
+          "published_at": "2026-03-25T04:09:08Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "not",
+              "polarity": "negative"
+            },
+            {
+              "token": "specific",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@Health.Mic1",
+          "text": "Here’s me waiting for my pizza to come at almost midnight😂",
+          "likes": 0,
+          "published_at": "2026-05-13T15:33:23Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "waiting",
+              "polarity": "positive"
+            },
+            {
+              "token": "come",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@KwehKwehKweh",
+          "text": "9:37 instructions unclear ate bread and rice 😂",
+          "likes": 11,
+          "published_at": "2026-02-23T07:33:21Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "unclear",
+              "polarity": "negative"
+            },
+            {
+              "token": "ate",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@theresecooper3034",
+          "text": "I fast from dinner about 5:30, until around 9 or 10 a.m. I try for 14-16 hour fast.",
+          "likes": 9,
+          "published_at": "2026-02-24T04:09:54Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "fast",
+              "polarity": "positive"
+            },
+            {
+              "token": "try",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@StickManNoah",
+          "text": "Room temperature tip is underrated, sleep felt deeper immediately.",
+          "likes": 6,
+          "published_at": "2026-02-18T09:05:31Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "underrated",
+              "polarity": "positive"
+            },
+            {
+              "token": "deeper",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "qgVoAItRSBI": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "No transcript available.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@irudayasamy-l4o",
+          "text": "Thanks great information.i am 82 from Delhi India",
+          "likes": 2,
+          "published_at": "2026-05-20T17:08:24Z",
+          "label": "Positive",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "great",
+              "polarity": "positive"
+            },
+            {
+              "token": "thanks",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@SilverFit-p4b",
+          "text": "Important reminder! 🙏 It’s great to see awareness about how and when to take medications safely. Helping seniors stay informed can make a real difference in managing their health—thanks for sharing this valuable insight! 💛",
+          "likes": 6,
+          "published_at": "2026-04-28T18:11:59Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "great",
+              "polarity": "positive"
+            },
+            {
+              "token": "valuable",
+              "polarity": "positive"
+            },
+            {
+              "token": "thanks",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@kevinwalsh4548",
+          "text": "Great information, but to much  story in between.  I love it when they get to the point and not take a 1/2 our to hour to get to the point.",
+          "likes": 12,
+          "published_at": "2026-05-02T19:18:47Z",
+          "label": "Negative",
+          "score": 0.63,
+          "highlightTokens": [
+            {
+              "token": "to much",
+              "polarity": "negative"
+            },
+            {
+              "token": "story",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@deepakdm1950",
+          "text": "The video takes you through various incidents of mishaps,rarely telling when to take the medicine and why.",
+          "likes": 8,
+          "published_at": "2026-05-02T06:28:43Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "mishaps",
+              "polarity": "negative"
+            },
+            {
+              "token": "rarely",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@alexantollin564",
+          "text": "should be finished in 10 seconds",
+          "likes": 12,
+          "published_at": "2026-05-02T04:32:05Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "finished",
+              "polarity": "negative"
+            },
+            {
+              "token": "seconds",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@valeriekaiser9915",
+          "text": "Blocking you! Too much beating around the bush! 😩",
+          "likes": 30,
+          "published_at": "2026-04-25T03:00:32Z",
+          "label": "Negative",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "beating",
+              "polarity": "negative"
+            },
+            {
+              "token": "bush",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@euniceajayi5101",
+          "text": "It would nave been with less tajk and to the point",
+          "likes": 18,
+          "published_at": "2026-04-27T18:02:30Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "nave",
+              "polarity": "negative"
+            },
+            {
+              "token": "tajk",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@RoseMotsei",
+          "text": "Dr go straight to the point not stories",
+          "likes": 39,
+          "published_at": "2026-04-25T19:51:49Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "not",
+              "polarity": "negative"
+            },
+            {
+              "token": "stories",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@peggygolea5292",
+          "text": "So much info and warnings \nDon't know what makes sense anymore",
+          "likes": 3,
+          "published_at": "2026-05-11T21:19:05Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "info",
+              "polarity": "negative"
+            },
+            {
+              "token": "warnings",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@beverlygrant6162",
+          "text": "I’ve never taken my pressure pills at night",
+          "likes": 6,
+          "published_at": "2026-04-26T22:49:26Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "never",
+              "polarity": "negative"
+            },
+            {
+              "token": "pressure",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "neutral": [],
+      "all": [
+        {
+          "author": "@kevinwalsh4548",
+          "text": "Great information, but to much  story in between.  I love it when they get to the point and not take a 1/2 our to hour to get to the point.",
+          "likes": 12,
+          "published_at": "2026-05-02T19:18:47Z",
+          "label": "Negative",
+          "score": 0.63,
+          "highlightTokens": [
+            {
+              "token": "to much",
+              "polarity": "negative"
+            },
+            {
+              "token": "story",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@irudayasamy-l4o",
+          "text": "Thanks great information.i am 82 from Delhi India",
+          "likes": 2,
+          "published_at": "2026-05-20T17:08:24Z",
+          "label": "Positive",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "great",
+              "polarity": "positive"
+            },
+            {
+              "token": "thanks",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@deepakdm1950",
+          "text": "The video takes you through various incidents of mishaps,rarely telling when to take the medicine and why.",
+          "likes": 8,
+          "published_at": "2026-05-02T06:28:43Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "mishaps",
+              "polarity": "negative"
+            },
+            {
+              "token": "rarely",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@alexantollin564",
+          "text": "should be finished in 10 seconds",
+          "likes": 12,
+          "published_at": "2026-05-02T04:32:05Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "finished",
+              "polarity": "negative"
+            },
+            {
+              "token": "seconds",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@valeriekaiser9915",
+          "text": "Blocking you! Too much beating around the bush! 😩",
+          "likes": 30,
+          "published_at": "2026-04-25T03:00:32Z",
+          "label": "Negative",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "beating",
+              "polarity": "negative"
+            },
+            {
+              "token": "bush",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@euniceajayi5101",
+          "text": "It would nave been with less tajk and to the point",
+          "likes": 18,
+          "published_at": "2026-04-27T18:02:30Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "nave",
+              "polarity": "negative"
+            },
+            {
+              "token": "tajk",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@SilverFit-p4b",
+          "text": "Important reminder! 🙏 It’s great to see awareness about how and when to take medications safely. Helping seniors stay informed can make a real difference in managing their health—thanks for sharing this valuable insight! 💛",
+          "likes": 6,
+          "published_at": "2026-04-28T18:11:59Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "great",
+              "polarity": "positive"
+            },
+            {
+              "token": "valuable",
+              "polarity": "positive"
+            },
+            {
+              "token": "thanks",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@RoseMotsei",
+          "text": "Dr go straight to the point not stories",
+          "likes": 39,
+          "published_at": "2026-04-25T19:51:49Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "not",
+              "polarity": "negative"
+            },
+            {
+              "token": "stories",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@peggygolea5292",
+          "text": "So much info and warnings \nDon't know what makes sense anymore",
+          "likes": 3,
+          "published_at": "2026-05-11T21:19:05Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "info",
+              "polarity": "negative"
+            },
+            {
+              "token": "warnings",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@beverlygrant6162",
+          "text": "I’ve never taken my pressure pills at night",
+          "likes": 6,
+          "published_at": "2026-04-26T22:49:26Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "never",
+              "polarity": "negative"
+            },
+            {
+              "token": "pressure",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "t_V0SPjS_Vw": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "No transcript available.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@TebeBeatrice",
+          "text": "Great",
+          "likes": 0,
+          "published_at": "2026-05-15T16:38:46Z",
+          "label": "Positive",
+          "score": 0.9,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@leenateh5004",
+          "text": "Can a stage 3 kidney take avocado and egg york? Thank you dear doctor❤❤❤",
+          "likes": 1,
+          "published_at": "2026-05-13T12:14:18Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "dear",
+              "polarity": "positive"
+            },
+            {
+              "token": "❤❤❤",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@tammysheridanwy2353",
+          "text": "Thank You Tammy Sheridan OHIO 78",
+          "likes": 0,
+          "published_at": "2026-05-15T01:57:03Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "You",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@pedrowanpedro5495",
+          "text": "hello good afternoon dr.",
+          "likes": 0,
+          "published_at": "2026-05-22T10:02:53Z",
+          "label": "Positive",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "good",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [],
+      "neutral": [
+        {
+          "author": "@heama1840",
+          "text": "66 yrs old, after taking Avacode my FBS decreased but PPS remains 200",
+          "likes": 0,
+          "published_at": "2026-05-14T08:17:54Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "decreased",
+              "polarity": "positive"
+            },
+            {
+              "token": "remains",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@TebeBeatrice",
+          "text": "Great",
+          "likes": 0,
+          "published_at": "2026-05-15T16:38:46Z",
+          "label": "Positive",
+          "score": 0.9,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@leenateh5004",
+          "text": "Can a stage 3 kidney take avocado and egg york? Thank you dear doctor❤❤❤",
+          "likes": 1,
+          "published_at": "2026-05-13T12:14:18Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "dear",
+              "polarity": "positive"
+            },
+            {
+              "token": "❤❤❤",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@tammysheridanwy2353",
+          "text": "Thank You Tammy Sheridan OHIO 78",
+          "likes": 0,
+          "published_at": "2026-05-15T01:57:03Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "You",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@heama1840",
+          "text": "66 yrs old, after taking Avacode my FBS decreased but PPS remains 200",
+          "likes": 0,
+          "published_at": "2026-05-14T08:17:54Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "decreased",
+              "polarity": "positive"
+            },
+            {
+              "token": "remains",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@pedrowanpedro5495",
+          "text": "hello good afternoon dr.",
+          "likes": 0,
+          "published_at": "2026-05-22T10:02:53Z",
+          "label": "Positive",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "good",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ]
+    }
   }
 }
