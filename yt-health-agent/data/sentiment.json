@@ -419851,5 +419851,1479 @@
         }
       ]
     }
+  },
+  "EyVkC5QbOFo": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "Analysis failed.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@ryane5203",
+          "text": "*Urolithin A (Mitopure)*\n * **What it does:** Triggers mitophagy to clear out damaged mitochondria and replace them with healthy ones, boosting cellular energy and slowing down aging.\n * **Why juice fails:** Only 30–40% of people have the gut bacteria to convert pomegranate juice into Urolithin A; direct supplementation bypasses this.\n * **Dosing & timing:** Clinical dose is 500mg to 1,000mg daily. It takes 2 to 4 months of consistent use to feel the systemic benefits, though skin wrinkles reduce in 2 to 8 weeks.\n * **Key proof:** Human trials show increased longevity immune cells (NK and CD8) with lower inflammation, while animal models showed a 40% boost in endurance.",
+          "likes": 62,
+          "published_at": "2026-05-21T14:12:35Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "boosting",
+              "polarity": "positive"
+            },
+            {
+              "token": "slowing down aging",
+              "polarity": "positive"
+            },
+            {
+              "token": "longevity",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@winstonallen6933",
+          "text": "Solve inflammation by grounding yourself and fasting. It's way less expensive.",
+          "likes": 10,
+          "published_at": "2026-05-21T23:16:57Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "grounding",
+              "polarity": "positive"
+            },
+            {
+              "token": "less",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@omare7475",
+          "text": "His monotone is better than sleeping pills.",
+          "likes": 5,
+          "published_at": "2026-05-22T02:18:31Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "monotone",
+              "polarity": "positive"
+            },
+            {
+              "token": "better",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@JamalJamal-xi2nt",
+          "text": "My cousin laughed at me for reading Smart Broke Dumb Rich by Zor Veyl. Funny thing is he asked to borrow money again last month. I said no without any guilt this time.",
+          "likes": 57,
+          "published_at": "2026-05-22T18:33:06Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "laughed",
+              "polarity": "positive"
+            },
+            {
+              "token": "Funny",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@DefiDigiTek",
+          "text": "Very interesting indeed",
+          "likes": 5,
+          "published_at": "2026-05-21T14:24:49Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "interesting",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@Surf_Salt",
+          "text": "It's super sus that all these supposed ageing/biohacking gurus, Asprey, Sinclair, etc all look like their faces are ageing the same as everyone else their age.  Some actual visual effects would be nice to see, especially on the people promoting the products",
+          "likes": 18,
+          "published_at": "2026-05-21T22:04:42Z",
+          "label": "Negative",
+          "score": 0.73,
+          "highlightTokens": [
+            {
+              "token": "sus",
+              "polarity": "negative"
+            },
+            {
+              "token": "ageing",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@allisonbush6807",
+          "text": "I’m 63 consistently taking 1,000 mg a day and saw no change at all after taking over 6 bags of Mitopure by Timeline!",
+          "likes": 9,
+          "published_at": "2026-05-24T05:30:51Z",
+          "label": "Negative",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "no",
+              "polarity": "negative"
+            },
+            {
+              "token": "change",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@mariekirby1683",
+          "text": "I would love Timeline to get their act together with shipping to Australia.  I asked them a while ago when they would ship to us here and they said they were doing their best.  In the meantime, other suppliers here are ripping us off and we're not even sure it's the genuine product.",
+          "likes": 4,
+          "published_at": "2026-05-22T21:15:33Z",
+          "label": "Negative",
+          "score": 0.63,
+          "highlightTokens": [
+            {
+              "token": "rip",
+              "polarity": "negative"
+            },
+            {
+              "token": "off",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@ZZZZ-mkv",
+          "text": "Another sales infomercial for TimeLine?  Dave, you've done half a dozen of these already.",
+          "likes": 6,
+          "published_at": "2026-05-21T18:29:30Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "sales",
+              "polarity": "negative"
+            },
+            {
+              "token": "infomercial",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "neutral": [
+        {
+          "author": "@belindas7299",
+          "text": "If I didn't have my red light panel, I might take it in the Winter.  Other than that, I  prefer the natural free sunlight☀️",
+          "likes": 0,
+          "published_at": "2026-05-26T07:45:10Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "prefer",
+              "polarity": "positive"
+            },
+            {
+              "token": "natural",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@ryane5203",
+          "text": "*Urolithin A (Mitopure)*\n * **What it does:** Triggers mitophagy to clear out damaged mitochondria and replace them with healthy ones, boosting cellular energy and slowing down aging.\n * **Why juice fails:** Only 30–40% of people have the gut bacteria to convert pomegranate juice into Urolithin A; direct supplementation bypasses this.\n * **Dosing & timing:** Clinical dose is 500mg to 1,000mg daily. It takes 2 to 4 months of consistent use to feel the systemic benefits, though skin wrinkles reduce in 2 to 8 weeks.\n * **Key proof:** Human trials show increased longevity immune cells (NK and CD8) with lower inflammation, while animal models showed a 40% boost in endurance.",
+          "likes": 62,
+          "published_at": "2026-05-21T14:12:35Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "boosting",
+              "polarity": "positive"
+            },
+            {
+              "token": "slowing down aging",
+              "polarity": "positive"
+            },
+            {
+              "token": "longevity",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@winstonallen6933",
+          "text": "Solve inflammation by grounding yourself and fasting. It's way less expensive.",
+          "likes": 10,
+          "published_at": "2026-05-21T23:16:57Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "grounding",
+              "polarity": "positive"
+            },
+            {
+              "token": "less",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Surf_Salt",
+          "text": "It's super sus that all these supposed ageing/biohacking gurus, Asprey, Sinclair, etc all look like their faces are ageing the same as everyone else their age.  Some actual visual effects would be nice to see, especially on the people promoting the products",
+          "likes": 18,
+          "published_at": "2026-05-21T22:04:42Z",
+          "label": "Negative",
+          "score": 0.73,
+          "highlightTokens": [
+            {
+              "token": "sus",
+              "polarity": "negative"
+            },
+            {
+              "token": "ageing",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@allisonbush6807",
+          "text": "I’m 63 consistently taking 1,000 mg a day and saw no change at all after taking over 6 bags of Mitopure by Timeline!",
+          "likes": 9,
+          "published_at": "2026-05-24T05:30:51Z",
+          "label": "Negative",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "no",
+              "polarity": "negative"
+            },
+            {
+              "token": "change",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@mariekirby1683",
+          "text": "I would love Timeline to get their act together with shipping to Australia.  I asked them a while ago when they would ship to us here and they said they were doing their best.  In the meantime, other suppliers here are ripping us off and we're not even sure it's the genuine product.",
+          "likes": 4,
+          "published_at": "2026-05-22T21:15:33Z",
+          "label": "Negative",
+          "score": 0.63,
+          "highlightTokens": [
+            {
+              "token": "rip",
+              "polarity": "negative"
+            },
+            {
+              "token": "off",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@ZZZZ-mkv",
+          "text": "Another sales infomercial for TimeLine?  Dave, you've done half a dozen of these already.",
+          "likes": 6,
+          "published_at": "2026-05-21T18:29:30Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "sales",
+              "polarity": "negative"
+            },
+            {
+              "token": "infomercial",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@omare7475",
+          "text": "His monotone is better than sleeping pills.",
+          "likes": 5,
+          "published_at": "2026-05-22T02:18:31Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "monotone",
+              "polarity": "positive"
+            },
+            {
+              "token": "better",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@JamalJamal-xi2nt",
+          "text": "My cousin laughed at me for reading Smart Broke Dumb Rich by Zor Veyl. Funny thing is he asked to borrow money again last month. I said no without any guilt this time.",
+          "likes": 57,
+          "published_at": "2026-05-22T18:33:06Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "laughed",
+              "polarity": "positive"
+            },
+            {
+              "token": "Funny",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@DefiDigiTek",
+          "text": "Very interesting indeed",
+          "likes": 5,
+          "published_at": "2026-05-21T14:24:49Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "interesting",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@belindas7299",
+          "text": "If I didn't have my red light panel, I might take it in the Winter.  Other than that, I  prefer the natural free sunlight☀️",
+          "likes": 0,
+          "published_at": "2026-05-26T07:45:10Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "prefer",
+              "polarity": "positive"
+            },
+            {
+              "token": "natural",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "SsYTFQCtXW8": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "Analysis failed.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@evecollins6884",
+          "text": "Thank you, thank you, thank you for the well for info, I had this conversation with my brother a month ago. I came across some info I was reading about the creatine, which is a test for kidney, I told my brother to check it out. This is no coincidence my confirmation. I’m not claiming anything negative for myself for my brother. I’m happy I came across this info, please keep bringing valuable info, because too many, too many, too many actors I believe purposely do not tell their patients!!! Again, thank you.",
+          "likes": 3,
+          "published_at": "2026-05-06T01:38:24Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "happy",
+              "polarity": "positive"
+            },
+            {
+              "token": "valuable",
+              "polarity": "positive"
+            },
+            {
+              "token": "thank",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@chongjonathan3906",
+          "text": "Take calcium tablets to grow hairs on your head",
+          "likes": 2,
+          "published_at": "2026-05-07T22:50:34Z",
+          "label": "Positive",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "grow",
+              "polarity": "positive"
+            },
+            {
+              "token": "hairs",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@kenpolley2155",
+          "text": "Fake Dr. Mandel",
+          "likes": 13,
+          "published_at": "2026-05-08T01:42:11Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "Fake",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@bruce7219",
+          "text": "This is stolen from motivationaldoc.",
+          "likes": 12,
+          "published_at": "2026-05-08T01:38:43Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "stolen",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@KathyBarry-p1n",
+          "text": "Not Dr Mandel,,,,If you check first,,,Bottom left,,,",
+          "likes": 4,
+          "published_at": "2026-05-08T15:31:39Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "Not",
+              "polarity": "negative"
+            },
+            {
+              "token": "first",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@carlagarrett8584",
+          "text": "Another thing to worry about 😢is",
+          "likes": 0,
+          "published_at": "2026-05-11T07:38:01Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "worry",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@KathyMacDonald-b8m",
+          "text": "This is AI crap, using STOLEN images and voice.\nREPORT  REPORT  REPORT!",
+          "likes": 3,
+          "published_at": "2026-05-09T14:25:52Z",
+          "label": "Negative",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "crap",
+              "polarity": "negative"
+            },
+            {
+              "token": "STOLEN",
+              "polarity": "negative"
+            },
+            {
+              "token": "REPORT",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "neutral": [],
+      "all": [
+        {
+          "author": "@kenpolley2155",
+          "text": "Fake Dr. Mandel",
+          "likes": 13,
+          "published_at": "2026-05-08T01:42:11Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "Fake",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@evecollins6884",
+          "text": "Thank you, thank you, thank you for the well for info, I had this conversation with my brother a month ago. I came across some info I was reading about the creatine, which is a test for kidney, I told my brother to check it out. This is no coincidence my confirmation. I’m not claiming anything negative for myself for my brother. I’m happy I came across this info, please keep bringing valuable info, because too many, too many, too many actors I believe purposely do not tell their patients!!! Again, thank you.",
+          "likes": 3,
+          "published_at": "2026-05-06T01:38:24Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "happy",
+              "polarity": "positive"
+            },
+            {
+              "token": "valuable",
+              "polarity": "positive"
+            },
+            {
+              "token": "thank",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@bruce7219",
+          "text": "This is stolen from motivationaldoc.",
+          "likes": 12,
+          "published_at": "2026-05-08T01:38:43Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "stolen",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@KathyBarry-p1n",
+          "text": "Not Dr Mandel,,,,If you check first,,,Bottom left,,,",
+          "likes": 4,
+          "published_at": "2026-05-08T15:31:39Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "Not",
+              "polarity": "negative"
+            },
+            {
+              "token": "first",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@chongjonathan3906",
+          "text": "Take calcium tablets to grow hairs on your head",
+          "likes": 2,
+          "published_at": "2026-05-07T22:50:34Z",
+          "label": "Positive",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "grow",
+              "polarity": "positive"
+            },
+            {
+              "token": "hairs",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@carlagarrett8584",
+          "text": "Another thing to worry about 😢is",
+          "likes": 0,
+          "published_at": "2026-05-11T07:38:01Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "worry",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@KathyMacDonald-b8m",
+          "text": "This is AI crap, using STOLEN images and voice.\nREPORT  REPORT  REPORT!",
+          "likes": 3,
+          "published_at": "2026-05-09T14:25:52Z",
+          "label": "Negative",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "crap",
+              "polarity": "negative"
+            },
+            {
+              "token": "STOLEN",
+              "polarity": "negative"
+            },
+            {
+              "token": "REPORT",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "Wj6RCSnkUoQ": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "Analysis failed.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@deanpesci8484",
+          "text": "I am 69 and have not been sick since contracting whooping caugh in 2011.  Not one day in bed since.  No vax.  Whole foods. Excercise. A few key supps.  Lots of sun on bare skin. I do take a few shots of pure pom juice each week, and actually eat one or two a week.  All Good.",
+          "likes": 18,
+          "published_at": "2026-03-21T15:14:44Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Good",
+              "polarity": "positive"
+            },
+            {
+              "token": "All",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@mikef3939",
+          "text": "Here's what you do. Get an akermansia supplement. Take it for about a month while you start eating pomegranates, pomegranate juice,  walnuts, cranberries and other high fiber foods that the akermansia microbes feed off of. The byproducts of the akermansia with the help of short chain fatty acids produce urolithin A. A month should be long enough for the akermansia to get a foothold (stop the akermansia supplement) in your gut, as long as you continue to eat the fibers it prefers.",
+          "likes": 21,
+          "published_at": "2026-03-21T18:32:24Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "akermansia",
+              "polarity": "positive"
+            },
+            {
+              "token": "high fiber foods",
+              "polarity": "positive"
+            },
+            {
+              "token": "urolithin A",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@faatimamadsen2351",
+          "text": "Been taking Mitopure for 3 weeks. It’s a life saving supplement!!!! I absolutely started feeling my muscles  fee stronger and brain 🧠feeling contente . I’m in my 60s and feeling amazing in such a short time- I take 1,000 a day",
+          "likes": 4,
+          "published_at": "2026-03-23T00:29:32Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "life saving",
+              "polarity": "positive"
+            },
+            {
+              "token": "stronger",
+              "polarity": "positive"
+            },
+            {
+              "token": "contente",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Raadaaem",
+          "text": "Dave, your  insights are impeccable. Did you know that pomegranate fruit images decorated the temple in Jerusalem.  Evidently, highly regarded. You are on to something I have indulged in for many years. A few ounces a day fits my goals for longevity. Keep up the good work.",
+          "likes": 3,
+          "published_at": "2026-03-23T04:27:41Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "impeccable",
+              "polarity": "positive"
+            },
+            {
+              "token": "regarded",
+              "polarity": "positive"
+            },
+            {
+              "token": "indulged",
+              "polarity": "neutral"
+            },
+            {
+              "token": "good work",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@eduardobarreto6095",
+          "text": "Thank god i live in peru they are very common here",
+          "likes": 6,
+          "published_at": "2026-03-21T14:46:14Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "god",
+              "polarity": "positive"
+            },
+            {
+              "token": "common",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@catherinerossblair8727",
+          "text": "Fabulous video Dave. Started drinking 100 cc's of Pomegranate juice about a year ago so I should be good to go. Take Mitopure occasionally and purchase when Timeline does a great 40% off. I also take Akkermansia everyday. No Vaxx's, Black Seed Cumin Oil almost everyday along with Astaxanthin, oh and Vitamin DAKE as Vitamin D is a Miracle  hormone. Not even a cold again this past year. Whole organic fresh food. Great exercise-walking. Let Food Be Thy Medicine.💖ps-Like the well documented research with Mitopure. ❤Thanks Dave.",
+          "likes": 3,
+          "published_at": "2026-03-25T11:34:51Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Fabulous",
+              "polarity": "positive"
+            },
+            {
+              "token": "Miracle",
+              "polarity": "positive"
+            },
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "Thanks",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@MeduFiles",
+          "text": "Thank You Daveeeeeeeeeee 💜💜💜💜!!",
+          "likes": 0,
+          "published_at": "2026-03-29T21:01:18Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "You",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Nxjbrkw13940",
+          "text": "It's been quite a while since I watched Dave's channel. I've been busy lately. I'm going to start today by watching Dave's latest update video. I like that Dave is consistent with his activities. Thank you so much for sharing so much useful information. ",
+          "likes": 0,
+          "published_at": "2026-03-22T05:37:59Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Dave",
+              "polarity": "positive"
+            },
+            {
+              "token": "useful",
+              "polarity": "positive"
+            },
+            {
+              "token": "consistent",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@jasonr9916",
+          "text": "Great information!   Thanks Dave.",
+          "likes": 2,
+          "published_at": "2026-03-21T16:02:49Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "Thanks",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@ibuairweinberger",
+          "text": "The never ending product ad wheel",
+          "likes": 5,
+          "published_at": "2026-03-22T03:51:11Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "ending",
+              "polarity": "negative"
+            },
+            {
+              "token": "wheel",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "neutral": [],
+      "all": [
+        {
+          "author": "@deanpesci8484",
+          "text": "I am 69 and have not been sick since contracting whooping caugh in 2011.  Not one day in bed since.  No vax.  Whole foods. Excercise. A few key supps.  Lots of sun on bare skin. I do take a few shots of pure pom juice each week, and actually eat one or two a week.  All Good.",
+          "likes": 18,
+          "published_at": "2026-03-21T15:14:44Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Good",
+              "polarity": "positive"
+            },
+            {
+              "token": "All",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@mikef3939",
+          "text": "Here's what you do. Get an akermansia supplement. Take it for about a month while you start eating pomegranates, pomegranate juice,  walnuts, cranberries and other high fiber foods that the akermansia microbes feed off of. The byproducts of the akermansia with the help of short chain fatty acids produce urolithin A. A month should be long enough for the akermansia to get a foothold (stop the akermansia supplement) in your gut, as long as you continue to eat the fibers it prefers.",
+          "likes": 21,
+          "published_at": "2026-03-21T18:32:24Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "akermansia",
+              "polarity": "positive"
+            },
+            {
+              "token": "high fiber foods",
+              "polarity": "positive"
+            },
+            {
+              "token": "urolithin A",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@faatimamadsen2351",
+          "text": "Been taking Mitopure for 3 weeks. It’s a life saving supplement!!!! I absolutely started feeling my muscles  fee stronger and brain 🧠feeling contente . I’m in my 60s and feeling amazing in such a short time- I take 1,000 a day",
+          "likes": 4,
+          "published_at": "2026-03-23T00:29:32Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "life saving",
+              "polarity": "positive"
+            },
+            {
+              "token": "stronger",
+              "polarity": "positive"
+            },
+            {
+              "token": "contente",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Raadaaem",
+          "text": "Dave, your  insights are impeccable. Did you know that pomegranate fruit images decorated the temple in Jerusalem.  Evidently, highly regarded. You are on to something I have indulged in for many years. A few ounces a day fits my goals for longevity. Keep up the good work.",
+          "likes": 3,
+          "published_at": "2026-03-23T04:27:41Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "impeccable",
+              "polarity": "positive"
+            },
+            {
+              "token": "regarded",
+              "polarity": "positive"
+            },
+            {
+              "token": "indulged",
+              "polarity": "neutral"
+            },
+            {
+              "token": "good work",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@ibuairweinberger",
+          "text": "The never ending product ad wheel",
+          "likes": 5,
+          "published_at": "2026-03-22T03:51:11Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "ending",
+              "polarity": "negative"
+            },
+            {
+              "token": "wheel",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@eduardobarreto6095",
+          "text": "Thank god i live in peru they are very common here",
+          "likes": 6,
+          "published_at": "2026-03-21T14:46:14Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "god",
+              "polarity": "positive"
+            },
+            {
+              "token": "common",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@catherinerossblair8727",
+          "text": "Fabulous video Dave. Started drinking 100 cc's of Pomegranate juice about a year ago so I should be good to go. Take Mitopure occasionally and purchase when Timeline does a great 40% off. I also take Akkermansia everyday. No Vaxx's, Black Seed Cumin Oil almost everyday along with Astaxanthin, oh and Vitamin DAKE as Vitamin D is a Miracle  hormone. Not even a cold again this past year. Whole organic fresh food. Great exercise-walking. Let Food Be Thy Medicine.💖ps-Like the well documented research with Mitopure. ❤Thanks Dave.",
+          "likes": 3,
+          "published_at": "2026-03-25T11:34:51Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Fabulous",
+              "polarity": "positive"
+            },
+            {
+              "token": "Miracle",
+              "polarity": "positive"
+            },
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "Thanks",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@MeduFiles",
+          "text": "Thank You Daveeeeeeeeeee 💜💜💜💜!!",
+          "likes": 0,
+          "published_at": "2026-03-29T21:01:18Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "You",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Nxjbrkw13940",
+          "text": "It's been quite a while since I watched Dave's channel. I've been busy lately. I'm going to start today by watching Dave's latest update video. I like that Dave is consistent with his activities. Thank you so much for sharing so much useful information. ",
+          "likes": 0,
+          "published_at": "2026-03-22T05:37:59Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Dave",
+              "polarity": "positive"
+            },
+            {
+              "token": "useful",
+              "polarity": "positive"
+            },
+            {
+              "token": "consistent",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@jasonr9916",
+          "text": "Great information!   Thanks Dave.",
+          "likes": 2,
+          "published_at": "2026-03-21T16:02:49Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "Thanks",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "kvIbjWv4GUs": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "Analysis failed.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@danaaustin7647",
+          "text": "You two could have elaborated for three hours and I would have listened all the way through!!!!!",
+          "likes": 0,
+          "published_at": "2026-05-31T22:52:55Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "elaborated",
+              "polarity": "positive"
+            },
+            {
+              "token": "listened",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@cryptomagus5555",
+          "text": "I really appreciate the conversation with humour and breadth of areas reviewed for lifestyles and choices giving a gestalt medecine of longevity. \nI am quite on board for the journey !",
+          "likes": 1,
+          "published_at": "2026-05-20T20:36:25Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "appreciate",
+              "polarity": "positive"
+            },
+            {
+              "token": "humour",
+              "polarity": "positive"
+            },
+            {
+              "token": "on board",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@danaaustin7647",
+          "text": "I agree misleading title!!    Great full conversation!",
+          "likes": 0,
+          "published_at": "2026-05-31T22:53:53Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "conversation",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@LindaColeman-f5y",
+          "text": "Please talk about RA and longevity!  Thank you! 💕",
+          "likes": 0,
+          "published_at": "2026-05-26T14:54:52Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "you",
+              "polarity": "neutral"
+            },
+            {
+              "token": "💕",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@MsHohoyo",
+          "text": "great conversation!",
+          "likes": 1,
+          "published_at": "2026-05-23T10:20:07Z",
+          "label": "Positive",
+          "score": 0.9,
+          "highlightTokens": [
+            {
+              "token": "great",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Raadaaem",
+          "text": "Cortizol is the undefeated king of body system regulation. Even insulin bows down to the king.",
+          "likes": 1,
+          "published_at": "2026-05-22T19:46:37Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "king",
+              "polarity": "positive"
+            },
+            {
+              "token": "bows down",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@JimenaXX-ks2jn",
+          "text": "I do not agree 100% with all the rules we had to follow during  Covid but I wish this interviewers could have more respect towards all the people that had to die during covid. \nI have friends that lost their loved ones because of it and it was very real for them.",
+          "likes": 7,
+          "published_at": "2026-05-20T01:03:28Z",
+          "label": "Negative",
+          "score": 0.63,
+          "highlightTokens": [
+            {
+              "token": "do not agree",
+              "polarity": "negative"
+            },
+            {
+              "token": "die",
+              "polarity": "negative"
+            },
+            {
+              "token": "lost",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@kierali",
+          "text": "Thank you Dave, so glad you had the real on the 'Spanish Flu' what a scam.  Terrain vs Germ...",
+          "likes": 1,
+          "published_at": "2026-05-20T06:52:09Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "scam",
+              "polarity": "negative"
+            },
+            {
+              "token": "what a",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@markreynolds4176",
+          "text": "Dave’s mic should be placed better. Can’t hear ya bro",
+          "likes": 0,
+          "published_at": "2026-05-20T05:50:01Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "Can’t",
+              "polarity": "negative"
+            },
+            {
+              "token": "hear",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "neutral": [
+        {
+          "author": "@lynnsanelli1838",
+          "text": "FYI Peptide talk doesn't start until 33 minutes in but lasts about a minute and then starts again at 47 min.  They need to change the topic name.",
+          "likes": 33,
+          "published_at": "2026-05-19T21:29:38Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "They",
+              "polarity": "neutral"
+            },
+            {
+              "token": "need",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@lynnsanelli1838",
+          "text": "FYI Peptide talk doesn't start until 33 minutes in but lasts about a minute and then starts again at 47 min.  They need to change the topic name.",
+          "likes": 33,
+          "published_at": "2026-05-19T21:29:38Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "They",
+              "polarity": "neutral"
+            },
+            {
+              "token": "need",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@danaaustin7647",
+          "text": "You two could have elaborated for three hours and I would have listened all the way through!!!!!",
+          "likes": 0,
+          "published_at": "2026-05-31T22:52:55Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "elaborated",
+              "polarity": "positive"
+            },
+            {
+              "token": "listened",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@cryptomagus5555",
+          "text": "I really appreciate the conversation with humour and breadth of areas reviewed for lifestyles and choices giving a gestalt medecine of longevity. \nI am quite on board for the journey !",
+          "likes": 1,
+          "published_at": "2026-05-20T20:36:25Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "appreciate",
+              "polarity": "positive"
+            },
+            {
+              "token": "humour",
+              "polarity": "positive"
+            },
+            {
+              "token": "on board",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@danaaustin7647",
+          "text": "I agree misleading title!!    Great full conversation!",
+          "likes": 0,
+          "published_at": "2026-05-31T22:53:53Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "conversation",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@LindaColeman-f5y",
+          "text": "Please talk about RA and longevity!  Thank you! 💕",
+          "likes": 0,
+          "published_at": "2026-05-26T14:54:52Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "you",
+              "polarity": "neutral"
+            },
+            {
+              "token": "💕",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@JimenaXX-ks2jn",
+          "text": "I do not agree 100% with all the rules we had to follow during  Covid but I wish this interviewers could have more respect towards all the people that had to die during covid. \nI have friends that lost their loved ones because of it and it was very real for them.",
+          "likes": 7,
+          "published_at": "2026-05-20T01:03:28Z",
+          "label": "Negative",
+          "score": 0.63,
+          "highlightTokens": [
+            {
+              "token": "do not agree",
+              "polarity": "negative"
+            },
+            {
+              "token": "die",
+              "polarity": "negative"
+            },
+            {
+              "token": "lost",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@MsHohoyo",
+          "text": "great conversation!",
+          "likes": 1,
+          "published_at": "2026-05-23T10:20:07Z",
+          "label": "Positive",
+          "score": 0.9,
+          "highlightTokens": [
+            {
+              "token": "great",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@kierali",
+          "text": "Thank you Dave, so glad you had the real on the 'Spanish Flu' what a scam.  Terrain vs Germ...",
+          "likes": 1,
+          "published_at": "2026-05-20T06:52:09Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "scam",
+              "polarity": "negative"
+            },
+            {
+              "token": "what a",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@markreynolds4176",
+          "text": "Dave’s mic should be placed better. Can’t hear ya bro",
+          "likes": 0,
+          "published_at": "2026-05-20T05:50:01Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "Can’t",
+              "polarity": "negative"
+            },
+            {
+              "token": "hear",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@Raadaaem",
+          "text": "Cortizol is the undefeated king of body system regulation. Even insulin bows down to the king.",
+          "likes": 1,
+          "published_at": "2026-05-22T19:46:37Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "king",
+              "polarity": "positive"
+            },
+            {
+              "token": "bows down",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ]
+    }
   }
 }
