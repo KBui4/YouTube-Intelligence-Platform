@@ -421325,5 +421325,1567 @@
         }
       ]
     }
+  },
+  "J88BZMzDSQM": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "Analysis failed.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@electric-lemonade",
+          "text": "I love cooking since I've turned vegan, so many opportunities to be creative and I've found several amazing recipes online",
+          "likes": 12,
+          "published_at": "2026-05-11T17:26:41Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "love",
+              "polarity": "positive"
+            },
+            {
+              "token": "amazing",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@starcatcher3691",
+          "text": "Tahini, or Sesame seeds, is also a calcium powerhouse.  Also iron.  Of course greens are also very good for bones.",
+          "likes": 7,
+          "published_at": "2026-05-11T19:05:36Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "powerhouse",
+              "polarity": "positive"
+            },
+            {
+              "token": "good",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@AwkwardPain",
+          "text": "Best thing about cooking with a plant based diet is not having to constantly worry about cross contamination.",
+          "likes": 1,
+          "published_at": "2026-05-16T05:12:23Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "best",
+              "polarity": "positive"
+            },
+            {
+              "token": "not",
+              "polarity": "neutral"
+            },
+            {
+              "token": "worry",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@G-Ii0n",
+          "text": "Some great ideas here. Thank you!",
+          "likes": 0,
+          "published_at": "2026-05-20T15:59:39Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "great",
+              "polarity": "positive"
+            },
+            {
+              "token": "thank",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@bernadettechute7998",
+          "text": "Great recipes!",
+          "likes": 0,
+          "published_at": "2026-05-15T07:43:28Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "recipes",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@firehorse1518",
+          "text": "Not even one min in and I gotta say Love the T-shirt ☘️✊🍉\nBack to watchin😋",
+          "likes": 0,
+          "published_at": "2026-05-27T19:05:06Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Love",
+              "polarity": "positive"
+            },
+            {
+              "token": "T-shirt",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@colleenbriand9964",
+          "text": "Great recipe ideas! Thanks 😊",
+          "likes": 0,
+          "published_at": "2026-05-14T17:14:54Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "Thanks",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@v0vch1kk",
+          "text": "You probably calculated the lentils as 400g and not 240g (after drained weight), one full can of luce lentils equals 18,5g protein. Thx for the inspiration though 🙌",
+          "likes": 0,
+          "published_at": "2026-05-19T05:26:16Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "Thx",
+              "polarity": "positive"
+            },
+            {
+              "token": "inspiration",
+              "polarity": "neutral"
+            },
+            {
+              "token": "lentils",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@msicottevt",
+          "text": "Love this",
+          "likes": 0,
+          "published_at": "2026-05-16T12:00:27Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Love",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@MichaelToub",
+          "text": "Great Video!",
+          "likes": 0,
+          "published_at": "2026-05-13T09:17:37Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "Video",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [],
+      "neutral": [],
+      "all": [
+        {
+          "author": "@electric-lemonade",
+          "text": "I love cooking since I've turned vegan, so many opportunities to be creative and I've found several amazing recipes online",
+          "likes": 12,
+          "published_at": "2026-05-11T17:26:41Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "love",
+              "polarity": "positive"
+            },
+            {
+              "token": "amazing",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@starcatcher3691",
+          "text": "Tahini, or Sesame seeds, is also a calcium powerhouse.  Also iron.  Of course greens are also very good for bones.",
+          "likes": 7,
+          "published_at": "2026-05-11T19:05:36Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "powerhouse",
+              "polarity": "positive"
+            },
+            {
+              "token": "good",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@AwkwardPain",
+          "text": "Best thing about cooking with a plant based diet is not having to constantly worry about cross contamination.",
+          "likes": 1,
+          "published_at": "2026-05-16T05:12:23Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "best",
+              "polarity": "positive"
+            },
+            {
+              "token": "not",
+              "polarity": "neutral"
+            },
+            {
+              "token": "worry",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@G-Ii0n",
+          "text": "Some great ideas here. Thank you!",
+          "likes": 0,
+          "published_at": "2026-05-20T15:59:39Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "great",
+              "polarity": "positive"
+            },
+            {
+              "token": "thank",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@bernadettechute7998",
+          "text": "Great recipes!",
+          "likes": 0,
+          "published_at": "2026-05-15T07:43:28Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "recipes",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@firehorse1518",
+          "text": "Not even one min in and I gotta say Love the T-shirt ☘️✊🍉\nBack to watchin😋",
+          "likes": 0,
+          "published_at": "2026-05-27T19:05:06Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Love",
+              "polarity": "positive"
+            },
+            {
+              "token": "T-shirt",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@colleenbriand9964",
+          "text": "Great recipe ideas! Thanks 😊",
+          "likes": 0,
+          "published_at": "2026-05-14T17:14:54Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "Thanks",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@v0vch1kk",
+          "text": "You probably calculated the lentils as 400g and not 240g (after drained weight), one full can of luce lentils equals 18,5g protein. Thx for the inspiration though 🙌",
+          "likes": 0,
+          "published_at": "2026-05-19T05:26:16Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "Thx",
+              "polarity": "positive"
+            },
+            {
+              "token": "inspiration",
+              "polarity": "neutral"
+            },
+            {
+              "token": "lentils",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@msicottevt",
+          "text": "Love this",
+          "likes": 0,
+          "published_at": "2026-05-16T12:00:27Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Love",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@MichaelToub",
+          "text": "Great Video!",
+          "likes": 0,
+          "published_at": "2026-05-13T09:17:37Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "Video",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "bJZuvc96ROk": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "Analysis failed.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@Edge2177",
+          "text": "My man needs to use Happy Cow.",
+          "likes": 23,
+          "published_at": "2026-03-11T04:58:22Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Happy",
+              "polarity": "positive"
+            },
+            {
+              "token": "Cow",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@EpicFailLife",
+          "text": "This guy gets invited to every wedding all over the world 😂",
+          "likes": 22,
+          "published_at": "2026-03-09T18:57:19Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "every",
+              "polarity": "positive"
+            },
+            {
+              "token": "wedding",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@ElinevadeLa",
+          "text": "bless Earthling Ed's new intern",
+          "likes": 13,
+          "published_at": "2026-03-09T17:39:08Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "bless",
+              "polarity": "positive"
+            },
+            {
+              "token": "Ed's",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@familiadereserva",
+          "text": "Vegan 101: download Happy Cow. Chiang Mai has so many vegan/vegetarian restaurants. Also, ask for \"Jai\" food and everyone will understand",
+          "likes": 5,
+          "published_at": "2026-03-15T09:08:58Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "vegan",
+              "polarity": "positive"
+            },
+            {
+              "token": "many",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@kindcounselor",
+          "text": "Wonderful video! As a vegan for 16 years I appreciated your explanations!",
+          "likes": 2,
+          "published_at": "2026-03-12T02:35:37Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "wonderful",
+              "polarity": "positive"
+            },
+            {
+              "token": "appreciated",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@ForeverVegan4theAnimals",
+          "text": "Great video! Would love to see you go back to Thailand during the vegan Jay festival!",
+          "likes": 4,
+          "published_at": "2026-03-09T22:45:45Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "love",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@jillianvanliew",
+          "text": "Daynesh: you say in your vid a few times that you're missing out on legumes, but keep in mind SOY beans are legumes (might not be WFPB as in tofu)!! But that is most of Asia--soy/tofu.",
+          "likes": 4,
+          "published_at": "2026-03-10T03:25:25Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "legumes",
+              "polarity": "positive"
+            },
+            {
+              "token": "SOY beans",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@annak3380",
+          "text": "Love your videos but this was extra! You made me laugh so much with your witty take on,well, everything! 😂😂😂\nLoved that you were with your parents too. \nLooking forward to the next one. 😊😊😊",
+          "likes": 3,
+          "published_at": "2026-03-09T19:31:40Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Love",
+              "polarity": "positive"
+            },
+            {
+              "token": "laugh",
+              "polarity": "positive"
+            },
+            {
+              "token": "witty",
+              "polarity": "positive"
+            },
+            {
+              "token": "Loved",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@PapayaJoy",
+          "text": "As someone that lives in Chang Mai, you're asking the wrong question. You say, \"gin jai'.. And follow up with jai?\"\n\nIn Mexico, it's called vegano which is why they understood you",
+          "likes": 11,
+          "published_at": "2026-03-10T05:08:44Z",
+          "label": "Negative",
+          "score": 0.63,
+          "highlightTokens": [
+            {
+              "token": "wrong",
+              "polarity": "negative"
+            },
+            {
+              "token": "jai'",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "neutral": [
+        {
+          "author": "@travo6805",
+          "text": "16:29 geography moment",
+          "likes": 2,
+          "published_at": "2026-03-13T17:42:30Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "moment",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@Edge2177",
+          "text": "My man needs to use Happy Cow.",
+          "likes": 23,
+          "published_at": "2026-03-11T04:58:22Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Happy",
+              "polarity": "positive"
+            },
+            {
+              "token": "Cow",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@EpicFailLife",
+          "text": "This guy gets invited to every wedding all over the world 😂",
+          "likes": 22,
+          "published_at": "2026-03-09T18:57:19Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "every",
+              "polarity": "positive"
+            },
+            {
+              "token": "wedding",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@ElinevadeLa",
+          "text": "bless Earthling Ed's new intern",
+          "likes": 13,
+          "published_at": "2026-03-09T17:39:08Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "bless",
+              "polarity": "positive"
+            },
+            {
+              "token": "Ed's",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@familiadereserva",
+          "text": "Vegan 101: download Happy Cow. Chiang Mai has so many vegan/vegetarian restaurants. Also, ask for \"Jai\" food and everyone will understand",
+          "likes": 5,
+          "published_at": "2026-03-15T09:08:58Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "vegan",
+              "polarity": "positive"
+            },
+            {
+              "token": "many",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@kindcounselor",
+          "text": "Wonderful video! As a vegan for 16 years I appreciated your explanations!",
+          "likes": 2,
+          "published_at": "2026-03-12T02:35:37Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "wonderful",
+              "polarity": "positive"
+            },
+            {
+              "token": "appreciated",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@PapayaJoy",
+          "text": "As someone that lives in Chang Mai, you're asking the wrong question. You say, \"gin jai'.. And follow up with jai?\"\n\nIn Mexico, it's called vegano which is why they understood you",
+          "likes": 11,
+          "published_at": "2026-03-10T05:08:44Z",
+          "label": "Negative",
+          "score": 0.63,
+          "highlightTokens": [
+            {
+              "token": "wrong",
+              "polarity": "negative"
+            },
+            {
+              "token": "jai'",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@ForeverVegan4theAnimals",
+          "text": "Great video! Would love to see you go back to Thailand during the vegan Jay festival!",
+          "likes": 4,
+          "published_at": "2026-03-09T22:45:45Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "love",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@travo6805",
+          "text": "16:29 geography moment",
+          "likes": 2,
+          "published_at": "2026-03-13T17:42:30Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "moment",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@jillianvanliew",
+          "text": "Daynesh: you say in your vid a few times that you're missing out on legumes, but keep in mind SOY beans are legumes (might not be WFPB as in tofu)!! But that is most of Asia--soy/tofu.",
+          "likes": 4,
+          "published_at": "2026-03-10T03:25:25Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "legumes",
+              "polarity": "positive"
+            },
+            {
+              "token": "SOY beans",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@annak3380",
+          "text": "Love your videos but this was extra! You made me laugh so much with your witty take on,well, everything! 😂😂😂\nLoved that you were with your parents too. \nLooking forward to the next one. 😊😊😊",
+          "likes": 3,
+          "published_at": "2026-03-09T19:31:40Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Love",
+              "polarity": "positive"
+            },
+            {
+              "token": "laugh",
+              "polarity": "positive"
+            },
+            {
+              "token": "witty",
+              "polarity": "positive"
+            },
+            {
+              "token": "Loved",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "lNvPJqlD2A8": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "Analysis failed.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@sashastarshanti3599",
+          "text": "I'm level 56, 18 year vegan, and I've got to say, your content is awesome!",
+          "likes": 16,
+          "published_at": "2026-01-20T19:22:25Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "awesome",
+              "polarity": "positive"
+            },
+            {
+              "token": "say",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@jordanjtbraun",
+          "text": "I completely agree! Before going vegetarian/vegan, I pretty much ate a typical meat and potato diet. Very basic. Going vegetarian, I started eating ethnic foods much more. I eat so many different things that I would NEVER have explored had I not been vegetarian. The motivation just wouldn't have been there!",
+          "likes": 11,
+          "published_at": "2026-01-20T19:58:03Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "completely",
+              "polarity": "positive"
+            },
+            {
+              "token": "agree",
+              "polarity": "positive"
+            },
+            {
+              "token": "different",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@cltinturkey",
+          "text": "Howdy,  Just ate black beans and veg for breakfast.  Filling and tasty.  The grain quinoa is pronounced keen-wa.  Milan is in Lombardia, which is phonetically Lom-bar-DI-a.  Buon viaggio!",
+          "likes": 19,
+          "published_at": "2026-01-20T16:25:51Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "tasty",
+              "polarity": "positive"
+            },
+            {
+              "token": "Filling",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@anandahardial236",
+          "text": "Walking around grocery stores in Italy was one of my favorite things to do - went to the stores to stock up on veggie breakfasts for me while I visited. I have never cooked with hummus before - feel like I missed a major shortcut.",
+          "likes": 0,
+          "published_at": "2026-02-23T20:32:01Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "favorite",
+              "polarity": "positive"
+            },
+            {
+              "token": "stock up",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@amonique",
+          "text": "omg that lentil hummus dish looked absolutely delicous! Will be trying.",
+          "likes": 1,
+          "published_at": "2026-01-26T17:24:05Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "delicious",
+              "polarity": "positive"
+            },
+            {
+              "token": "trying",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@electric-lemonade",
+          "text": "One of the best videos on your channel, loved it",
+          "likes": 6,
+          "published_at": "2026-01-21T00:36:37Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "best",
+              "polarity": "positive"
+            },
+            {
+              "token": "loved",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@suekurtz1024",
+          "text": "I mix hummus into my soups and as the ‘mayo’ in y chickpea salad sandwiches",
+          "likes": 1,
+          "published_at": "2026-01-25T00:42:55Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "hummus",
+              "polarity": "positive"
+            },
+            {
+              "token": "soups",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@AlisonWishart-ix4jh",
+          "text": "Interesting video. Love that supermarket,  so many healthy options. Really enjoy the content. Thankyou. 👋😎💕",
+          "likes": 9,
+          "published_at": "2026-01-20T17:07:28Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Love",
+              "polarity": "positive"
+            },
+            {
+              "token": "healthy",
+              "polarity": "positive"
+            },
+            {
+              "token": "enjoy",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@jamesf7832",
+          "text": "\"It seems like everyone these days\" love holding microphones",
+          "likes": 4,
+          "published_at": "2026-01-21T04:49:58Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "love",
+              "polarity": "negative"
+            },
+            {
+              "token": "holding",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "neutral": [
+        {
+          "author": "@christine6059",
+          "text": "Where in the world do you find popped farro?",
+          "likes": 8,
+          "published_at": "2026-01-21T00:53:42Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "find",
+              "polarity": "neutral"
+            },
+            {
+              "token": "farro",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@sashastarshanti3599",
+          "text": "I'm level 56, 18 year vegan, and I've got to say, your content is awesome!",
+          "likes": 16,
+          "published_at": "2026-01-20T19:22:25Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "awesome",
+              "polarity": "positive"
+            },
+            {
+              "token": "say",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@jordanjtbraun",
+          "text": "I completely agree! Before going vegetarian/vegan, I pretty much ate a typical meat and potato diet. Very basic. Going vegetarian, I started eating ethnic foods much more. I eat so many different things that I would NEVER have explored had I not been vegetarian. The motivation just wouldn't have been there!",
+          "likes": 11,
+          "published_at": "2026-01-20T19:58:03Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "completely",
+              "polarity": "positive"
+            },
+            {
+              "token": "agree",
+              "polarity": "positive"
+            },
+            {
+              "token": "different",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@cltinturkey",
+          "text": "Howdy,  Just ate black beans and veg for breakfast.  Filling and tasty.  The grain quinoa is pronounced keen-wa.  Milan is in Lombardia, which is phonetically Lom-bar-DI-a.  Buon viaggio!",
+          "likes": 19,
+          "published_at": "2026-01-20T16:25:51Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "tasty",
+              "polarity": "positive"
+            },
+            {
+              "token": "Filling",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@jamesf7832",
+          "text": "\"It seems like everyone these days\" love holding microphones",
+          "likes": 4,
+          "published_at": "2026-01-21T04:49:58Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "love",
+              "polarity": "negative"
+            },
+            {
+              "token": "holding",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@anandahardial236",
+          "text": "Walking around grocery stores in Italy was one of my favorite things to do - went to the stores to stock up on veggie breakfasts for me while I visited. I have never cooked with hummus before - feel like I missed a major shortcut.",
+          "likes": 0,
+          "published_at": "2026-02-23T20:32:01Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "favorite",
+              "polarity": "positive"
+            },
+            {
+              "token": "stock up",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@amonique",
+          "text": "omg that lentil hummus dish looked absolutely delicous! Will be trying.",
+          "likes": 1,
+          "published_at": "2026-01-26T17:24:05Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "delicious",
+              "polarity": "positive"
+            },
+            {
+              "token": "trying",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@christine6059",
+          "text": "Where in the world do you find popped farro?",
+          "likes": 8,
+          "published_at": "2026-01-21T00:53:42Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "find",
+              "polarity": "neutral"
+            },
+            {
+              "token": "farro",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@electric-lemonade",
+          "text": "One of the best videos on your channel, loved it",
+          "likes": 6,
+          "published_at": "2026-01-21T00:36:37Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "best",
+              "polarity": "positive"
+            },
+            {
+              "token": "loved",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@suekurtz1024",
+          "text": "I mix hummus into my soups and as the ‘mayo’ in y chickpea salad sandwiches",
+          "likes": 1,
+          "published_at": "2026-01-25T00:42:55Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "hummus",
+              "polarity": "positive"
+            },
+            {
+              "token": "soups",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@AlisonWishart-ix4jh",
+          "text": "Interesting video. Love that supermarket,  so many healthy options. Really enjoy the content. Thankyou. 👋😎💕",
+          "likes": 9,
+          "published_at": "2026-01-20T17:07:28Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Love",
+              "polarity": "positive"
+            },
+            {
+              "token": "healthy",
+              "polarity": "positive"
+            },
+            {
+              "token": "enjoy",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "p8TPt3mtFuE": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "Analysis failed.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@Shelley_Jo",
+          "text": "I don't get the whole \"sexy/unsexy\" thing, but I love tofu. I eat it every day. And I usually go with soy milk for coffee, sauces, dressings, etc.",
+          "likes": 33,
+          "published_at": "2026-04-13T21:21:06Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "love",
+              "polarity": "positive"
+            },
+            {
+              "token": "I love",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@human-b4w7h",
+          "text": "love the way you say ''alright yall''",
+          "likes": 4,
+          "published_at": "2026-04-14T06:05:43Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "love",
+              "polarity": "positive"
+            },
+            {
+              "token": "alright",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@meaton3805",
+          "text": "Bread\nOatmeal / whole grains\nSoy milk\nProtein powder\nBeans\nPasta\nPlant-based meats",
+          "likes": 4,
+          "published_at": "2026-04-15T00:14:57Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "whole",
+              "polarity": "positive"
+            },
+            {
+              "token": "plant-based",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@juliart9479",
+          "text": "4:05 ikr?! Soy milk >> oat milk",
+          "likes": 0,
+          "published_at": "2026-04-24T13:16:25Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "ikr",
+              "polarity": "positive"
+            },
+            {
+              "token": "Soy milk",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@patriciamarton7468",
+          "text": "Love your content, thank you for the effort, research, editing, and much more to offer us this great videos. ❤❤❤",
+          "likes": 1,
+          "published_at": "2026-04-16T15:53:11Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Love",
+              "polarity": "positive"
+            },
+            {
+              "token": "great",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Barbara-oe7yh",
+          "text": "I like hemp seeds, watermelon seeds, chia seeds, any seed 😅and a lot of pastas have a lot of fiber and protein… I agree that you can get enough protein during the day from verity of foods.",
+          "likes": 6,
+          "published_at": "2026-04-13T18:18:17Z",
+          "label": "Positive",
+          "score": 0.88,
+          "highlightTokens": [
+            {
+              "token": "like",
+              "polarity": "positive"
+            },
+            {
+              "token": "hemp seeds",
+              "polarity": "positive"
+            },
+            {
+              "token": "fiber",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@CourtneyRobinson",
+          "text": "Love your videos, great visuals, great reminders.",
+          "likes": 3,
+          "published_at": "2026-04-13T18:57:37Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Love",
+              "polarity": "positive"
+            },
+            {
+              "token": "great",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@marireid8752",
+          "text": "Always enjoy your videos.  For pasta also the lentil and chickpea pastas  are awesome.",
+          "likes": 3,
+          "published_at": "2026-04-15T21:09:13Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "enjoy",
+              "polarity": "positive"
+            },
+            {
+              "token": "awesome",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@757isthebestyesyes",
+          "text": "Tempeh is my one love!!!!!",
+          "likes": 3,
+          "published_at": "2026-04-14T17:31:14Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "love",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@annak3380",
+          "text": "Sei troppo simpatico! INTEGRALE!!! 😂😂😂\nLove your channel and this great video. Thanks for all your great content.Ciao!!! 😊",
+          "likes": 3,
+          "published_at": "2026-04-14T08:42:04Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "simpatico",
+              "polarity": "positive"
+            },
+            {
+              "token": "INTEGRALE",
+              "polarity": "positive"
+            },
+            {
+              "token": "great",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [],
+      "neutral": [],
+      "all": [
+        {
+          "author": "@Shelley_Jo",
+          "text": "I don't get the whole \"sexy/unsexy\" thing, but I love tofu. I eat it every day. And I usually go with soy milk for coffee, sauces, dressings, etc.",
+          "likes": 33,
+          "published_at": "2026-04-13T21:21:06Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "love",
+              "polarity": "positive"
+            },
+            {
+              "token": "I love",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@human-b4w7h",
+          "text": "love the way you say ''alright yall''",
+          "likes": 4,
+          "published_at": "2026-04-14T06:05:43Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "love",
+              "polarity": "positive"
+            },
+            {
+              "token": "alright",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@meaton3805",
+          "text": "Bread\nOatmeal / whole grains\nSoy milk\nProtein powder\nBeans\nPasta\nPlant-based meats",
+          "likes": 4,
+          "published_at": "2026-04-15T00:14:57Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "whole",
+              "polarity": "positive"
+            },
+            {
+              "token": "plant-based",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@juliart9479",
+          "text": "4:05 ikr?! Soy milk >> oat milk",
+          "likes": 0,
+          "published_at": "2026-04-24T13:16:25Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "ikr",
+              "polarity": "positive"
+            },
+            {
+              "token": "Soy milk",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@patriciamarton7468",
+          "text": "Love your content, thank you for the effort, research, editing, and much more to offer us this great videos. ❤❤❤",
+          "likes": 1,
+          "published_at": "2026-04-16T15:53:11Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Love",
+              "polarity": "positive"
+            },
+            {
+              "token": "great",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Barbara-oe7yh",
+          "text": "I like hemp seeds, watermelon seeds, chia seeds, any seed 😅and a lot of pastas have a lot of fiber and protein… I agree that you can get enough protein during the day from verity of foods.",
+          "likes": 6,
+          "published_at": "2026-04-13T18:18:17Z",
+          "label": "Positive",
+          "score": 0.88,
+          "highlightTokens": [
+            {
+              "token": "like",
+              "polarity": "positive"
+            },
+            {
+              "token": "hemp seeds",
+              "polarity": "positive"
+            },
+            {
+              "token": "fiber",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@CourtneyRobinson",
+          "text": "Love your videos, great visuals, great reminders.",
+          "likes": 3,
+          "published_at": "2026-04-13T18:57:37Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Love",
+              "polarity": "positive"
+            },
+            {
+              "token": "great",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@marireid8752",
+          "text": "Always enjoy your videos.  For pasta also the lentil and chickpea pastas  are awesome.",
+          "likes": 3,
+          "published_at": "2026-04-15T21:09:13Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "enjoy",
+              "polarity": "positive"
+            },
+            {
+              "token": "awesome",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@757isthebestyesyes",
+          "text": "Tempeh is my one love!!!!!",
+          "likes": 3,
+          "published_at": "2026-04-14T17:31:14Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "love",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@annak3380",
+          "text": "Sei troppo simpatico! INTEGRALE!!! 😂😂😂\nLove your channel and this great video. Thanks for all your great content.Ciao!!! 😊",
+          "likes": 3,
+          "published_at": "2026-04-14T08:42:04Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "simpatico",
+              "polarity": "positive"
+            },
+            {
+              "token": "INTEGRALE",
+              "polarity": "positive"
+            },
+            {
+              "token": "great",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "yOs7C_aqUiw": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "Analysis failed.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [],
+      "negative": [],
+      "neutral": [],
+      "all": []
+    }
   }
 }
