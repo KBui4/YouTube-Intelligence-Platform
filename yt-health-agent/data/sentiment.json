@@ -422887,5 +422887,3349 @@
       "neutral": [],
       "all": []
     }
+  },
+  "471KXIH0Xxg": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "Analysis failed.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@andrewdavis623",
+          "text": "I will continue to prefer actual meat because that’s the best source of protein you can get.",
+          "likes": 30,
+          "published_at": "2026-04-14T12:50:45Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "prefer",
+              "polarity": "positive"
+            },
+            {
+              "token": "best",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@zbynekcodykolacek",
+          "text": "Yes, Lineage bars are different product with extra quality clean ingredients. Hold up those high level standards, Lineage!",
+          "likes": 7,
+          "published_at": "2026-04-13T23:57:18Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Lineage",
+              "polarity": "positive"
+            },
+            {
+              "token": "high",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@masonthomassax",
+          "text": "Idc if it’s expensive, I like that there now exists an option for me to get the best quality product I can",
+          "likes": 0,
+          "published_at": "2026-04-16T14:10:45Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "like",
+              "polarity": "positive"
+            },
+            {
+              "token": "best",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Icykrissy",
+          "text": "As a bodybuilder myself, I only eat protein bars that have 10% of its calorie count in protein grams.\nI also look at ingredients, if the ingredient list is longer than a terms & conditions page… do not buy it. \n\nExample: 170 cals -> 17g+ of protein ✅ \n220 cals -> 18g of protein ❌",
+          "likes": 5,
+          "published_at": "2026-04-15T05:02:05Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "protein",
+              "polarity": "positive"
+            },
+            {
+              "token": "✅",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@joeldarroux7279",
+          "text": "This video would've been so much better if it wasn't trying to sell me a perfect substitute good.",
+          "likes": 27,
+          "published_at": "2026-04-20T22:06:57Z",
+          "label": "Negative",
+          "score": 0.73,
+          "highlightTokens": [
+            {
+              "token": "worse",
+              "polarity": "negative"
+            },
+            {
+              "token": "sell",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@AlmightyFigshoop",
+          "text": "Dang this video got me good. Ended up being an ad 😭",
+          "likes": 4,
+          "published_at": "2026-04-22T17:17:38Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "dang",
+              "polarity": "negative"
+            },
+            {
+              "token": "ad",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@gaborszili9855",
+          "text": "This video is the definition of naturalist fallacy, ingredients that come from a lab aren't inherently bad. Also counting \"grass fed collagen\" as high quality protein...lol, It has a PDCAAS score of 0.",
+          "likes": 34,
+          "published_at": "2026-04-15T18:22:55Z",
+          "label": "Negative",
+          "score": 0.63,
+          "highlightTokens": [
+            {
+              "token": "bad",
+              "polarity": "negative"
+            },
+            {
+              "token": "lol",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@nathanmacias4913",
+          "text": "good video insane timing a granny asked me what’s the best healthy bars n couldn’t really tell none of them",
+          "likes": 1,
+          "published_at": "2026-04-15T04:27:57Z",
+          "label": "Negative",
+          "score": 0.63,
+          "highlightTokens": [
+            {
+              "token": "insane",
+              "polarity": "negative"
+            },
+            {
+              "token": "couldn't",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "neutral": [
+        {
+          "author": "@BeetleJuice00",
+          "text": "I'm still eating them",
+          "likes": 7,
+          "published_at": "2026-04-15T03:53:48Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "still",
+              "polarity": "neutral"
+            },
+            {
+              "token": "eating",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@azvipers",
+          "text": "When will the bars be back in stock?",
+          "likes": 0,
+          "published_at": "2026-04-15T01:31:56Z",
+          "label": "Neutral",
+          "score": 0.5,
+          "highlightTokens": [
+            {
+              "token": "back",
+              "polarity": "neutral"
+            },
+            {
+              "token": "stock",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@joeldarroux7279",
+          "text": "This video would've been so much better if it wasn't trying to sell me a perfect substitute good.",
+          "likes": 27,
+          "published_at": "2026-04-20T22:06:57Z",
+          "label": "Negative",
+          "score": 0.73,
+          "highlightTokens": [
+            {
+              "token": "worse",
+              "polarity": "negative"
+            },
+            {
+              "token": "sell",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@AlmightyFigshoop",
+          "text": "Dang this video got me good. Ended up being an ad 😭",
+          "likes": 4,
+          "published_at": "2026-04-22T17:17:38Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "dang",
+              "polarity": "negative"
+            },
+            {
+              "token": "ad",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@andrewdavis623",
+          "text": "I will continue to prefer actual meat because that’s the best source of protein you can get.",
+          "likes": 30,
+          "published_at": "2026-04-14T12:50:45Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "prefer",
+              "polarity": "positive"
+            },
+            {
+              "token": "best",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@gaborszili9855",
+          "text": "This video is the definition of naturalist fallacy, ingredients that come from a lab aren't inherently bad. Also counting \"grass fed collagen\" as high quality protein...lol, It has a PDCAAS score of 0.",
+          "likes": 34,
+          "published_at": "2026-04-15T18:22:55Z",
+          "label": "Negative",
+          "score": 0.63,
+          "highlightTokens": [
+            {
+              "token": "bad",
+              "polarity": "negative"
+            },
+            {
+              "token": "lol",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@zbynekcodykolacek",
+          "text": "Yes, Lineage bars are different product with extra quality clean ingredients. Hold up those high level standards, Lineage!",
+          "likes": 7,
+          "published_at": "2026-04-13T23:57:18Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Lineage",
+              "polarity": "positive"
+            },
+            {
+              "token": "high",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@nathanmacias4913",
+          "text": "good video insane timing a granny asked me what’s the best healthy bars n couldn’t really tell none of them",
+          "likes": 1,
+          "published_at": "2026-04-15T04:27:57Z",
+          "label": "Negative",
+          "score": 0.63,
+          "highlightTokens": [
+            {
+              "token": "insane",
+              "polarity": "negative"
+            },
+            {
+              "token": "couldn't",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@BeetleJuice00",
+          "text": "I'm still eating them",
+          "likes": 7,
+          "published_at": "2026-04-15T03:53:48Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "still",
+              "polarity": "neutral"
+            },
+            {
+              "token": "eating",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@azvipers",
+          "text": "When will the bars be back in stock?",
+          "likes": 0,
+          "published_at": "2026-04-15T01:31:56Z",
+          "label": "Neutral",
+          "score": 0.5,
+          "highlightTokens": [
+            {
+              "token": "back",
+              "polarity": "neutral"
+            },
+            {
+              "token": "stock",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@masonthomassax",
+          "text": "Idc if it’s expensive, I like that there now exists an option for me to get the best quality product I can",
+          "likes": 0,
+          "published_at": "2026-04-16T14:10:45Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "like",
+              "polarity": "positive"
+            },
+            {
+              "token": "best",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Icykrissy",
+          "text": "As a bodybuilder myself, I only eat protein bars that have 10% of its calorie count in protein grams.\nI also look at ingredients, if the ingredient list is longer than a terms & conditions page… do not buy it. \n\nExample: 170 cals -> 17g+ of protein ✅ \n220 cals -> 18g of protein ❌",
+          "likes": 5,
+          "published_at": "2026-04-15T05:02:05Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "protein",
+              "polarity": "positive"
+            },
+            {
+              "token": "✅",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "4n06MdJkENQ": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "Analysis failed.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@erinhall8294",
+          "text": "Everyone’s body is different ….. One month ago I decided to stop consuming heavy whip cream in my coffee, cheese and cottage cheese.\nI HAVE LOST 20 lbs🥹. I no longer have the bloating , constant bathroom visits and stalled weight loss.  I thought I was going crazy!  I follow a strict carnivore diet and my weight was not coming off. \nI am absolutely determined to continue with my strict intake of meat, eggs , butter and my now black pour over coffee.\nIt feels great!",
+          "likes": 15,
+          "published_at": "2026-03-17T01:18:30Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "LOST",
+              "polarity": "positive"
+            },
+            {
+              "token": "great",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@4zooflorida",
+          "text": "Dairy test: Heavy cream. I can drink it straight out of the bottle.",
+          "likes": 31,
+          "published_at": "2026-03-09T02:15:43Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Heavy cream",
+              "polarity": "positive"
+            },
+            {
+              "token": "straight",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@mikakaine6406",
+          "text": "I’ve been Carnivore/Ketovore for the last 3 years. 56 year old. Health wise, it’s been the best 3 years. Only one exception, chronic dandruff and flaky skin where I grow facial hair. I’ve just eliminated cheese and yogurt but I still have dairy milk for coffee. This alone so far has significantly reduced flaky skin on my face and eliminated the dandruff on my scalp. It’s only been 2 weeks. Cravings for dairy has disappeared now, especially for cheese, the odd snack here and there at night time, no more. When the rest of the family has it, sometimes one’s will power is challenged. Just had to push through it.",
+          "likes": 5,
+          "published_at": "2026-03-11T01:07:11Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "best",
+              "polarity": "positive"
+            },
+            {
+              "token": "significantly",
+              "polarity": "positive"
+            },
+            {
+              "token": "eliminated",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@shirleydilleshaw5289",
+          "text": "HWC is my weakness. I gave it up until hit my goal weight.  I enjoy having 3 tbls day in my coffee. I’m still in the testing phase, not for weight but inflammation. Great vid. Thank you Jenny😊",
+          "likes": 19,
+          "published_at": "2026-03-08T21:52:07Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "enjoy",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@gwengwen4535",
+          "text": "This is true. I only eat dairy once or twice a week now, by itself! I use coconut cream in my coffee now too, and the difference is very noticeable.",
+          "likes": 4,
+          "published_at": "2026-03-13T16:28:12Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "true",
+              "polarity": "positive"
+            },
+            {
+              "token": "noticeable",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@supersonicsenses",
+          "text": "This video is very timely. I'm planning a dairy-free experiment, but it is breaking my heart. Not because I eat too much cheese (mainly yoghurt), it's because my nose is always stuffy and blocked 🤧",
+          "likes": 25,
+          "published_at": "2026-03-08T21:08:23Z",
+          "label": "Positive",
+          "score": 0.62,
+          "highlightTokens": [
+            {
+              "token": "timely",
+              "polarity": "positive"
+            },
+            {
+              "token": "very",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@luanneneill2877",
+          "text": "My problem is that since retirement, my husband likes to go out for coffee weekly. I drink decaf, so don't care about the caffeine. I use the decaf as a vehicle for my HWC addiction.  It ends up being more like a latte.  I've tried going with him and not having it but it smells so good and it's just a nice, laid back place to relax but not so much without the coffee. If I have it at the coffeehouse, I buy a quart on the way home and will drink it all in a few days.  It is a clean HWC but I just LOVE the texture and creaminess- the more the better!!  I'm a cream monster!! 🤯\n\nI guess I just need to put my big girl pants on and deal with it because I do think it causes inflammation and general body pain!! 🤷‍♀️",
+          "likes": 9,
+          "published_at": "2026-03-10T21:08:47Z",
+          "label": "Negative",
+          "score": 0.65,
+          "highlightTokens": [
+            {
+              "token": "inflammation",
+              "polarity": "negative"
+            },
+            {
+              "token": "pain",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@laperryrn",
+          "text": "I’ve definitely had wt loss stall with dairy, but I recently reintroduced standard mozzarella cheese and Greek yogurt and triggered a dramatic  scalp dermatitis rash and severe joint pain—caught me totally off guard, what a bummer!",
+          "likes": 15,
+          "published_at": "2026-03-09T01:55:36Z",
+          "label": "Negative",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "bummer",
+              "polarity": "negative"
+            },
+            {
+              "token": "rash",
+              "polarity": "negative"
+            },
+            {
+              "token": "pain",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "neutral": [
+        {
+          "author": "@evage99",
+          "text": "Me, watching this while drinking heavy cream with a little coffee: Huh, you don't say...",
+          "likes": 15,
+          "published_at": "2026-03-11T17:56:31Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "Huh",
+              "polarity": "neutral"
+            },
+            {
+              "token": "don't",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@MsCressida3",
+          "text": "I’ve been carnivore now for 14 months feel good, but have not lost any weight. And I very much fear, it is the dairy. I gotta find a way to make peace with it, and leave it behind.   If I want to make any progress that I am looking for, not that I haven’t done well in other areas, but I have not lost the weight, I’m still trying to lose.  But that cream and cheese is just so darn good.",
+          "likes": 50,
+          "published_at": "2026-03-08T21:08:15Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "good",
+              "polarity": "positive"
+            },
+            {
+              "token": "fear",
+              "polarity": "negative"
+            },
+            {
+              "token": "darn good",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@evage99",
+          "text": "Me, watching this while drinking heavy cream with a little coffee: Huh, you don't say...",
+          "likes": 15,
+          "published_at": "2026-03-11T17:56:31Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "Huh",
+              "polarity": "neutral"
+            },
+            {
+              "token": "don't",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@erinhall8294",
+          "text": "Everyone’s body is different ….. One month ago I decided to stop consuming heavy whip cream in my coffee, cheese and cottage cheese.\nI HAVE LOST 20 lbs🥹. I no longer have the bloating , constant bathroom visits and stalled weight loss.  I thought I was going crazy!  I follow a strict carnivore diet and my weight was not coming off. \nI am absolutely determined to continue with my strict intake of meat, eggs , butter and my now black pour over coffee.\nIt feels great!",
+          "likes": 15,
+          "published_at": "2026-03-17T01:18:30Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "LOST",
+              "polarity": "positive"
+            },
+            {
+              "token": "great",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@4zooflorida",
+          "text": "Dairy test: Heavy cream. I can drink it straight out of the bottle.",
+          "likes": 31,
+          "published_at": "2026-03-09T02:15:43Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Heavy cream",
+              "polarity": "positive"
+            },
+            {
+              "token": "straight",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@luanneneill2877",
+          "text": "My problem is that since retirement, my husband likes to go out for coffee weekly. I drink decaf, so don't care about the caffeine. I use the decaf as a vehicle for my HWC addiction.  It ends up being more like a latte.  I've tried going with him and not having it but it smells so good and it's just a nice, laid back place to relax but not so much without the coffee. If I have it at the coffeehouse, I buy a quart on the way home and will drink it all in a few days.  It is a clean HWC but I just LOVE the texture and creaminess- the more the better!!  I'm a cream monster!! 🤯\n\nI guess I just need to put my big girl pants on and deal with it because I do think it causes inflammation and general body pain!! 🤷‍♀️",
+          "likes": 9,
+          "published_at": "2026-03-10T21:08:47Z",
+          "label": "Negative",
+          "score": 0.65,
+          "highlightTokens": [
+            {
+              "token": "inflammation",
+              "polarity": "negative"
+            },
+            {
+              "token": "pain",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@mikakaine6406",
+          "text": "I’ve been Carnivore/Ketovore for the last 3 years. 56 year old. Health wise, it’s been the best 3 years. Only one exception, chronic dandruff and flaky skin where I grow facial hair. I’ve just eliminated cheese and yogurt but I still have dairy milk for coffee. This alone so far has significantly reduced flaky skin on my face and eliminated the dandruff on my scalp. It’s only been 2 weeks. Cravings for dairy has disappeared now, especially for cheese, the odd snack here and there at night time, no more. When the rest of the family has it, sometimes one’s will power is challenged. Just had to push through it.",
+          "likes": 5,
+          "published_at": "2026-03-11T01:07:11Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "best",
+              "polarity": "positive"
+            },
+            {
+              "token": "significantly",
+              "polarity": "positive"
+            },
+            {
+              "token": "eliminated",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@MsCressida3",
+          "text": "I’ve been carnivore now for 14 months feel good, but have not lost any weight. And I very much fear, it is the dairy. I gotta find a way to make peace with it, and leave it behind.   If I want to make any progress that I am looking for, not that I haven’t done well in other areas, but I have not lost the weight, I’m still trying to lose.  But that cream and cheese is just so darn good.",
+          "likes": 50,
+          "published_at": "2026-03-08T21:08:15Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "good",
+              "polarity": "positive"
+            },
+            {
+              "token": "fear",
+              "polarity": "negative"
+            },
+            {
+              "token": "darn good",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@shirleydilleshaw5289",
+          "text": "HWC is my weakness. I gave it up until hit my goal weight.  I enjoy having 3 tbls day in my coffee. I’m still in the testing phase, not for weight but inflammation. Great vid. Thank you Jenny😊",
+          "likes": 19,
+          "published_at": "2026-03-08T21:52:07Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "enjoy",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@laperryrn",
+          "text": "I’ve definitely had wt loss stall with dairy, but I recently reintroduced standard mozzarella cheese and Greek yogurt and triggered a dramatic  scalp dermatitis rash and severe joint pain—caught me totally off guard, what a bummer!",
+          "likes": 15,
+          "published_at": "2026-03-09T01:55:36Z",
+          "label": "Negative",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "bummer",
+              "polarity": "negative"
+            },
+            {
+              "token": "rash",
+              "polarity": "negative"
+            },
+            {
+              "token": "pain",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@gwengwen4535",
+          "text": "This is true. I only eat dairy once or twice a week now, by itself! I use coconut cream in my coffee now too, and the difference is very noticeable.",
+          "likes": 4,
+          "published_at": "2026-03-13T16:28:12Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "true",
+              "polarity": "positive"
+            },
+            {
+              "token": "noticeable",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@supersonicsenses",
+          "text": "This video is very timely. I'm planning a dairy-free experiment, but it is breaking my heart. Not because I eat too much cheese (mainly yoghurt), it's because my nose is always stuffy and blocked 🤧",
+          "likes": 25,
+          "published_at": "2026-03-08T21:08:23Z",
+          "label": "Positive",
+          "score": 0.62,
+          "highlightTokens": [
+            {
+              "token": "timely",
+              "polarity": "positive"
+            },
+            {
+              "token": "very",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "NIlaTmdMI_Q": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "Analysis failed.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@jaydengriss-1",
+          "text": "Your content is the reason i started making progress in the gym again and fell back in love with training. Thanks faz",
+          "likes": 19,
+          "published_at": "2026-04-06T14:00:56Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "progress",
+              "polarity": "positive"
+            },
+            {
+              "token": "love",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@archivesofquiazon",
+          "text": "Diet and nutrition videos sadly don’t do that well but are just as important as training , great video I’ll check back in after I cut from 23%bf to 10% bf .\n\nWe all gon make it",
+          "likes": 9,
+          "published_at": "2026-04-07T01:16:45Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "great",
+              "polarity": "positive"
+            },
+            {
+              "token": "gon",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@GLvDOS",
+          "text": "Love your practical and actionable advice Faz!",
+          "likes": 0,
+          "published_at": "2026-04-07T21:42:51Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Love",
+              "polarity": "positive"
+            },
+            {
+              "token": "practical",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@exonucleate",
+          "text": "This video is packed with wisdom. The \"don't rely on structured cardio to induce a deficit\" bit is especially resonating because that can increase my overall fatigue way more than is worthwhile.",
+          "likes": 3,
+          "published_at": "2026-04-07T10:19:38Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "wisdom",
+              "polarity": "positive"
+            },
+            {
+              "token": "resonating",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@JO-pz6uf",
+          "text": "One of the most informative clips I’ve watched. Thanks mate. 🫡",
+          "likes": 0,
+          "published_at": "2026-04-10T01:30:30Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "informative",
+              "polarity": "positive"
+            },
+            {
+              "token": "Thanks",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@jacksonian71",
+          "text": "This is perfect. The advice is dead on. And presented very well, clear, concise. Thank you.",
+          "likes": 0,
+          "published_at": "2026-04-07T00:13:31Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "perfect",
+              "polarity": "positive"
+            },
+            {
+              "token": "dead on",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Nigyorta",
+          "text": "Thank you Faz \n\nGonna watch the rest of this and might have some questions later",
+          "likes": 1,
+          "published_at": "2026-04-06T14:09:46Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "Thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "watch",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@Naturalgainss",
+          "text": "Welcome back Master Faz 💪❤️",
+          "likes": 0,
+          "published_at": "2026-04-06T13:41:24Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "back",
+              "polarity": "positive"
+            },
+            {
+              "token": "Master Faz",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@TonyJabroni22",
+          "text": "Unreal advice. Thanks Uncle Faz!",
+          "likes": 1,
+          "published_at": "2026-04-09T11:02:44Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "unreal",
+              "polarity": "negative"
+            },
+            {
+              "token": "advice",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@wesrobinson7506",
+          "text": "You caught me Faz, I was just tearing up some blueberry cheesecake 😂. I have never really tried to be more aggressive starting out. I remember one cut I went very conservative but it just dragged out for like 5-6 months and I felt so fatigued mentally from the diet (also had 1 year old at the time ). Towards the end I tried to dig harder but looking back at pictures I lost so much muscle mass at the final month or two that it wasn’t even worth it",
+          "likes": 3,
+          "published_at": "2026-04-07T03:52:32Z",
+          "label": "Negative",
+          "score": 0.56,
+          "highlightTokens": [
+            {
+              "token": "tearing",
+              "polarity": "negative"
+            },
+            {
+              "token": "fatigued",
+              "polarity": "negative"
+            },
+            {
+              "token": "lost",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "neutral": [],
+      "all": [
+        {
+          "author": "@jaydengriss-1",
+          "text": "Your content is the reason i started making progress in the gym again and fell back in love with training. Thanks faz",
+          "likes": 19,
+          "published_at": "2026-04-06T14:00:56Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "progress",
+              "polarity": "positive"
+            },
+            {
+              "token": "love",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@archivesofquiazon",
+          "text": "Diet and nutrition videos sadly don’t do that well but are just as important as training , great video I’ll check back in after I cut from 23%bf to 10% bf .\n\nWe all gon make it",
+          "likes": 9,
+          "published_at": "2026-04-07T01:16:45Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "great",
+              "polarity": "positive"
+            },
+            {
+              "token": "gon",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@TonyJabroni22",
+          "text": "Unreal advice. Thanks Uncle Faz!",
+          "likes": 1,
+          "published_at": "2026-04-09T11:02:44Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "unreal",
+              "polarity": "negative"
+            },
+            {
+              "token": "advice",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@wesrobinson7506",
+          "text": "You caught me Faz, I was just tearing up some blueberry cheesecake 😂. I have never really tried to be more aggressive starting out. I remember one cut I went very conservative but it just dragged out for like 5-6 months and I felt so fatigued mentally from the diet (also had 1 year old at the time ). Towards the end I tried to dig harder but looking back at pictures I lost so much muscle mass at the final month or two that it wasn’t even worth it",
+          "likes": 3,
+          "published_at": "2026-04-07T03:52:32Z",
+          "label": "Negative",
+          "score": 0.56,
+          "highlightTokens": [
+            {
+              "token": "tearing",
+              "polarity": "negative"
+            },
+            {
+              "token": "fatigued",
+              "polarity": "negative"
+            },
+            {
+              "token": "lost",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@GLvDOS",
+          "text": "Love your practical and actionable advice Faz!",
+          "likes": 0,
+          "published_at": "2026-04-07T21:42:51Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Love",
+              "polarity": "positive"
+            },
+            {
+              "token": "practical",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@exonucleate",
+          "text": "This video is packed with wisdom. The \"don't rely on structured cardio to induce a deficit\" bit is especially resonating because that can increase my overall fatigue way more than is worthwhile.",
+          "likes": 3,
+          "published_at": "2026-04-07T10:19:38Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "wisdom",
+              "polarity": "positive"
+            },
+            {
+              "token": "resonating",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@JO-pz6uf",
+          "text": "One of the most informative clips I’ve watched. Thanks mate. 🫡",
+          "likes": 0,
+          "published_at": "2026-04-10T01:30:30Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "informative",
+              "polarity": "positive"
+            },
+            {
+              "token": "Thanks",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@jacksonian71",
+          "text": "This is perfect. The advice is dead on. And presented very well, clear, concise. Thank you.",
+          "likes": 0,
+          "published_at": "2026-04-07T00:13:31Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "perfect",
+              "polarity": "positive"
+            },
+            {
+              "token": "dead on",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Nigyorta",
+          "text": "Thank you Faz \n\nGonna watch the rest of this and might have some questions later",
+          "likes": 1,
+          "published_at": "2026-04-06T14:09:46Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "Thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "watch",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@Naturalgainss",
+          "text": "Welcome back Master Faz 💪❤️",
+          "likes": 0,
+          "published_at": "2026-04-06T13:41:24Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "back",
+              "polarity": "positive"
+            },
+            {
+              "token": "Master Faz",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "NmDHiwqBfxM": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "Analysis failed.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@CTAY-ne6cr",
+          "text": "WOMAN   Please, more videos for seniors. At 76 yrs. I'm almost into my second month for Carnivore.  \nThanks so much.",
+          "likes": 34,
+          "published_at": "2026-03-22T22:04:48Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Please",
+              "polarity": "positive"
+            },
+            {
+              "token": "Thanks",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@kariblackwood5811",
+          "text": "I love my carnivore lifestyle! I haven’t been sick in over a year, I’ve lost weight, I sleep better, it’s ALL good for me! I’m 59 and I feel 29! ❤ I also love your cookbook Jenny!",
+          "likes": 8,
+          "published_at": "2026-03-29T20:00:56Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "love",
+              "polarity": "positive"
+            },
+            {
+              "token": "good",
+              "polarity": "positive"
+            },
+            {
+              "token": "feel",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@alicelee5045",
+          "text": "Woman - Post Menopausal. Carnivore for  8 months, dealing with autoimmune issues and stage 4 cancer. Great video, and impressive knowledge.",
+          "likes": 3,
+          "published_at": "2026-04-01T02:00:27Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "impressive",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@jentom6181",
+          "text": "Woman! 52, post meno. Would love more female focused videos! Thanks Jenny. Love your content.",
+          "likes": 3,
+          "published_at": "2026-04-01T02:33:36Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "love",
+              "polarity": "positive"
+            },
+            {
+              "token": "Thanks",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@carnivoresinneosho6095",
+          "text": "I have been doing carnivore for 3 years. I just figured out how to eat for me. I have tried it all. I have gotten great improvements but losing weight was a struggle.",
+          "likes": 17,
+          "published_at": "2026-03-22T20:16:55Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "great",
+              "polarity": "positive"
+            },
+            {
+              "token": "improvements",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@onlyonebetty",
+          "text": "This so helpful,43 trying to get pregnant and confused on how to go about it, especially as my period is not regular",
+          "likes": 0,
+          "published_at": "2026-05-28T19:38:17Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "helpful",
+              "polarity": "positive"
+            },
+            {
+              "token": "pregnant",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@Dakiniwoman",
+          "text": "Thanks for all your wisdom Jenny... I have already gone through 80 years of life. I have found Carnivore to be the best way of eating for my age and body. As long as I stay 100% Carnivore I am pain-free and feel my best. If I do slip-up and eat some carbs I pay with pain, depression and skin eruptions. I also noticed a difference in my Blood Pressure... it goes up with carb eating... so I keep working on being strict Carnivore. It's a lifestyle, not a diet. Last month I fasted on water for sixteen days... it was great and I am starting another fast today.",
+          "likes": 2,
+          "published_at": "2026-03-23T17:13:05Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "best",
+              "polarity": "positive"
+            },
+            {
+              "token": "pain-free",
+              "polarity": "positive"
+            },
+            {
+              "token": "great",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@H4KnSL4K",
+          "text": "I like that: \"Work with your clinician when appropriate\".  For a lot of us, that's not all that often. (Partly due to lack of access, especially for a good one)",
+          "likes": 6,
+          "published_at": "2026-03-22T19:31:48Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "like",
+              "polarity": "positive"
+            },
+            {
+              "token": "good",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@CathrinAnn-jv9lh",
+          "text": "Thank you for this interesting video ❤",
+          "likes": 0,
+          "published_at": "2026-05-16T16:48:36Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "interesting",
+              "polarity": "positive"
+            },
+            {
+              "token": "thank",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@LetaLeeM",
+          "text": "65. Having a really hard time with food costs, figuring out how much to eat, plus fibromyalgia (pain makes strength and movement difficult) and IBS issues. Just when I think I'm doing well, costs overwhelm my retirement funds. It is not fun getting older. So the things you listed for my age group are all things I need to work on but have no clarity about how much, when, or what works best with my issues. It's all a crap shoot. I feel better on carnivore - slightly - but it's so hard to have the things I need to make it work well. Still at it.",
+          "likes": 4,
+          "published_at": "2026-04-07T03:41:08Z",
+          "label": "Negative",
+          "score": 0.73,
+          "highlightTokens": [
+            {
+              "token": "hard",
+              "polarity": "negative"
+            },
+            {
+              "token": "pain",
+              "polarity": "negative"
+            },
+            {
+              "token": "crap shoot",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "neutral": [],
+      "all": [
+        {
+          "author": "@CTAY-ne6cr",
+          "text": "WOMAN   Please, more videos for seniors. At 76 yrs. I'm almost into my second month for Carnivore.  \nThanks so much.",
+          "likes": 34,
+          "published_at": "2026-03-22T22:04:48Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Please",
+              "polarity": "positive"
+            },
+            {
+              "token": "Thanks",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@kariblackwood5811",
+          "text": "I love my carnivore lifestyle! I haven’t been sick in over a year, I’ve lost weight, I sleep better, it’s ALL good for me! I’m 59 and I feel 29! ❤ I also love your cookbook Jenny!",
+          "likes": 8,
+          "published_at": "2026-03-29T20:00:56Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "love",
+              "polarity": "positive"
+            },
+            {
+              "token": "good",
+              "polarity": "positive"
+            },
+            {
+              "token": "feel",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@LetaLeeM",
+          "text": "65. Having a really hard time with food costs, figuring out how much to eat, plus fibromyalgia (pain makes strength and movement difficult) and IBS issues. Just when I think I'm doing well, costs overwhelm my retirement funds. It is not fun getting older. So the things you listed for my age group are all things I need to work on but have no clarity about how much, when, or what works best with my issues. It's all a crap shoot. I feel better on carnivore - slightly - but it's so hard to have the things I need to make it work well. Still at it.",
+          "likes": 4,
+          "published_at": "2026-04-07T03:41:08Z",
+          "label": "Negative",
+          "score": 0.73,
+          "highlightTokens": [
+            {
+              "token": "hard",
+              "polarity": "negative"
+            },
+            {
+              "token": "pain",
+              "polarity": "negative"
+            },
+            {
+              "token": "crap shoot",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@alicelee5045",
+          "text": "Woman - Post Menopausal. Carnivore for  8 months, dealing with autoimmune issues and stage 4 cancer. Great video, and impressive knowledge.",
+          "likes": 3,
+          "published_at": "2026-04-01T02:00:27Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "impressive",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@jentom6181",
+          "text": "Woman! 52, post meno. Would love more female focused videos! Thanks Jenny. Love your content.",
+          "likes": 3,
+          "published_at": "2026-04-01T02:33:36Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "love",
+              "polarity": "positive"
+            },
+            {
+              "token": "Thanks",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@carnivoresinneosho6095",
+          "text": "I have been doing carnivore for 3 years. I just figured out how to eat for me. I have tried it all. I have gotten great improvements but losing weight was a struggle.",
+          "likes": 17,
+          "published_at": "2026-03-22T20:16:55Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "great",
+              "polarity": "positive"
+            },
+            {
+              "token": "improvements",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@onlyonebetty",
+          "text": "This so helpful,43 trying to get pregnant and confused on how to go about it, especially as my period is not regular",
+          "likes": 0,
+          "published_at": "2026-05-28T19:38:17Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "helpful",
+              "polarity": "positive"
+            },
+            {
+              "token": "pregnant",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@Dakiniwoman",
+          "text": "Thanks for all your wisdom Jenny... I have already gone through 80 years of life. I have found Carnivore to be the best way of eating for my age and body. As long as I stay 100% Carnivore I am pain-free and feel my best. If I do slip-up and eat some carbs I pay with pain, depression and skin eruptions. I also noticed a difference in my Blood Pressure... it goes up with carb eating... so I keep working on being strict Carnivore. It's a lifestyle, not a diet. Last month I fasted on water for sixteen days... it was great and I am starting another fast today.",
+          "likes": 2,
+          "published_at": "2026-03-23T17:13:05Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "best",
+              "polarity": "positive"
+            },
+            {
+              "token": "pain-free",
+              "polarity": "positive"
+            },
+            {
+              "token": "great",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@H4KnSL4K",
+          "text": "I like that: \"Work with your clinician when appropriate\".  For a lot of us, that's not all that often. (Partly due to lack of access, especially for a good one)",
+          "likes": 6,
+          "published_at": "2026-03-22T19:31:48Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "like",
+              "polarity": "positive"
+            },
+            {
+              "token": "good",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@CathrinAnn-jv9lh",
+          "text": "Thank you for this interesting video ❤",
+          "likes": 0,
+          "published_at": "2026-05-16T16:48:36Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "interesting",
+              "polarity": "positive"
+            },
+            {
+              "token": "thank",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "T7EwSNAngac": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "Analysis failed.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@JoshuaKevinPerry",
+          "text": "100s on side laterals is the new strength standard",
+          "likes": 19,
+          "published_at": "2026-03-26T14:53:59Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "strength",
+              "polarity": "positive"
+            },
+            {
+              "token": "standard",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Paul_Stowell",
+          "text": "Now that you’ve made your first tier list be careful. You’ll find yourself on a slippery slope and be ranking your favourite lateral raise variations before you know it 😜\n\nGood vid, and I liked the Sam shout out. Yours and his channel are probably the only informational lifting content channels I regularly watch nowadays 💪",
+          "likes": 16,
+          "published_at": "2026-03-26T15:08:10Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "slippery slope",
+              "polarity": "negative"
+            },
+            {
+              "token": "favourite",
+              "polarity": "positive"
+            },
+            {
+              "token": "Good vid",
+              "polarity": "positive"
+            },
+            {
+              "token": "liked",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@grantongstad9593",
+          "text": "Faz is my new favorite Guru - I'm telling everyone I know about him.",
+          "likes": 4,
+          "published_at": "2026-03-26T16:06:52Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "favorite",
+              "polarity": "positive"
+            },
+            {
+              "token": "telling",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@sbain844",
+          "text": "Well..., personally, when I face these difficult crossroads in life, I always ask myself - what would Taylor Swift do?",
+          "likes": 10,
+          "published_at": "2026-03-26T15:45:45Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "difficult",
+              "polarity": "negative"
+            },
+            {
+              "token": "always",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@kgc0609",
+          "text": "Just a moment after hitting my upper session and taking my protein, this video dropped.",
+          "likes": 3,
+          "published_at": "2026-03-26T13:29:26Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "dropped",
+              "polarity": "positive"
+            },
+            {
+              "token": "moment",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@deavenhayes8187",
+          "text": "❤❤❤I’ve had a few phases, with “ the noble natties “ always at the center thankfully. First was Dr mike, yikes haha. Then found boogs thank goodness. And evened out with Jonathan Warren. But you Faz have never steered me wrong",
+          "likes": 3,
+          "published_at": "2026-03-26T18:56:46Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "noble",
+              "polarity": "positive"
+            },
+            {
+              "token": "thankfully",
+              "polarity": "positive"
+            },
+            {
+              "token": "goodness",
+              "polarity": "positive"
+            },
+            {
+              "token": "never steered me wrong",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@edvardkristensen3807",
+          "text": "You made me really understand value of consistent programming over time. As a biproduct i have paid attention to other parameters like sleep-hygiene, food-and set quality.",
+          "likes": 1,
+          "published_at": "2026-03-26T18:27:32Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "understand",
+              "polarity": "positive"
+            },
+            {
+              "token": "value",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@craigford3711",
+          "text": "You are correct on \"gurus\".  I think I'll skip on the young person with the hyper active metabolism and raging testosterone.  Give me the person that's made it thru this part of their life and is still going strong.",
+          "likes": 42,
+          "published_at": "2026-03-26T13:51:44Z",
+          "label": "Negative",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "raging",
+              "polarity": "negative"
+            },
+            {
+              "token": "testosterone",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@GVS",
+          "text": "\"Most people are not here for education. They're here for entertainment. Whether they admit it or not.\"\n\nMost won't! If you poll the audience what videos they want to watch, they'll overwhelmingly say education, but then when it comes to what actually gets clicks, it's entertainment by a pretty hefty landslide.",
+          "likes": 56,
+          "published_at": "2026-03-27T04:13:00Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "entertainment",
+              "polarity": "negative"
+            },
+            {
+              "token": "not here for education",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@yetanotherperson6436",
+          "text": "Being natural is important for me because I can't relate to people who are enhanced. I am also aware that the training and the experience of that person will be so far removed from what I am doing that it confuses things too much. I am old and ill so my training and priorities are a little removed from a 'normal' gymgoer anyway. Therefore listening to people that are/were heathy yet put themselves at risk makes them wrong for me on every level.",
+          "likes": 6,
+          "published_at": "2026-03-26T16:22:16Z",
+          "label": "Negative",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "wrong",
+              "polarity": "negative"
+            },
+            {
+              "token": "ill",
+              "polarity": "negative"
+            },
+            {
+              "token": "risk",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "neutral": [],
+      "all": [
+        {
+          "author": "@craigford3711",
+          "text": "You are correct on \"gurus\".  I think I'll skip on the young person with the hyper active metabolism and raging testosterone.  Give me the person that's made it thru this part of their life and is still going strong.",
+          "likes": 42,
+          "published_at": "2026-03-26T13:51:44Z",
+          "label": "Negative",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "raging",
+              "polarity": "negative"
+            },
+            {
+              "token": "testosterone",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@JoshuaKevinPerry",
+          "text": "100s on side laterals is the new strength standard",
+          "likes": 19,
+          "published_at": "2026-03-26T14:53:59Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "strength",
+              "polarity": "positive"
+            },
+            {
+              "token": "standard",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Paul_Stowell",
+          "text": "Now that you’ve made your first tier list be careful. You’ll find yourself on a slippery slope and be ranking your favourite lateral raise variations before you know it 😜\n\nGood vid, and I liked the Sam shout out. Yours and his channel are probably the only informational lifting content channels I regularly watch nowadays 💪",
+          "likes": 16,
+          "published_at": "2026-03-26T15:08:10Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "slippery slope",
+              "polarity": "negative"
+            },
+            {
+              "token": "favourite",
+              "polarity": "positive"
+            },
+            {
+              "token": "Good vid",
+              "polarity": "positive"
+            },
+            {
+              "token": "liked",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@grantongstad9593",
+          "text": "Faz is my new favorite Guru - I'm telling everyone I know about him.",
+          "likes": 4,
+          "published_at": "2026-03-26T16:06:52Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "favorite",
+              "polarity": "positive"
+            },
+            {
+              "token": "telling",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@sbain844",
+          "text": "Well..., personally, when I face these difficult crossroads in life, I always ask myself - what would Taylor Swift do?",
+          "likes": 10,
+          "published_at": "2026-03-26T15:45:45Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "difficult",
+              "polarity": "negative"
+            },
+            {
+              "token": "always",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@GVS",
+          "text": "\"Most people are not here for education. They're here for entertainment. Whether they admit it or not.\"\n\nMost won't! If you poll the audience what videos they want to watch, they'll overwhelmingly say education, but then when it comes to what actually gets clicks, it's entertainment by a pretty hefty landslide.",
+          "likes": 56,
+          "published_at": "2026-03-27T04:13:00Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "entertainment",
+              "polarity": "negative"
+            },
+            {
+              "token": "not here for education",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@yetanotherperson6436",
+          "text": "Being natural is important for me because I can't relate to people who are enhanced. I am also aware that the training and the experience of that person will be so far removed from what I am doing that it confuses things too much. I am old and ill so my training and priorities are a little removed from a 'normal' gymgoer anyway. Therefore listening to people that are/were heathy yet put themselves at risk makes them wrong for me on every level.",
+          "likes": 6,
+          "published_at": "2026-03-26T16:22:16Z",
+          "label": "Negative",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "wrong",
+              "polarity": "negative"
+            },
+            {
+              "token": "ill",
+              "polarity": "negative"
+            },
+            {
+              "token": "risk",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@kgc0609",
+          "text": "Just a moment after hitting my upper session and taking my protein, this video dropped.",
+          "likes": 3,
+          "published_at": "2026-03-26T13:29:26Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "dropped",
+              "polarity": "positive"
+            },
+            {
+              "token": "moment",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@deavenhayes8187",
+          "text": "❤❤❤I’ve had a few phases, with “ the noble natties “ always at the center thankfully. First was Dr mike, yikes haha. Then found boogs thank goodness. And evened out with Jonathan Warren. But you Faz have never steered me wrong",
+          "likes": 3,
+          "published_at": "2026-03-26T18:56:46Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "noble",
+              "polarity": "positive"
+            },
+            {
+              "token": "thankfully",
+              "polarity": "positive"
+            },
+            {
+              "token": "goodness",
+              "polarity": "positive"
+            },
+            {
+              "token": "never steered me wrong",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@edvardkristensen3807",
+          "text": "You made me really understand value of consistent programming over time. As a biproduct i have paid attention to other parameters like sleep-hygiene, food-and set quality.",
+          "likes": 1,
+          "published_at": "2026-03-26T18:27:32Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "understand",
+              "polarity": "positive"
+            },
+            {
+              "token": "value",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "UXcVV8Ai5I8": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "Analysis failed.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@ShumbaGovender",
+          "text": "Thank you doctor. Good advice. ❤❤",
+          "likes": 35,
+          "published_at": "2026-04-16T04:57:21Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "good",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@HildaWentzel",
+          "text": "Thanks doctor be bless God Bless You Amen❤",
+          "likes": 20,
+          "published_at": "2026-04-19T06:38:33Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "bless",
+              "polarity": "positive"
+            },
+            {
+              "token": "Bless",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@josephineananda3105",
+          "text": "Am watching from  kenya .Thank you doctor for  this  knowledge",
+          "likes": 24,
+          "published_at": "2026-04-22T09:26:45Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "knowledge",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@patricegoodman5150",
+          "text": "Cold hands and feet . I tried lemon and ginger tea and cucumber and mint water. Shepherd Texas . I’ve learned something today and will use it today",
+          "likes": 13,
+          "published_at": "2026-04-25T18:30:28Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "learned",
+              "polarity": "positive"
+            },
+            {
+              "token": "use",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Dr.ThomasWilson1",
+          "text": "For those who want a quick recap of the 5 ways to upgrade your water for better circulation:\nCucumber & Mint: Supports blood vessel structure (silica) and relaxation.\nLemon & Ginger: Boosts nitric oxide signals and prevents \"sticky\" blood.\nBeetroot (The Fast-Acting One): High in nitrates to dilate vessels and improve oxygen delivery quickly.\nCayenne Pepper: Best for microcirculation; helps with cold hands/feet and tingling.\nHibiscus (The Gold Standard): Best for long-term vessel elasticity. (Pro-tip: Use cold infusion/cold brew to preserve compounds).\nKey takeaway: It’s not about how much water you drink after 60, but how you signal your body to use it. Thank you for sharing!",
+          "likes": 156,
+          "published_at": "2026-04-26T09:08:31Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "boosts",
+              "polarity": "positive"
+            },
+            {
+              "token": "dilate",
+              "polarity": "positive"
+            },
+            {
+              "token": "improve",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@rosemacintosh5528",
+          "text": "THANKS DOCTOR. SO IMPORTANT TO LEARN AND PUT IN ACTION.",
+          "likes": 10,
+          "published_at": "2026-04-21T22:31:32Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "THANKS",
+              "polarity": "positive"
+            },
+            {
+              "token": "IMPORTANT",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@OSFVet",
+          "text": "1.)  Mint & cucumber\n2.)  Lemon & ginger\n3.)  Beet root w cayenne pepper\n4.)   Hibiscus every a.m./p.m. (cold infusion)",
+          "likes": 261,
+          "published_at": "2026-04-19T06:59:55Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Mint",
+              "polarity": "positive"
+            },
+            {
+              "token": "cucumber",
+              "polarity": "positive"
+            },
+            {
+              "token": "Lemon",
+              "polarity": "positive"
+            },
+            {
+              "token": "ginger",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@JH-xu9qs",
+          "text": "Excellent Teaching ❤",
+          "likes": 19,
+          "published_at": "2026-04-24T15:59:13Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Excellent",
+              "polarity": "positive"
+            },
+            {
+              "token": "Teaching",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@XolisiweKubeka",
+          "text": "Morning Doc❤thank u for the info.🎉🎉South African citizen🙏Godbless U❤",
+          "likes": 9,
+          "published_at": "2026-04-28T05:14:32Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "info",
+              "polarity": "neutral"
+            },
+            {
+              "token": "Godbless",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@MariaUma",
+          "text": "Very helpful. No harm in taking necessary action. Thank you so much for the lecture 🙏",
+          "likes": 5,
+          "published_at": "2026-04-26T10:28:58Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "helpful",
+              "polarity": "positive"
+            },
+            {
+              "token": "thank",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [],
+      "neutral": [],
+      "all": [
+        {
+          "author": "@ShumbaGovender",
+          "text": "Thank you doctor. Good advice. ❤❤",
+          "likes": 35,
+          "published_at": "2026-04-16T04:57:21Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "good",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@HildaWentzel",
+          "text": "Thanks doctor be bless God Bless You Amen❤",
+          "likes": 20,
+          "published_at": "2026-04-19T06:38:33Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "bless",
+              "polarity": "positive"
+            },
+            {
+              "token": "Bless",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@josephineananda3105",
+          "text": "Am watching from  kenya .Thank you doctor for  this  knowledge",
+          "likes": 24,
+          "published_at": "2026-04-22T09:26:45Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "knowledge",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@patricegoodman5150",
+          "text": "Cold hands and feet . I tried lemon and ginger tea and cucumber and mint water. Shepherd Texas . I’ve learned something today and will use it today",
+          "likes": 13,
+          "published_at": "2026-04-25T18:30:28Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "learned",
+              "polarity": "positive"
+            },
+            {
+              "token": "use",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Dr.ThomasWilson1",
+          "text": "For those who want a quick recap of the 5 ways to upgrade your water for better circulation:\nCucumber & Mint: Supports blood vessel structure (silica) and relaxation.\nLemon & Ginger: Boosts nitric oxide signals and prevents \"sticky\" blood.\nBeetroot (The Fast-Acting One): High in nitrates to dilate vessels and improve oxygen delivery quickly.\nCayenne Pepper: Best for microcirculation; helps with cold hands/feet and tingling.\nHibiscus (The Gold Standard): Best for long-term vessel elasticity. (Pro-tip: Use cold infusion/cold brew to preserve compounds).\nKey takeaway: It’s not about how much water you drink after 60, but how you signal your body to use it. Thank you for sharing!",
+          "likes": 156,
+          "published_at": "2026-04-26T09:08:31Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "boosts",
+              "polarity": "positive"
+            },
+            {
+              "token": "dilate",
+              "polarity": "positive"
+            },
+            {
+              "token": "improve",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@rosemacintosh5528",
+          "text": "THANKS DOCTOR. SO IMPORTANT TO LEARN AND PUT IN ACTION.",
+          "likes": 10,
+          "published_at": "2026-04-21T22:31:32Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "THANKS",
+              "polarity": "positive"
+            },
+            {
+              "token": "IMPORTANT",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@OSFVet",
+          "text": "1.)  Mint & cucumber\n2.)  Lemon & ginger\n3.)  Beet root w cayenne pepper\n4.)   Hibiscus every a.m./p.m. (cold infusion)",
+          "likes": 261,
+          "published_at": "2026-04-19T06:59:55Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Mint",
+              "polarity": "positive"
+            },
+            {
+              "token": "cucumber",
+              "polarity": "positive"
+            },
+            {
+              "token": "Lemon",
+              "polarity": "positive"
+            },
+            {
+              "token": "ginger",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@JH-xu9qs",
+          "text": "Excellent Teaching ❤",
+          "likes": 19,
+          "published_at": "2026-04-24T15:59:13Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Excellent",
+              "polarity": "positive"
+            },
+            {
+              "token": "Teaching",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@XolisiweKubeka",
+          "text": "Morning Doc❤thank u for the info.🎉🎉South African citizen🙏Godbless U❤",
+          "likes": 9,
+          "published_at": "2026-04-28T05:14:32Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "info",
+              "polarity": "neutral"
+            },
+            {
+              "token": "Godbless",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@MariaUma",
+          "text": "Very helpful. No harm in taking necessary action. Thank you so much for the lecture 🙏",
+          "likes": 5,
+          "published_at": "2026-04-26T10:28:58Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "helpful",
+              "polarity": "positive"
+            },
+            {
+              "token": "thank",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "l14_O6khHCo": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "Analysis failed.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@Steve-s1t5x",
+          "text": "BEST CALCULATOR EVER!!!",
+          "likes": 3,
+          "published_at": "2026-03-01T18:41:16Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "BEST",
+              "polarity": "positive"
+            },
+            {
+              "token": "EVER",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@NavySWO",
+          "text": "Amen brother, this is exactly what I needed.  Many thanks 🙏",
+          "likes": 0,
+          "published_at": "2026-05-07T23:06:58Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thanks",
+              "polarity": "positive"
+            },
+            {
+              "token": "needed",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@kelinakay7023",
+          "text": "Shouldn't you add all the water at once. Store it in fridge and take out units as needed",
+          "likes": 1,
+          "published_at": "2026-03-24T13:47:19Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "not",
+              "polarity": "negative"
+            },
+            {
+              "token": "needed",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "neutral": [],
+      "all": [
+        {
+          "author": "@Steve-s1t5x",
+          "text": "BEST CALCULATOR EVER!!!",
+          "likes": 3,
+          "published_at": "2026-03-01T18:41:16Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "BEST",
+              "polarity": "positive"
+            },
+            {
+              "token": "EVER",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@NavySWO",
+          "text": "Amen brother, this is exactly what I needed.  Many thanks 🙏",
+          "likes": 0,
+          "published_at": "2026-05-07T23:06:58Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thanks",
+              "polarity": "positive"
+            },
+            {
+              "token": "needed",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@kelinakay7023",
+          "text": "Shouldn't you add all the water at once. Store it in fridge and take out units as needed",
+          "likes": 1,
+          "published_at": "2026-03-24T13:47:19Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "not",
+              "polarity": "negative"
+            },
+            {
+              "token": "needed",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "v1sOxGVK7zM": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "Analysis failed.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@Ruben-m3z",
+          "text": "thank you",
+          "likes": 0,
+          "published_at": "2026-04-24T18:53:18Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@williamtomkiel8215",
+          "text": "some actual anatomical charts seems like the bare minimum for trying to look legit while trying not to sound so generic",
+          "likes": 1,
+          "published_at": "2026-03-18T03:35:29Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "generic",
+              "polarity": "negative"
+            },
+            {
+              "token": "not",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "neutral": [
+        {
+          "author": "@peterhipolito1684",
+          "text": "Watching from London UK.",
+          "likes": 0,
+          "published_at": "2026-05-11T06:07:35Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "London",
+              "polarity": "neutral"
+            },
+            {
+              "token": "UK",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@eistercj2014",
+          "text": "Jefferson City, Missouri 89 years old.",
+          "likes": 1,
+          "published_at": "2026-04-28T07:55:21Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "89",
+              "polarity": "neutral"
+            },
+            {
+              "token": "years",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@LarryLiwag",
+          "text": "Batangas Philippines 🇵🇭",
+          "likes": 2,
+          "published_at": "2026-04-16T09:49:43Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "Philippines",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@williamgalvin2808",
+          "text": "Chesapeake, Va",
+          "likes": 0,
+          "published_at": "2026-04-23T01:25:06Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "Va",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@darrylgraham237",
+          "text": "Las Vegas Nevada",
+          "likes": 0,
+          "published_at": "2026-03-22T18:19:36Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "Vegas",
+              "polarity": "neutral"
+            },
+            {
+              "token": "Nevada",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@jimshady2812",
+          "text": "Maquoketa Iowa",
+          "likes": 1,
+          "published_at": "2026-04-23T14:51:09Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "Iowa",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@DannySchiele",
+          "text": "Mississippi",
+          "likes": 0,
+          "published_at": "2026-05-04T04:52:04Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "Mississippi",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@kallolkar1444",
+          "text": "I am from Kolkata, India",
+          "likes": 0,
+          "published_at": "2026-05-01T00:22:11Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "Kolkata",
+              "polarity": "neutral"
+            },
+            {
+              "token": "India",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@williamtomkiel8215",
+          "text": "some actual anatomical charts seems like the bare minimum for trying to look legit while trying not to sound so generic",
+          "likes": 1,
+          "published_at": "2026-03-18T03:35:29Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "generic",
+              "polarity": "negative"
+            },
+            {
+              "token": "not",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@peterhipolito1684",
+          "text": "Watching from London UK.",
+          "likes": 0,
+          "published_at": "2026-05-11T06:07:35Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "London",
+              "polarity": "neutral"
+            },
+            {
+              "token": "UK",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@eistercj2014",
+          "text": "Jefferson City, Missouri 89 years old.",
+          "likes": 1,
+          "published_at": "2026-04-28T07:55:21Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "89",
+              "polarity": "neutral"
+            },
+            {
+              "token": "years",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@Ruben-m3z",
+          "text": "thank you",
+          "likes": 0,
+          "published_at": "2026-04-24T18:53:18Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@LarryLiwag",
+          "text": "Batangas Philippines 🇵🇭",
+          "likes": 2,
+          "published_at": "2026-04-16T09:49:43Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "Philippines",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@williamgalvin2808",
+          "text": "Chesapeake, Va",
+          "likes": 0,
+          "published_at": "2026-04-23T01:25:06Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "Va",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@darrylgraham237",
+          "text": "Las Vegas Nevada",
+          "likes": 0,
+          "published_at": "2026-03-22T18:19:36Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "Vegas",
+              "polarity": "neutral"
+            },
+            {
+              "token": "Nevada",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@jimshady2812",
+          "text": "Maquoketa Iowa",
+          "likes": 1,
+          "published_at": "2026-04-23T14:51:09Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "Iowa",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@DannySchiele",
+          "text": "Mississippi",
+          "likes": 0,
+          "published_at": "2026-05-04T04:52:04Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "Mississippi",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@kallolkar1444",
+          "text": "I am from Kolkata, India",
+          "likes": 0,
+          "published_at": "2026-05-01T00:22:11Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "Kolkata",
+              "polarity": "neutral"
+            },
+            {
+              "token": "India",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "vV4EpXfxu2Y": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "Analysis failed.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@juliemarr65",
+          "text": "Thankyou Dr Cole.  I just saw this.  My husband is 73 this month and im 65 in July. This came in time.  May The Most High God bless you😊",
+          "likes": 40,
+          "published_at": "2026-05-13T20:10:10Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Thankyou",
+              "polarity": "positive"
+            },
+            {
+              "token": "bless",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@chandellemitchell5518",
+          "text": "All ingredients to add to coffee was so knowledgeable and surprising",
+          "likes": 18,
+          "published_at": "2026-05-19T07:16:12Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "knowledgeable",
+              "polarity": "positive"
+            },
+            {
+              "token": "surprising",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@donnashafer2636",
+          "text": "May God bless you caring about seniors ❤😂🎉",
+          "likes": 6,
+          "published_at": "2026-05-31T03:33:28Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "bless",
+              "polarity": "positive"
+            },
+            {
+              "token": "caring",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Simstopdog44",
+          "text": "Turmeric and pepper little cinnamon thank you I’m 82 Amen 🙏🏽🙏🏽🙏🏽",
+          "likes": 16,
+          "published_at": "2026-05-17T04:38:58Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "Amen",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@genesiajames3293",
+          "text": "My aunt 93 she drink coffee with cream and 4 drop sugar and she still have all of sense",
+          "likes": 18,
+          "published_at": "2026-05-14T09:41:08Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "still",
+              "polarity": "positive"
+            },
+            {
+              "token": "sense",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@lyndarolle9417",
+          "text": "THIS WAS EXCELLENT ADVISE. MANY DRS. DO NOT GIVE THIS ADVISE TO THEIR PATIENTS AT ALL. THANK YOU SO VERY MUCH❤",
+          "likes": 14,
+          "published_at": "2026-05-14T20:18:19Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "EXCELLENT",
+              "polarity": "positive"
+            },
+            {
+              "token": "THANK",
+              "polarity": "positive"
+            },
+            {
+              "token": "VERY",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Dr.ThomasWilson1",
+          "text": "This moved me. It's rare to see a surgeon talk so passionately about something as 'simple' as muscle and morning coffee. I’ve witnessed that one-in-five statistic regarding hip fractures far too often it's heartbreaking because it’s preventable. To everyone watching: please listen to the advice on Leucine and Collagen. It’s not about looking like a bodybuilder; it’s about having the strength to play with your grandkids. Dr. Cole, thank you for making this complex science so accessible.",
+          "likes": 17,
+          "published_at": "2026-05-12T14:46:08Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "passionately",
+              "polarity": "positive"
+            },
+            {
+              "token": "heartbreaking",
+              "polarity": "negative"
+            },
+            {
+              "token": "thank you",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@FlorenceCobb-m3q",
+          "text": "Great information, I am 82years 9 months old. I shall definitely start adding all the ingredients started in some form throughout the day thank you Dr. Cole and may Almighty God bless you and continue your ability to enlighten us seniors.❤❤❤",
+          "likes": 4,
+          "published_at": "2026-05-16T00:31:21Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "bless",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [],
+      "neutral": [
+        {
+          "author": "@Sonia-cs2vw",
+          "text": "8.  Cinnamon\n7.  Creatine\n6.  MCT oil\n5.  Soy milk\n4.  Collagen\n3.  Whey Idolate\n2.  Chia seeds\n1.  Tumeric combined with black pepper",
+          "likes": 163,
+          "published_at": "2026-05-12T23:14:09Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "combined",
+              "polarity": "neutral"
+            },
+            {
+              "token": "black",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@carolrolle9148",
+          "text": "I just started adding cinnamon.. I'm 65 watching from the Bahamas",
+          "likes": 14,
+          "published_at": "2026-05-12T14:26:08Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "cinnamon",
+              "polarity": "positive"
+            },
+            {
+              "token": "watching",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@Sonia-cs2vw",
+          "text": "8.  Cinnamon\n7.  Creatine\n6.  MCT oil\n5.  Soy milk\n4.  Collagen\n3.  Whey Idolate\n2.  Chia seeds\n1.  Tumeric combined with black pepper",
+          "likes": 163,
+          "published_at": "2026-05-12T23:14:09Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "combined",
+              "polarity": "neutral"
+            },
+            {
+              "token": "black",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@juliemarr65",
+          "text": "Thankyou Dr Cole.  I just saw this.  My husband is 73 this month and im 65 in July. This came in time.  May The Most High God bless you😊",
+          "likes": 40,
+          "published_at": "2026-05-13T20:10:10Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Thankyou",
+              "polarity": "positive"
+            },
+            {
+              "token": "bless",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@chandellemitchell5518",
+          "text": "All ingredients to add to coffee was so knowledgeable and surprising",
+          "likes": 18,
+          "published_at": "2026-05-19T07:16:12Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "knowledgeable",
+              "polarity": "positive"
+            },
+            {
+              "token": "surprising",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@donnashafer2636",
+          "text": "May God bless you caring about seniors ❤😂🎉",
+          "likes": 6,
+          "published_at": "2026-05-31T03:33:28Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "bless",
+              "polarity": "positive"
+            },
+            {
+              "token": "caring",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Simstopdog44",
+          "text": "Turmeric and pepper little cinnamon thank you I’m 82 Amen 🙏🏽🙏🏽🙏🏽",
+          "likes": 16,
+          "published_at": "2026-05-17T04:38:58Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "Amen",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@genesiajames3293",
+          "text": "My aunt 93 she drink coffee with cream and 4 drop sugar and she still have all of sense",
+          "likes": 18,
+          "published_at": "2026-05-14T09:41:08Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "still",
+              "polarity": "positive"
+            },
+            {
+              "token": "sense",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@lyndarolle9417",
+          "text": "THIS WAS EXCELLENT ADVISE. MANY DRS. DO NOT GIVE THIS ADVISE TO THEIR PATIENTS AT ALL. THANK YOU SO VERY MUCH❤",
+          "likes": 14,
+          "published_at": "2026-05-14T20:18:19Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "EXCELLENT",
+              "polarity": "positive"
+            },
+            {
+              "token": "THANK",
+              "polarity": "positive"
+            },
+            {
+              "token": "VERY",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Dr.ThomasWilson1",
+          "text": "This moved me. It's rare to see a surgeon talk so passionately about something as 'simple' as muscle and morning coffee. I’ve witnessed that one-in-five statistic regarding hip fractures far too often it's heartbreaking because it’s preventable. To everyone watching: please listen to the advice on Leucine and Collagen. It’s not about looking like a bodybuilder; it’s about having the strength to play with your grandkids. Dr. Cole, thank you for making this complex science so accessible.",
+          "likes": 17,
+          "published_at": "2026-05-12T14:46:08Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "passionately",
+              "polarity": "positive"
+            },
+            {
+              "token": "heartbreaking",
+              "polarity": "negative"
+            },
+            {
+              "token": "thank you",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@FlorenceCobb-m3q",
+          "text": "Great information, I am 82years 9 months old. I shall definitely start adding all the ingredients started in some form throughout the day thank you Dr. Cole and may Almighty God bless you and continue your ability to enlighten us seniors.❤❤❤",
+          "likes": 4,
+          "published_at": "2026-05-16T00:31:21Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "bless",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@carolrolle9148",
+          "text": "I just started adding cinnamon.. I'm 65 watching from the Bahamas",
+          "likes": 14,
+          "published_at": "2026-05-12T14:26:08Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "cinnamon",
+              "polarity": "positive"
+            },
+            {
+              "token": "watching",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "zsMLFN7Vhtg": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "Analysis failed.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@gracewygal1423",
+          "text": "Thank you!  I go to buy organic groceries only. Chicken is not to have antibiotics in the states.",
+          "likes": 0,
+          "published_at": "2026-03-13T22:49:52Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "organic",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@andreavandekleut6379",
+          "text": "i cannot remember any people I know, that go to ALDI's for health products,  LOL ha ha ha,.  NO they go there for the  lower ( and not always the lowest either). prices. and just so you know checken never has any antibiotics because it is illegal to do so. not just aldi",
+          "likes": 0,
+          "published_at": "2026-03-13T18:25:53Z",
+          "label": "Negative",
+          "score": 0.63,
+          "highlightTokens": [
+            {
+              "token": "lower",
+              "polarity": "negative"
+            },
+            {
+              "token": "not always the lowest either",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "neutral": [],
+      "all": [
+        {
+          "author": "@gracewygal1423",
+          "text": "Thank you!  I go to buy organic groceries only. Chicken is not to have antibiotics in the states.",
+          "likes": 0,
+          "published_at": "2026-03-13T22:49:52Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "organic",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@andreavandekleut6379",
+          "text": "i cannot remember any people I know, that go to ALDI's for health products,  LOL ha ha ha,.  NO they go there for the  lower ( and not always the lowest either). prices. and just so you know checken never has any antibiotics because it is illegal to do so. not just aldi",
+          "likes": 0,
+          "published_at": "2026-03-13T18:25:53Z",
+          "label": "Negative",
+          "score": 0.63,
+          "highlightTokens": [
+            {
+              "token": "lower",
+              "polarity": "negative"
+            },
+            {
+              "token": "not always the lowest either",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ]
+    }
   }
 }
