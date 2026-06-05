@@ -426231,5 +426231,3261 @@
         }
       ]
     }
+  },
+  "3q8qBGT2Wa4": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "Analysis failed.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@ellabongbong7732",
+          "text": "5 Best cheese for diabetic people.\n\n5. Fresh mozzarella \n4. Cottage cheese \n3. Greek Feta Cheese\n2. Ricotta cheese\n1. Aged Parmesan parmigiano raggiano",
+          "likes": 107,
+          "published_at": "2026-05-20T06:15:33Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Best",
+              "polarity": "positive"
+            },
+            {
+              "token": "Fresh",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@marilyngandhi8571",
+          "text": "I’m 80 years old.  I have been t2 diabetic for 27 years.  I’m living in Queensland, Australia. My HbA1c is 5.9. I eat cheese in moderation. Thanks for sharing your knowledge with us all ❤",
+          "likes": 12,
+          "published_at": "2026-05-28T05:03:10Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "Thanks",
+              "polarity": "positive"
+            },
+            {
+              "token": "sharing",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Dr.Harrison-HealthTips",
+          "text": "As a doctor, I like that this focuses on practical food choices rather than fear. Cheese itself doesn’t “control” diabetes, but certain options can fit into a balanced eating plan because protein and fat may help with fullness and reduce blood sugar spikes when paired wisely with other foods. The overall pattern of eating and portion control still matter most.",
+          "likes": 29,
+          "published_at": "2026-05-21T23:12:53Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "like",
+              "polarity": "positive"
+            },
+            {
+              "token": "practical",
+              "polarity": "positive"
+            },
+            {
+              "token": "help",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@askdr.sarahmiller",
+          "text": "Another absolute masterclass! I love how you turn complex health topics into practical, bite-sized steps that anyone can start practicing today. This is exactly the kind of preventative guidance that changes lives. Keep up the incredible and inspiring work! 🙌",
+          "likes": 3,
+          "published_at": "2026-05-26T04:29:09Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "masterclass",
+              "polarity": "positive"
+            },
+            {
+              "token": "love",
+              "polarity": "positive"
+            },
+            {
+              "token": "incredible",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@ProDesk-n6k",
+          "text": "This is such an important video! I remember when my dad was diagnosed with Type 2 Diabetes, he was so worried about giving up all his favorite foods, including cheese. It's wonderful to see this kind of clear explanation that can help people make informed choices and not feel so restricted. Thank you, Dr. Whitmore!",
+          "likes": 4,
+          "published_at": "2026-05-20T12:53:55Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "important",
+              "polarity": "positive"
+            },
+            {
+              "token": "wonderful",
+              "polarity": "positive"
+            },
+            {
+              "token": "thank you",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@LifeMetricsHealth",
+          "text": "I love how this is base on a food",
+          "likes": 3,
+          "published_at": "2026-05-27T11:30:21Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "love",
+              "polarity": "positive"
+            },
+            {
+              "token": "base",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@hawaiianstarman",
+          "text": "76 - mozarella, cottage, parmesan and ricotta. Big fan of cheese with full fat.",
+          "likes": 7,
+          "published_at": "2026-05-20T16:54:56Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Big",
+              "polarity": "positive"
+            },
+            {
+              "token": "fan",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@armandzottola1626",
+          "text": "Excellent. Clear…efficient…no poetry!",
+          "likes": 1,
+          "published_at": "2026-05-20T13:31:28Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Excellent",
+              "polarity": "positive"
+            },
+            {
+              "token": "Clear",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@MollyTanielu-Lima",
+          "text": "Watching and Listening from Sydney in Australia 🇦🇺",
+          "likes": 0,
+          "published_at": "2026-05-22T10:21:58Z",
+          "label": "Positive",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "Watching",
+              "polarity": "positive"
+            },
+            {
+              "token": "Listening",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [],
+      "neutral": [
+        {
+          "author": "@theodoresafieissa4051",
+          "text": "86,English Chedder (Mature)",
+          "likes": 11,
+          "published_at": "2026-05-20T23:34:03Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "Chedder",
+              "polarity": "neutral"
+            },
+            {
+              "token": "Mature",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@ellabongbong7732",
+          "text": "5 Best cheese for diabetic people.\n\n5. Fresh mozzarella \n4. Cottage cheese \n3. Greek Feta Cheese\n2. Ricotta cheese\n1. Aged Parmesan parmigiano raggiano",
+          "likes": 107,
+          "published_at": "2026-05-20T06:15:33Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Best",
+              "polarity": "positive"
+            },
+            {
+              "token": "Fresh",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@marilyngandhi8571",
+          "text": "I’m 80 years old.  I have been t2 diabetic for 27 years.  I’m living in Queensland, Australia. My HbA1c is 5.9. I eat cheese in moderation. Thanks for sharing your knowledge with us all ❤",
+          "likes": 12,
+          "published_at": "2026-05-28T05:03:10Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "Thanks",
+              "polarity": "positive"
+            },
+            {
+              "token": "sharing",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Dr.Harrison-HealthTips",
+          "text": "As a doctor, I like that this focuses on practical food choices rather than fear. Cheese itself doesn’t “control” diabetes, but certain options can fit into a balanced eating plan because protein and fat may help with fullness and reduce blood sugar spikes when paired wisely with other foods. The overall pattern of eating and portion control still matter most.",
+          "likes": 29,
+          "published_at": "2026-05-21T23:12:53Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "like",
+              "polarity": "positive"
+            },
+            {
+              "token": "practical",
+              "polarity": "positive"
+            },
+            {
+              "token": "help",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@askdr.sarahmiller",
+          "text": "Another absolute masterclass! I love how you turn complex health topics into practical, bite-sized steps that anyone can start practicing today. This is exactly the kind of preventative guidance that changes lives. Keep up the incredible and inspiring work! 🙌",
+          "likes": 3,
+          "published_at": "2026-05-26T04:29:09Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "masterclass",
+              "polarity": "positive"
+            },
+            {
+              "token": "love",
+              "polarity": "positive"
+            },
+            {
+              "token": "incredible",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@ProDesk-n6k",
+          "text": "This is such an important video! I remember when my dad was diagnosed with Type 2 Diabetes, he was so worried about giving up all his favorite foods, including cheese. It's wonderful to see this kind of clear explanation that can help people make informed choices and not feel so restricted. Thank you, Dr. Whitmore!",
+          "likes": 4,
+          "published_at": "2026-05-20T12:53:55Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "important",
+              "polarity": "positive"
+            },
+            {
+              "token": "wonderful",
+              "polarity": "positive"
+            },
+            {
+              "token": "thank you",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@LifeMetricsHealth",
+          "text": "I love how this is base on a food",
+          "likes": 3,
+          "published_at": "2026-05-27T11:30:21Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "love",
+              "polarity": "positive"
+            },
+            {
+              "token": "base",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@theodoresafieissa4051",
+          "text": "86,English Chedder (Mature)",
+          "likes": 11,
+          "published_at": "2026-05-20T23:34:03Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "Chedder",
+              "polarity": "neutral"
+            },
+            {
+              "token": "Mature",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@hawaiianstarman",
+          "text": "76 - mozarella, cottage, parmesan and ricotta. Big fan of cheese with full fat.",
+          "likes": 7,
+          "published_at": "2026-05-20T16:54:56Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Big",
+              "polarity": "positive"
+            },
+            {
+              "token": "fan",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@armandzottola1626",
+          "text": "Excellent. Clear…efficient…no poetry!",
+          "likes": 1,
+          "published_at": "2026-05-20T13:31:28Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Excellent",
+              "polarity": "positive"
+            },
+            {
+              "token": "Clear",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@MollyTanielu-Lima",
+          "text": "Watching and Listening from Sydney in Australia 🇦🇺",
+          "likes": 0,
+          "published_at": "2026-05-22T10:21:58Z",
+          "label": "Positive",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "Watching",
+              "polarity": "positive"
+            },
+            {
+              "token": "Listening",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "4QJ7CqAJhtU": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "Analysis failed.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@Lauraine-iw5cn",
+          "text": "I'm 72yrs old. I'm still reading whitouth reading glasses. I'm from Vanuatu 🇻🇺. Thanks for information.",
+          "likes": 0,
+          "published_at": "2026-05-15T22:50:25Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "Thanks",
+              "polarity": "positive"
+            },
+            {
+              "token": "information",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@PamelaC-k7v",
+          "text": "Helps repair eyes, cataracts,etc. \n# 7. KIWI SCOOP OUT W/SPOON     2 golden not green, 1 hr before bed.\n# 6. Watermelon,2/3 cups 1 hr. before bed.\n# 5. Blackcurrants (extract)50mg daily i evening. W/slice orange (vit.C) heathy fat small amout.\n# 4. Blueberries small wild dark.\nFrozen ok. Never combine w/ dairy. Before eating slightly freeze then thaw 1/3 cup. 45 minutes before bed.\n# 3. Dragon fruit deep red flesh, not white flesh. 1/2 of fruit 1 hr before bed. Chew the black seeds, don't shallow whole. \n# 2. Goji berries bright red. Dried \nberries, 2 tablespoons dried berries soak in warm water 10 minutes. Eat 30 mins.before bed.pair w/ small square of high quality of dark chocolate. 85% cocao. \n# 1. Papaya 1 cup ripe cubes 1 hr before bed. Take out of fridge 30 to 60 mins before eating. Squeeze fresh lime over papaya \nNo dairy. No cold.\nRULES \n1. DO NOT COMBINE evening fruit WITH high calcium foods. Treat fruits like a stand alone event.\n2. Always pair evening fruits w/ a small amount of healthy fat: a few walnuts,1 teas of flaxseed oil, several slices of avocado. \n3. Wash gently, cool water, right before eating. Especially for currants & blueberries \n4. Room temperature. Take out of fridge 30 to 60 mins. Before consuming \n5. Timing, eat fruit 60 to 90 minutes before going to sleep.\nBe healthy, safe, and Blessed. 🙏❤️🇺🇸🚑☕️",
+          "likes": 13,
+          "published_at": "2026-05-06T18:27:26Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "healthy",
+              "polarity": "positive"
+            },
+            {
+              "token": "Blessed",
+              "polarity": "positive"
+            },
+            {
+              "token": "safe",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@iamkevinclark",
+          "text": "Thank you, Dr. Lawson, for this insightful discussion on eye health and the impact of nutrition on vision! It's eye-opening to learn that certain fruits can play a significant role in supporting retinal health and repairing damage while we sleep.\r\nI appreciate the detailed explanations of how specific fruits like kiwi, watermelon, and papaya can help combat oxidative stress and inflammation. The emphasis on timing and pairing these fruits with healthy fats is particularly useful.",
+          "likes": 0,
+          "published_at": "2026-06-02T02:24:20Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "insightful",
+              "polarity": "positive"
+            },
+            {
+              "token": "eye-opening",
+              "polarity": "positive"
+            },
+            {
+              "token": "appreciate",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@pavitrajaimungal1889",
+          "text": "Watching from Trinidad in the Caribbean. Thank you.",
+          "likes": 0,
+          "published_at": "2026-05-14T00:19:36Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "you",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@NascimentaDesouza-m6v",
+          "text": "I'm watching from England 🏴󠁧󠁢󠁥󠁮󠁧󠁿 🇬🇧 ❤",
+          "likes": 0,
+          "published_at": "2026-05-15T21:25:22Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "watching",
+              "polarity": "positive"
+            },
+            {
+              "token": "❤",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@AnghirynDay",
+          "text": "Watching from Saudi Arabia ma'am,one of my eye have cataract n the other one ok the other one w cataract little blurd.....pls help me ma'am",
+          "likes": 0,
+          "published_at": "2026-05-07T10:06:30Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "help",
+              "polarity": "positive"
+            },
+            {
+              "token": "maam",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@harjotemnewo8892",
+          "text": "BLESSED YOU ARE!!!, AMEN!!!🔥🌹❤🌍🦁👑🙏",
+          "likes": 0,
+          "published_at": "2026-05-07T07:42:17Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "BLESSED",
+              "polarity": "positive"
+            },
+            {
+              "token": "AMEN",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@tabithatouray",
+          "text": "Thank you so much God bless you Loads Shalom 🎉🎉🎉",
+          "likes": 0,
+          "published_at": "2026-05-05T12:50:16Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "bless",
+              "polarity": "positive"
+            },
+            {
+              "token": "Loads",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@marquisthomas5882",
+          "text": "Sacramento I can't see out right eye just shadow fog",
+          "likes": 0,
+          "published_at": "2026-05-07T09:37:04Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "can't",
+              "polarity": "negative"
+            },
+            {
+              "token": "shadow",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "neutral": [
+        {
+          "author": "@ingehiskia8942",
+          "text": "I'm watching from Windhoek Namibia 🇳🇦 Africa 🇳🇦 🌍",
+          "likes": 0,
+          "published_at": "2026-05-15T17:14:07Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "watching",
+              "polarity": "neutral"
+            },
+            {
+              "token": "Windhoek",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@Lauraine-iw5cn",
+          "text": "I'm 72yrs old. I'm still reading whitouth reading glasses. I'm from Vanuatu 🇻🇺. Thanks for information.",
+          "likes": 0,
+          "published_at": "2026-05-15T22:50:25Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "Thanks",
+              "polarity": "positive"
+            },
+            {
+              "token": "information",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@PamelaC-k7v",
+          "text": "Helps repair eyes, cataracts,etc. \n# 7. KIWI SCOOP OUT W/SPOON     2 golden not green, 1 hr before bed.\n# 6. Watermelon,2/3 cups 1 hr. before bed.\n# 5. Blackcurrants (extract)50mg daily i evening. W/slice orange (vit.C) heathy fat small amout.\n# 4. Blueberries small wild dark.\nFrozen ok. Never combine w/ dairy. Before eating slightly freeze then thaw 1/3 cup. 45 minutes before bed.\n# 3. Dragon fruit deep red flesh, not white flesh. 1/2 of fruit 1 hr before bed. Chew the black seeds, don't shallow whole. \n# 2. Goji berries bright red. Dried \nberries, 2 tablespoons dried berries soak in warm water 10 minutes. Eat 30 mins.before bed.pair w/ small square of high quality of dark chocolate. 85% cocao. \n# 1. Papaya 1 cup ripe cubes 1 hr before bed. Take out of fridge 30 to 60 mins before eating. Squeeze fresh lime over papaya \nNo dairy. No cold.\nRULES \n1. DO NOT COMBINE evening fruit WITH high calcium foods. Treat fruits like a stand alone event.\n2. Always pair evening fruits w/ a small amount of healthy fat: a few walnuts,1 teas of flaxseed oil, several slices of avocado. \n3. Wash gently, cool water, right before eating. Especially for currants & blueberries \n4. Room temperature. Take out of fridge 30 to 60 mins. Before consuming \n5. Timing, eat fruit 60 to 90 minutes before going to sleep.\nBe healthy, safe, and Blessed. 🙏❤️🇺🇸🚑☕️",
+          "likes": 13,
+          "published_at": "2026-05-06T18:27:26Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "healthy",
+              "polarity": "positive"
+            },
+            {
+              "token": "Blessed",
+              "polarity": "positive"
+            },
+            {
+              "token": "safe",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@iamkevinclark",
+          "text": "Thank you, Dr. Lawson, for this insightful discussion on eye health and the impact of nutrition on vision! It's eye-opening to learn that certain fruits can play a significant role in supporting retinal health and repairing damage while we sleep.\r\nI appreciate the detailed explanations of how specific fruits like kiwi, watermelon, and papaya can help combat oxidative stress and inflammation. The emphasis on timing and pairing these fruits with healthy fats is particularly useful.",
+          "likes": 0,
+          "published_at": "2026-06-02T02:24:20Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "insightful",
+              "polarity": "positive"
+            },
+            {
+              "token": "eye-opening",
+              "polarity": "positive"
+            },
+            {
+              "token": "appreciate",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@pavitrajaimungal1889",
+          "text": "Watching from Trinidad in the Caribbean. Thank you.",
+          "likes": 0,
+          "published_at": "2026-05-14T00:19:36Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "you",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@NascimentaDesouza-m6v",
+          "text": "I'm watching from England 🏴󠁧󠁢󠁥󠁮󠁧󠁿 🇬🇧 ❤",
+          "likes": 0,
+          "published_at": "2026-05-15T21:25:22Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "watching",
+              "polarity": "positive"
+            },
+            {
+              "token": "❤",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@AnghirynDay",
+          "text": "Watching from Saudi Arabia ma'am,one of my eye have cataract n the other one ok the other one w cataract little blurd.....pls help me ma'am",
+          "likes": 0,
+          "published_at": "2026-05-07T10:06:30Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "help",
+              "polarity": "positive"
+            },
+            {
+              "token": "maam",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@harjotemnewo8892",
+          "text": "BLESSED YOU ARE!!!, AMEN!!!🔥🌹❤🌍🦁👑🙏",
+          "likes": 0,
+          "published_at": "2026-05-07T07:42:17Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "BLESSED",
+              "polarity": "positive"
+            },
+            {
+              "token": "AMEN",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@ingehiskia8942",
+          "text": "I'm watching from Windhoek Namibia 🇳🇦 Africa 🇳🇦 🌍",
+          "likes": 0,
+          "published_at": "2026-05-15T17:14:07Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "watching",
+              "polarity": "neutral"
+            },
+            {
+              "token": "Windhoek",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@tabithatouray",
+          "text": "Thank you so much God bless you Loads Shalom 🎉🎉🎉",
+          "likes": 0,
+          "published_at": "2026-05-05T12:50:16Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "bless",
+              "polarity": "positive"
+            },
+            {
+              "token": "Loads",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@marquisthomas5882",
+          "text": "Sacramento I can't see out right eye just shadow fog",
+          "likes": 0,
+          "published_at": "2026-05-07T09:37:04Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "can't",
+              "polarity": "negative"
+            },
+            {
+              "token": "shadow",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "CE6MKqKedxo": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "Analysis failed.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@GypsyMind68",
+          "text": "I do not care how long I live, what I care is how I live, and ultimately die peacefully in sleep. Amen 🙏🙌",
+          "likes": 358,
+          "published_at": "2026-05-21T07:40:13Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "peacefully",
+              "polarity": "positive"
+            },
+            {
+              "token": "die",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@doracarden9630",
+          "text": "I'm type O and realize my gut health is one of the most important factors, along with exercise",
+          "likes": 172,
+          "published_at": "2026-05-27T16:26:08Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "important",
+              "polarity": "positive"
+            },
+            {
+              "token": "along",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@bergerfry5424",
+          "text": "My mother was given 2-3 months to live.  She patted the Drs hand and thanked him. I said Mom are you OK? (she was so calm).  His name badge didn’t say God, I believe I have many more years.  Over 7 years she lived well!  The last year was her hardest.  Mom said it’s ok because once the pain and disfuncting body dies I’ll finally be HOME.❤. She passed a month before Princess Diana.  I still miss her.",
+          "likes": 496,
+          "published_at": "2026-05-12T07:45:12Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "OK",
+              "polarity": "positive"
+            },
+            {
+              "token": "HOME",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@sharonwoods4508",
+          "text": "A negative, age 81,  2 bouts cancer, 1 heart attack, 4 stents…….stressful job 30 years,  cared  for husband   with Altzheimers 9 years. Now living with 21 year old cat, feeding deer, tending plants…….life is good❣️ Georgia USA",
+          "likes": 40,
+          "published_at": "2026-05-31T17:00:50Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "good",
+              "polarity": "positive"
+            },
+            {
+              "token": "living",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@virginiacaddick3329",
+          "text": "Paternal grandma died at 105 years old, never saw her sick or hear her complaining of her difficult life. At the end She just went to sleep. Maternal at 89, her life similar in hardship.  My mom is 95 , very hard working lady, and still going. I am a healthy 72 year old senior. One knee replaced, not because I wanted but I was told it was needed. Now I wonder...if it was really necessary. Besides that still doing everything around the house. There's innumerable variables in one's life journey. \nJust BE, GRATEFUL, take care of your body, your mind, your spirit, and let the good Lord take care of the rest. ❤In simple words: \"Don't sweat the small stuff\" Cheers!!",
+          "likes": 725,
+          "published_at": "2026-05-05T17:55:51Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "GRATEFUL",
+              "polarity": "positive"
+            },
+            {
+              "token": "good Lord",
+              "polarity": "positive"
+            },
+            {
+              "token": "Don't sweat the small stuff",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@MessengerEmmet",
+          "text": "Type A positive ~ will be 80 this November. No medication.",
+          "likes": 347,
+          "published_at": "2026-05-18T21:31:03Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "positive",
+              "polarity": "positive"
+            },
+            {
+              "token": "80",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@florencedugas5648",
+          "text": "I am O+ at 71 not taking pills yet...\nMy two grandmothers lived on to 100 years old and my maternal great aunt to 110 years old.",
+          "likes": 194,
+          "published_at": "2026-05-20T15:46:03Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "lived",
+              "polarity": "positive"
+            },
+            {
+              "token": "old",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@pastlifedreams981",
+          "text": "I am B+ and 93 years old.",
+          "likes": 277,
+          "published_at": "2026-05-11T02:23:37Z",
+          "label": "Positive",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "B+",
+              "polarity": "positive"
+            },
+            {
+              "token": "93",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@barrysimmons1210",
+          "text": "Type A+, blood press is great, age 69, living my best life and looking forward to the afterlife.",
+          "likes": 208,
+          "published_at": "2026-05-09T15:52:50Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "great",
+              "polarity": "positive"
+            },
+            {
+              "token": "best",
+              "polarity": "positive"
+            },
+            {
+              "token": "looking forward",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@SJ-fn9iw",
+          "text": "His so right I’m type A amd had too much stress in my life which gave me heart attack!",
+          "likes": 16,
+          "published_at": "2026-05-29T21:17:14Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "stress",
+              "polarity": "negative"
+            },
+            {
+              "token": "heart attack",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "neutral": [],
+      "all": [
+        {
+          "author": "@GypsyMind68",
+          "text": "I do not care how long I live, what I care is how I live, and ultimately die peacefully in sleep. Amen 🙏🙌",
+          "likes": 358,
+          "published_at": "2026-05-21T07:40:13Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "peacefully",
+              "polarity": "positive"
+            },
+            {
+              "token": "die",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@doracarden9630",
+          "text": "I'm type O and realize my gut health is one of the most important factors, along with exercise",
+          "likes": 172,
+          "published_at": "2026-05-27T16:26:08Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "important",
+              "polarity": "positive"
+            },
+            {
+              "token": "along",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@bergerfry5424",
+          "text": "My mother was given 2-3 months to live.  She patted the Drs hand and thanked him. I said Mom are you OK? (she was so calm).  His name badge didn’t say God, I believe I have many more years.  Over 7 years she lived well!  The last year was her hardest.  Mom said it’s ok because once the pain and disfuncting body dies I’ll finally be HOME.❤. She passed a month before Princess Diana.  I still miss her.",
+          "likes": 496,
+          "published_at": "2026-05-12T07:45:12Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "OK",
+              "polarity": "positive"
+            },
+            {
+              "token": "HOME",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@sharonwoods4508",
+          "text": "A negative, age 81,  2 bouts cancer, 1 heart attack, 4 stents…….stressful job 30 years,  cared  for husband   with Altzheimers 9 years. Now living with 21 year old cat, feeding deer, tending plants…….life is good❣️ Georgia USA",
+          "likes": 40,
+          "published_at": "2026-05-31T17:00:50Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "good",
+              "polarity": "positive"
+            },
+            {
+              "token": "living",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@virginiacaddick3329",
+          "text": "Paternal grandma died at 105 years old, never saw her sick or hear her complaining of her difficult life. At the end She just went to sleep. Maternal at 89, her life similar in hardship.  My mom is 95 , very hard working lady, and still going. I am a healthy 72 year old senior. One knee replaced, not because I wanted but I was told it was needed. Now I wonder...if it was really necessary. Besides that still doing everything around the house. There's innumerable variables in one's life journey. \nJust BE, GRATEFUL, take care of your body, your mind, your spirit, and let the good Lord take care of the rest. ❤In simple words: \"Don't sweat the small stuff\" Cheers!!",
+          "likes": 725,
+          "published_at": "2026-05-05T17:55:51Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "GRATEFUL",
+              "polarity": "positive"
+            },
+            {
+              "token": "good Lord",
+              "polarity": "positive"
+            },
+            {
+              "token": "Don't sweat the small stuff",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@MessengerEmmet",
+          "text": "Type A positive ~ will be 80 this November. No medication.",
+          "likes": 347,
+          "published_at": "2026-05-18T21:31:03Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "positive",
+              "polarity": "positive"
+            },
+            {
+              "token": "80",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@florencedugas5648",
+          "text": "I am O+ at 71 not taking pills yet...\nMy two grandmothers lived on to 100 years old and my maternal great aunt to 110 years old.",
+          "likes": 194,
+          "published_at": "2026-05-20T15:46:03Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "lived",
+              "polarity": "positive"
+            },
+            {
+              "token": "old",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@SJ-fn9iw",
+          "text": "His so right I’m type A amd had too much stress in my life which gave me heart attack!",
+          "likes": 16,
+          "published_at": "2026-05-29T21:17:14Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "stress",
+              "polarity": "negative"
+            },
+            {
+              "token": "heart attack",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@pastlifedreams981",
+          "text": "I am B+ and 93 years old.",
+          "likes": 277,
+          "published_at": "2026-05-11T02:23:37Z",
+          "label": "Positive",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "B+",
+              "polarity": "positive"
+            },
+            {
+              "token": "93",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@barrysimmons1210",
+          "text": "Type A+, blood press is great, age 69, living my best life and looking forward to the afterlife.",
+          "likes": 208,
+          "published_at": "2026-05-09T15:52:50Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "great",
+              "polarity": "positive"
+            },
+            {
+              "token": "best",
+              "polarity": "positive"
+            },
+            {
+              "token": "looking forward",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "D5vzQXRhuwE": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "Analysis failed.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@WolfeinZuidAfrika",
+          "text": "I have for years been taking a 3/4 teaspoon of ascorbic acid powder, dissolved in a glass of luke-warm water, second to a cup of hot salted water, first thing when I surface. Very sensible advice I gleaned from Dr. Sarah Myhill, some years back.",
+          "likes": 0,
+          "published_at": "2026-05-15T08:22:27Z",
+          "label": "Positive",
+          "score": 0.88,
+          "highlightTokens": [
+            {
+              "token": "sensible",
+              "polarity": "positive"
+            },
+            {
+              "token": "years",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@michaeledwardwatts5608",
+          "text": "Yes",
+          "likes": 1,
+          "published_at": "2026-05-12T02:38:27Z",
+          "label": "Positive",
+          "score": 0.9,
+          "highlightTokens": [
+            {
+              "token": "Yes",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@mysteriousbruddah1574",
+          "text": "Thank you!",
+          "likes": 2,
+          "published_at": "2026-05-12T21:16:23Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "you",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@BeOz66",
+          "text": "I have been doing those 3 compounds but next week at 67 I start trt I am so looking forward to it. I am shot!",
+          "likes": 1,
+          "published_at": "2026-05-29T03:56:25Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "looking",
+              "polarity": "positive"
+            },
+            {
+              "token": "forward",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@davidgreene8608",
+          "text": "You should pair vitamin k2 with vitamin d3. Surprised you didn’t mention this reality",
+          "likes": 1,
+          "published_at": "2026-05-09T11:59:05Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "Surprised",
+              "polarity": "positive"
+            },
+            {
+              "token": "reality",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@vincecoll7652",
+          "text": "Not taking it after, sometimes before with 1,000 mg vit C\n20 grams collagen and 70mg hyaluronic acid for joints. \nBut I am taking 1500 mh of magnesium malate and cod liver oil along with 2 scoops of whey isolate as well. Then a 40-50 gram protein meal about 1 hr later.\nI take the 400 gr mag glycinate cottage cheese and Greek yogurt 1/2 hr before bed. \nI'm 63. Weigh 173, still squatting, deadlifting and shoulder pressing as heavy as I can leaving 2 reps in the tank. Thanks for the info. Hope it helps a lot of people.  \nThinking about supplementing lysine with my post workout shake.",
+          "likes": 2,
+          "published_at": "2026-05-09T00:02:32Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "Thanks",
+              "polarity": "positive"
+            },
+            {
+              "token": "helps",
+              "polarity": "positive"
+            },
+            {
+              "token": "still",
+              "polarity": "neutral"
+            },
+            {
+              "token": "heavy",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@GoldenAthlete-f2k",
+          "text": "One question. Answer it honestly.\nAre you currently taking vitamin C or vitamin E post-workout  yes or no?\n\nIf the answer is yes  you have been paying to erase the exact biological signal your training just produced. That is not a theory. That is what the Journal of Physiology documented in a controlled 10-week resistance training study. Same program. Same effort. The supplemented group underperformed measurably, consistently.\nThree compounds work with aging male physiology. Everything else is either neutral or competing against you.\n\nThe complete protocol exact doses, forms, timing, and the full supplement stack sequenced into a 12-week training system is inside Refuse To Age. 72 pages.  Link is in the description.\n\nTell me your answer below. And tell me where in the world you are watching from.\nDecline is not inevitable. It is a choice.",
+          "likes": 1,
+          "published_at": "2026-05-08T18:49:39Z",
+          "label": "Negative",
+          "score": 0.65,
+          "highlightTokens": [
+            {
+              "token": "erasing",
+              "polarity": "negative"
+            },
+            {
+              "token": "underperformed",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@VJV3160",
+          "text": "The link to the program isn't working",
+          "likes": 0,
+          "published_at": "2026-05-11T05:57:00Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "isn't",
+              "polarity": "negative"
+            },
+            {
+              "token": "working",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@MelbourneHandyman",
+          "text": "No",
+          "likes": 0,
+          "published_at": "2026-05-17T04:21:21Z",
+          "label": "Negative",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "No",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "neutral": [],
+      "all": [
+        {
+          "author": "@GoldenAthlete-f2k",
+          "text": "One question. Answer it honestly.\nAre you currently taking vitamin C or vitamin E post-workout  yes or no?\n\nIf the answer is yes  you have been paying to erase the exact biological signal your training just produced. That is not a theory. That is what the Journal of Physiology documented in a controlled 10-week resistance training study. Same program. Same effort. The supplemented group underperformed measurably, consistently.\nThree compounds work with aging male physiology. Everything else is either neutral or competing against you.\n\nThe complete protocol exact doses, forms, timing, and the full supplement stack sequenced into a 12-week training system is inside Refuse To Age. 72 pages.  Link is in the description.\n\nTell me your answer below. And tell me where in the world you are watching from.\nDecline is not inevitable. It is a choice.",
+          "likes": 1,
+          "published_at": "2026-05-08T18:49:39Z",
+          "label": "Negative",
+          "score": 0.65,
+          "highlightTokens": [
+            {
+              "token": "erasing",
+              "polarity": "negative"
+            },
+            {
+              "token": "underperformed",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@VJV3160",
+          "text": "The link to the program isn't working",
+          "likes": 0,
+          "published_at": "2026-05-11T05:57:00Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "isn't",
+              "polarity": "negative"
+            },
+            {
+              "token": "working",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@WolfeinZuidAfrika",
+          "text": "I have for years been taking a 3/4 teaspoon of ascorbic acid powder, dissolved in a glass of luke-warm water, second to a cup of hot salted water, first thing when I surface. Very sensible advice I gleaned from Dr. Sarah Myhill, some years back.",
+          "likes": 0,
+          "published_at": "2026-05-15T08:22:27Z",
+          "label": "Positive",
+          "score": 0.88,
+          "highlightTokens": [
+            {
+              "token": "sensible",
+              "polarity": "positive"
+            },
+            {
+              "token": "years",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@michaeledwardwatts5608",
+          "text": "Yes",
+          "likes": 1,
+          "published_at": "2026-05-12T02:38:27Z",
+          "label": "Positive",
+          "score": 0.9,
+          "highlightTokens": [
+            {
+              "token": "Yes",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@mysteriousbruddah1574",
+          "text": "Thank you!",
+          "likes": 2,
+          "published_at": "2026-05-12T21:16:23Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "you",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@BeOz66",
+          "text": "I have been doing those 3 compounds but next week at 67 I start trt I am so looking forward to it. I am shot!",
+          "likes": 1,
+          "published_at": "2026-05-29T03:56:25Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "looking",
+              "polarity": "positive"
+            },
+            {
+              "token": "forward",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@MelbourneHandyman",
+          "text": "No",
+          "likes": 0,
+          "published_at": "2026-05-17T04:21:21Z",
+          "label": "Negative",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "No",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@davidgreene8608",
+          "text": "You should pair vitamin k2 with vitamin d3. Surprised you didn’t mention this reality",
+          "likes": 1,
+          "published_at": "2026-05-09T11:59:05Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "Surprised",
+              "polarity": "positive"
+            },
+            {
+              "token": "reality",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@vincecoll7652",
+          "text": "Not taking it after, sometimes before with 1,000 mg vit C\n20 grams collagen and 70mg hyaluronic acid for joints. \nBut I am taking 1500 mh of magnesium malate and cod liver oil along with 2 scoops of whey isolate as well. Then a 40-50 gram protein meal about 1 hr later.\nI take the 400 gr mag glycinate cottage cheese and Greek yogurt 1/2 hr before bed. \nI'm 63. Weigh 173, still squatting, deadlifting and shoulder pressing as heavy as I can leaving 2 reps in the tank. Thanks for the info. Hope it helps a lot of people.  \nThinking about supplementing lysine with my post workout shake.",
+          "likes": 2,
+          "published_at": "2026-05-09T00:02:32Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "Thanks",
+              "polarity": "positive"
+            },
+            {
+              "token": "helps",
+              "polarity": "positive"
+            },
+            {
+              "token": "still",
+              "polarity": "neutral"
+            },
+            {
+              "token": "heavy",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "JUOmXyDPRsQ": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "Analysis failed.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@cosmicearthhub",
+          "text": "Time travel is one of those ideas that feels like pure science fiction… but when you actually look at what physics says, it gets surprisingly serious. Relativity allows for time dilation, meaning in a very real sense, we’re already “traveling” into the future—just at different speeds depending on gravity and motion. Astronauts on the ISS literally age a tiny bit slower than we do on Earth.",
+          "likes": 6,
+          "published_at": "2026-02-17T14:34:07Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "surprisingly",
+              "polarity": "positive"
+            },
+            {
+              "token": "serious",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Lightmaker5",
+          "text": "Chuck Norris does one roundhousekick and there he is.",
+          "likes": 0,
+          "published_at": "2026-03-11T04:47:35Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "roundhousekick",
+              "polarity": "positive"
+            },
+            {
+              "token": "there",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@InfiniteCosmicVoyage",
+          "text": "The universe really makes you feel tiny the more you learn about it. Anyone else here addicted to space videos like me?",
+          "likes": 7,
+          "published_at": "2026-03-16T18:03:41Z",
+          "label": "Negative",
+          "score": 0.43,
+          "highlightTokens": [
+            {
+              "token": "tiny",
+              "polarity": "negative"
+            },
+            {
+              "token": "addicted",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@chriseliza5",
+          "text": "The only   possible logical manner in which humans can possibly time travel is only subconcieously.",
+          "likes": 3,
+          "published_at": "2026-03-09T16:14:05Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "possible",
+              "polarity": "negative"
+            },
+            {
+              "token": "subconcieously",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@ramiroequipilag1316",
+          "text": "time travel is impossible. you can cheat time advancement by tricking it with speed and warping reality but you cannot cheat it by going back in time. time travel would require so much energy to reverse the entire universe. you cannot chose a part of space to travel back in time. it has to be all or none, and same with future time",
+          "likes": 3,
+          "published_at": "2026-02-15T14:49:53Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "impossible",
+              "polarity": "negative"
+            },
+            {
+              "token": "cheat",
+              "polarity": "neutral"
+            },
+            {
+              "token": "energy",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@Foxie635",
+          "text": "Time is man made.",
+          "likes": 1,
+          "published_at": "2026-02-22T13:37:57Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "man",
+              "polarity": "negative"
+            },
+            {
+              "token": "made",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "neutral": [
+        {
+          "author": "@Heyjeh1",
+          "text": "I live at 2300 elevation in the foothills above LA.  I use to commute twice a day to 30 ft above sea level.    Did I arrive unnecessarily early to work or late?",
+          "likes": 0,
+          "published_at": "2026-02-20T00:27:49Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "unnecessarily",
+              "polarity": "negative"
+            },
+            {
+              "token": "late",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@joshuabiddix3960",
+          "text": "Wouldn’t time travel include putting earth and every other star, galaxy etc in the place they were in the time u want to go?",
+          "likes": 0,
+          "published_at": "2026-03-06T13:51:07Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "time",
+              "polarity": "neutral"
+            },
+            {
+              "token": "include",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@francislaureta6112",
+          "text": "Its like the more you go deepeer in water the more pressure there is... The more speed you gain the more mass there is...",
+          "likes": 2,
+          "published_at": "2026-02-14T05:43:32Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "pressure",
+              "polarity": "neutral"
+            },
+            {
+              "token": "mass",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@wbiro",
+          "text": "If you are referring to backwards time travel, physics better say no, or it needs work. If you want to 'visit' the past, you have to recreate it by dealing with change (the prior states of it). Time is an imaginary concept we invented to measure things via units, like length units. Thinking that the units are real is a logical fallacy that even the ancient Greeks realized (it is called 'reification').",
+          "likes": 0,
+          "published_at": "2026-05-09T07:09:48Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "no",
+              "polarity": "negative"
+            },
+            {
+              "token": "work",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@InfiniteCosmicVoyage",
+          "text": "The universe really makes you feel tiny the more you learn about it. Anyone else here addicted to space videos like me?",
+          "likes": 7,
+          "published_at": "2026-03-16T18:03:41Z",
+          "label": "Negative",
+          "score": 0.43,
+          "highlightTokens": [
+            {
+              "token": "tiny",
+              "polarity": "negative"
+            },
+            {
+              "token": "addicted",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@chriseliza5",
+          "text": "The only   possible logical manner in which humans can possibly time travel is only subconcieously.",
+          "likes": 3,
+          "published_at": "2026-03-09T16:14:05Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "possible",
+              "polarity": "negative"
+            },
+            {
+              "token": "subconcieously",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@cosmicearthhub",
+          "text": "Time travel is one of those ideas that feels like pure science fiction… but when you actually look at what physics says, it gets surprisingly serious. Relativity allows for time dilation, meaning in a very real sense, we’re already “traveling” into the future—just at different speeds depending on gravity and motion. Astronauts on the ISS literally age a tiny bit slower than we do on Earth.",
+          "likes": 6,
+          "published_at": "2026-02-17T14:34:07Z",
+          "label": "Positive",
+          "score": 0.85,
+          "highlightTokens": [
+            {
+              "token": "surprisingly",
+              "polarity": "positive"
+            },
+            {
+              "token": "serious",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Heyjeh1",
+          "text": "I live at 2300 elevation in the foothills above LA.  I use to commute twice a day to 30 ft above sea level.    Did I arrive unnecessarily early to work or late?",
+          "likes": 0,
+          "published_at": "2026-02-20T00:27:49Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "unnecessarily",
+              "polarity": "negative"
+            },
+            {
+              "token": "late",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@joshuabiddix3960",
+          "text": "Wouldn’t time travel include putting earth and every other star, galaxy etc in the place they were in the time u want to go?",
+          "likes": 0,
+          "published_at": "2026-03-06T13:51:07Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "time",
+              "polarity": "neutral"
+            },
+            {
+              "token": "include",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@francislaureta6112",
+          "text": "Its like the more you go deepeer in water the more pressure there is... The more speed you gain the more mass there is...",
+          "likes": 2,
+          "published_at": "2026-02-14T05:43:32Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "pressure",
+              "polarity": "neutral"
+            },
+            {
+              "token": "mass",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@Lightmaker5",
+          "text": "Chuck Norris does one roundhousekick and there he is.",
+          "likes": 0,
+          "published_at": "2026-03-11T04:47:35Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "roundhousekick",
+              "polarity": "positive"
+            },
+            {
+              "token": "there",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@ramiroequipilag1316",
+          "text": "time travel is impossible. you can cheat time advancement by tricking it with speed and warping reality but you cannot cheat it by going back in time. time travel would require so much energy to reverse the entire universe. you cannot chose a part of space to travel back in time. it has to be all or none, and same with future time",
+          "likes": 3,
+          "published_at": "2026-02-15T14:49:53Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "impossible",
+              "polarity": "negative"
+            },
+            {
+              "token": "cheat",
+              "polarity": "neutral"
+            },
+            {
+              "token": "energy",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@wbiro",
+          "text": "If you are referring to backwards time travel, physics better say no, or it needs work. If you want to 'visit' the past, you have to recreate it by dealing with change (the prior states of it). Time is an imaginary concept we invented to measure things via units, like length units. Thinking that the units are real is a logical fallacy that even the ancient Greeks realized (it is called 'reification').",
+          "likes": 0,
+          "published_at": "2026-05-09T07:09:48Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "no",
+              "polarity": "negative"
+            },
+            {
+              "token": "work",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@Foxie635",
+          "text": "Time is man made.",
+          "likes": 1,
+          "published_at": "2026-02-22T13:37:57Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "man",
+              "polarity": "negative"
+            },
+            {
+              "token": "made",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "LVr4qAlQFis": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "Analysis failed.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [],
+      "negative": [
+        {
+          "author": "@AttilaH2023",
+          "text": "The most depressing YouTube video I  have ever heard. I now feel very bad.",
+          "likes": 3,
+          "published_at": "2026-01-23T12:59:50Z",
+          "label": "Negative",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "depressing",
+              "polarity": "negative"
+            },
+            {
+              "token": "bad",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@sophieclarke7030",
+          "text": "OK it is depressing",
+          "likes": 0,
+          "published_at": "2026-02-11T21:25:23Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "depressing",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "neutral": [],
+      "all": [
+        {
+          "author": "@AttilaH2023",
+          "text": "The most depressing YouTube video I  have ever heard. I now feel very bad.",
+          "likes": 3,
+          "published_at": "2026-01-23T12:59:50Z",
+          "label": "Negative",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "depressing",
+              "polarity": "negative"
+            },
+            {
+              "token": "bad",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@sophieclarke7030",
+          "text": "OK it is depressing",
+          "likes": 0,
+          "published_at": "2026-02-11T21:25:23Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "depressing",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "Or0e_IhIepY": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "Analysis failed.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@edrmottaprimal",
+          "text": "It agrees with what I read sometime ago. Exercise still beats a less than perfect environmental conditions. Great topic, great approach!",
+          "likes": 2,
+          "published_at": "2026-03-16T08:18:50Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "Exercise",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@jameshaynes3095",
+          "text": "I've always wondered about the effects of pollution when I exercise. Thanks for clarifying this for me. It was really helpful. Thanks!",
+          "likes": 11,
+          "published_at": "2026-03-13T15:54:25Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "helpful",
+              "polarity": "positive"
+            },
+            {
+              "token": "clarifying",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@MoselleMemories",
+          "text": "Hey man.  I looked at your channel and all your videos, and I think you have made a good switch.  You used to do product reviews, and now you are more focused on the philosophy of staying fit over 50.  The latter has a wider audience.  Keep it inspirational and the viewers will come.   Nice job.  I subscribed.",
+          "likes": 12,
+          "published_at": "2026-03-13T15:23:31Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "good",
+              "polarity": "positive"
+            },
+            {
+              "token": "inspirational",
+              "polarity": "positive"
+            },
+            {
+              "token": "nice",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@stuartatkinson3784",
+          "text": "Wow, that was great stuff.",
+          "likes": 5,
+          "published_at": "2026-03-13T18:00:40Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "great",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@GeraldMclaughlin-y6i",
+          "text": "Hi Patrick, a great presentation of data, research and insight that is both reassuring and thoughtful \nYour work on this channel has hit a real sweet spot \nBring on the microlives",
+          "likes": 6,
+          "published_at": "2026-03-13T23:58:08Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "great",
+              "polarity": "positive"
+            },
+            {
+              "token": "reassuring",
+              "polarity": "positive"
+            },
+            {
+              "token": "thoughtful",
+              "polarity": "positive"
+            },
+            {
+              "token": "sweet spot",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@michaelrussell4894",
+          "text": "Thought about \"optic flow\" on my ride today and made a more focused attempt to stop looking at my cyclocomputer and instead scan the scenery. Anecdotal of course, but I did feel more energized after a hilly ride where I pushed and I did not have the hard ride rebound fatigue I usually have. Top notch information for this 62 y/o.",
+          "likes": 4,
+          "published_at": "2026-03-15T01:48:56Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "energized",
+              "polarity": "positive"
+            },
+            {
+              "token": "Top",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@bikeempowerment",
+          "text": "Great info. 🙏",
+          "likes": 0,
+          "published_at": "2026-04-20T06:32:52Z",
+          "label": "Positive",
+          "score": 0.9,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "info",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@AllThingsFabrication",
+          "text": "There is a lot to be said for choosing your commute/ride with safety in mind. Roomy shoulders, lower traffic speeds, time of day, and as you mention, proximity to freeways and other high pollution areas. I commuted to work on a 25 mile round trip route for the last 20 years, and I would say that this strengthened my body, mind, and immune system! Im retired now, but I still get out and ride to maintain my body.",
+          "likes": 1,
+          "published_at": "2026-03-15T19:52:40Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "safety",
+              "polarity": "positive"
+            },
+            {
+              "token": "strengthened",
+              "polarity": "positive"
+            },
+            {
+              "token": "maintain",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@claytonjones5857",
+          "text": "What a fascinating video thank you.",
+          "likes": 1,
+          "published_at": "2026-03-15T06:45:42Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "fascinating",
+              "polarity": "positive"
+            },
+            {
+              "token": "thank",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@ArtLangston-o9d",
+          "text": "Patrick, your videos are wonderfully informative.\nPS. would like a deep dive of microlives. Thank you.",
+          "likes": 0,
+          "published_at": "2026-03-14T12:57:12Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "wonderfully",
+              "polarity": "positive"
+            },
+            {
+              "token": "informative",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [],
+      "neutral": [],
+      "all": [
+        {
+          "author": "@edrmottaprimal",
+          "text": "It agrees with what I read sometime ago. Exercise still beats a less than perfect environmental conditions. Great topic, great approach!",
+          "likes": 2,
+          "published_at": "2026-03-16T08:18:50Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "Exercise",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@jameshaynes3095",
+          "text": "I've always wondered about the effects of pollution when I exercise. Thanks for clarifying this for me. It was really helpful. Thanks!",
+          "likes": 11,
+          "published_at": "2026-03-13T15:54:25Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "helpful",
+              "polarity": "positive"
+            },
+            {
+              "token": "clarifying",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@MoselleMemories",
+          "text": "Hey man.  I looked at your channel and all your videos, and I think you have made a good switch.  You used to do product reviews, and now you are more focused on the philosophy of staying fit over 50.  The latter has a wider audience.  Keep it inspirational and the viewers will come.   Nice job.  I subscribed.",
+          "likes": 12,
+          "published_at": "2026-03-13T15:23:31Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "good",
+              "polarity": "positive"
+            },
+            {
+              "token": "inspirational",
+              "polarity": "positive"
+            },
+            {
+              "token": "nice",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@stuartatkinson3784",
+          "text": "Wow, that was great stuff.",
+          "likes": 5,
+          "published_at": "2026-03-13T18:00:40Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "great",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@GeraldMclaughlin-y6i",
+          "text": "Hi Patrick, a great presentation of data, research and insight that is both reassuring and thoughtful \nYour work on this channel has hit a real sweet spot \nBring on the microlives",
+          "likes": 6,
+          "published_at": "2026-03-13T23:58:08Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "great",
+              "polarity": "positive"
+            },
+            {
+              "token": "reassuring",
+              "polarity": "positive"
+            },
+            {
+              "token": "thoughtful",
+              "polarity": "positive"
+            },
+            {
+              "token": "sweet spot",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@michaelrussell4894",
+          "text": "Thought about \"optic flow\" on my ride today and made a more focused attempt to stop looking at my cyclocomputer and instead scan the scenery. Anecdotal of course, but I did feel more energized after a hilly ride where I pushed and I did not have the hard ride rebound fatigue I usually have. Top notch information for this 62 y/o.",
+          "likes": 4,
+          "published_at": "2026-03-15T01:48:56Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "energized",
+              "polarity": "positive"
+            },
+            {
+              "token": "Top",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@bikeempowerment",
+          "text": "Great info. 🙏",
+          "likes": 0,
+          "published_at": "2026-04-20T06:32:52Z",
+          "label": "Positive",
+          "score": 0.9,
+          "highlightTokens": [
+            {
+              "token": "Great",
+              "polarity": "positive"
+            },
+            {
+              "token": "info",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@AllThingsFabrication",
+          "text": "There is a lot to be said for choosing your commute/ride with safety in mind. Roomy shoulders, lower traffic speeds, time of day, and as you mention, proximity to freeways and other high pollution areas. I commuted to work on a 25 mile round trip route for the last 20 years, and I would say that this strengthened my body, mind, and immune system! Im retired now, but I still get out and ride to maintain my body.",
+          "likes": 1,
+          "published_at": "2026-03-15T19:52:40Z",
+          "label": "Positive",
+          "score": 0.92,
+          "highlightTokens": [
+            {
+              "token": "safety",
+              "polarity": "positive"
+            },
+            {
+              "token": "strengthened",
+              "polarity": "positive"
+            },
+            {
+              "token": "maintain",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@claytonjones5857",
+          "text": "What a fascinating video thank you.",
+          "likes": 1,
+          "published_at": "2026-03-15T06:45:42Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "fascinating",
+              "polarity": "positive"
+            },
+            {
+              "token": "thank",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@ArtLangston-o9d",
+          "text": "Patrick, your videos are wonderfully informative.\nPS. would like a deep dive of microlives. Thank you.",
+          "likes": 0,
+          "published_at": "2026-03-14T12:57:12Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "wonderfully",
+              "polarity": "positive"
+            },
+            {
+              "token": "informative",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "P6tKcdBsLcw": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "Analysis failed.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@patriciawhite9668",
+          "text": "Freeze a banana,  cut it up and put it in a food processor with a little cocoa, 1 tsp.( not too much it will get bitter)  until smooth.  Scoop it into a dish add a dollop of cool whip, sprinkle with walnuts and top with a cherry.  It tastes just like a chocolate sundae.",
+          "likes": 52,
+          "published_at": "2026-05-26T23:00:50Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "tastes",
+              "polarity": "positive"
+            },
+            {
+              "token": "just",
+              "polarity": "positive"
+            },
+            {
+              "token": "like",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@Healthywisehub",
+          "text": "The amount of hidden sugar in a single scoop is always staggering to see! This is such an important reminder that we have to read those nutrition labels carefully, especially for anyone actively managing their A1C. Thank you for shedding light on this and helping us make smarter choices",
+          "likes": 8,
+          "published_at": "2026-05-27T03:56:27Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "staggering",
+              "polarity": "positive"
+            },
+            {
+              "token": "important",
+              "polarity": "positive"
+            },
+            {
+              "token": "helping",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@redtussock",
+          "text": "Ummm your AI you dont have an office ... ? I am totally in awe.",
+          "likes": 4,
+          "published_at": "2026-05-30T05:18:45Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "awe",
+              "polarity": "positive"
+            },
+            {
+              "token": "totally",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@rosehuebner391",
+          "text": "Just had a chocolate,vanilla large soft Icecreame,the first  icecream in over a year,boy did this ever hit the spot...",
+          "likes": 5,
+          "published_at": "2026-05-29T21:57:18Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "hit",
+              "polarity": "positive"
+            },
+            {
+              "token": "spot",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@johnwang9914",
+          "text": "You pretty much have to make your own ice cream now.  The one thing that ice cream in North America isn't, is ice cream, which is why many now have to be officially called frozen confectionary.",
+          "likes": 11,
+          "published_at": "2026-05-28T21:57:06Z",
+          "label": "Negative",
+          "score": 0.63,
+          "highlightTokens": [
+            {
+              "token": "now",
+              "polarity": "negative"
+            },
+            {
+              "token": "have to",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@zarinatemirbulatova5015",
+          "text": "Okay but whyyy is food so complicated now 😅 i swear i spent forever stressing over every snack and dessert choice. Felt exhausted honestly. Then in a womens forum someone mentiond Eat.Like.a.Woman.Protocol writen by -L. Green and i got curious. 27 lbs gone later and cravings chilled out sooo much. Kinda feels like secret info no one says out loud.",
+          "likes": 47,
+          "published_at": "2026-05-28T19:18:31Z",
+          "label": "Negative",
+          "score": 0.65,
+          "highlightTokens": [
+            {
+              "token": "complicated",
+              "polarity": "negative"
+            },
+            {
+              "token": "stressing",
+              "polarity": "negative"
+            },
+            {
+              "token": "exhausted",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@douglasplachy4577",
+          "text": "7 years since I’ve had a bowl of ice cream…",
+          "likes": 11,
+          "published_at": "2026-05-28T03:00:16Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "hadn’t",
+              "polarity": "negative"
+            },
+            {
+              "token": "since",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@calvincollins687",
+          "text": "Fantastic information but can we please leave out the AI… terrible",
+          "likes": 38,
+          "published_at": "2026-05-27T14:03:29Z",
+          "label": "Negative",
+          "score": 0.63,
+          "highlightTokens": [
+            {
+              "token": "terrible",
+              "polarity": "negative"
+            },
+            {
+              "token": "leave out",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "neutral": [
+        {
+          "author": "@janesmith8170",
+          "text": "Can you show us the picture of the food next time please",
+          "likes": 13,
+          "published_at": "2026-05-26T18:16:05Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "please",
+              "polarity": "neutral"
+            },
+            {
+              "token": "next",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@wyldangel614",
+          "text": "I have been diabetic for a long time, over 40 years, but I am also lactose intolerant.",
+          "likes": 4,
+          "published_at": "2026-05-30T21:45:02Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "diabetic",
+              "polarity": "neutral"
+            },
+            {
+              "token": "intolerant",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@patriciawhite9668",
+          "text": "Freeze a banana,  cut it up and put it in a food processor with a little cocoa, 1 tsp.( not too much it will get bitter)  until smooth.  Scoop it into a dish add a dollop of cool whip, sprinkle with walnuts and top with a cherry.  It tastes just like a chocolate sundae.",
+          "likes": 52,
+          "published_at": "2026-05-26T23:00:50Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "tastes",
+              "polarity": "positive"
+            },
+            {
+              "token": "just",
+              "polarity": "positive"
+            },
+            {
+              "token": "like",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@johnwang9914",
+          "text": "You pretty much have to make your own ice cream now.  The one thing that ice cream in North America isn't, is ice cream, which is why many now have to be officially called frozen confectionary.",
+          "likes": 11,
+          "published_at": "2026-05-28T21:57:06Z",
+          "label": "Negative",
+          "score": 0.63,
+          "highlightTokens": [
+            {
+              "token": "now",
+              "polarity": "negative"
+            },
+            {
+              "token": "have to",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@zarinatemirbulatova5015",
+          "text": "Okay but whyyy is food so complicated now 😅 i swear i spent forever stressing over every snack and dessert choice. Felt exhausted honestly. Then in a womens forum someone mentiond Eat.Like.a.Woman.Protocol writen by -L. Green and i got curious. 27 lbs gone later and cravings chilled out sooo much. Kinda feels like secret info no one says out loud.",
+          "likes": 47,
+          "published_at": "2026-05-28T19:18:31Z",
+          "label": "Negative",
+          "score": 0.65,
+          "highlightTokens": [
+            {
+              "token": "complicated",
+              "polarity": "negative"
+            },
+            {
+              "token": "stressing",
+              "polarity": "negative"
+            },
+            {
+              "token": "exhausted",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@Healthywisehub",
+          "text": "The amount of hidden sugar in a single scoop is always staggering to see! This is such an important reminder that we have to read those nutrition labels carefully, especially for anyone actively managing their A1C. Thank you for shedding light on this and helping us make smarter choices",
+          "likes": 8,
+          "published_at": "2026-05-27T03:56:27Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "staggering",
+              "polarity": "positive"
+            },
+            {
+              "token": "important",
+              "polarity": "positive"
+            },
+            {
+              "token": "helping",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@janesmith8170",
+          "text": "Can you show us the picture of the food next time please",
+          "likes": 13,
+          "published_at": "2026-05-26T18:16:05Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "please",
+              "polarity": "neutral"
+            },
+            {
+              "token": "next",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@douglasplachy4577",
+          "text": "7 years since I’ve had a bowl of ice cream…",
+          "likes": 11,
+          "published_at": "2026-05-28T03:00:16Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "hadn’t",
+              "polarity": "negative"
+            },
+            {
+              "token": "since",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@calvincollins687",
+          "text": "Fantastic information but can we please leave out the AI… terrible",
+          "likes": 38,
+          "published_at": "2026-05-27T14:03:29Z",
+          "label": "Negative",
+          "score": 0.63,
+          "highlightTokens": [
+            {
+              "token": "terrible",
+              "polarity": "negative"
+            },
+            {
+              "token": "leave out",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@redtussock",
+          "text": "Ummm your AI you dont have an office ... ? I am totally in awe.",
+          "likes": 4,
+          "published_at": "2026-05-30T05:18:45Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "awe",
+              "polarity": "positive"
+            },
+            {
+              "token": "totally",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@wyldangel614",
+          "text": "I have been diabetic for a long time, over 40 years, but I am also lactose intolerant.",
+          "likes": 4,
+          "published_at": "2026-05-30T21:45:02Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "diabetic",
+              "polarity": "neutral"
+            },
+            {
+              "token": "intolerant",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@rosehuebner391",
+          "text": "Just had a chocolate,vanilla large soft Icecreame,the first  icecream in over a year,boy did this ever hit the spot...",
+          "likes": 5,
+          "published_at": "2026-05-29T21:57:18Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "hit",
+              "polarity": "positive"
+            },
+            {
+              "token": "spot",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "WnYxtbWmRs4": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "Analysis failed.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@LakshmiDevi-v6x",
+          "text": "🎉",
+          "likes": 1,
+          "published_at": "2026-02-02T08:48:47Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "🎉",
+              "polarity": "positive"
+            },
+            {
+              "token": "🎉",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [],
+      "neutral": [
+        {
+          "author": "@gpmp-moapodcast",
+          "text": "🎧 Hear the full story on Mechanism of Action:\r\nhttps://podcasts.apple.com/us/podcast/blood-salt-and-sympathectomies-early-interventions/id1832187942?i=1000739417182\r\nhttps://open.spotify.com/episode/1C6p0cwDlkf5JzN73YDVWl\r\nhttps://moapodcast.com",
+          "likes": 0,
+          "published_at": "2026-02-27T20:15:13Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "full story",
+              "polarity": "neutral"
+            },
+            {
+              "token": "hear",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@gpmp-moapodcast",
+          "text": "🎧 Hear the full story on Mechanism of Action:\r\nhttps://podcasts.apple.com/us/podcast/blood-salt-and-sympathectomies-early-interventions/id1832187942?i=1000739417182\r\nhttps://open.spotify.com/episode/1C6p0cwDlkf5JzN73YDVWl\r\nhttps://moapodcast.com",
+          "likes": 0,
+          "published_at": "2026-02-27T20:15:13Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "full story",
+              "polarity": "neutral"
+            },
+            {
+              "token": "hear",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@LakshmiDevi-v6x",
+          "text": "🎉",
+          "likes": 1,
+          "published_at": "2026-02-02T08:48:47Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "🎉",
+              "polarity": "positive"
+            },
+            {
+              "token": "🎉",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "uIopXJxjuGk": {
+    "transcript": {
+      "label": "Neutral",
+      "score": 0.0,
+      "summary": "Analysis failed.",
+      "highlightTokens": []
+    },
+    "comments": {
+      "positive": [
+        {
+          "author": "@user-xj1ru9hg7u",
+          "text": "Thank you, Doctor. This was very clear and helpful.",
+          "likes": 3,
+          "published_at": "2026-05-26T15:25:26Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "clear",
+              "polarity": "positive"
+            },
+            {
+              "token": "helpful",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@SatuRichardson",
+          "text": "My doctor told me to check my sugar after meals, and it really helps.",
+          "likes": 3,
+          "published_at": "2026-05-26T15:25:29Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "really",
+              "polarity": "positive"
+            },
+            {
+              "token": "helps",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@아윤Morgan",
+          "text": "I stopped eating white bread and my blood sugar improved a lot.",
+          "likes": 3,
+          "published_at": "2026-05-26T15:25:25Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "improved",
+              "polarity": "positive"
+            },
+            {
+              "token": "a lot",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@AnaGreen-c3r",
+          "text": "Excellent video.",
+          "likes": 1,
+          "published_at": "2026-05-26T15:25:27Z",
+          "label": "Positive",
+          "score": 0.9,
+          "highlightTokens": [
+            {
+              "token": "Excellent",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@AyselAdams",
+          "text": "TKS",
+          "likes": 1,
+          "published_at": "2026-05-26T15:25:42Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "TSKs",
+              "polarity": "positive"
+            }
+          ]
+        }
+      ],
+      "negative": [
+        {
+          "author": "@chrishead5604",
+          "text": "I have freyas dark rye bread, I've got type 2 diabetes.",
+          "likes": 1,
+          "published_at": "2026-05-28T10:38:40Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "diabetes",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@user-gk4jp2nr2r",
+          "text": "I HAVE DIABETES BAD I HAVE HIHG BLOOD PRESSURE 😢",
+          "likes": 0,
+          "published_at": "2026-05-31T20:28:48Z",
+          "label": "Negative",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "BAD",
+              "polarity": "negative"
+            },
+            {
+              "token": "😢",
+              "polarity": "negative"
+            }
+          ]
+        }
+      ],
+      "neutral": [
+        {
+          "author": "@Dr.EmilyCarterSeniorsHealthTip",
+          "text": "Which bread raises your blood sugar the most: white bread, sourdough, sprouted grain, or pumpernickel? Comment your age and your 90 minute glucose number after eating.",
+          "likes": 4,
+          "published_at": "2026-05-26T14:10:39Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "raises",
+              "polarity": "neutral"
+            },
+            {
+              "token": "most",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@BrooksThomas-t1x",
+          "text": "I wish labels were easier to understand for older people.",
+          "likes": 5,
+          "published_at": "2026-05-26T15:25:32Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "easier",
+              "polarity": "positive"
+            },
+            {
+              "token": "older",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@HülyaBaker",
+          "text": "My supermarket only has regular wheat bread. What should I choose?",
+          "likes": 1,
+          "published_at": "2026-05-26T15:25:35Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "only",
+              "polarity": "neutral"
+            },
+            {
+              "token": "should",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "author": "@Dr.EmilyCarterSeniorsHealthTip",
+          "text": "Which bread raises your blood sugar the most: white bread, sourdough, sprouted grain, or pumpernickel? Comment your age and your 90 minute glucose number after eating.",
+          "likes": 4,
+          "published_at": "2026-05-26T14:10:39Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "raises",
+              "polarity": "neutral"
+            },
+            {
+              "token": "most",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@BrooksThomas-t1x",
+          "text": "I wish labels were easier to understand for older people.",
+          "likes": 5,
+          "published_at": "2026-05-26T15:25:32Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "easier",
+              "polarity": "positive"
+            },
+            {
+              "token": "older",
+              "polarity": "neutral"
+            }
+          ]
+        },
+        {
+          "author": "@user-xj1ru9hg7u",
+          "text": "Thank you, Doctor. This was very clear and helpful.",
+          "likes": 3,
+          "published_at": "2026-05-26T15:25:26Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "thank",
+              "polarity": "positive"
+            },
+            {
+              "token": "clear",
+              "polarity": "positive"
+            },
+            {
+              "token": "helpful",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@SatuRichardson",
+          "text": "My doctor told me to check my sugar after meals, and it really helps.",
+          "likes": 3,
+          "published_at": "2026-05-26T15:25:29Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "really",
+              "polarity": "positive"
+            },
+            {
+              "token": "helps",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@아윤Morgan",
+          "text": "I stopped eating white bread and my blood sugar improved a lot.",
+          "likes": 3,
+          "published_at": "2026-05-26T15:25:25Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "improved",
+              "polarity": "positive"
+            },
+            {
+              "token": "a lot",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@AnaGreen-c3r",
+          "text": "Excellent video.",
+          "likes": 1,
+          "published_at": "2026-05-26T15:25:27Z",
+          "label": "Positive",
+          "score": 0.9,
+          "highlightTokens": [
+            {
+              "token": "Excellent",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@chrishead5604",
+          "text": "I have freyas dark rye bread, I've got type 2 diabetes.",
+          "likes": 1,
+          "published_at": "2026-05-28T10:38:40Z",
+          "label": "Negative",
+          "score": 0.67,
+          "highlightTokens": [
+            {
+              "token": "diabetes",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@user-gk4jp2nr2r",
+          "text": "I HAVE DIABETES BAD I HAVE HIHG BLOOD PRESSURE 😢",
+          "likes": 0,
+          "published_at": "2026-05-31T20:28:48Z",
+          "label": "Negative",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "BAD",
+              "polarity": "negative"
+            },
+            {
+              "token": "😢",
+              "polarity": "negative"
+            }
+          ]
+        },
+        {
+          "author": "@AyselAdams",
+          "text": "TKS",
+          "likes": 1,
+          "published_at": "2026-05-26T15:25:42Z",
+          "label": "Positive",
+          "score": 0.95,
+          "highlightTokens": [
+            {
+              "token": "TSKs",
+              "polarity": "positive"
+            }
+          ]
+        },
+        {
+          "author": "@HülyaBaker",
+          "text": "My supermarket only has regular wheat bread. What should I choose?",
+          "likes": 1,
+          "published_at": "2026-05-26T15:25:35Z",
+          "label": "Neutral",
+          "score": 0.42,
+          "highlightTokens": [
+            {
+              "token": "only",
+              "polarity": "neutral"
+            },
+            {
+              "token": "should",
+              "polarity": "neutral"
+            }
+          ]
+        }
+      ]
+    }
   }
 }
